@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260514
+DESCRIPTION:适用: 幼儿园及小学阶段全体学生\n家长: 为孩子准备传统服装或至少一件马德里节日配饰，确保孩子在5月14日（周四）穿戴好后上学。无需报名或缴费。\n孩子准备: 当天可穿马德里传统服装到校，或搭配一件典型配饰（如头巾、丘拉波帽、背心、披肩等）；无需购买全套服装，一件配饰即可。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:圣伊西德罗节庆活动 / Celebración San Isidro
+UID:38a9ce8f1b0de3b8@school_helper
+END:VEVENT
+END:VCALENDAR

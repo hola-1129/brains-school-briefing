@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 2º Bachillerato 学生（B 类驾照）、DP 学生（B 类强化网课）、以及可选的 AM（微型车）和摩托车课程学生\n家长: 1. 填写并签署报名表（家长/监护人签名 + 学生签名）。2. 附上 DNI 复印件（正反面）。3. 在表格中勾选数据授权选项（肖像/姓名使用授权、向驾校及 DGT 共享信息授权）。4. 理论课及驾驶练习费用直接支付给 Autoescuela Merinero（学校不开具月度发票）。5. 如需退课，须发邮件至 extraescolares.mor@colegiobrains.com；已缴驾校费用按驾校退款政策处理，学校代付的 €45 报名费一经确认不予退还。\n孩子准备: 准备好 DNI 身份证正反面复印件，与报名表一同提交；确保按时出勤；参加 B 类路考时须年满 18 岁。\n报名: 是\n付款: 是\n费用: 理论课：每月 €50（含税），B 类；DP 强化班 €50（含税）一次性。驾驶练习：每节课（45分钟）€35（含税）。DGT 官方考试费由家长自行缴纳。报名费 €45 由学校代付，家长无需支付。\n截止: 2025-11-19\n原文: https://drive.google.com/file/d/19VqufZxOqq_LILNYuxqpBl03Ew57Op8C/view?usp=drive_link
+DTEND:20251119T173000Z
+LOCATION:Brains International School La Moraleja (presencial) / Online en vivo (DP intensivo)
+DTSTART:20251119T153000Z
+SUMMARY:驾校报名表——Merinero 驾校（Brains La Moraleja 合作项目） / Hoja de inscripción – Autoescuela Merinero (Driving School)
+UID:1d8bd9286d6ab2eb@school_helper
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:适用: 初四（4º ESO）至高一（1º Bachillerato）年级家庭\n家长: 1. 确认孩子是否就读西班牙教育法（LOMLOE）框架下的普通Bachillerato课程（注意：就读国际文凭课程IB Diploma的学生不在申请资格之内）。\n2. 在申请窗口开放期间（2026年5月5日起15个工作日内）登录官网，仔细阅读申请要求、材料清单及提交方式，并在截止日前完成在线申请。\n报名: 是\n付款: 否\n截止: 2026-05-26\n原文: https://drive.google.com/file/d/1HCQGnEX7w1--1JLfflqRKhn7kG4A-ovn/view?usp=drive_link
+SUMMARY:2026-2027学年高中阶段奖学金（Bachillerato）申请通知 / Becas de Bachillerato 2026-2027
+UID:02e152f9e22785b5@school_helper
+END:VEVENT
+END:VCALENDAR

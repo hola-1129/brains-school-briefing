@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260609
+DESCRIPTION:适用: 学前班A/B班、小学一至六年级各班（含6年级）\n家长: 1. 确认孩子所在班级的演出日期和时间（各班日期不同，请仔细核对）。\n2. 提前为孩子准备好对应角色的服装和道具。\n3. 演出当天可前往中学体育馆（polideportivo de secundaria）观看演出。\n4. 如有疑问，联系老师：cguerrero@colegiobrains.com 或 bzafra@colegiobrains.com\n孩子准备: 按照自己班级和角色的要求，在演出当天穿戴好指定服装到校。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1apXzNbt8ZReV9hyThEnjc1IJ60KesGrF/view?usp=drive_link
+LOCATION:Polideportivo de secundaria (secondary school sports hall)
+SUMMARY:年终戏剧演出节（学前班至六年级） / Festival de teatro / Drama performance – PREPARATORY & 6º
+UID:05083f724e94e150@school_helper
+END:VEVENT
+END:VCALENDAR
