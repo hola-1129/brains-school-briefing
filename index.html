@@ -45,6 +45,18 @@ li { margin: .15rem 0; }
 .timeline li { padding: .35rem 0; border-bottom: 1px dashed var(--border); font-size: .95rem; }
 .timeline .date { display: inline-block; min-width: 7rem; color: var(--accent); font-weight: 600; }
 .priority-grid { display: grid; gap: .5rem; }
+.almanac { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+           padding: .6rem .8rem; margin: .6rem 0 1rem; }
+.almanac details + details { margin-top: .5rem; }
+.almanac summary { cursor: pointer; padding: .25rem 0; font-weight: 600; }
+.almanac table { width: 100%; border-collapse: collapse; font-size: .88rem; margin-top: .4rem; }
+.almanac th, .almanac td { padding: .35rem .4rem; vertical-align: top;
+                            border-bottom: 1px solid var(--border); text-align: left; }
+.almanac th { color: var(--muted); font-weight: 500; background: var(--pill); }
+.almanac .yi { color: #1d6f42; }
+.almanac .ji { color: var(--warn); }
+.almanac .holiday-list { margin: .25rem 0 .6rem; padding-left: 1.1rem; }
+.almanac .holiday-list .none { color: var(--muted); list-style: none; padding: 0; }
 footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top: 1rem;
          border-top: 1px solid var(--border); }
 @media (max-width: 480px) {
@@ -57,60 +69,83 @@ footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top
 <div class="container">
 <header>
 <h1>Brains School Weekly Briefing 中文家长版</h1>
-<p class="meta">Semana: 4 de MAYO 2026 · 共 13 个事项 · 生成于 2026-05-07 11:24</p>
+<p class="meta">Semana: 4 de MAYO 2026 · 共 13 个事项 · 生成于 2026-05-07 21:48</p>
 <a class="btn" href="./school_events.ics">📅 一键添加本周全部日历</a>
-<a class="btn btn-ghost" href="./weekly_briefing_summary.txt">📋 微信群转发版</a>
-<a class="btn btn-ghost" href="./weekly_briefing_cn.md">📄 Markdown 详版</a>
 </header>
+<section><h2>📜 本周黄历 & 节假日</h2>
+<div class="almanac">
+<details open><summary>本周黄历（宜 / 忌）</summary>
+<table><tr><th>日期</th><th>农历</th><th>宜</th><th>忌</th></tr>
+<tr><td>2026-05-04<br><span style="color:var(--muted)">周一</span></td><td>三月十七</td><td class="yi">祭祀、祈福、出行、纳财</td><td class="ji">动土、破土、安葬</td></tr>
+<tr><td>2026-05-05<br><span style="color:var(--muted)">周二</span></td><td>三月十八</td><td class="yi">嫁娶、纳采、移徙、开市</td><td class="ji">祭祀、修造、动土</td></tr>
+<tr><td>2026-05-06<br><span style="color:var(--muted)">周三</span></td><td>三月十九</td><td class="yi">修造、动土、破土、安床</td><td class="ji">嫁娶、开市、出行</td></tr>
+<tr><td>2026-05-07<br><span style="color:var(--muted)">周四</span></td><td>三月二十</td><td class="yi">祭祀、祈福、斋醮、出行、纳财</td><td class="ji">嫁娶、动土、破土</td></tr>
+<tr><td>2026-05-08<br><span style="color:var(--muted)">周五</span></td><td>三月廿一</td><td class="yi">嫁娶、纳采、开市、立券</td><td class="ji">祭祀、安葬、破土</td></tr>
+<tr><td>2026-05-09<br><span style="color:var(--muted)">周六</span></td><td>三月廿二</td><td class="yi">祭祀、祈福、出行、修造、安床</td><td class="ji">嫁娶、开市、动土</td></tr>
+<tr><td>2026-05-10<br><span style="color:var(--muted)">周日</span></td><td>三月廿三</td><td class="yi">开市、纳财、立券、移徙</td><td class="ji">祭祀、安葬、嫁娶</td></tr>
+</table></details>
+<details><summary>本周节假日（西班牙 / 中国 / 台湾）</summary>
+<h4 style="margin:.6rem 0 .2rem">🇪🇸 西班牙</h4>
+<ul class="holiday-list"><li class="none">本周无</li></ul>
+<h4 style="margin:.6rem 0 .2rem">🇨🇳 中国</h4>
+<ul class="holiday-list"><li class="none">本周无</li></ul>
+<h4 style="margin:.6rem 0 .2rem">🇹🇼 台湾</h4>
+<ul class="holiday-list"><li class="none">本周无</li></ul>
+</details>
+</div>
+</section>
 <section><h2>⭐ 本周重点</h2>
 <div class="priority-grid">
 <div>• <a href="#event-1"><strong>营养与健康通讯 — Omega-3：专注力与学习的隐形盟友</strong></a> <span class="pill">GENERAL</span> — 日期待定 <span class="warn">✍️ 需要操作</span></div>
 <div>• <a href="#event-2"><strong>圣伊西德罗节庆活动</strong></a> <span class="pill">INFANTIL - PRIMARIA</span> — 2026-05-14 <span class="warn">✍️ 需要操作</span></div>
 <div>• <a href="#event-3"><strong>校外活动：欧洲公园（Parque Europa）</strong></a> <span class="pill">PREPARATORY</span> — 2026-05-07 <span class="warn">✍️ 需要操作</span></div>
-<div>• <a href="#event-4"><strong>年终戏剧节 – PREPARATORY A 班《Platero》</strong></a> <span class="pill">PREPARATORY A</span> — 2026-06-18 <span class="warn">✍️ 需要操作</span></div>
-<div>• <a href="#event-5"><strong>马德里天文馆教育参观</strong></a> <span class="pill">2º PRIMARIA</span> — 2026-05-05 <span class="warn">✍️ 需要操作</span></div>
+<div>• <a href="#event-4"><strong>年终戏剧节 – PREPARATORY A 班</strong></a> <span class="pill">PREPARATORY A</span> — 2026-06-18 <span class="warn">✍️ 需要操作</span></div>
+<div>• <a href="#event-5"><strong>校外参观：马德里天文馆</strong></a> <span class="pill">2º PRIMARIA</span> — 2026-05-05 <span class="warn">✍️ 需要操作</span></div>
 <div>• <a href="#event-6"><strong>校外参观：国家考古博物馆</strong></a> <span class="pill">4º PRIMARIA</span> — 2026-05-06 <span class="warn">✍️ 需要操作</span></div>
-<div>• <a href="#event-7"><strong>2026-2027学年高中奖学金申请通知</strong></a> <span class="pill">4º ESO - 1º BACHILLERATO</span> — 2026-05-05 <span class="warn">✍️ 需要操作</span></div>
+<div>• <a href="#event-7"><strong>2026-2027学年高中阶段奖学金申请</strong></a> <span class="pill">4º ESO - 1º BACHILLERATO</span> — 2026-05-05 <span class="warn">✍️ 需要操作</span></div>
 <div>• <a href="#event-8"><strong>2026-2027学年高中阶段（Bachillerato）奖学金申请</strong></a> <span class="pill">(LOMLOE) Bachillerato — centros privados autorizados, Comunidad de Madrid</span> — 2026-05-04 <span class="warn">✍️ 需要操作</span></div>
 </div>
 </section>
 <section><h2>✍️ 家长需要操作</h2>
 <ul>
 <li><a href="#event-1"><strong>营养与健康通讯 — Omega-3：专注力与学习的隐形盟友</strong></a>：阅读学校营养中心发布的 Omega-3 科普通讯，参考建议在家庭日常饮食中增加富含 Omega-3 的天然食物（如三文鱼、沙丁鱼、核桃、奇亚籽/亚麻籽等），优先选择食物来源而非营养补充剂。</li>
-<li><a href="#event-2"><strong>圣伊西德罗节庆活动</strong></a>：为孩子准备马德里传统服装或至少一件相关配饰（头巾、平顶帽、马甲、披肩、康乃馨均可），确保孩子当天穿戴上学。无需报名，无需缴费。</li>
-<li><a href="#event-3"><strong>校外活动：欧洲公园（Parque Europa）</strong></a>：无需报名或缴费。如有疑问，请直接联系学校老师。注意关注天气，活动以天气允许为前提。</li>
-<li><a href="#event-4"><strong>年终戏剧节 – PREPARATORY A 班《Platero》</strong></a>：为孩子准备好演出服装，演出时间在毕业典礼结束后，请留意典礼时间安排</li>
-<li><a href="#event-5"><strong>马德里天文馆教育参观</strong></a>：确保孩子当天穿好完整校服，并按时送达学校（出发时间 10:45，请务必准时）</li>
-<li><a href="#event-6"><strong>校外参观：国家考古博物馆</strong></a>：留意出行当天（5月6日）孩子按时到校，确保10:45前到位；原文未提及需签署同意书或缴费，如有后续通知请关注学校跟进信息。</li>
-<li><a href="#event-7"><strong>2026-2027学年高中奖学金申请通知</strong></a>（截止 <strong>2026-05-26</strong>）：1. 确认子女是否就读 Bachillerato LOMLOE（非 IB Diploma）课程，符合条件方可申请。2. 在申请窗口开放期间（2026年5月5日起15个工作日内）登录上方链接，按要求提交奖学金申请材料。3. 仔细阅读附件中的完整 Orden 1534/2026，了解具体资格要求、所需文件及提交方式。</li>
-<li><a href="#event-8"><strong>2026-2027学年高中阶段（Bachillerato）奖学金申请</strong></a>（截止 <strong>2026-05-23</strong>）：1. 确认孩子是否符合申请资格（已在私立授权学校报名/预留 2026-2027 学年 Bachillerato 学位、非留级生、家庭人均年收入 ≤35,913€）。2. 准备 2024 年度家庭收入证明及孩子最近一学年成绩单。3. 在截止日期前（公告发布后 15 个工作日内，约 2026-05-23）通过官方渠道提交申请。</li>
-<li><a href="#event-9"><strong>&quot;大型律所&quot;奖学金项目（ISDE 合作）</strong></a>：1. 阅读随函附上的宣传册，了解奖学金细则及课程信息；2. 若子女有意向，及时联系学校获取申请方式；3. 关注后续学校通知，确认申请截止日期</li>
-<li><a href="#event-10"><strong>&quot;顶级律所&quot;奖学金 —— ISDE 法学学位项目</strong></a>：若子女有意攻读法学学位（Grado en Derecho）且尚未在 ISDE 注册，可代为或协助联系 ISDE 招生办公室申请奖学金：邮件 admisionesgrado@isde.es / 电话 (+34) 914 361 796</li>
-<li><a href="#event-11"><strong>驾校合作项目&quot;在 BRAINS 考驾照&quot;</strong></a>（截止 <strong>2026-05-18</strong>）：1. 在 2026-05-18 前填写附件报名表并接受课外活动条款；2. 报名截止后直接向 Autoescuela Merinero 支付理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费；3. 如有疑问发邮件至 extraescolares.mor@colegiobrains.com</li>
-<li><a href="#event-12"><strong>驾校合作项目（Brains × Autoescuela Merinero）</strong></a>（截止 <strong>2025-11-19</strong>）：1. 填写报名表（Hoja de Inscripción），附上学生及家长/监护人 DNI 正反面复印件，签字后提交学校。
-2. 在表格中勾选&quot;肖像权&quot;及&quot;数据共享&quot;两项授权意向（同意/不同意）。
-3. 等待秘书处邮件确认名额（先到先得，满员后进入候补名单）。
-4. 确认名额后，直接向 Autoescuela Merinero 缴纳理论课费、练车费及DGT考试费。
-5. 如需退课，须以书面形式发送至 extraescolares.mor@colegiobrains.com；已确认入学后，学校代缴的45€注册费不予退还。</li>
-<li><a href="#event-13"><strong>驾校报名表 – Merinero 驾校合作项目</strong></a>（截止 <strong>2025-11-19</strong>）：1. 填写并签署报名表（父母/监护人及学生均需签名），附上 DNI 正反面复印件后提交
-2. 直接向 Autoescuela Merinero 缴纳理论课、驾驶练习及 DGT 考试费用
-3. 如需退课或变更，须发邮件至 extraescolares.mor@colegiobrains.com
-4. 在表格中勾选是否同意使用学生肖像/姓名，以及是否同意向驾校和 DGT 共享必要信息</li>
+<li><a href="#event-2"><strong>圣伊西德罗节庆活动</strong></a>：为孩子准备马德里传统服装或至少一件相关配饰（头巾、帽子、康乃馨等）；无需报名或缴费，当天穿戴好送孩子上学即可。</li>
+<li><a href="#event-3"><strong>校外活动：欧洲公园（Parque Europa）</strong></a>：无需报名或缴费；如有疑问请直接联系学校老师</li>
+<li><a href="#event-4"><strong>年终戏剧节 – PREPARATORY A 班</strong></a>：为孩子准备好演出服装，按时送孩子参加毕业典礼后的演出</li>
+<li><a href="#event-5"><strong>校外参观：马德里天文馆</strong></a>：确认孩子当天穿好完整校服；注意所在班级对应的出行日期（2ºC 为5月5日，2ºA 和 2ºB 为5月12日），并确保孩子按时到校以保证10:45准时出发</li>
+<li><a href="#event-6"><strong>校外参观：国家考古博物馆</strong></a>：留意出行当天（5月6日）孩子按时到校，确保10:45前到位准备出发；如有疑问可联系班主任。</li>
+<li><a href="#event-7"><strong>2026-2027学年高中阶段奖学金申请</strong></a>（截止 <strong>2026-05-26</strong>）：1. 确认孩子是否就读 Bachillerato LOMLOE（非IB课程）；2. 在申请窗口期内（2026年5月5日起15个工作日）登录上方链接，查阅完整要求并提交奖学金申请；3. 仔细阅读学校附件中的 Orden 1534/2026 全文，了解资格条件、所需材料及提交方式。</li>
+<li><a href="#event-8"><strong>2026-2027学年高中阶段（Bachillerato）奖学金申请</strong></a>（截止 <strong>2026-05-23</strong>）：1. 确认孩子是否符合申请资格（见注意事项）；2. 准备2024年度家庭收入证明（用于计算人均收入）及孩子最近一学年成绩单；3. 在截止日期前（2026年5月23日，即公告发布后15个工作日内）通过官方渠道提交申请。</li>
+<li><a href="#event-9"><strong>&quot;大型律所&quot;奖学金项目 – ISDE 合作</strong></a>：阅读随信附上的奖学金宣传册（folleto informativo）；如有意向或疑问，联系学校获取更多信息</li>
+<li><a href="#event-10"><strong>&quot;顶级律所&quot;奖学金 – ISDE 法学学位</strong></a>：如子女有意报读 ISDE 法学学位（Grado en Derecho）并申请奖学金，请通过邮件 admisionesgrado@isde.es 或电话 (+34) 914 361 796 联系 ISDE 招生办，了解申请流程及所需材料</li>
+<li><a href="#event-11"><strong>驾校合作项目&quot;在 BRAINS 考驾照&quot;</strong></a>（截止 <strong>2026-05-18</strong>）：1. 在 2026年5月18日前，填写附件报名表并接受课外活动条款，通过学校在线表单提交报名。
+2. 报名后直接向 Autoescuela Merinero 缴纳理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费。
+3. 如有疑问，发邮件至 extraescolares.mor@colegiobrains.com。</li>
+<li><a href="#event-12"><strong>驾校合作项目 — Merinero 驾校（Brains La Moraleja 校区）</strong></a>（截止 <strong>2025-11-19</strong>）：1. 填写并签署报名表（HOJA DE INSCRIPCIÓN），附上学生DNI正反面复印件；
+2. 在表格中勾选&quot;图像/姓名使用&quot;及&quot;数据共享&quot;两项授权意向（同意/不同意）；
+3. 将报名表提交至学校 Secretaría，等待邮件确认名额；
+4. 名额确认后，直接向 Autoescuela Merinero 缴纳理论课费（50 €/月）、实操课费（35 €/节）及DGT考试费；
+5. 如需退课或变更，须以书面形式发送至 extraescolares.mor@colegiobrains.com</li>
+<li><a href="#event-13"><strong>驾校报名表 – Merinero 驾校（课外驾驶课程）</strong></a>（截止 <strong>2025-11-19</strong>）：1. 填写并签署随附的报名表（需附身份证正反面复印件）；
+2. 勾选表格中的数据授权选项（学生照片/姓名使用授权、信息共享驾校及 DGT 授权）；
+3. 等待学校邮件确认名额；
+4. 直接向 Autoescuela Merinero 缴纳理论课及实操费用；
+5. 如需退课或变更，须发邮件至 extraescolares.mor@colegiobrains.com</li>
 </ul>
 </section>
 <section><h2>🗓 重要时间线</h2>
 <ol class="timeline">
-<li><span class="date">2025-11-19 15:30</span> <a href="#event-12">驾校合作项目（Brains × Autoescuela Merinero）</a> <span class="warn">⚠️ 家长需提前处理</span></li>
-<li><span class="date">2025-11-19 15:30</span> <a href="#event-13">驾校报名表 – Merinero 驾校合作项目</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2025-11-19 15:30</span> <a href="#event-12">驾校合作项目 — Merinero 驾校（Brains La Moraleja 校区）</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2025-11-19 15:30</span> <a href="#event-13">驾校报名表 – Merinero 驾校（课外驾驶课程）</a> <span class="warn">⚠️ 家长需提前处理</span></li>
 <li><span class="date">2026-05-04</span> <a href="#event-8">2026-2027学年高中阶段（Bachillerato）奖学金申请</a> <span class="warn">⚠️ 家长需提前处理</span></li>
-<li><span class="date">2026-05-04</span> <a href="#event-9">&quot;大型律所&quot;奖学金项目（ISDE 合作）</a></li>
-<li><span class="date">2026-05-05</span> <a href="#event-7">2026-2027学年高中奖学金申请通知</a> <span class="warn">⚠️ 家长需提前处理</span></li>
-<li><span class="date">2026-05-05 10:45</span> <a href="#event-5">马德里天文馆教育参观</a></li>
+<li><span class="date">2026-05-04</span> <a href="#event-9">&quot;大型律所&quot;奖学金项目 – ISDE 合作</a></li>
+<li><span class="date">2026-05-05</span> <a href="#event-7">2026-2027学年高中阶段奖学金申请</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2026-05-05 10:45</span> <a href="#event-5">校外参观：马德里天文馆</a></li>
 <li><span class="date">2026-05-06 10:45</span> <a href="#event-6">校外参观：国家考古博物馆</a></li>
 <li><span class="date">2026-05-07 09:30</span> <a href="#event-3">校外活动：欧洲公园（Parque Europa）</a></li>
 <li><span class="date">2026-05-14</span> <a href="#event-2">圣伊西德罗节庆活动</a></li>
 <li><span class="date">2026-05-25</span> <a href="#event-11">驾校合作项目&quot;在 BRAINS 考驾照&quot;</a> <span class="warn">⚠️ 家长需提前处理</span></li>
-<li><span class="date">2026-06-18</span> <a href="#event-4">年终戏剧节 – PREPARATORY A 班《Platero》</a></li>
+<li><span class="date">2026-06-18</span> <a href="#event-4">年终戏剧节 – PREPARATORY A 班</a></li>
 </ol>
 </section>
 <section><h2>🎓 按年级分类</h2>
@@ -122,12 +157,12 @@ footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top
 <dl>
 <dt>适用对象</dt><dd>全体学生及家庭（GENERAL）</dd>
 <dt>关键时间</dt><dd>(原文未说明)</dd>
-<dt>地点</dt><dd>Brains La Moraleja 学校 / Colegio Brains La Moraleja</dd>
+<dt>地点</dt><dd>布雷恩斯拉莫拉莱哈学校 / Colegio Brains La Moraleja</dd>
 <dt>家长需要做</dt><dd>阅读学校营养中心发布的 Omega-3 科普通讯，参考建议在家庭日常饮食中增加富含 Omega-3 的天然食物（如三文鱼、沙丁鱼、核桃、奇亚籽/亚麻籽等），优先选择食物来源而非营养补充剂。</dd>
-<dt>孩子需要准备</dt><dd>无需特别准备；可在家长引导下了解 Omega-3 对大脑发育和学习表现的重要性，养成健康饮食习惯。</dd>
+<dt>孩子需要准备</dt><dd>无需特别准备；可在日常早餐（酸奶/麦片中加入奇亚籽或亚麻籽）和课间点心（核桃）中留意 Omega-3 的摄入。</dd>
 <dt>报名/付款</dt><dd>报名 否；付款 否</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 学校营养中心明确建议：Omega-3 应优先从天然食物中摄取，而非依赖营养补充剂，因为食物来源的吸收效果更佳。本通讯为科普性质，无需报名或缴费，家长按需调整家庭饮食即可。</dd>
-<dt>原文关键词</dt><dd>Omega-3, DHA, EPA, nutrición escolar, rendimiento académico, pescado azul</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 本通讯为学校营养与健康中心（Nutrition and Healthy Centre, Colegio Brains）发布的教育性科普资讯，不涉及具体活动或报名，无截止日期。建议优先通过天然食物补充 Omega-3（EPA、DHA），而非依赖营养补充剂（suplementos nutricionales）。</dd>
+<dt>原文关键词</dt><dd>Omega-3, DHA, EPA, nutrición escolar, rendimiento escolar, pescado azul</dd>
 </dl>
 <div class="raw">原文摘录：Es fundamental priorizar las fuentes de Omega-3 provenientes de los alimentos sobre los suplementos nutricionales, pues el Omega-3 se absorbe mejor si viene de fuentes naturales. La opción más completa es el pescado azul, como el salmón, las sardinas, la caballa, los boquerones o el atún, que proporcionan directamente el DHA y EPA que el cerebro necesita. Para las familias que buscan opciones vegetales, las nueces son el aliado perfecto para la merienda. También es muy recomendable incorporar semillas de chía o lino en los desayunos (añadidas al yogur o cereales) y utilizar aceites vegetales de calidad, como el de soja o canola, en las comidas diarias.</div>
 <div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1VNRzj2spEuH15gYSCvlwV3IDp-7ppWsq/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
@@ -140,13 +175,13 @@ footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿园及小学全体学生（INFANTIL - PRIMARIA）</dd>
-<dt>关键时间</dt><dd>2026-05-14</dd>
+<dt>关键时间</dt><dd>2026-05-14   🌦 阵雨 18°/10°C 降水 45%</dd>
 <dt>地点</dt><dd>Brains International School La Moraleja 校内 / Brains International School La Moraleja</dd>
-<dt>家长需要做</dt><dd>为孩子准备马德里传统服装或至少一件相关配饰（头巾、平顶帽、马甲、披肩、康乃馨均可），确保孩子当天穿戴上学。无需报名，无需缴费。</dd>
-<dt>孩子需要准备</dt><dd>穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、平顶帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨等）上学。</dd>
+<dt>家长需要做</dt><dd>为孩子准备马德里传统服装或至少一件相关配饰（头巾、帽子、康乃馨等）；无需报名或缴费，当天穿戴好送孩子上学即可。</dd>
+<dt>孩子需要准备</dt><dd>当天可穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、丘拉波帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨 carnaciones 等）。普通校服亦可，配饰即可。</dd>
 <dt>报名/付款</dt><dd>报名 否；付款 否</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 服装/配饰为自愿参与，原文用&quot;podrán&quot;（可以），并非强制要求。学校当天将提供传统巧克力油条（chocolate con churros）并跳 Chotis 舞，属校内活动，家长无需额外准备食物。</dd>
-<dt>原文关键词</dt><dd>San Isidro, traje tradicional, chulapo, chocolate con churros, chotis, fiesta Madrid</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 服装为鼓励性参与，非强制要求——原文用&quot;podrán&quot;（可以），未穿传统服装也不影响参加活动。学校当天将提供传统巧克力热饮配吉拿棒（chocolate con churros）并跳 Chotis 舞。</dd>
+<dt>原文关键词</dt><dd>San Isidro, traje tradicional, chocolate con churros, chotis, pañuelo, gorra de chulapo</dd>
 </dl>
 <div class="raw">原文摘录：Durante esta jornada, los alumnos podrán asistir al centro vestidos con el traje tradicional o, si lo desean, con algún accesorio típico relacionado con esta celebración (pañuelo, gorra de chulapo, chaleco, mantón, etc.). A lo largo del día, disfrutaremos juntos de un chocolate con churros y compartiremos el ambiente festivo bailando el tradicional chotis.</div>
 <div><a class="btn" href="./events/02-celebracion-san-isidro.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
@@ -158,30 +193,30 @@ footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Preparatory</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿预备班（Preparatory）（PREPARATORY）</dd>
-<dt>关键时间</dt><dd>2026-05-07  09:30 – 14:30   🌦 阵雨 17°/10°C 降水 73%</dd>
+<dt>关键时间</dt><dd>2026-05-07  09:30 – 14:30   ⛈ 雷雨 17°/10°C 降水 98%</dd>
 <dt>地点</dt><dd>欧洲公园，马德里 / Parque Europa, Madrid</dd>
-<dt>家长需要做</dt><dd>无需报名或缴费。如有疑问，请直接联系学校老师。注意关注天气，活动以天气允许为前提。</dd>
-<dt>孩子需要准备</dt><dd>无需自带午餐，学校统一提供；建议穿着适合户外活动的舒适服装（原文未明确说明，仅供参考）</dd>
-<dt>报名/付款</dt><dd>报名 否；付款 否</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 活动以天气条件允许为前提（&quot;weather permitting / siempre que las condiciones meteorológicas lo permitan&quot;），如遇恶劣天气可能取消或改期，请留意学校后续通知。</dd>
-<dt>原文关键词</dt><dd>excursión, Parque Europa, Preparatory, picnic, Unit of Inquiry, weather permitting</dd>
+<dt>家长需要做</dt><dd>无需报名或缴费；如有疑问请直接联系学校老师</dd>
+<dt>孩子需要准备</dt><dd>无需自带午餐，学校统一提供；穿着舒适适合户外活动的服装（原文未明确说明，建议参考学校日常着装要求）</dd>
+<dt>报名/付款</dt><dd>报名 否；付款 否；费用 学校提供午餐（picnic），原文未提及额外费用</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 活动视当天天气情况而定（weather permitting / condiciones meteorológicas），如遇恶劣天气可能取消或改期，请留意学校通知。</dd>
+<dt>原文关键词</dt><dd>excursión, Parque Europa, Preparatory, picnic, weather permitting, Unidad de Indagación</dd>
 </dl>
-<div class="raw">原文摘录：The Preparatory children will be going on an excursion to Parque Europa on Thursday 7th May, weather permitting. This visit is linked to our current Unit of Inquiry, &quot;Exploring our friends&#x27; cultures,&quot; and will provide the children with a meaningful opportunity to connect their learning to the real world. A packed lunch will be provided by the school. We will leave the school at approximately 9:30 a.m. and expect to return by around 2:30 p.m.</div>
+<div class="raw">原文摘录：Los alumnos de Preparatory realizarán una excursión a Parque Europa el jueves 7 de mayo, siempre que las condiciones meteorológicas lo permitan. Esta visita está vinculada a nuestra actual Unidad de Indagación, «Explorando las culturas de nuestros amigos», y brindará a los niños una valiosa oportunidad para conectar su aprendizaje con el mundo real. El colegio proporcionará un almuerzo tipo picnic. Saldremos del centro aproximadamente a las 9:30 h y está previsto que regresemos sobre las 14:30 h.</div>
 <div><a class="btn" href="./events/03-trip-excursion-parque-europa.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-4">
 <article class="event">
-<h4>#4 【年终戏剧节 – PREPARATORY A 班《Platero》】<span class="es">Festival de fin de curso – Drama Performance: PREPARATORY A (&quot;Platero&quot;)</span></h4>
+<h4>#4 【年终戏剧节 – PREPARATORY A 班】<span class="es">Festival de fin de curso – Drama Performance – PREPARATORY A</span></h4>
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Preparatory</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿预备班 A 班（PREPARATORY A）</dd>
 <dt>关键时间</dt><dd>2026-06-18</dd>
 <dt>地点</dt><dd>中学体育馆 / Polideportivo de secundaria</dd>
-<dt>家长需要做</dt><dd>为孩子准备好演出服装，演出时间在毕业典礼结束后，请留意典礼时间安排</dd>
-<dt>孩子需要准备</dt><dd>按角色准备服装：女生穿白色飘逸裙，男生穿棕/米色短裤+白T恤+背带</dd>
+<dt>家长需要做</dt><dd>为孩子准备好演出服装，按时送孩子参加毕业典礼后的演出</dd>
+<dt>孩子需要准备</dt><dd>排练剧目&quot;Platero&quot;（改编自胡安·拉蒙·希梅内斯同名小说）</dd>
 <dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 演出时间为毕业典礼（graduación）结束后，原文未给出具体钟点，请关注学校另行通知典礼时间</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 演出时间为毕业典礼结束后，具体时刻以典礼结束为准，请家长预留充足时间</dd>
 <dt>原文关键词</dt><dd>Festival fin de curso, teatro, Platero, vestuario, graduación, polideportivo</dd>
 </dl>
 <div class="raw">原文摘录：PREPARATORY A
@@ -202,13 +237,13 @@ VENUE: secondary school sports hall.
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿园及小学全体学生（INFANTIL - PRIMARIA）</dd>
-<dt>关键时间</dt><dd>2026-05-14</dd>
+<dt>关键时间</dt><dd>2026-05-14   🌦 阵雨 18°/10°C 降水 45%</dd>
 <dt>地点</dt><dd>Brains International School La Moraleja 校内 / Brains International School La Moraleja</dd>
-<dt>家长需要做</dt><dd>为孩子准备马德里传统服装或至少一件相关配饰（头巾、平顶帽、马甲、披肩、康乃馨均可），确保孩子当天穿戴上学。无需报名，无需缴费。</dd>
-<dt>孩子需要准备</dt><dd>穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、平顶帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨等）上学。</dd>
+<dt>家长需要做</dt><dd>为孩子准备马德里传统服装或至少一件相关配饰（头巾、帽子、康乃馨等）；无需报名或缴费，当天穿戴好送孩子上学即可。</dd>
+<dt>孩子需要准备</dt><dd>当天可穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、丘拉波帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨 carnaciones 等）。普通校服亦可，配饰即可。</dd>
 <dt>报名/付款</dt><dd>报名 否；付款 否</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 服装/配饰为自愿参与，原文用&quot;podrán&quot;（可以），并非强制要求。学校当天将提供传统巧克力油条（chocolate con churros）并跳 Chotis 舞，属校内活动，家长无需额外准备食物。</dd>
-<dt>原文关键词</dt><dd>San Isidro, traje tradicional, chulapo, chocolate con churros, chotis, fiesta Madrid</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 服装为鼓励性参与，非强制要求——原文用&quot;podrán&quot;（可以），未穿传统服装也不影响参加活动。学校当天将提供传统巧克力热饮配吉拿棒（chocolate con churros）并跳 Chotis 舞。</dd>
+<dt>原文关键词</dt><dd>San Isidro, traje tradicional, chocolate con churros, chotis, pañuelo, gorra de chulapo</dd>
 </dl>
 <div class="raw">原文摘录：Durante esta jornada, los alumnos podrán asistir al centro vestidos con el traje tradicional o, si lo desean, con algún accesorio típico relacionado con esta celebración (pañuelo, gorra de chulapo, chaleco, mantón, etc.). A lo largo del día, disfrutaremos juntos de un chocolate con churros y compartiremos el ambiente festivo bailando el tradicional chotis.</div>
 <div><a class="btn" href="./events/02-celebracion-san-isidro.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
@@ -216,46 +251,46 @@ VENUE: secondary school sports hall.
 </div>
 <div id="event-5">
 <article class="event">
-<h4>#5 【马德里天文馆教育参观】<span class="es">Excursión al Planetario de Madrid</span></h4>
+<h4>#5 【校外参观：马德里天文馆】<span class="es">Trip/Excursión: Planetario de Madrid</span></h4>
 <div><span class="pill">Primaria / 小学</span></div>
 <dl>
 <dt>适用对象</dt><dd>小学二年级（2º Primaria）（2º PRIMARIA）</dd>
 <dt>关键时间</dt><dd>2026-05-05  10:45 – 13:45</dd>
-<dt>地点</dt><dd>马德里天文馆，Tierno Galván 公园，天文馆大道16号，Arganzuela 区，邮编28045 / Planetario de Madrid, Parque Tierno Galván, Av. del Planetario, 16, Arganzuela, 28045, Madrid</dd>
-<dt>家长需要做</dt><dd>确保孩子当天穿好完整校服，并按时送达学校（出发时间 10:45，请务必准时）</dd>
+<dt>地点</dt><dd>马德里天文馆，Tierno Galván 公园内，天文馆大道16号，Arganzuela 区，邮编28045 / Planetario de Madrid, Parque Tierno Galván, Av. del Planetario, 16, Arganzuela, 28045, Madrid</dd>
+<dt>家长需要做</dt><dd>确认孩子当天穿好完整校服；注意所在班级对应的出行日期（2ºC 为5月5日，2ºA 和 2ºB 为5月12日），并确保孩子按时到校以保证10:45准时出发</dd>
 <dt>孩子需要准备</dt><dd>须穿着完整校服（full school uniform / correctamente uniformados）</dd>
 <dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 分两批出行，日期按班级不同：2º C 为 5月5日（2026-05-05）；2º A 和 2º B 为 5月12日（2026-05-12）。本记录首日取 2026-05-05，2º A/B 家长请注意实际日期为 2026-05-12。⚠️ 活动全程由班主任及天文馆教育人员共同监督。</dd>
-<dt>原文关键词</dt><dd>Planetario, excursión, astronomía, sistema solar, uniforme, 2º Primaria</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 两个班次日期不同：2º C → 5月5日；2º A、2º B → 5月12日（本记录首日取5月5日，请家长核对自己孩子所在班级）。⚠️ 学校特别强调须准时（rogamos puntualidad），出发时间为10:45，请勿迟到。</dd>
+<dt>原文关键词</dt><dd>Planetario, excursión, 2º Primaria, sistema solar, astronomía, uniforme</dd>
 </dl>
 <div class="raw">原文摘录：La visita se llevará a cabo en dos turnos según el grupo:
 • 5 de mayo: Grupo de 2º C.
 • 12 de mayo: Grupos de 2º A y 2º B.
-Los horarios previstos son:
+Para asegurar el correcto desarrollo de la jornada, rogamos puntualidad. Los horarios previstos son:
 • Salida del colegio: 10:45 h.
 • Inicio de la visita: 11:30 h.
 • Duración de la actividad: 2 horas aproximadamente.
 • Regreso al centro: 13:45 h.
 Como siempre, les recordamos que los alumnos deben asistir correctamente uniformados.</div>
-<div><a class="btn" href="./events/05-excursion-al-planetario-de-madrid.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+<div><a class="btn" href="./events/05-trip-excursion-planetario-de-madrid.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-6">
 <article class="event">
-<h4>#6 【校外参观：国家考古博物馆】<span class="es">Trip/Excursión: Museo Arqueológico</span></h4>
+<h4>#6 【校外参观：国家考古博物馆】<span class="es">Trip/Excursión: Museo Arqueológico Nacional</span></h4>
 <div><span class="pill">Primaria / 小学</span></div>
 <dl>
-<dt>适用对象</dt><dd>小学四年级（4ºA、4ºB、4ºC 全部班级）（4º PRIMARIA）</dd>
+<dt>适用对象</dt><dd>小学四年级（4ºA、4ºB、4ºC）（4º PRIMARIA）</dd>
 <dt>关键时间</dt><dd>2026-05-06  10:45 – 13:15</dd>
 <dt>地点</dt><dd>国家考古博物馆，马德里塞拉诺街13号 / Museo Arqueológico Nacional, Calle de Serrano, 13, Madrid</dd>
-<dt>家长需要做</dt><dd>留意出行当天（5月6日）孩子按时到校，确保10:45前到位；原文未提及需签署同意书或缴费，如有后续通知请关注学校跟进信息。</dd>
-<dt>孩子需要准备</dt><dd>无需特别准备；参观内容涵盖史前史、前罗马民族（pueblos prerromanos）及罗马帝国，可提前与孩子回顾课堂相关内容。</dd>
+<dt>家长需要做</dt><dd>留意出行当天（5月6日）孩子按时到校，确保10:45前到位准备出发；如有疑问可联系班主任。</dd>
+<dt>孩子需要准备</dt><dd>无需携带特殊材料；与班主任及博物馆教育人员全程同行，注意遵守参观纪律。</dd>
 <dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 原文未提及需缴费或提交授权书，但校外活动通常需要家长签字同意，请留意学校是否有后续补充通知。⚠️ 预计返校时间13:15，接送安排请按正常放学时间，无需提前到校。</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 三个班级（4ºA、4ºB、4ºC）同日出行，全程由各班班主任及博物馆专业导览人员陪同。导览内容涵盖史前史、前罗马民族、罗马帝国三大主题，参观时长约90分钟。预计13:15返校，家长可据此安排接送。</dd>
 <dt>原文关键词</dt><dd>Museo Arqueológico Nacional, excursión, 4º Primaria, Prehistoria, Imperio Romano, visita educativa</dd>
 </dl>
-<div class="raw">原文摘录：Los alumnos de 4º de Primaria realizarán una visita educativa al Museo Arqueológico Nacional, situado en la Calle de Serrano, 13 (Madrid), el próximo 6 de mayo. [...] Horarios previstos: Salida del colegio: 10:45 h. Entrada al museo: 11:30 h. Regreso aproximado al centro: 13:15 h (la visita tiene una duración de 90 minutos). Todos los grupos (4ºA, 4ºB y 4ºC) realizarán la actividad el mismo día, acompañados por sus respectivos tutores y el personal del museo.</div>
-<div><a class="btn" href="./events/06-trip-excursion-museo-arqueologico.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1wHy804GtgUszFe9aTsKG9uB-5zwKOfLz/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+<div class="raw">原文摘录：los alumnos de 4º de Primaria realizarán una visita educativa al Museo Arqueológico Nacional, situado en la Calle de Serrano, 13 (Madrid), el próximo 6 de mayo. [...] Horarios previstos: • Salida del colegio: 10:45 h. • Entrada al museo: 11:30 h. • Regreso aproximado al centro: 13:15 h (la visita tiene una duración de 90 minutos).</div>
+<div><a class="btn" href="./events/06-trip-excursion-museo-arqueologico-nacion.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1wHy804GtgUszFe9aTsKG9uB-5zwKOfLz/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <h3>Preparatory</h3>
@@ -265,30 +300,30 @@ Como siempre, les recordamos que los alumnos deben asistir correctamente uniform
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Preparatory</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿预备班（Preparatory）（PREPARATORY）</dd>
-<dt>关键时间</dt><dd>2026-05-07  09:30 – 14:30   🌦 阵雨 17°/10°C 降水 73%</dd>
+<dt>关键时间</dt><dd>2026-05-07  09:30 – 14:30   ⛈ 雷雨 17°/10°C 降水 98%</dd>
 <dt>地点</dt><dd>欧洲公园，马德里 / Parque Europa, Madrid</dd>
-<dt>家长需要做</dt><dd>无需报名或缴费。如有疑问，请直接联系学校老师。注意关注天气，活动以天气允许为前提。</dd>
-<dt>孩子需要准备</dt><dd>无需自带午餐，学校统一提供；建议穿着适合户外活动的舒适服装（原文未明确说明，仅供参考）</dd>
-<dt>报名/付款</dt><dd>报名 否；付款 否</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 活动以天气条件允许为前提（&quot;weather permitting / siempre que las condiciones meteorológicas lo permitan&quot;），如遇恶劣天气可能取消或改期，请留意学校后续通知。</dd>
-<dt>原文关键词</dt><dd>excursión, Parque Europa, Preparatory, picnic, Unit of Inquiry, weather permitting</dd>
+<dt>家长需要做</dt><dd>无需报名或缴费；如有疑问请直接联系学校老师</dd>
+<dt>孩子需要准备</dt><dd>无需自带午餐，学校统一提供；穿着舒适适合户外活动的服装（原文未明确说明，建议参考学校日常着装要求）</dd>
+<dt>报名/付款</dt><dd>报名 否；付款 否；费用 学校提供午餐（picnic），原文未提及额外费用</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 活动视当天天气情况而定（weather permitting / condiciones meteorológicas），如遇恶劣天气可能取消或改期，请留意学校通知。</dd>
+<dt>原文关键词</dt><dd>excursión, Parque Europa, Preparatory, picnic, weather permitting, Unidad de Indagación</dd>
 </dl>
-<div class="raw">原文摘录：The Preparatory children will be going on an excursion to Parque Europa on Thursday 7th May, weather permitting. This visit is linked to our current Unit of Inquiry, &quot;Exploring our friends&#x27; cultures,&quot; and will provide the children with a meaningful opportunity to connect their learning to the real world. A packed lunch will be provided by the school. We will leave the school at approximately 9:30 a.m. and expect to return by around 2:30 p.m.</div>
+<div class="raw">原文摘录：Los alumnos de Preparatory realizarán una excursión a Parque Europa el jueves 7 de mayo, siempre que las condiciones meteorológicas lo permitan. Esta visita está vinculada a nuestra actual Unidad de Indagación, «Explorando las culturas de nuestros amigos», y brindará a los niños una valiosa oportunidad para conectar su aprendizaje con el mundo real. El colegio proporcionará un almuerzo tipo picnic. Saldremos del centro aproximadamente a las 9:30 h y está previsto que regresemos sobre las 14:30 h.</div>
 <div><a class="btn" href="./events/03-trip-excursion-parque-europa.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-4">
 <article class="event">
-<h4>#4 【年终戏剧节 – PREPARATORY A 班《Platero》】<span class="es">Festival de fin de curso – Drama Performance: PREPARATORY A (&quot;Platero&quot;)</span></h4>
+<h4>#4 【年终戏剧节 – PREPARATORY A 班】<span class="es">Festival de fin de curso – Drama Performance – PREPARATORY A</span></h4>
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Preparatory</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿预备班 A 班（PREPARATORY A）</dd>
 <dt>关键时间</dt><dd>2026-06-18</dd>
 <dt>地点</dt><dd>中学体育馆 / Polideportivo de secundaria</dd>
-<dt>家长需要做</dt><dd>为孩子准备好演出服装，演出时间在毕业典礼结束后，请留意典礼时间安排</dd>
-<dt>孩子需要准备</dt><dd>按角色准备服装：女生穿白色飘逸裙，男生穿棕/米色短裤+白T恤+背带</dd>
+<dt>家长需要做</dt><dd>为孩子准备好演出服装，按时送孩子参加毕业典礼后的演出</dd>
+<dt>孩子需要准备</dt><dd>排练剧目&quot;Platero&quot;（改编自胡安·拉蒙·希梅内斯同名小说）</dd>
 <dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 演出时间为毕业典礼（graduación）结束后，原文未给出具体钟点，请关注学校另行通知典礼时间</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 演出时间为毕业典礼结束后，具体时刻以典礼结束为准，请家长预留充足时间</dd>
 <dt>原文关键词</dt><dd>Festival fin de curso, teatro, Platero, vestuario, graduación, polideportivo</dd>
 </dl>
 <div class="raw">原文摘录：PREPARATORY A
@@ -305,18 +340,18 @@ VENUE: secondary school sports hall.
 <h3>ESO / 中学</h3>
 <div id="event-7">
 <article class="event">
-<h4>#7 【2026-2027学年高中奖学金申请通知】<span class="es">Becas de Bachillerato 2026-2027</span></h4>
+<h4>#7 【2026-2027学年高中阶段奖学金申请】<span class="es">Becas de Bachillerato 2026-2027</span></h4>
 <div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
 <dl>
-<dt>适用对象</dt><dd>初四（4º ESO）至高一（1º Bachillerato）学生家庭；⚠️ 国际文凭课程（Bachillerato Internacional / IB Diploma）学生明确排除在外（4º ESO - 1º BACHILLERATO）</dd>
+<dt>适用对象</dt><dd>四年级ESO（初四）至一年级Bachillerato（高一）学生；⚠️ 国际文凭课程（Bachillerato Internacional / IB Diploma）学生除外（4º ESO - 1º BACHILLERATO）</dd>
 <dt>关键时间</dt><dd>2026-05-05</dd>
-<dt>地点</dt><dd>马德里自治区官方电子政务平台（线上申请） / sede.comunidad.madrid（在线申请）</dd>
-<dt>家长需要做</dt><dd>1. 确认子女是否就读 Bachillerato LOMLOE（非 IB Diploma）课程，符合条件方可申请。2. 在申请窗口开放期间（2026年5月5日起15个工作日内）登录上方链接，按要求提交奖学金申请材料。3. 仔细阅读附件中的完整 Orden 1534/2026，了解具体资格要求、所需文件及提交方式。</dd>
-<dt>孩子需要准备</dt><dd>无需学生单独操作，由家长完成申请；学生需确认自己修读的是 Bachillerato LOMLOE 课程。</dd>
-<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方网站在线提交申请：https://sede.comunidad.madrid/ayudas-becas-subvenciones/becas-bachillerato-2026-2027；付款 否；费用 奖学金申请本身免费</dd>
+<dt>地点</dt><dd>马德里自治区官方网站（线上申请） / sede.comunidad.madrid（在线申请）</dd>
+<dt>家长需要做</dt><dd>1. 确认孩子是否就读 Bachillerato LOMLOE（非IB课程）；2. 在申请窗口期内（2026年5月5日起15个工作日）登录上方链接，查阅完整要求并提交奖学金申请；3. 仔细阅读学校附件中的 Orden 1534/2026 全文，了解资格条件、所需材料及提交方式。</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方网站在线提交申请：https://sede.comunidad.madrid/ayudas-becas-subvenciones/becas-bachillerato-2026-2027；付款 否；费用 奖学金（免费申请，资助金额见官方文件）</dd>
 <dt>截止日期</dt><dd class="warn">2026-05-26</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 申请窗口为自2026年5月5日起的15个工作日（hábiles），截止日期约为2026年5月26日前后，请务必提前确认官方日历中的节假日以免误算。⚠️ 就读 IB Diploma（国际文凭）课程的学生明确被排除在本次奖学金申请资格之外，学校对此表示遗憾。</dd>
-<dt>原文关键词</dt><dd>becas, Bachillerato, LOMLOE, Comunidad de Madrid, Orden 1534/2026, solicitud</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 申请截止日为自2026年5月5日起15个工作日（hábiles）后，约为2026年5月26日前后，请以官方公告为准，勿拖延。⚠️ 就读 Programa Diploma del Bachillerato Internacional（IB文凭课程）的学生明确被排除在资助范围之外，无法申请。</dd>
+<dt>原文关键词</dt><dd>becas, Bachillerato, LOMLOE, Orden 1534/2026, solicitud, Comunidad de Madrid</dd>
 </dl>
 <div class="raw">原文摘录：El plazo para la presentación de solicitudes estará abierto durante 15 días hábiles a partir de mañana 5 de mayo.
 
@@ -327,18 +362,18 @@ Desde el Centro les informamos, que los destinatarios de las ayudas son alumnos 
 <h3>Bachillerato / 高中</h3>
 <div id="event-7">
 <article class="event">
-<h4>#7 【2026-2027学年高中奖学金申请通知】<span class="es">Becas de Bachillerato 2026-2027</span></h4>
+<h4>#7 【2026-2027学年高中阶段奖学金申请】<span class="es">Becas de Bachillerato 2026-2027</span></h4>
 <div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
 <dl>
-<dt>适用对象</dt><dd>初四（4º ESO）至高一（1º Bachillerato）学生家庭；⚠️ 国际文凭课程（Bachillerato Internacional / IB Diploma）学生明确排除在外（4º ESO - 1º BACHILLERATO）</dd>
+<dt>适用对象</dt><dd>四年级ESO（初四）至一年级Bachillerato（高一）学生；⚠️ 国际文凭课程（Bachillerato Internacional / IB Diploma）学生除外（4º ESO - 1º BACHILLERATO）</dd>
 <dt>关键时间</dt><dd>2026-05-05</dd>
-<dt>地点</dt><dd>马德里自治区官方电子政务平台（线上申请） / sede.comunidad.madrid（在线申请）</dd>
-<dt>家长需要做</dt><dd>1. 确认子女是否就读 Bachillerato LOMLOE（非 IB Diploma）课程，符合条件方可申请。2. 在申请窗口开放期间（2026年5月5日起15个工作日内）登录上方链接，按要求提交奖学金申请材料。3. 仔细阅读附件中的完整 Orden 1534/2026，了解具体资格要求、所需文件及提交方式。</dd>
-<dt>孩子需要准备</dt><dd>无需学生单独操作，由家长完成申请；学生需确认自己修读的是 Bachillerato LOMLOE 课程。</dd>
-<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方网站在线提交申请：https://sede.comunidad.madrid/ayudas-becas-subvenciones/becas-bachillerato-2026-2027；付款 否；费用 奖学金申请本身免费</dd>
+<dt>地点</dt><dd>马德里自治区官方网站（线上申请） / sede.comunidad.madrid（在线申请）</dd>
+<dt>家长需要做</dt><dd>1. 确认孩子是否就读 Bachillerato LOMLOE（非IB课程）；2. 在申请窗口期内（2026年5月5日起15个工作日）登录上方链接，查阅完整要求并提交奖学金申请；3. 仔细阅读学校附件中的 Orden 1534/2026 全文，了解资格条件、所需材料及提交方式。</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方网站在线提交申请：https://sede.comunidad.madrid/ayudas-becas-subvenciones/becas-bachillerato-2026-2027；付款 否；费用 奖学金（免费申请，资助金额见官方文件）</dd>
 <dt>截止日期</dt><dd class="warn">2026-05-26</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 申请窗口为自2026年5月5日起的15个工作日（hábiles），截止日期约为2026年5月26日前后，请务必提前确认官方日历中的节假日以免误算。⚠️ 就读 IB Diploma（国际文凭）课程的学生明确被排除在本次奖学金申请资格之外，学校对此表示遗憾。</dd>
-<dt>原文关键词</dt><dd>becas, Bachillerato, LOMLOE, Comunidad de Madrid, Orden 1534/2026, solicitud</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 申请截止日为自2026年5月5日起15个工作日（hábiles）后，约为2026年5月26日前后，请以官方公告为准，勿拖延。⚠️ 就读 Programa Diploma del Bachillerato Internacional（IB文凭课程）的学生明确被排除在资助范围之外，无法申请。</dd>
+<dt>原文关键词</dt><dd>becas, Bachillerato, LOMLOE, Orden 1534/2026, solicitud, Comunidad de Madrid</dd>
 </dl>
 <div class="raw">原文摘录：El plazo para la presentación de solicitudes estará abierto durante 15 días hábiles a partir de mañana 5 de mayo.
 
@@ -353,31 +388,31 @@ Desde el Centro les informamos, que los destinatarios de las ayudas son alumnos 
 <dl>
 <dt>适用对象</dt><dd>就读于马德里自治区经授权私立学校高中阶段（Bachillerato 1º 或 2º）的学生（(LOMLOE) Bachillerato — centros privados autorizados, Comunidad de Madrid）</dd>
 <dt>关键时间</dt><dd>2026-05-04</dd>
-<dt>地点</dt><dd>马德里自治区——经教育、科学与大学事务厅授权的私立学校 / Comunidad de Madrid — centros privados autorizados por la Consejería de Educación, Ciencia y Universidades</dd>
-<dt>家长需要做</dt><dd>1. 确认孩子是否符合申请资格（已在私立授权学校报名/预留 2026-2027 学年 Bachillerato 学位、非留级生、家庭人均年收入 ≤35,913€）。2. 准备 2024 年度家庭收入证明及孩子最近一学年成绩单。3. 在截止日期前（公告发布后 15 个工作日内，约 2026-05-23）通过官方渠道提交申请。</dd>
-<dt>孩子需要准备</dt><dd>提供最近一个已完成学年的最终成绩（用于学术评分，5–10分对应0.5–2分加分）；确保全学年持续满足申请条件。</dd>
-<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方网站（www.comunidad.madrid）或全国补贴数据库（https://www.infosubvenciones.es/bdnstrans/GE/es/index）提交申请；具体申请方式请参阅完整公告原文。；付款 否；费用 奖学金金额：家庭人均年收入 ≤10,000€ 者每年 3,750€（每月 375€，9月至次年6月共10个月）；人均收入 10,000.01€–35,913€ 者每年 2,000€（每月 200€）。若学费总额低于奖学金金额，则按实际学费发放。</dd>
+<dt>地点</dt><dd>马德里自治区（经教育厅授权的私立学校） / Comunidad de Madrid（centros privados autorizados）</dd>
+<dt>家长需要做</dt><dd>1. 确认孩子是否符合申请资格（见注意事项）；2. 准备2024年度家庭收入证明（用于计算人均收入）及孩子最近一学年成绩单；3. 在截止日期前（2026年5月23日，即公告发布后15个工作日内）通过官方渠道提交申请。</dd>
+<dt>孩子需要准备</dt><dd>提供最近一学年最终成绩（用于学术评分，满分2分）；确保已完成2026-2027学年的入学注册或占位预约（reserva de plaza）。</dd>
+<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方渠道提交申请：可查阅 www.comunidad.madrid 或国家补贴数据库 https://www.infosubvenciones.es/bdnstrans/GE/es/index 获取完整申请文件及流程；付款 否；费用 奖学金（无需缴费）：家庭人均年收入 ≤10,000€ 者每年最高 3,750€（每月 375€，9月至次年6月共10个月）；人均收入 10,000.01€–35,913€ 者每年 2,000€（每月 200€）。若学费总额低于奖学金金额，则按实际学费发放。</dd>
 <dt>截止日期</dt><dd class="warn">2026-05-23</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 截止日期为公告（2026-05-04）发布次日起第15个工作日，预计约为 2026-05-23，请以官方原文计算为准，勿拖延。⚠️ 留级生（repetidor）不具备申请资格。⚠️ 申请条件须在整个 2026-2027 学年持续满足，否则可能取消资格。⚠️ 评分标准：收入越低得分越高（最高8分）；学术成绩最高加2分；名额有限，按总分排名发放至预算用尽为止。</dd>
-<dt>原文关键词</dt><dd>beca, Bachillerato, centro privado, Comunidad de Madrid, renta per cápita, convocatoria 2026-2027</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 申请资格要求（三项须同时满足）：①已在马德里自治区授权私立学校注册或预约2026-2027学年高中课程；②非留级生（no repetidor）；③家庭人均年收入不超过35,913€。以上条件须在整个2026-2027学年持续满足。⚠️ 截止日期为公告发布日（2026年5月4日，周一）次日起算15个工作日，即约2026年5月23日（请以官方公告为准，注意排除节假日）。⚠️ 评分标准：收入越低得分越高（0–8分）；学术成绩5–10分对应0.5–2分；总分高者优先获批，额度用尽为止。</dd>
+<dt>原文关键词</dt><dd>beca Bachillerato, centros privados, Comunidad de Madrid, renta per cápita, plazo solicitud, curso 2026-2027</dd>
 </dl>
-<div class="raw">原文摘录：Sexto. Plazo de presentación de solicitudes: El plazo de presentación de solicitudes será de quince días hábiles a contar desde el día siguiente al de la publicación de este extracto en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID. / Segundo. Beneficiarios: c) No superar el límite de renta per cápita familiar de 35.913 euros. / Quinto. Cuantía de la beca: La cuantía total de la beca será de 3.750 euros anuales... en los supuestos de renta per cápita familiar hasta 10.000 euros y de 2.000 euros anuales... en los supuestos de renta per cápita familiar comprendida entre 10.000,01 y 35.913 euros.</div>
+<div class="raw">原文摘录：Segundo. Beneficiarios: Serán destinatarios de las ayudas los alumnos que a la fecha de finalización del plazo de presentación de solicitudes reúnan los requisitos previstos en el artículo 4 de las bases reguladoras: a) Estar matriculado o tener reserva de plaza para el curso completo del año escolar 2026-2027, en cualquiera de los dos cursos de Bachillerato del sistema educativo español, en régimen privado, en un centro privado autorizado por la Consejería de Educación, Ciencia y Universidades, ubicado en el ámbito territorial de la Comunidad de Madrid. b) No ser alumno repetidor del curso para el que se solicita la beca. c) No superar el límite de renta per cápita familiar de 35.913 euros. Sexto. Plazo de presentación de solicitudes: El plazo de presentación de solicitudes será de quince días hábiles a contar desde el día siguiente al de la publicación de este extracto en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID.</div>
 <div><a class="btn" href="./events/08-becas-de-bachillerato-2026-2027.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1JIQRoJAN5cm0-g61tbRtkgRmvkY9VHzz/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-9">
 <article class="event">
-<h4>#9 【&quot;大型律所&quot;奖学金项目（ISDE 合作）】<span class="es">Becas &quot;Grandes Firmas&quot; / &quot;Top Law Firms&quot; Scholarship Programme</span></h4>
+<h4>#9 【&quot;大型律所&quot;奖学金项目 – ISDE 合作】<span class="es">Becas &quot;Grandes Firmas&quot; / &quot;Top Law Firms&quot; Scholarship Programme – ISDE</span></h4>
 <div><span class="pill">Bachillerato / 高中</span></div>
 <dl>
 <dt>适用对象</dt><dd>高中阶段（Bachillerato）学生（BACHILLERATO）</dd>
 <dt>关键时间</dt><dd>2026-05-04</dd>
-<dt>地点</dt><dd>(原文未说明)</dd>
-<dt>家长需要做</dt><dd>1. 阅读随函附上的宣传册，了解奖学金细则及课程信息；2. 若子女有意向，及时联系学校获取申请方式；3. 关注后续学校通知，确认申请截止日期</dd>
-<dt>孩子需要准备</dt><dd>有意申请的学生需具备优秀学业成绩（expediente académico）；对法学方向（Grado en Derecho + Máster de Especialización）感兴趣</dd>
-<dt>报名/付款</dt><dd>报名 原文未说明；如需了解详情或报名，请直接联系学校；附件宣传册（folleto informativo）中有进一步说明；付款 否；费用 奖学金本身免费；所覆盖的课程（Grado en Derecho + Máster）学费原文未列明，奖学金可抵扣 50% 或 30%</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 原文未注明申请截止日期，请尽快联系学校确认。⚠️ 奖学金按学业成绩排名发放：第一名获 50% 减免，第二名获 30% 减免，名额有限。⚠️ 该项目由 ISDE（Instituto Superior de Derecho y Economía）提供，非本校学费减免，适用于其法学学位+专业硕士课程。</dd>
-<dt>原文关键词</dt><dd>becas, Grandes Firmas, ISDE, Grado en Derecho, expediente académico, Máster de Especialización</dd>
+<dt>地点</dt><dd>ISDE（法律与经济高等学院），具体校区原文未说明 / ISDE (Instituto Superior de Derecho y Economía)</dd>
+<dt>家长需要做</dt><dd>阅读随信附上的奖学金宣传册（folleto informativo）；如有意向或疑问，联系学校获取更多信息</dd>
+<dt>孩子需要准备</dt><dd>保持优异的学业成绩（expediente académico），成绩排名越高，获得奖学金比例越大；有意向攻读法学（Derecho）+ 专业硕士的学生可重点关注</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；原文未说明具体报名方式，如需了解请联系学校；付款 原文未说明；费用 奖学金覆盖学费折扣：第一名学术成绩可获 50% 奖学金，第二名可获 30% 奖学金（针对 ISDE 法学学位 + 专业硕士课程学费）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 奖学金按学业成绩排名发放，仅限成绩最优的两名学生（第一名 50%，第二名 30%），竞争名额极少，请尽早关注孩子成绩情况。⚠️ 该项目面向有意学习法学的学生，课程特色为从第一年起即有强制实习（prácticas obligatorias），并与国际顶级律所合作，就业率超 98%。</dd>
+<dt>原文关键词</dt><dd>becas, Grandes Firmas, ISDE, expediente académico, Grado en Derecho, Máster de Especialización</dd>
 </dl>
 <div class="raw">原文摘录：Dotación de las becas:
 • 50% de beca para el mejor expediente académico
@@ -393,17 +428,17 @@ Estas becas están orientadas a estudiantes interesados en cursar el Grado en De
 </div>
 <div id="event-10">
 <article class="event">
-<h4>#10 【&quot;顶级律所&quot;奖学金 —— ISDE 法学学位项目】<span class="es">Becas &quot;Grandes Firmas&quot; – Grado en Derecho ISDE</span></h4>
+<h4>#10 【&quot;顶级律所&quot;奖学金 – ISDE 法学学位】<span class="es">Becas &quot;Grandes Firmas&quot; – Grado en Derecho ISDE</span></h4>
 <div><span class="pill">Bachillerato / 高中</span><span class="pill">IBDP</span></div>
 <dl>
-<dt>适用对象</dt><dd>LOMLOE 及 IB 文凭课程阶段学生（高中毕业/即将升大学）（LOMLOE-IBDP）</dd>
+<dt>适用对象</dt><dd>LOMLOE 及 IB 文凭课程阶段学生（即将升读大学的高中生）（LOMLOE-IBDP）</dd>
 <dt>关键时间</dt><dd>(原文未说明)</dd>
-<dt>地点</dt><dd>ISDE 法律与经济高等学院，马德里 / ISDE (Instituto Superior de Derecho y Economía), Madrid</dd>
-<dt>家长需要做</dt><dd>若子女有意攻读法学学位（Grado en Derecho）且尚未在 ISDE 注册，可代为或协助联系 ISDE 招生办公室申请奖学金：邮件 admisionesgrado@isde.es / 电话 (+34) 914 361 796</dd>
-<dt>孩子需要准备</dt><dd>准备优秀学业成绩单（expediente académico），成绩排名越高，获得奖学金比例越大（第一名 50%，第二名 30%）</dd>
-<dt>报名/付款</dt><dd>报名 是；发送邮件至 admisionesgrado@isde.es 或致电 (+34) 914 361 796 申请奖学金（&quot;ACCEDE A LA BECA GRANDES FIRMAS&quot;）；付款 原文未说明；费用 第一名：学费减免 50%；第二名：学费减免 30%</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 奖学金仅面向尚未在 ISDE 注册入学的学生（&quot;Oferta de Beca disponible a estudiantes sin matricula en ISDE&quot;）。⚠️ 原文未注明申请截止日期，建议尽早联系招生办确认。⚠️ 奖学金适用于 Grado en Derecho 下所有专业方向（含体育管理、国际关系、金融、数字 MBA 等联合学位）。</dd>
-<dt>原文关键词</dt><dd>Beca Grandes Firmas, Grado en Derecho, ISDE, expediente académico, admisiones, empleabilidad</dd>
+<dt>地点</dt><dd>ISDE（西班牙，具体校区原文未说明；通过邮件/电话联系） / ISDE (contacto: admisionesgrado@isde.es)</dd>
+<dt>家长需要做</dt><dd>如子女有意报读 ISDE 法学学位（Grado en Derecho）并申请奖学金，请通过邮件 admisionesgrado@isde.es 或电话 (+34) 914 361 796 联系 ISDE 招生办，了解申请流程及所需材料</dd>
+<dt>孩子需要准备</dt><dd>准备优秀的学业成绩单（expediente académico）；奖学金按成绩排名发放，第一名获 50% 学费减免，第二名获 30% 减免。须为尚未在 ISDE 注册的学生方可申请。</dd>
+<dt>报名/付款</dt><dd>报名 是；发送邮件至 admisionesgrado@isde.es，或致电 (+34) 914 361 796；付款 原文未说明；费用 奖学金覆盖学费的 50%（第一名）或 30%（第二名）；其余部分需自行承担</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 共设两个名额，竞争激烈，建议尽早联系招生办确认截止日期及具体申请要求。⚠️ 原文明确注明&quot;Oferta de Beca disponible a estudiantes sin matrícula en ISDE&quot;，即已在 ISDE 注册的学生不具备申请资格。</dd>
+<dt>原文关键词</dt><dd>Becas Grandes Firmas, Grado en Derecho, ISDE, expediente académico, admisionesgrado, empleabilidad</dd>
 </dl>
 <div class="raw">原文摘录：BECA GRANDES FIRMAS
 Despachos, firmas y consultoras colaboradoras de nuestros programas han solicitado participar en la concesión de becas al estudio dirigidas a alumnos destacados.
@@ -416,67 +451,67 @@ En este marco, se ofrecen dos becas para estudiantes interesados en cursar cualq
 </div>
 <div id="event-12">
 <article class="event">
-<h4>#12 【驾校合作项目（Brains × Autoescuela Merinero）】<span class="es">Autoescuela Merinero – Programa de Conducir (Convenio Brains)</span></h4>
+<h4>#12 【驾校合作项目 — Merinero 驾校（Brains La Moraleja 校区）】<span class="es">Autoescuela Merinero – Programa de Carné de Conducir (Brains International School La Moraleja)</span></h4>
 <div><span class="pill">Bachillerato / 高中</span></div>
 <dl>
-<dt>适用对象</dt><dd>高中二年级（B照线下班）；DP课程（B照线上强化班）；可选：AM微型车 / 摩托车（2.º de Bachillerato (Permiso B presencial); DP (Intensivo B online); opcionalmente AM (Microcar) y Moto）</dd>
+<dt>适用对象</dt><dd>高中二年级（Bachillerato 2年级，B照线下班）；DP课程学生（B照线上强化班）；可选：AM微型车照 / 摩托车照（2.º de Bachillerato (Permiso B presencial); DP (Intensivo B online en directo); opcionalmente AM (Microcar) y Moto）</dd>
 <dt>关键时间</dt><dd>2025-11-19  15:30 – 17:30</dd>
-<dt>地点</dt><dd>Brains La Moraleja 校内（线下课）；DP 为线上直播 / Brains International School La Moraleja（clases presenciales en centro）</dd>
-<dt>家长需要做</dt><dd>1. 填写报名表（Hoja de Inscripción），附上学生及家长/监护人 DNI 正反面复印件，签字后提交学校。
-2. 在表格中勾选&quot;肖像权&quot;及&quot;数据共享&quot;两项授权意向（同意/不同意）。
-3. 等待秘书处邮件确认名额（先到先得，满员后进入候补名单）。
-4. 确认名额后，直接向 Autoescuela Merinero 缴纳理论课费、练车费及DGT考试费。
-5. 如需退课，须以书面形式发送至 extraescolares.mor@colegiobrains.com；已确认入学后，学校代缴的45€注册费不予退还。</dd>
-<dt>孩子需要准备</dt><dd>• B照路考要求年满18岁，请确认考试时孩子是否已达到年龄要求。
-• 保证出勤率和准时到课（家庭须承诺配合）。
-• 遵守 Autoescuela Merinero 及学校的内部规定。</dd>
-<dt>报名/付款</dt><dd>报名 是；填写纸质报名表（Hoja de Inscripción）并提交至学校；学校秘书处通过电子邮件确认名额。咨询：extraescolares.mor@colegiobrains.com / Tel. 91 650 43 00；付款 是；费用 • 理论课（B照线下/DP线上）：50 €/月（含税）
-• 实际驾驶练习（45分钟/节）：35 €/节（含税）
-• DGT官方考试费（笔试+路考）：由家庭自行承担，金额按DGT标准
-• 注册费（matrícula）：45 €，由学校代缴，家庭无需另付
-• 注意：学校每月不向家庭收费，仅代缴注册费</dd>
+<dt>地点</dt><dd>Brains La Moraleja 校区（线下课）；线上直播（DP强化班） / Brains International School La Moraleja（presencial）; online en directo（DP intensivo）</dd>
+<dt>家长需要做</dt><dd>1. 填写并签署报名表（HOJA DE INSCRIPCIÓN），附上学生DNI正反面复印件；
+2. 在表格中勾选&quot;图像/姓名使用&quot;及&quot;数据共享&quot;两项授权意向（同意/不同意）；
+3. 将报名表提交至学校 Secretaría，等待邮件确认名额；
+4. 名额确认后，直接向 Autoescuela Merinero 缴纳理论课费（50 €/月）、实操课费（35 €/节）及DGT考试费；
+5. 如需退课或变更，须以书面形式发送至 extraescolares.mor@colegiobrains.com</dd>
+<dt>孩子需要准备</dt><dd>按时出席课程（周三、周四 15:30–17:00；周五 15:30–17:30）；参加路考前须年满18周岁；遵守 Autoescuela Merinero 及学校内部规定</dd>
+<dt>报名/付款</dt><dd>报名 是；填写纸质报名表（HOJA DE INSCRIPCIÓN）并提交至学校；Secretaría 将通过电子邮件确认名额。咨询邮箱：extraescolares.mor@colegiobrains.com；电话：91 650 43 00；付款 是；费用 • 理论课（线下/线上）：50 €/月（含IVA）
+• 驾驶实操课（45分钟/节）：35 €/节（含IVA）
+• DGT官方考试费（笔试+路考）：由家庭自行承担，金额以DGT为准
+• 报名费（matrícula）：45 €，由学校代缴，家庭无需另付
+• 付款方式：理论课费、实操课费及DGT考试费由家庭直接支付给 Autoescuela Merinero</dd>
 <dt>截止日期</dt><dd class="warn">2025-11-19</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额仅20个，先到先得，报满即转候补，请尽早提交报名表。
-⚠️ 报名截止日与课程开始日相同（2025-11-19），务必提前准备好DNI复印件。
-⚠️ 一旦确认入学，学校代缴的45€注册费不可退还。
-⚠️ 退课须书面通知，已付费用按驾校取消政策处理，学校不负责退款或重新安排。
-⚠️ B照路考须年满18岁方可参加，请家长提前核实孩子生日。</dd>
-<dt>原文关键词</dt><dd>autoescuela, permiso B, inscripción, extraescolares, DGT, Bachillerato</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名截止日期为 2025年11月19日，或名额满员为止，先到先得，满员后转入候补名单。
+⚠️ 参加路考（Permiso B 实际驾驶考试）须年满18周岁。
+⚠️ 学校代缴的45 €报名费一经确认概不退还。
+⚠️ 若课程已开始后退出，已缴费用按 Autoescuela Merinero 的取消政策处理，学校不承担退款责任。
+⚠️ DP强化班时间为 2026年5月25日至29日，每天3小时直播课，需配合自学完成共40小时理论课时。</dd>
+<dt>原文关键词</dt><dd>autoescuela, carné conducir, Permiso B, Bachillerato, inscripción, DGT</dd>
 </dl>
-<div class="raw">原文摘录：Permiso B – 2.º de Bachillerato: del 19/11/2025 al 30/01/2026.
- Miércoles y jueves 15:30–17:00 · Viernes 15:30–17:30
- 24 clases presenciales (40 h en total) · Máximo 20 plazas.
-Plazo de inscripción: hasta el 19 de noviembre de 2025 o hasta completar plazas.
-Teoría (Presencial / Online): 50 €/mes (IVA incl.) · Prácticas (45 min): 35 € (IVA incl.) por sesión.
+<div class="raw">原文摘录：Plazo de inscripción: hasta el 19 de noviembre de 2025 o hasta completar plazas.
+Las solicitudes se atenderán por orden de llegada; al llenarse el cupo, se abrirá lista de espera.
+Teoría (Presencial / Online): 50 €/mes (IVA incl.) en B · 50 € (IVA incl.) en el intensivo DP.
+Prácticas (45 min): 35 € (IVA incl.) por sesión.
 Tasas oficiales DGT (teórico y práctico): a cargo de las familias.
-Matrícula: 45 € por alumno, abonada por el colegio a Autoescuela Merinero.</div>
-<div><a class="btn" href="./events/12-autoescuela-merinero-programa-de-conduci.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/15kKtj6npwTm1-nirjVaAv8Lg6J8vnz3W/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+Matrícula: 45 € por alumno, abonada por el colegio a Autoescuela Merinero (incluye plataforma y materiales).
+Requisitos de examen: para el examen práctico del Permiso B, es necesario tener cumplidos los 18 años.</div>
+<div><a class="btn" href="./events/12-autoescuela-merinero-programa-de-carne-d.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/15kKtj6npwTm1-nirjVaAv8Lg6J8vnz3W/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-13">
 <article class="event">
-<h4>#13 【驾校报名表 – Merinero 驾校合作项目】<span class="es">Hoja de inscripción – Autoescuela Merinero (Driving School Programme)</span></h4>
+<h4>#13 【驾校报名表 – Merinero 驾校（课外驾驶课程）】<span class="es">Hoja de inscripción – Autoescuela Merinero (Driving School)</span></h4>
 <div><span class="pill">Bachillerato / 高中</span></div>
 <dl>
-<dt>适用对象</dt><dd>高中二年级（B 类驾照）、DP 课程（强化线上 B 类）、AM（微型车）、摩托车学员（2º BACHILLERATO (Category B), DP (Intensive B online), AM (Microcar), Motorcycle）</dd>
+<dt>适用对象</dt><dd>高中二年级（B 类驾照）、DP 课程学生（线上强化 B 类）、微型车（AM）及摩托车学员（2º BACHILLERATO (Category B), DP (Intensive B online), AM (Microcar), Motorcycle）</dd>
 <dt>关键时间</dt><dd>2025-11-19  15:30 – 17:30</dd>
-<dt>地点</dt><dd>Brains 国际学校 La Moraleja 校区（面授课）；DP 课程为线上直播 / Brains International School La Moraleja（课堂课）; DP 为 live online（线上直播）</dd>
-<dt>家长需要做</dt><dd>1. 填写并签署报名表（父母/监护人及学生均需签名），附上 DNI 正反面复印件后提交
-2. 直接向 Autoescuela Merinero 缴纳理论课、驾驶练习及 DGT 考试费用
-3. 如需退课或变更，须发邮件至 extraescolares.mor@colegiobrains.com
-4. 在表格中勾选是否同意使用学生肖像/姓名，以及是否同意向驾校和 DGT 共享必要信息</dd>
-<dt>孩子需要准备</dt><dd>参加 B 类实际驾驶考试时须年满 18 岁；需遵守 Autoescuela Merinero 及学校的课程规定；按时出勤</dd>
-<dt>报名/付款</dt><dd>报名 是；填写纸质报名表后提交；学校办公室将通过电子邮件确认名额。咨询邮箱：extraescolares.mor@colegiobrains.com；电话：91 650 43 00；付款 是；费用 • 理论课（面授/线上）：B 类 €50/月（含税）；DP 强化班 €50 一次性（含税）
-• 驾驶练习（45 分钟/节）：€35/节（含税）
+<dt>地点</dt><dd>Brains International School La Moraleja 校内（理论课面授）；DP 课程为线上直播 / Brains International School La Moraleja（teoría presencial）; online en vivo para DP</dd>
+<dt>家长需要做</dt><dd>1. 填写并签署随附的报名表（需附身份证正反面复印件）；
+2. 勾选表格中的数据授权选项（学生照片/姓名使用授权、信息共享驾校及 DGT 授权）；
+3. 等待学校邮件确认名额；
+4. 直接向 Autoescuela Merinero 缴纳理论课及实操费用；
+5. 如需退课或变更，须发邮件至 extraescolares.mor@colegiobrains.com</dd>
+<dt>孩子需要准备</dt><dd>参加 B 类实际驾驶考试时须年满 18 岁；遵守 Autoescuela Merinero 及学校双方规定；按时出勤</dd>
+<dt>报名/付款</dt><dd>报名 是；填写纸质报名表后提交；学校办公室将通过电子邮件确认名额。咨询邮箱：extraescolares.mor@colegiobrains.com，电话：91 650 43 00；付款 是；费用 • 理论课（面授/线上）：€50/月（含税），B 类；DP 强化班 €50（含税）一次性
+• 驾驶实操（45 分钟/节）：€35（含税）/节
 • DGT 官方考试费：由家庭直接缴纳
-• 注册费 €45：由学校代缴，家庭无需支付
-• 费用直接支付给 Autoescuela Merinero，学校不开具月度发票</dd>
+• 报名费：€45/人，由学校代缴（含平台及教材）
+⚠️ 家庭直接向 Autoescuela Merinero 缴纳理论课、实操及考试费；学校仅代缴 €45 报名费</dd>
 <dt>截止日期</dt><dd class="warn">2025-11-19</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名截止日期为 2025 年 11 月 19 日，或名额满员即止，先到先得，满员后进入候补名单。
-⚠️ B 类（2º Bachillerato）课程共 24 节课（40 小时），每周三、四 15:30–17:00，周五 15:30–17:30，最多 20 人。
-⚠️ 学校代缴的 €45 注册费一旦确认报名即不予退还。
-⚠️ 退课后，已付给驾校的费用按驾校自身退款政策处理，学校不负责退款或补课安排。
-⚠️ DP 强化班：2026 年 5 月 25 日–29 日，每天 3 小时线上直播 + 个人跟进课，共完成 40 小时理论。</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额上限：B 类面授班最多 20 人，先到先得，满员后进入候补名单。
+⚠️ 报名截止：2025 年 11 月 19 日或名额满员为止。
+⚠️ 退课政策：课程开始后退课，已付驾校费用按驾校退款政策处理；学校代缴的 €45 报名费一经确认不予退还。
+⚠️ B 类课程时间：2025/11/19–2026/01/30，每周三、四 15:30–17:00，周五 15:30–17:30，共 24 节（40 学时）。
+⚠️ DP 强化班：2026/05/25–05/29，每天 3 小时线上直播。
+⚠️ AM/摩托车班：时间按需求另行安排。</dd>
 <dt>原文关键词</dt><dd>inscripción, autoescuela, carnet de conducir, 2º Bachillerato, DP, DGT</dd>
 </dl>
 <div class="raw">原文摘录：Category B – 2 BACHILLERATO: from 19/11/2025 to 30/01/2026. Wednesdays and Thursdays 15:30–17:00; Fridays 15:30–17:30. 24 classroom sessions (40 hours in total). Maximum 20 students.
@@ -491,17 +526,17 @@ Registration deadline: until 19 November 2025 or until all places are filled. Re
 <h3>IBDP</h3>
 <div id="event-10">
 <article class="event">
-<h4>#10 【&quot;顶级律所&quot;奖学金 —— ISDE 法学学位项目】<span class="es">Becas &quot;Grandes Firmas&quot; – Grado en Derecho ISDE</span></h4>
+<h4>#10 【&quot;顶级律所&quot;奖学金 – ISDE 法学学位】<span class="es">Becas &quot;Grandes Firmas&quot; – Grado en Derecho ISDE</span></h4>
 <div><span class="pill">Bachillerato / 高中</span><span class="pill">IBDP</span></div>
 <dl>
-<dt>适用对象</dt><dd>LOMLOE 及 IB 文凭课程阶段学生（高中毕业/即将升大学）（LOMLOE-IBDP）</dd>
+<dt>适用对象</dt><dd>LOMLOE 及 IB 文凭课程阶段学生（即将升读大学的高中生）（LOMLOE-IBDP）</dd>
 <dt>关键时间</dt><dd>(原文未说明)</dd>
-<dt>地点</dt><dd>ISDE 法律与经济高等学院，马德里 / ISDE (Instituto Superior de Derecho y Economía), Madrid</dd>
-<dt>家长需要做</dt><dd>若子女有意攻读法学学位（Grado en Derecho）且尚未在 ISDE 注册，可代为或协助联系 ISDE 招生办公室申请奖学金：邮件 admisionesgrado@isde.es / 电话 (+34) 914 361 796</dd>
-<dt>孩子需要准备</dt><dd>准备优秀学业成绩单（expediente académico），成绩排名越高，获得奖学金比例越大（第一名 50%，第二名 30%）</dd>
-<dt>报名/付款</dt><dd>报名 是；发送邮件至 admisionesgrado@isde.es 或致电 (+34) 914 361 796 申请奖学金（&quot;ACCEDE A LA BECA GRANDES FIRMAS&quot;）；付款 原文未说明；费用 第一名：学费减免 50%；第二名：学费减免 30%</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 奖学金仅面向尚未在 ISDE 注册入学的学生（&quot;Oferta de Beca disponible a estudiantes sin matricula en ISDE&quot;）。⚠️ 原文未注明申请截止日期，建议尽早联系招生办确认。⚠️ 奖学金适用于 Grado en Derecho 下所有专业方向（含体育管理、国际关系、金融、数字 MBA 等联合学位）。</dd>
-<dt>原文关键词</dt><dd>Beca Grandes Firmas, Grado en Derecho, ISDE, expediente académico, admisiones, empleabilidad</dd>
+<dt>地点</dt><dd>ISDE（西班牙，具体校区原文未说明；通过邮件/电话联系） / ISDE (contacto: admisionesgrado@isde.es)</dd>
+<dt>家长需要做</dt><dd>如子女有意报读 ISDE 法学学位（Grado en Derecho）并申请奖学金，请通过邮件 admisionesgrado@isde.es 或电话 (+34) 914 361 796 联系 ISDE 招生办，了解申请流程及所需材料</dd>
+<dt>孩子需要准备</dt><dd>准备优秀的学业成绩单（expediente académico）；奖学金按成绩排名发放，第一名获 50% 学费减免，第二名获 30% 减免。须为尚未在 ISDE 注册的学生方可申请。</dd>
+<dt>报名/付款</dt><dd>报名 是；发送邮件至 admisionesgrado@isde.es，或致电 (+34) 914 361 796；付款 原文未说明；费用 奖学金覆盖学费的 50%（第一名）或 30%（第二名）；其余部分需自行承担</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 共设两个名额，竞争激烈，建议尽早联系招生办确认截止日期及具体申请要求。⚠️ 原文明确注明&quot;Oferta de Beca disponible a estudiantes sin matrícula en ISDE&quot;，即已在 ISDE 注册的学生不具备申请资格。</dd>
+<dt>原文关键词</dt><dd>Becas Grandes Firmas, Grado en Derecho, ISDE, expediente académico, admisionesgrado, empleabilidad</dd>
 </dl>
 <div class="raw">原文摘录：BECA GRANDES FIRMAS
 Despachos, firmas y consultoras colaboradoras de nuestros programas han solicitado participar en la concesión de becas al estudio dirigidas a alumnos destacados.
@@ -519,16 +554,21 @@ En este marco, se ofrecen dos becas para estudiantes interesados en cursar cualq
 <dl>
 <dt>适用对象</dt><dd>国际文凭课程（DP）二年级学生（2º IBDP）</dd>
 <dt>关键时间</dt><dd>2026-05-25</dd>
-<dt>地点</dt><dd>线上直播（Autoescuela Merinero 平台）+ 学校内进行实际驾驶练习 / Online en directo (plataforma Autoescuela Merinero) + Brains International School La Moraleja</dd>
-<dt>家长需要做</dt><dd>1. 在 2026-05-18 前填写附件报名表并接受课外活动条款；2. 报名截止后直接向 Autoescuela Merinero 支付理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费；3. 如有疑问发邮件至 extraescolares.mor@colegiobrains.com</dd>
-<dt>孩子需要准备</dt><dd>参加每日3小时在线直播理论课（25–29 May），并在平台上完成辅导与自学任务，累计完成40学时理论培训</dd>
-<dt>报名/付款</dt><dd>报名 是；填写随通知附上的报名表，并接受课外活动条款；由学校秘书处通过在线表单统一管理。联系邮箱：extraescolares.mor@colegiobrains.com；付款 是；费用 • 理论课（强化在线直播，40学时）：€50（含税），家长直接付给 Autoescuela Merinero
+<dt>地点</dt><dd>线上直播（Autoescuela Merinero 平台）+ 学校内实际驾驶课 / Online en directo (plataforma Autoescuela Merinero) + clases prácticas en Brains International School La Moraleja</dd>
+<dt>家长需要做</dt><dd>1. 在 2026年5月18日前，填写附件报名表并接受课外活动条款，通过学校在线表单提交报名。
+2. 报名后直接向 Autoescuela Merinero 缴纳理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费。
+3. 如有疑问，发邮件至 extraescolares.mor@colegiobrains.com。</dd>
+<dt>孩子需要准备</dt><dd>参加每日3小时线上直播理论课（5月25日至29日，共5天），并在平台上完成辅导及自学任务，累计完成40小时理论培训。</dd>
+<dt>报名/付款</dt><dd>报名 是；填写随通知附上的报名表，并接受课外活动条款；由学校秘书处（Secretaría）通过在线表单统一管理。截止日期：2026年5月18日（周一）。咨询邮箱：extraescolares.mor@colegiobrains.com；付款 是；费用 • 理论课（线上强化，40小时）：€50（含税），家长直接付给 Autoescuela Merinero
 • 实际驾驶课（每节45分钟）：€35（含税），家长直接付给 Autoescuela Merinero
-• 报名费：€45/人，由学校代付给驾校（含数字教材及平台使用权）
+• 报名费：€45/人，由学校代付给驾校（含数字教材及平台使用权），家长无需另付此项
 • DGT 官方考试费：家长直接缴纳，Brains 学生享优惠条件</dd>
 <dt>截止日期</dt><dd class="warn">2026-05-18</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名截止日为 2026-05-18（周一），逾期不受理。⚠️ 理论课费、实际驾驶课费及 DGT 考试费均须家长直接付给驾校，学校仅代付 €45 报名费。⚠️ 实际驾驶练习期间已涵盖民事责任险及强制车险。</dd>
-<dt>原文关键词</dt><dd>carné de conducir, Autoescuela Merinero, Diploma Programme, Permiso B, DGT, curso intensivo online</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名截止日期为 2026年5月18日，逾期不受理。
+⚠️ 理论课为线上强化形式，5月25日至29日每天3小时直播，学生须保证出勤。
+⚠️ DGT 官方考试费金额原文未列明，家长需向 Autoescuela Merinero 确认具体金额。
+⚠️ 实际驾驶课节数及总费用视个人情况而定，原文未给出固定总价。</dd>
+<dt>原文关键词</dt><dd>carné de conducir, Autoescuela Merinero, Permiso B, DGT, curso intensivo online, Diploma Programme</dd>
 </dl>
 <div class="raw">原文摘录：Permiso B – Diploma Programme (DP) students
 Format: An intensive live online course, with active student participation and daily online follow-up to complete the 40 hours of theoretical training.
@@ -551,12 +591,12 @@ Registrations will be managed by the School Office, via the online form, until 1
 <dl>
 <dt>适用对象</dt><dd>全体学生及家庭（GENERAL）</dd>
 <dt>关键时间</dt><dd>(原文未说明)</dd>
-<dt>地点</dt><dd>Brains La Moraleja 学校 / Colegio Brains La Moraleja</dd>
+<dt>地点</dt><dd>布雷恩斯拉莫拉莱哈学校 / Colegio Brains La Moraleja</dd>
 <dt>家长需要做</dt><dd>阅读学校营养中心发布的 Omega-3 科普通讯，参考建议在家庭日常饮食中增加富含 Omega-3 的天然食物（如三文鱼、沙丁鱼、核桃、奇亚籽/亚麻籽等），优先选择食物来源而非营养补充剂。</dd>
-<dt>孩子需要准备</dt><dd>无需特别准备；可在家长引导下了解 Omega-3 对大脑发育和学习表现的重要性，养成健康饮食习惯。</dd>
+<dt>孩子需要准备</dt><dd>无需特别准备；可在日常早餐（酸奶/麦片中加入奇亚籽或亚麻籽）和课间点心（核桃）中留意 Omega-3 的摄入。</dd>
 <dt>报名/付款</dt><dd>报名 否；付款 否</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 学校营养中心明确建议：Omega-3 应优先从天然食物中摄取，而非依赖营养补充剂，因为食物来源的吸收效果更佳。本通讯为科普性质，无需报名或缴费，家长按需调整家庭饮食即可。</dd>
-<dt>原文关键词</dt><dd>Omega-3, DHA, EPA, nutrición escolar, rendimiento académico, pescado azul</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 本通讯为学校营养与健康中心（Nutrition and Healthy Centre, Colegio Brains）发布的教育性科普资讯，不涉及具体活动或报名，无截止日期。建议优先通过天然食物补充 Omega-3（EPA、DHA），而非依赖营养补充剂（suplementos nutricionales）。</dd>
+<dt>原文关键词</dt><dd>Omega-3, DHA, EPA, nutrición escolar, rendimiento escolar, pescado azul</dd>
 </dl>
 <div class="raw">原文摘录：Es fundamental priorizar las fuentes de Omega-3 provenientes de los alimentos sobre los suplementos nutricionales, pues el Omega-3 se absorbe mejor si viene de fuentes naturales. La opción más completa es el pescado azul, como el salmón, las sardinas, la caballa, los boquerones o el atún, que proporcionan directamente el DHA y EPA que el cerebro necesita. Para las familias que buscan opciones vegetales, las nueces son el aliado perfecto para la merienda. También es muy recomendable incorporar semillas de chía o lino en los desayunos (añadidas al yogur o cereales) y utilizar aceites vegetales de calidad, como el de soja o canola, en las comidas diarias.</div>
 <div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1VNRzj2spEuH15gYSCvlwV3IDp-7ppWsq/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
@@ -568,13 +608,13 @@ Registrations will be managed by the School Office, via the online form, until 1
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿园及小学全体学生（INFANTIL - PRIMARIA）</dd>
-<dt>关键时间</dt><dd>2026-05-14</dd>
+<dt>关键时间</dt><dd>2026-05-14   🌦 阵雨 18°/10°C 降水 45%</dd>
 <dt>地点</dt><dd>Brains International School La Moraleja 校内 / Brains International School La Moraleja</dd>
-<dt>家长需要做</dt><dd>为孩子准备马德里传统服装或至少一件相关配饰（头巾、平顶帽、马甲、披肩、康乃馨均可），确保孩子当天穿戴上学。无需报名，无需缴费。</dd>
-<dt>孩子需要准备</dt><dd>穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、平顶帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨等）上学。</dd>
+<dt>家长需要做</dt><dd>为孩子准备马德里传统服装或至少一件相关配饰（头巾、帽子、康乃馨等）；无需报名或缴费，当天穿戴好送孩子上学即可。</dd>
+<dt>孩子需要准备</dt><dd>当天可穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、丘拉波帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨 carnaciones 等）。普通校服亦可，配饰即可。</dd>
 <dt>报名/付款</dt><dd>报名 否；付款 否</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 服装/配饰为自愿参与，原文用&quot;podrán&quot;（可以），并非强制要求。学校当天将提供传统巧克力油条（chocolate con churros）并跳 Chotis 舞，属校内活动，家长无需额外准备食物。</dd>
-<dt>原文关键词</dt><dd>San Isidro, traje tradicional, chulapo, chocolate con churros, chotis, fiesta Madrid</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 服装为鼓励性参与，非强制要求——原文用&quot;podrán&quot;（可以），未穿传统服装也不影响参加活动。学校当天将提供传统巧克力热饮配吉拿棒（chocolate con churros）并跳 Chotis 舞。</dd>
+<dt>原文关键词</dt><dd>San Isidro, traje tradicional, chocolate con churros, chotis, pañuelo, gorra de chulapo</dd>
 </dl>
 <div class="raw">原文摘录：Durante esta jornada, los alumnos podrán asistir al centro vestidos con el traje tradicional o, si lo desean, con algún accesorio típico relacionado con esta celebración (pañuelo, gorra de chulapo, chaleco, mantón, etc.). A lo largo del día, disfrutaremos juntos de un chocolate con churros y compartiremos el ambiente festivo bailando el tradicional chotis.</div>
 <div><a class="btn" href="./events/02-celebracion-san-isidro.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
@@ -586,30 +626,30 @@ Registrations will be managed by the School Office, via the online form, until 1
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Preparatory</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿预备班（Preparatory）（PREPARATORY）</dd>
-<dt>关键时间</dt><dd>2026-05-07  09:30 – 14:30   🌦 阵雨 17°/10°C 降水 73%</dd>
+<dt>关键时间</dt><dd>2026-05-07  09:30 – 14:30   ⛈ 雷雨 17°/10°C 降水 98%</dd>
 <dt>地点</dt><dd>欧洲公园，马德里 / Parque Europa, Madrid</dd>
-<dt>家长需要做</dt><dd>无需报名或缴费。如有疑问，请直接联系学校老师。注意关注天气，活动以天气允许为前提。</dd>
-<dt>孩子需要准备</dt><dd>无需自带午餐，学校统一提供；建议穿着适合户外活动的舒适服装（原文未明确说明，仅供参考）</dd>
-<dt>报名/付款</dt><dd>报名 否；付款 否</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 活动以天气条件允许为前提（&quot;weather permitting / siempre que las condiciones meteorológicas lo permitan&quot;），如遇恶劣天气可能取消或改期，请留意学校后续通知。</dd>
-<dt>原文关键词</dt><dd>excursión, Parque Europa, Preparatory, picnic, Unit of Inquiry, weather permitting</dd>
+<dt>家长需要做</dt><dd>无需报名或缴费；如有疑问请直接联系学校老师</dd>
+<dt>孩子需要准备</dt><dd>无需自带午餐，学校统一提供；穿着舒适适合户外活动的服装（原文未明确说明，建议参考学校日常着装要求）</dd>
+<dt>报名/付款</dt><dd>报名 否；付款 否；费用 学校提供午餐（picnic），原文未提及额外费用</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 活动视当天天气情况而定（weather permitting / condiciones meteorológicas），如遇恶劣天气可能取消或改期，请留意学校通知。</dd>
+<dt>原文关键词</dt><dd>excursión, Parque Europa, Preparatory, picnic, weather permitting, Unidad de Indagación</dd>
 </dl>
-<div class="raw">原文摘录：The Preparatory children will be going on an excursion to Parque Europa on Thursday 7th May, weather permitting. This visit is linked to our current Unit of Inquiry, &quot;Exploring our friends&#x27; cultures,&quot; and will provide the children with a meaningful opportunity to connect their learning to the real world. A packed lunch will be provided by the school. We will leave the school at approximately 9:30 a.m. and expect to return by around 2:30 p.m.</div>
+<div class="raw">原文摘录：Los alumnos de Preparatory realizarán una excursión a Parque Europa el jueves 7 de mayo, siempre que las condiciones meteorológicas lo permitan. Esta visita está vinculada a nuestra actual Unidad de Indagación, «Explorando las culturas de nuestros amigos», y brindará a los niños una valiosa oportunidad para conectar su aprendizaje con el mundo real. El colegio proporcionará un almuerzo tipo picnic. Saldremos del centro aproximadamente a las 9:30 h y está previsto que regresemos sobre las 14:30 h.</div>
 <div><a class="btn" href="./events/03-trip-excursion-parque-europa.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-4">
 <article class="event">
-<h4>#4 【年终戏剧节 – PREPARATORY A 班《Platero》】<span class="es">Festival de fin de curso – Drama Performance: PREPARATORY A (&quot;Platero&quot;)</span></h4>
+<h4>#4 【年终戏剧节 – PREPARATORY A 班】<span class="es">Festival de fin de curso – Drama Performance – PREPARATORY A</span></h4>
 <div><span class="pill">Infantil / 幼儿园</span><span class="pill">Preparatory</span></div>
 <dl>
 <dt>适用对象</dt><dd>幼儿预备班 A 班（PREPARATORY A）</dd>
 <dt>关键时间</dt><dd>2026-06-18</dd>
 <dt>地点</dt><dd>中学体育馆 / Polideportivo de secundaria</dd>
-<dt>家长需要做</dt><dd>为孩子准备好演出服装，演出时间在毕业典礼结束后，请留意典礼时间安排</dd>
-<dt>孩子需要准备</dt><dd>按角色准备服装：女生穿白色飘逸裙，男生穿棕/米色短裤+白T恤+背带</dd>
+<dt>家长需要做</dt><dd>为孩子准备好演出服装，按时送孩子参加毕业典礼后的演出</dd>
+<dt>孩子需要准备</dt><dd>排练剧目&quot;Platero&quot;（改编自胡安·拉蒙·希梅内斯同名小说）</dd>
 <dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 演出时间为毕业典礼（graduación）结束后，原文未给出具体钟点，请关注学校另行通知典礼时间</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 演出时间为毕业典礼结束后，具体时刻以典礼结束为准，请家长预留充足时间</dd>
 <dt>原文关键词</dt><dd>Festival fin de curso, teatro, Platero, vestuario, graduación, polideportivo</dd>
 </dl>
 <div class="raw">原文摘录：PREPARATORY A
@@ -625,62 +665,62 @@ VENUE: secondary school sports hall.
 </div>
 <div id="event-5">
 <article class="event">
-<h4>#5 【马德里天文馆教育参观】<span class="es">Excursión al Planetario de Madrid</span></h4>
+<h4>#5 【校外参观：马德里天文馆】<span class="es">Trip/Excursión: Planetario de Madrid</span></h4>
 <div><span class="pill">Primaria / 小学</span></div>
 <dl>
 <dt>适用对象</dt><dd>小学二年级（2º Primaria）（2º PRIMARIA）</dd>
 <dt>关键时间</dt><dd>2026-05-05  10:45 – 13:45</dd>
-<dt>地点</dt><dd>马德里天文馆，Tierno Galván 公园，天文馆大道16号，Arganzuela 区，邮编28045 / Planetario de Madrid, Parque Tierno Galván, Av. del Planetario, 16, Arganzuela, 28045, Madrid</dd>
-<dt>家长需要做</dt><dd>确保孩子当天穿好完整校服，并按时送达学校（出发时间 10:45，请务必准时）</dd>
+<dt>地点</dt><dd>马德里天文馆，Tierno Galván 公园内，天文馆大道16号，Arganzuela 区，邮编28045 / Planetario de Madrid, Parque Tierno Galván, Av. del Planetario, 16, Arganzuela, 28045, Madrid</dd>
+<dt>家长需要做</dt><dd>确认孩子当天穿好完整校服；注意所在班级对应的出行日期（2ºC 为5月5日，2ºA 和 2ºB 为5月12日），并确保孩子按时到校以保证10:45准时出发</dd>
 <dt>孩子需要准备</dt><dd>须穿着完整校服（full school uniform / correctamente uniformados）</dd>
 <dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 分两批出行，日期按班级不同：2º C 为 5月5日（2026-05-05）；2º A 和 2º B 为 5月12日（2026-05-12）。本记录首日取 2026-05-05，2º A/B 家长请注意实际日期为 2026-05-12。⚠️ 活动全程由班主任及天文馆教育人员共同监督。</dd>
-<dt>原文关键词</dt><dd>Planetario, excursión, astronomía, sistema solar, uniforme, 2º Primaria</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 两个班次日期不同：2º C → 5月5日；2º A、2º B → 5月12日（本记录首日取5月5日，请家长核对自己孩子所在班级）。⚠️ 学校特别强调须准时（rogamos puntualidad），出发时间为10:45，请勿迟到。</dd>
+<dt>原文关键词</dt><dd>Planetario, excursión, 2º Primaria, sistema solar, astronomía, uniforme</dd>
 </dl>
 <div class="raw">原文摘录：La visita se llevará a cabo en dos turnos según el grupo:
 • 5 de mayo: Grupo de 2º C.
 • 12 de mayo: Grupos de 2º A y 2º B.
-Los horarios previstos son:
+Para asegurar el correcto desarrollo de la jornada, rogamos puntualidad. Los horarios previstos son:
 • Salida del colegio: 10:45 h.
 • Inicio de la visita: 11:30 h.
 • Duración de la actividad: 2 horas aproximadamente.
 • Regreso al centro: 13:45 h.
 Como siempre, les recordamos que los alumnos deben asistir correctamente uniformados.</div>
-<div><a class="btn" href="./events/05-excursion-al-planetario-de-madrid.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+<div><a class="btn" href="./events/05-trip-excursion-planetario-de-madrid.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-6">
 <article class="event">
-<h4>#6 【校外参观：国家考古博物馆】<span class="es">Trip/Excursión: Museo Arqueológico</span></h4>
+<h4>#6 【校外参观：国家考古博物馆】<span class="es">Trip/Excursión: Museo Arqueológico Nacional</span></h4>
 <div><span class="pill">Primaria / 小学</span></div>
 <dl>
-<dt>适用对象</dt><dd>小学四年级（4ºA、4ºB、4ºC 全部班级）（4º PRIMARIA）</dd>
+<dt>适用对象</dt><dd>小学四年级（4ºA、4ºB、4ºC）（4º PRIMARIA）</dd>
 <dt>关键时间</dt><dd>2026-05-06  10:45 – 13:15</dd>
 <dt>地点</dt><dd>国家考古博物馆，马德里塞拉诺街13号 / Museo Arqueológico Nacional, Calle de Serrano, 13, Madrid</dd>
-<dt>家长需要做</dt><dd>留意出行当天（5月6日）孩子按时到校，确保10:45前到位；原文未提及需签署同意书或缴费，如有后续通知请关注学校跟进信息。</dd>
-<dt>孩子需要准备</dt><dd>无需特别准备；参观内容涵盖史前史、前罗马民族（pueblos prerromanos）及罗马帝国，可提前与孩子回顾课堂相关内容。</dd>
+<dt>家长需要做</dt><dd>留意出行当天（5月6日）孩子按时到校，确保10:45前到位准备出发；如有疑问可联系班主任。</dd>
+<dt>孩子需要准备</dt><dd>无需携带特殊材料；与班主任及博物馆教育人员全程同行，注意遵守参观纪律。</dd>
 <dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 原文未提及需缴费或提交授权书，但校外活动通常需要家长签字同意，请留意学校是否有后续补充通知。⚠️ 预计返校时间13:15，接送安排请按正常放学时间，无需提前到校。</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 三个班级（4ºA、4ºB、4ºC）同日出行，全程由各班班主任及博物馆专业导览人员陪同。导览内容涵盖史前史、前罗马民族、罗马帝国三大主题，参观时长约90分钟。预计13:15返校，家长可据此安排接送。</dd>
 <dt>原文关键词</dt><dd>Museo Arqueológico Nacional, excursión, 4º Primaria, Prehistoria, Imperio Romano, visita educativa</dd>
 </dl>
-<div class="raw">原文摘录：Los alumnos de 4º de Primaria realizarán una visita educativa al Museo Arqueológico Nacional, situado en la Calle de Serrano, 13 (Madrid), el próximo 6 de mayo. [...] Horarios previstos: Salida del colegio: 10:45 h. Entrada al museo: 11:30 h. Regreso aproximado al centro: 13:15 h (la visita tiene una duración de 90 minutos). Todos los grupos (4ºA, 4ºB y 4ºC) realizarán la actividad el mismo día, acompañados por sus respectivos tutores y el personal del museo.</div>
-<div><a class="btn" href="./events/06-trip-excursion-museo-arqueologico.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1wHy804GtgUszFe9aTsKG9uB-5zwKOfLz/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+<div class="raw">原文摘录：los alumnos de 4º de Primaria realizarán una visita educativa al Museo Arqueológico Nacional, situado en la Calle de Serrano, 13 (Madrid), el próximo 6 de mayo. [...] Horarios previstos: • Salida del colegio: 10:45 h. • Entrada al museo: 11:30 h. • Regreso aproximado al centro: 13:15 h (la visita tiene una duración de 90 minutos).</div>
+<div><a class="btn" href="./events/06-trip-excursion-museo-arqueologico-nacion.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1wHy804GtgUszFe9aTsKG9uB-5zwKOfLz/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-7">
 <article class="event">
-<h4>#7 【2026-2027学年高中奖学金申请通知】<span class="es">Becas de Bachillerato 2026-2027</span></h4>
+<h4>#7 【2026-2027学年高中阶段奖学金申请】<span class="es">Becas de Bachillerato 2026-2027</span></h4>
 <div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
 <dl>
-<dt>适用对象</dt><dd>初四（4º ESO）至高一（1º Bachillerato）学生家庭；⚠️ 国际文凭课程（Bachillerato Internacional / IB Diploma）学生明确排除在外（4º ESO - 1º BACHILLERATO）</dd>
+<dt>适用对象</dt><dd>四年级ESO（初四）至一年级Bachillerato（高一）学生；⚠️ 国际文凭课程（Bachillerato Internacional / IB Diploma）学生除外（4º ESO - 1º BACHILLERATO）</dd>
 <dt>关键时间</dt><dd>2026-05-05</dd>
-<dt>地点</dt><dd>马德里自治区官方电子政务平台（线上申请） / sede.comunidad.madrid（在线申请）</dd>
-<dt>家长需要做</dt><dd>1. 确认子女是否就读 Bachillerato LOMLOE（非 IB Diploma）课程，符合条件方可申请。2. 在申请窗口开放期间（2026年5月5日起15个工作日内）登录上方链接，按要求提交奖学金申请材料。3. 仔细阅读附件中的完整 Orden 1534/2026，了解具体资格要求、所需文件及提交方式。</dd>
-<dt>孩子需要准备</dt><dd>无需学生单独操作，由家长完成申请；学生需确认自己修读的是 Bachillerato LOMLOE 课程。</dd>
-<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方网站在线提交申请：https://sede.comunidad.madrid/ayudas-becas-subvenciones/becas-bachillerato-2026-2027；付款 否；费用 奖学金申请本身免费</dd>
+<dt>地点</dt><dd>马德里自治区官方网站（线上申请） / sede.comunidad.madrid（在线申请）</dd>
+<dt>家长需要做</dt><dd>1. 确认孩子是否就读 Bachillerato LOMLOE（非IB课程）；2. 在申请窗口期内（2026年5月5日起15个工作日）登录上方链接，查阅完整要求并提交奖学金申请；3. 仔细阅读学校附件中的 Orden 1534/2026 全文，了解资格条件、所需材料及提交方式。</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方网站在线提交申请：https://sede.comunidad.madrid/ayudas-becas-subvenciones/becas-bachillerato-2026-2027；付款 否；费用 奖学金（免费申请，资助金额见官方文件）</dd>
 <dt>截止日期</dt><dd class="warn">2026-05-26</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 申请窗口为自2026年5月5日起的15个工作日（hábiles），截止日期约为2026年5月26日前后，请务必提前确认官方日历中的节假日以免误算。⚠️ 就读 IB Diploma（国际文凭）课程的学生明确被排除在本次奖学金申请资格之外，学校对此表示遗憾。</dd>
-<dt>原文关键词</dt><dd>becas, Bachillerato, LOMLOE, Comunidad de Madrid, Orden 1534/2026, solicitud</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 申请截止日为自2026年5月5日起15个工作日（hábiles）后，约为2026年5月26日前后，请以官方公告为准，勿拖延。⚠️ 就读 Programa Diploma del Bachillerato Internacional（IB文凭课程）的学生明确被排除在资助范围之外，无法申请。</dd>
+<dt>原文关键词</dt><dd>becas, Bachillerato, LOMLOE, Orden 1534/2026, solicitud, Comunidad de Madrid</dd>
 </dl>
 <div class="raw">原文摘录：El plazo para la presentación de solicitudes estará abierto durante 15 días hábiles a partir de mañana 5 de mayo.
 
@@ -695,31 +735,31 @@ Desde el Centro les informamos, que los destinatarios de las ayudas son alumnos 
 <dl>
 <dt>适用对象</dt><dd>就读于马德里自治区经授权私立学校高中阶段（Bachillerato 1º 或 2º）的学生（(LOMLOE) Bachillerato — centros privados autorizados, Comunidad de Madrid）</dd>
 <dt>关键时间</dt><dd>2026-05-04</dd>
-<dt>地点</dt><dd>马德里自治区——经教育、科学与大学事务厅授权的私立学校 / Comunidad de Madrid — centros privados autorizados por la Consejería de Educación, Ciencia y Universidades</dd>
-<dt>家长需要做</dt><dd>1. 确认孩子是否符合申请资格（已在私立授权学校报名/预留 2026-2027 学年 Bachillerato 学位、非留级生、家庭人均年收入 ≤35,913€）。2. 准备 2024 年度家庭收入证明及孩子最近一学年成绩单。3. 在截止日期前（公告发布后 15 个工作日内，约 2026-05-23）通过官方渠道提交申请。</dd>
-<dt>孩子需要准备</dt><dd>提供最近一个已完成学年的最终成绩（用于学术评分，5–10分对应0.5–2分加分）；确保全学年持续满足申请条件。</dd>
-<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方网站（www.comunidad.madrid）或全国补贴数据库（https://www.infosubvenciones.es/bdnstrans/GE/es/index）提交申请；具体申请方式请参阅完整公告原文。；付款 否；费用 奖学金金额：家庭人均年收入 ≤10,000€ 者每年 3,750€（每月 375€，9月至次年6月共10个月）；人均收入 10,000.01€–35,913€ 者每年 2,000€（每月 200€）。若学费总额低于奖学金金额，则按实际学费发放。</dd>
+<dt>地点</dt><dd>马德里自治区（经教育厅授权的私立学校） / Comunidad de Madrid（centros privados autorizados）</dd>
+<dt>家长需要做</dt><dd>1. 确认孩子是否符合申请资格（见注意事项）；2. 准备2024年度家庭收入证明（用于计算人均收入）及孩子最近一学年成绩单；3. 在截止日期前（2026年5月23日，即公告发布后15个工作日内）通过官方渠道提交申请。</dd>
+<dt>孩子需要准备</dt><dd>提供最近一学年最终成绩（用于学术评分，满分2分）；确保已完成2026-2027学年的入学注册或占位预约（reserva de plaza）。</dd>
+<dt>报名/付款</dt><dd>报名 是；通过马德里自治区官方渠道提交申请：可查阅 www.comunidad.madrid 或国家补贴数据库 https://www.infosubvenciones.es/bdnstrans/GE/es/index 获取完整申请文件及流程；付款 否；费用 奖学金（无需缴费）：家庭人均年收入 ≤10,000€ 者每年最高 3,750€（每月 375€，9月至次年6月共10个月）；人均收入 10,000.01€–35,913€ 者每年 2,000€（每月 200€）。若学费总额低于奖学金金额，则按实际学费发放。</dd>
 <dt>截止日期</dt><dd class="warn">2026-05-23</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 截止日期为公告（2026-05-04）发布次日起第15个工作日，预计约为 2026-05-23，请以官方原文计算为准，勿拖延。⚠️ 留级生（repetidor）不具备申请资格。⚠️ 申请条件须在整个 2026-2027 学年持续满足，否则可能取消资格。⚠️ 评分标准：收入越低得分越高（最高8分）；学术成绩最高加2分；名额有限，按总分排名发放至预算用尽为止。</dd>
-<dt>原文关键词</dt><dd>beca, Bachillerato, centro privado, Comunidad de Madrid, renta per cápita, convocatoria 2026-2027</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 申请资格要求（三项须同时满足）：①已在马德里自治区授权私立学校注册或预约2026-2027学年高中课程；②非留级生（no repetidor）；③家庭人均年收入不超过35,913€。以上条件须在整个2026-2027学年持续满足。⚠️ 截止日期为公告发布日（2026年5月4日，周一）次日起算15个工作日，即约2026年5月23日（请以官方公告为准，注意排除节假日）。⚠️ 评分标准：收入越低得分越高（0–8分）；学术成绩5–10分对应0.5–2分；总分高者优先获批，额度用尽为止。</dd>
+<dt>原文关键词</dt><dd>beca Bachillerato, centros privados, Comunidad de Madrid, renta per cápita, plazo solicitud, curso 2026-2027</dd>
 </dl>
-<div class="raw">原文摘录：Sexto. Plazo de presentación de solicitudes: El plazo de presentación de solicitudes será de quince días hábiles a contar desde el día siguiente al de la publicación de este extracto en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID. / Segundo. Beneficiarios: c) No superar el límite de renta per cápita familiar de 35.913 euros. / Quinto. Cuantía de la beca: La cuantía total de la beca será de 3.750 euros anuales... en los supuestos de renta per cápita familiar hasta 10.000 euros y de 2.000 euros anuales... en los supuestos de renta per cápita familiar comprendida entre 10.000,01 y 35.913 euros.</div>
+<div class="raw">原文摘录：Segundo. Beneficiarios: Serán destinatarios de las ayudas los alumnos que a la fecha de finalización del plazo de presentación de solicitudes reúnan los requisitos previstos en el artículo 4 de las bases reguladoras: a) Estar matriculado o tener reserva de plaza para el curso completo del año escolar 2026-2027, en cualquiera de los dos cursos de Bachillerato del sistema educativo español, en régimen privado, en un centro privado autorizado por la Consejería de Educación, Ciencia y Universidades, ubicado en el ámbito territorial de la Comunidad de Madrid. b) No ser alumno repetidor del curso para el que se solicita la beca. c) No superar el límite de renta per cápita familiar de 35.913 euros. Sexto. Plazo de presentación de solicitudes: El plazo de presentación de solicitudes será de quince días hábiles a contar desde el día siguiente al de la publicación de este extracto en el BOLETÍN OFICIAL DE LA COMUNIDAD DE MADRID.</div>
 <div><a class="btn" href="./events/08-becas-de-bachillerato-2026-2027.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1JIQRoJAN5cm0-g61tbRtkgRmvkY9VHzz/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-9">
 <article class="event">
-<h4>#9 【&quot;大型律所&quot;奖学金项目（ISDE 合作）】<span class="es">Becas &quot;Grandes Firmas&quot; / &quot;Top Law Firms&quot; Scholarship Programme</span></h4>
+<h4>#9 【&quot;大型律所&quot;奖学金项目 – ISDE 合作】<span class="es">Becas &quot;Grandes Firmas&quot; / &quot;Top Law Firms&quot; Scholarship Programme – ISDE</span></h4>
 <div><span class="pill">Bachillerato / 高中</span></div>
 <dl>
 <dt>适用对象</dt><dd>高中阶段（Bachillerato）学生（BACHILLERATO）</dd>
 <dt>关键时间</dt><dd>2026-05-04</dd>
-<dt>地点</dt><dd>(原文未说明)</dd>
-<dt>家长需要做</dt><dd>1. 阅读随函附上的宣传册，了解奖学金细则及课程信息；2. 若子女有意向，及时联系学校获取申请方式；3. 关注后续学校通知，确认申请截止日期</dd>
-<dt>孩子需要准备</dt><dd>有意申请的学生需具备优秀学业成绩（expediente académico）；对法学方向（Grado en Derecho + Máster de Especialización）感兴趣</dd>
-<dt>报名/付款</dt><dd>报名 原文未说明；如需了解详情或报名，请直接联系学校；附件宣传册（folleto informativo）中有进一步说明；付款 否；费用 奖学金本身免费；所覆盖的课程（Grado en Derecho + Máster）学费原文未列明，奖学金可抵扣 50% 或 30%</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 原文未注明申请截止日期，请尽快联系学校确认。⚠️ 奖学金按学业成绩排名发放：第一名获 50% 减免，第二名获 30% 减免，名额有限。⚠️ 该项目由 ISDE（Instituto Superior de Derecho y Economía）提供，非本校学费减免，适用于其法学学位+专业硕士课程。</dd>
-<dt>原文关键词</dt><dd>becas, Grandes Firmas, ISDE, Grado en Derecho, expediente académico, Máster de Especialización</dd>
+<dt>地点</dt><dd>ISDE（法律与经济高等学院），具体校区原文未说明 / ISDE (Instituto Superior de Derecho y Economía)</dd>
+<dt>家长需要做</dt><dd>阅读随信附上的奖学金宣传册（folleto informativo）；如有意向或疑问，联系学校获取更多信息</dd>
+<dt>孩子需要准备</dt><dd>保持优异的学业成绩（expediente académico），成绩排名越高，获得奖学金比例越大；有意向攻读法学（Derecho）+ 专业硕士的学生可重点关注</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；原文未说明具体报名方式，如需了解请联系学校；付款 原文未说明；费用 奖学金覆盖学费折扣：第一名学术成绩可获 50% 奖学金，第二名可获 30% 奖学金（针对 ISDE 法学学位 + 专业硕士课程学费）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 奖学金按学业成绩排名发放，仅限成绩最优的两名学生（第一名 50%，第二名 30%），竞争名额极少，请尽早关注孩子成绩情况。⚠️ 该项目面向有意学习法学的学生，课程特色为从第一年起即有强制实习（prácticas obligatorias），并与国际顶级律所合作，就业率超 98%。</dd>
+<dt>原文关键词</dt><dd>becas, Grandes Firmas, ISDE, expediente académico, Grado en Derecho, Máster de Especialización</dd>
 </dl>
 <div class="raw">原文摘录：Dotación de las becas:
 • 50% de beca para el mejor expediente académico
@@ -735,17 +775,17 @@ Estas becas están orientadas a estudiantes interesados en cursar el Grado en De
 </div>
 <div id="event-10">
 <article class="event">
-<h4>#10 【&quot;顶级律所&quot;奖学金 —— ISDE 法学学位项目】<span class="es">Becas &quot;Grandes Firmas&quot; – Grado en Derecho ISDE</span></h4>
+<h4>#10 【&quot;顶级律所&quot;奖学金 – ISDE 法学学位】<span class="es">Becas &quot;Grandes Firmas&quot; – Grado en Derecho ISDE</span></h4>
 <div><span class="pill">Bachillerato / 高中</span><span class="pill">IBDP</span></div>
 <dl>
-<dt>适用对象</dt><dd>LOMLOE 及 IB 文凭课程阶段学生（高中毕业/即将升大学）（LOMLOE-IBDP）</dd>
+<dt>适用对象</dt><dd>LOMLOE 及 IB 文凭课程阶段学生（即将升读大学的高中生）（LOMLOE-IBDP）</dd>
 <dt>关键时间</dt><dd>(原文未说明)</dd>
-<dt>地点</dt><dd>ISDE 法律与经济高等学院，马德里 / ISDE (Instituto Superior de Derecho y Economía), Madrid</dd>
-<dt>家长需要做</dt><dd>若子女有意攻读法学学位（Grado en Derecho）且尚未在 ISDE 注册，可代为或协助联系 ISDE 招生办公室申请奖学金：邮件 admisionesgrado@isde.es / 电话 (+34) 914 361 796</dd>
-<dt>孩子需要准备</dt><dd>准备优秀学业成绩单（expediente académico），成绩排名越高，获得奖学金比例越大（第一名 50%，第二名 30%）</dd>
-<dt>报名/付款</dt><dd>报名 是；发送邮件至 admisionesgrado@isde.es 或致电 (+34) 914 361 796 申请奖学金（&quot;ACCEDE A LA BECA GRANDES FIRMAS&quot;）；付款 原文未说明；费用 第一名：学费减免 50%；第二名：学费减免 30%</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 奖学金仅面向尚未在 ISDE 注册入学的学生（&quot;Oferta de Beca disponible a estudiantes sin matricula en ISDE&quot;）。⚠️ 原文未注明申请截止日期，建议尽早联系招生办确认。⚠️ 奖学金适用于 Grado en Derecho 下所有专业方向（含体育管理、国际关系、金融、数字 MBA 等联合学位）。</dd>
-<dt>原文关键词</dt><dd>Beca Grandes Firmas, Grado en Derecho, ISDE, expediente académico, admisiones, empleabilidad</dd>
+<dt>地点</dt><dd>ISDE（西班牙，具体校区原文未说明；通过邮件/电话联系） / ISDE (contacto: admisionesgrado@isde.es)</dd>
+<dt>家长需要做</dt><dd>如子女有意报读 ISDE 法学学位（Grado en Derecho）并申请奖学金，请通过邮件 admisionesgrado@isde.es 或电话 (+34) 914 361 796 联系 ISDE 招生办，了解申请流程及所需材料</dd>
+<dt>孩子需要准备</dt><dd>准备优秀的学业成绩单（expediente académico）；奖学金按成绩排名发放，第一名获 50% 学费减免，第二名获 30% 减免。须为尚未在 ISDE 注册的学生方可申请。</dd>
+<dt>报名/付款</dt><dd>报名 是；发送邮件至 admisionesgrado@isde.es，或致电 (+34) 914 361 796；付款 原文未说明；费用 奖学金覆盖学费的 50%（第一名）或 30%（第二名）；其余部分需自行承担</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 共设两个名额，竞争激烈，建议尽早联系招生办确认截止日期及具体申请要求。⚠️ 原文明确注明&quot;Oferta de Beca disponible a estudiantes sin matrícula en ISDE&quot;，即已在 ISDE 注册的学生不具备申请资格。</dd>
+<dt>原文关键词</dt><dd>Becas Grandes Firmas, Grado en Derecho, ISDE, expediente académico, admisionesgrado, empleabilidad</dd>
 </dl>
 <div class="raw">原文摘录：BECA GRANDES FIRMAS
 Despachos, firmas y consultoras colaboradoras de nuestros programas han solicitado participar en la concesión de becas al estudio dirigidas a alumnos destacados.
@@ -763,16 +803,21 @@ En este marco, se ofrecen dos becas para estudiantes interesados en cursar cualq
 <dl>
 <dt>适用对象</dt><dd>国际文凭课程（DP）二年级学生（2º IBDP）</dd>
 <dt>关键时间</dt><dd>2026-05-25</dd>
-<dt>地点</dt><dd>线上直播（Autoescuela Merinero 平台）+ 学校内进行实际驾驶练习 / Online en directo (plataforma Autoescuela Merinero) + Brains International School La Moraleja</dd>
-<dt>家长需要做</dt><dd>1. 在 2026-05-18 前填写附件报名表并接受课外活动条款；2. 报名截止后直接向 Autoescuela Merinero 支付理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费；3. 如有疑问发邮件至 extraescolares.mor@colegiobrains.com</dd>
-<dt>孩子需要准备</dt><dd>参加每日3小时在线直播理论课（25–29 May），并在平台上完成辅导与自学任务，累计完成40学时理论培训</dd>
-<dt>报名/付款</dt><dd>报名 是；填写随通知附上的报名表，并接受课外活动条款；由学校秘书处通过在线表单统一管理。联系邮箱：extraescolares.mor@colegiobrains.com；付款 是；费用 • 理论课（强化在线直播，40学时）：€50（含税），家长直接付给 Autoescuela Merinero
+<dt>地点</dt><dd>线上直播（Autoescuela Merinero 平台）+ 学校内实际驾驶课 / Online en directo (plataforma Autoescuela Merinero) + clases prácticas en Brains International School La Moraleja</dd>
+<dt>家长需要做</dt><dd>1. 在 2026年5月18日前，填写附件报名表并接受课外活动条款，通过学校在线表单提交报名。
+2. 报名后直接向 Autoescuela Merinero 缴纳理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费。
+3. 如有疑问，发邮件至 extraescolares.mor@colegiobrains.com。</dd>
+<dt>孩子需要准备</dt><dd>参加每日3小时线上直播理论课（5月25日至29日，共5天），并在平台上完成辅导及自学任务，累计完成40小时理论培训。</dd>
+<dt>报名/付款</dt><dd>报名 是；填写随通知附上的报名表，并接受课外活动条款；由学校秘书处（Secretaría）通过在线表单统一管理。截止日期：2026年5月18日（周一）。咨询邮箱：extraescolares.mor@colegiobrains.com；付款 是；费用 • 理论课（线上强化，40小时）：€50（含税），家长直接付给 Autoescuela Merinero
 • 实际驾驶课（每节45分钟）：€35（含税），家长直接付给 Autoescuela Merinero
-• 报名费：€45/人，由学校代付给驾校（含数字教材及平台使用权）
+• 报名费：€45/人，由学校代付给驾校（含数字教材及平台使用权），家长无需另付此项
 • DGT 官方考试费：家长直接缴纳，Brains 学生享优惠条件</dd>
 <dt>截止日期</dt><dd class="warn">2026-05-18</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名截止日为 2026-05-18（周一），逾期不受理。⚠️ 理论课费、实际驾驶课费及 DGT 考试费均须家长直接付给驾校，学校仅代付 €45 报名费。⚠️ 实际驾驶练习期间已涵盖民事责任险及强制车险。</dd>
-<dt>原文关键词</dt><dd>carné de conducir, Autoescuela Merinero, Diploma Programme, Permiso B, DGT, curso intensivo online</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名截止日期为 2026年5月18日，逾期不受理。
+⚠️ 理论课为线上强化形式，5月25日至29日每天3小时直播，学生须保证出勤。
+⚠️ DGT 官方考试费金额原文未列明，家长需向 Autoescuela Merinero 确认具体金额。
+⚠️ 实际驾驶课节数及总费用视个人情况而定，原文未给出固定总价。</dd>
+<dt>原文关键词</dt><dd>carné de conducir, Autoescuela Merinero, Permiso B, DGT, curso intensivo online, Diploma Programme</dd>
 </dl>
 <div class="raw">原文摘录：Permiso B – Diploma Programme (DP) students
 Format: An intensive live online course, with active student participation and daily online follow-up to complete the 40 hours of theoretical training.
@@ -789,67 +834,67 @@ Registrations will be managed by the School Office, via the online form, until 1
 </div>
 <div id="event-12">
 <article class="event">
-<h4>#12 【驾校合作项目（Brains × Autoescuela Merinero）】<span class="es">Autoescuela Merinero – Programa de Conducir (Convenio Brains)</span></h4>
+<h4>#12 【驾校合作项目 — Merinero 驾校（Brains La Moraleja 校区）】<span class="es">Autoescuela Merinero – Programa de Carné de Conducir (Brains International School La Moraleja)</span></h4>
 <div><span class="pill">Bachillerato / 高中</span></div>
 <dl>
-<dt>适用对象</dt><dd>高中二年级（B照线下班）；DP课程（B照线上强化班）；可选：AM微型车 / 摩托车（2.º de Bachillerato (Permiso B presencial); DP (Intensivo B online); opcionalmente AM (Microcar) y Moto）</dd>
+<dt>适用对象</dt><dd>高中二年级（Bachillerato 2年级，B照线下班）；DP课程学生（B照线上强化班）；可选：AM微型车照 / 摩托车照（2.º de Bachillerato (Permiso B presencial); DP (Intensivo B online en directo); opcionalmente AM (Microcar) y Moto）</dd>
 <dt>关键时间</dt><dd>2025-11-19  15:30 – 17:30</dd>
-<dt>地点</dt><dd>Brains La Moraleja 校内（线下课）；DP 为线上直播 / Brains International School La Moraleja（clases presenciales en centro）</dd>
-<dt>家长需要做</dt><dd>1. 填写报名表（Hoja de Inscripción），附上学生及家长/监护人 DNI 正反面复印件，签字后提交学校。
-2. 在表格中勾选&quot;肖像权&quot;及&quot;数据共享&quot;两项授权意向（同意/不同意）。
-3. 等待秘书处邮件确认名额（先到先得，满员后进入候补名单）。
-4. 确认名额后，直接向 Autoescuela Merinero 缴纳理论课费、练车费及DGT考试费。
-5. 如需退课，须以书面形式发送至 extraescolares.mor@colegiobrains.com；已确认入学后，学校代缴的45€注册费不予退还。</dd>
-<dt>孩子需要准备</dt><dd>• B照路考要求年满18岁，请确认考试时孩子是否已达到年龄要求。
-• 保证出勤率和准时到课（家庭须承诺配合）。
-• 遵守 Autoescuela Merinero 及学校的内部规定。</dd>
-<dt>报名/付款</dt><dd>报名 是；填写纸质报名表（Hoja de Inscripción）并提交至学校；学校秘书处通过电子邮件确认名额。咨询：extraescolares.mor@colegiobrains.com / Tel. 91 650 43 00；付款 是；费用 • 理论课（B照线下/DP线上）：50 €/月（含税）
-• 实际驾驶练习（45分钟/节）：35 €/节（含税）
-• DGT官方考试费（笔试+路考）：由家庭自行承担，金额按DGT标准
-• 注册费（matrícula）：45 €，由学校代缴，家庭无需另付
-• 注意：学校每月不向家庭收费，仅代缴注册费</dd>
+<dt>地点</dt><dd>Brains La Moraleja 校区（线下课）；线上直播（DP强化班） / Brains International School La Moraleja（presencial）; online en directo（DP intensivo）</dd>
+<dt>家长需要做</dt><dd>1. 填写并签署报名表（HOJA DE INSCRIPCIÓN），附上学生DNI正反面复印件；
+2. 在表格中勾选&quot;图像/姓名使用&quot;及&quot;数据共享&quot;两项授权意向（同意/不同意）；
+3. 将报名表提交至学校 Secretaría，等待邮件确认名额；
+4. 名额确认后，直接向 Autoescuela Merinero 缴纳理论课费（50 €/月）、实操课费（35 €/节）及DGT考试费；
+5. 如需退课或变更，须以书面形式发送至 extraescolares.mor@colegiobrains.com</dd>
+<dt>孩子需要准备</dt><dd>按时出席课程（周三、周四 15:30–17:00；周五 15:30–17:30）；参加路考前须年满18周岁；遵守 Autoescuela Merinero 及学校内部规定</dd>
+<dt>报名/付款</dt><dd>报名 是；填写纸质报名表（HOJA DE INSCRIPCIÓN）并提交至学校；Secretaría 将通过电子邮件确认名额。咨询邮箱：extraescolares.mor@colegiobrains.com；电话：91 650 43 00；付款 是；费用 • 理论课（线下/线上）：50 €/月（含IVA）
+• 驾驶实操课（45分钟/节）：35 €/节（含IVA）
+• DGT官方考试费（笔试+路考）：由家庭自行承担，金额以DGT为准
+• 报名费（matrícula）：45 €，由学校代缴，家庭无需另付
+• 付款方式：理论课费、实操课费及DGT考试费由家庭直接支付给 Autoescuela Merinero</dd>
 <dt>截止日期</dt><dd class="warn">2025-11-19</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额仅20个，先到先得，报满即转候补，请尽早提交报名表。
-⚠️ 报名截止日与课程开始日相同（2025-11-19），务必提前准备好DNI复印件。
-⚠️ 一旦确认入学，学校代缴的45€注册费不可退还。
-⚠️ 退课须书面通知，已付费用按驾校取消政策处理，学校不负责退款或重新安排。
-⚠️ B照路考须年满18岁方可参加，请家长提前核实孩子生日。</dd>
-<dt>原文关键词</dt><dd>autoescuela, permiso B, inscripción, extraescolares, DGT, Bachillerato</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名截止日期为 2025年11月19日，或名额满员为止，先到先得，满员后转入候补名单。
+⚠️ 参加路考（Permiso B 实际驾驶考试）须年满18周岁。
+⚠️ 学校代缴的45 €报名费一经确认概不退还。
+⚠️ 若课程已开始后退出，已缴费用按 Autoescuela Merinero 的取消政策处理，学校不承担退款责任。
+⚠️ DP强化班时间为 2026年5月25日至29日，每天3小时直播课，需配合自学完成共40小时理论课时。</dd>
+<dt>原文关键词</dt><dd>autoescuela, carné conducir, Permiso B, Bachillerato, inscripción, DGT</dd>
 </dl>
-<div class="raw">原文摘录：Permiso B – 2.º de Bachillerato: del 19/11/2025 al 30/01/2026.
- Miércoles y jueves 15:30–17:00 · Viernes 15:30–17:30
- 24 clases presenciales (40 h en total) · Máximo 20 plazas.
-Plazo de inscripción: hasta el 19 de noviembre de 2025 o hasta completar plazas.
-Teoría (Presencial / Online): 50 €/mes (IVA incl.) · Prácticas (45 min): 35 € (IVA incl.) por sesión.
+<div class="raw">原文摘录：Plazo de inscripción: hasta el 19 de noviembre de 2025 o hasta completar plazas.
+Las solicitudes se atenderán por orden de llegada; al llenarse el cupo, se abrirá lista de espera.
+Teoría (Presencial / Online): 50 €/mes (IVA incl.) en B · 50 € (IVA incl.) en el intensivo DP.
+Prácticas (45 min): 35 € (IVA incl.) por sesión.
 Tasas oficiales DGT (teórico y práctico): a cargo de las familias.
-Matrícula: 45 € por alumno, abonada por el colegio a Autoescuela Merinero.</div>
-<div><a class="btn" href="./events/12-autoescuela-merinero-programa-de-conduci.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/15kKtj6npwTm1-nirjVaAv8Lg6J8vnz3W/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+Matrícula: 45 € por alumno, abonada por el colegio a Autoescuela Merinero (incluye plataforma y materiales).
+Requisitos de examen: para el examen práctico del Permiso B, es necesario tener cumplidos los 18 años.</div>
+<div><a class="btn" href="./events/12-autoescuela-merinero-programa-de-carne-d.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/15kKtj6npwTm1-nirjVaAv8Lg6J8vnz3W/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
 </article>
 </div>
 <div id="event-13">
 <article class="event">
-<h4>#13 【驾校报名表 – Merinero 驾校合作项目】<span class="es">Hoja de inscripción – Autoescuela Merinero (Driving School Programme)</span></h4>
+<h4>#13 【驾校报名表 – Merinero 驾校（课外驾驶课程）】<span class="es">Hoja de inscripción – Autoescuela Merinero (Driving School)</span></h4>
 <div><span class="pill">Bachillerato / 高中</span></div>
 <dl>
-<dt>适用对象</dt><dd>高中二年级（B 类驾照）、DP 课程（强化线上 B 类）、AM（微型车）、摩托车学员（2º BACHILLERATO (Category B), DP (Intensive B online), AM (Microcar), Motorcycle）</dd>
+<dt>适用对象</dt><dd>高中二年级（B 类驾照）、DP 课程学生（线上强化 B 类）、微型车（AM）及摩托车学员（2º BACHILLERATO (Category B), DP (Intensive B online), AM (Microcar), Motorcycle）</dd>
 <dt>关键时间</dt><dd>2025-11-19  15:30 – 17:30</dd>
-<dt>地点</dt><dd>Brains 国际学校 La Moraleja 校区（面授课）；DP 课程为线上直播 / Brains International School La Moraleja（课堂课）; DP 为 live online（线上直播）</dd>
-<dt>家长需要做</dt><dd>1. 填写并签署报名表（父母/监护人及学生均需签名），附上 DNI 正反面复印件后提交
-2. 直接向 Autoescuela Merinero 缴纳理论课、驾驶练习及 DGT 考试费用
-3. 如需退课或变更，须发邮件至 extraescolares.mor@colegiobrains.com
-4. 在表格中勾选是否同意使用学生肖像/姓名，以及是否同意向驾校和 DGT 共享必要信息</dd>
-<dt>孩子需要准备</dt><dd>参加 B 类实际驾驶考试时须年满 18 岁；需遵守 Autoescuela Merinero 及学校的课程规定；按时出勤</dd>
-<dt>报名/付款</dt><dd>报名 是；填写纸质报名表后提交；学校办公室将通过电子邮件确认名额。咨询邮箱：extraescolares.mor@colegiobrains.com；电话：91 650 43 00；付款 是；费用 • 理论课（面授/线上）：B 类 €50/月（含税）；DP 强化班 €50 一次性（含税）
-• 驾驶练习（45 分钟/节）：€35/节（含税）
+<dt>地点</dt><dd>Brains International School La Moraleja 校内（理论课面授）；DP 课程为线上直播 / Brains International School La Moraleja（teoría presencial）; online en vivo para DP</dd>
+<dt>家长需要做</dt><dd>1. 填写并签署随附的报名表（需附身份证正反面复印件）；
+2. 勾选表格中的数据授权选项（学生照片/姓名使用授权、信息共享驾校及 DGT 授权）；
+3. 等待学校邮件确认名额；
+4. 直接向 Autoescuela Merinero 缴纳理论课及实操费用；
+5. 如需退课或变更，须发邮件至 extraescolares.mor@colegiobrains.com</dd>
+<dt>孩子需要准备</dt><dd>参加 B 类实际驾驶考试时须年满 18 岁；遵守 Autoescuela Merinero 及学校双方规定；按时出勤</dd>
+<dt>报名/付款</dt><dd>报名 是；填写纸质报名表后提交；学校办公室将通过电子邮件确认名额。咨询邮箱：extraescolares.mor@colegiobrains.com，电话：91 650 43 00；付款 是；费用 • 理论课（面授/线上）：€50/月（含税），B 类；DP 强化班 €50（含税）一次性
+• 驾驶实操（45 分钟/节）：€35（含税）/节
 • DGT 官方考试费：由家庭直接缴纳
-• 注册费 €45：由学校代缴，家庭无需支付
-• 费用直接支付给 Autoescuela Merinero，学校不开具月度发票</dd>
+• 报名费：€45/人，由学校代缴（含平台及教材）
+⚠️ 家庭直接向 Autoescuela Merinero 缴纳理论课、实操及考试费；学校仅代缴 €45 报名费</dd>
 <dt>截止日期</dt><dd class="warn">2025-11-19</dd>
-<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名截止日期为 2025 年 11 月 19 日，或名额满员即止，先到先得，满员后进入候补名单。
-⚠️ B 类（2º Bachillerato）课程共 24 节课（40 小时），每周三、四 15:30–17:00，周五 15:30–17:30，最多 20 人。
-⚠️ 学校代缴的 €45 注册费一旦确认报名即不予退还。
-⚠️ 退课后，已付给驾校的费用按驾校自身退款政策处理，学校不负责退款或补课安排。
-⚠️ DP 强化班：2026 年 5 月 25 日–29 日，每天 3 小时线上直播 + 个人跟进课，共完成 40 小时理论。</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额上限：B 类面授班最多 20 人，先到先得，满员后进入候补名单。
+⚠️ 报名截止：2025 年 11 月 19 日或名额满员为止。
+⚠️ 退课政策：课程开始后退课，已付驾校费用按驾校退款政策处理；学校代缴的 €45 报名费一经确认不予退还。
+⚠️ B 类课程时间：2025/11/19–2026/01/30，每周三、四 15:30–17:00，周五 15:30–17:30，共 24 节（40 学时）。
+⚠️ DP 强化班：2026/05/25–05/29，每天 3 小时线上直播。
+⚠️ AM/摩托车班：时间按需求另行安排。</dd>
 <dt>原文关键词</dt><dd>inscripción, autoescuela, carnet de conducir, 2º Bachillerato, DP, DGT</dd>
 </dl>
 <div class="raw">原文摘录：Category B – 2 BACHILLERATO: from 19/11/2025 to 30/01/2026. Wednesdays and Thursdays 15:30–17:00; Fridays 15:30–17:30. 24 classroom sessions (40 hours in total). Maximum 20 students.
@@ -868,15 +913,15 @@ Registration deadline: until 19 November 2025 or until all places are filled. Re
 <p>单独添加某个事项：</p><ul>
 <li><a href="./events/02-celebracion-san-isidro.ics">📅 圣伊西德罗节庆活动</a></li>
 <li><a href="./events/03-trip-excursion-parque-europa.ics">📅 校外活动：欧洲公园（Parque Europa）</a></li>
-<li><a href="./events/04-festival-de-fin-de-curso-drama-performan.ics">📅 年终戏剧节 – PREPARATORY A 班《Platero》</a></li>
-<li><a href="./events/05-excursion-al-planetario-de-madrid.ics">📅 马德里天文馆教育参观</a></li>
-<li><a href="./events/06-trip-excursion-museo-arqueologico.ics">📅 校外参观：国家考古博物馆</a></li>
-<li><a href="./events/07-becas-de-bachillerato-2026-2027.ics">📅 2026-2027学年高中奖学金申请通知</a></li>
+<li><a href="./events/04-festival-de-fin-de-curso-drama-performan.ics">📅 年终戏剧节 – PREPARATORY A 班</a></li>
+<li><a href="./events/05-trip-excursion-planetario-de-madrid.ics">📅 校外参观：马德里天文馆</a></li>
+<li><a href="./events/06-trip-excursion-museo-arqueologico-nacion.ics">📅 校外参观：国家考古博物馆</a></li>
+<li><a href="./events/07-becas-de-bachillerato-2026-2027.ics">📅 2026-2027学年高中阶段奖学金申请</a></li>
 <li><a href="./events/08-becas-de-bachillerato-2026-2027.ics">📅 2026-2027学年高中阶段（Bachillerato）奖学金申请</a></li>
-<li><a href="./events/09-becas-grandes-firmas-top-law-firms-schol.ics">📅 &quot;大型律所&quot;奖学金项目（ISDE 合作）</a></li>
+<li><a href="./events/09-becas-grandes-firmas-top-law-firms-schol.ics">📅 &quot;大型律所&quot;奖学金项目 – ISDE 合作</a></li>
 <li><a href="./events/11-autoescuela-merinero-proyecto-tu-carne-d.ics">📅 驾校合作项目&quot;在 BRAINS 考驾照&quot;</a></li>
-<li><a href="./events/12-autoescuela-merinero-programa-de-conduci.ics">📅 驾校合作项目（Brains × Autoescuela Merinero）</a></li>
-<li><a href="./events/13-hoja-de-inscripcion-autoescuela-merinero.ics">📅 驾校报名表 – Merinero 驾校合作项目</a></li>
+<li><a href="./events/12-autoescuela-merinero-programa-de-carne-d.ics">📅 驾校合作项目 — Merinero 驾校（Brains La Moraleja 校区）</a></li>
+<li><a href="./events/13-hoja-de-inscripcion-autoescuela-merinero.ics">📅 驾校报名表 – Merinero 驾校（课外驾驶课程）</a></li>
 </ul>
 </section>
 <section><h2>🔗 学校原文 PDF 链接</h2><ul>

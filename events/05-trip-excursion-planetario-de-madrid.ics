@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 小学二年级（2º Primaria）\n家长: 确认孩子当天穿好完整校服；注意所在班级对应的出行日期（2ºC 为5月5日，2ºA 和 2ºB 为5月12日），并确保孩子按时到校以保证10:45准时出发\n孩子准备: 须穿着完整校服（full school uniform / correctamente uniformados）\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link
+DTEND:20260505T134500Z
+LOCATION:Planetario de Madrid\, Parque Tierno Galván\, Av. del Planetario\, 16\, Arganzuela\, 28045\, Madrid
+DTSTART:20260505T104500Z
+SUMMARY:校外参观：马德里天文馆 / Trip/Excursión: Planetario de Madrid
+UID:49d7f40026b33e35@school_helper
+END:VEVENT
+END:VCALENDAR

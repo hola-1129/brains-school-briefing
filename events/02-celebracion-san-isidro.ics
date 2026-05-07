@@ -13,7 +13,7 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260514
-DESCRIPTION:适用: 幼儿园及小学全体学生\n家长: 为孩子准备马德里传统服装或至少一件相关配饰（头巾、平顶帽、马甲、披肩、康乃馨均可），确保孩子当天穿戴上学。无需报名，无需缴费。\n孩子准备: 穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、平顶帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨等）上学。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link
+DESCRIPTION:适用: 幼儿园及小学全体学生\n家长: 为孩子准备马德里传统服装或至少一件相关配饰（头巾、帽子、康乃馨等）；无需报名或缴费，当天穿戴好送孩子上学即可。\n孩子准备: 当天可穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、丘拉波帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨 carnaciones 等）。普通校服亦可，配饰即可。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link
 LOCATION:Brains International School La Moraleja
 SUMMARY:圣伊西德罗节庆活动 / Celebración San Isidro
 UID:38a9ce8f1b0de3b8@school_helper
