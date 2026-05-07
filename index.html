@@ -97,44 +97,12 @@ footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top
 <p class="meta">Semana: 4 de MAYO 2026 · 共 13 个事项 · 生成于 2026-05-07 23:16</p>
 <a class="btn" href="./school_events.ics">📅 一键添加本周全部日历</a>
 </header>
-<section><h2>📜 今日黄历 / 本周西班牙节假日</h2>
+<section><h2>🇪🇸 本周西班牙节假日</h2>
 <div class="almanac">
-<details open><summary>今日黄历（宜 / 忌）</summary>
-<table><tr><th>日期</th><th>农历</th><th>宜</th><th>忌</th></tr>
-<tr class="almanac-row" data-date="2026-05-04"><td>2026-05-04<br><span style="color:var(--muted)">周一</span></td><td>三月十七</td><td class="yi">祭祀、祈福、出行、纳财</td><td class="ji">动土、安葬、修造、嫁娶</td></tr>
-<tr class="almanac-row" data-date="2026-05-05"><td>2026-05-05<br><span style="color:var(--muted)">周二</span></td><td>三月十八</td><td class="yi">嫁娶、祭祀、纳采、出行、安床</td><td class="ji">动土、破土、开市、安葬</td></tr>
-<tr class="almanac-row" data-date="2026-05-06"><td>2026-05-06<br><span style="color:var(--muted)">周三</span></td><td>三月十九</td><td class="yi">修造、动土、开市、立券、纳财</td><td class="ji">嫁娶、安葬、祈福、出行</td></tr>
-<tr class="almanac-row" data-date="2026-05-07"><td>2026-05-07<br><span style="color:var(--muted)">周四</span></td><td>三月二十</td><td class="yi">祭祀、祈福、嫁娶、安床、纳采</td><td class="ji">修造、动土、破土、开市</td></tr>
-<tr class="almanac-row" data-date="2026-05-08"><td>2026-05-08<br><span style="color:var(--muted)">周五</span></td><td>三月廿一</td><td class="yi">出行、开市、立券、纳财、修造</td><td class="ji">嫁娶、安葬、祭祀、祈福</td></tr>
-<tr class="almanac-row" data-date="2026-05-09"><td>2026-05-09<br><span style="color:var(--muted)">周六</span></td><td>三月廿二</td><td class="yi">祭祀、祈福、嫁娶、纳采、安床</td><td class="ji">出行、动土、破土、开市</td></tr>
-<tr class="almanac-row" data-date="2026-05-10"><td>2026-05-10<br><span style="color:var(--muted)">周日</span></td><td>三月廿三</td><td class="yi">出行、修造、动土、开市、纳财</td><td class="ji">嫁娶、安葬、祭祀、祈福</td></tr>
-<tr class="almanac-empty hidden"><td colspan="4" style="color:var(--muted);text-align:center">今日数据暂无（等待新一周更新）</td></tr>
-</table></details>
 <details open><summary>🇪🇸 本周西班牙节假日（含马德里大区）</summary>
 <ul class="holiday-list"><li class="none">本周无</li></ul>
 </details>
 </div>
-<script>
-(function(){
-  var d = new Date();
-  var today = d.getFullYear() + '-' +
-              String(d.getMonth()+1).padStart(2,'0') + '-' +
-              String(d.getDate()).padStart(2,'0');
-  var rows = document.querySelectorAll('.almanac-row');
-  var anyVisible = false;
-  rows.forEach(function(r){
-    if (r.getAttribute('data-date') === today) {
-      anyVisible = true;
-    } else {
-      r.classList.add('hidden');
-    }
-  });
-  if (!anyVisible) {
-    var empty = document.querySelector('.almanac-empty');
-    if (empty) empty.classList.remove('hidden');
-  }
-})();
-</script>
 </section>
 <section><h2>⭐ 本周重点</h2>
 <div class="priority-grid">
