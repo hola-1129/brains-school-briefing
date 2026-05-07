@@ -13,8 +13,8 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260525
-DESCRIPTION:适用: 国际文凭课程（DP）二年级学生\n家长: 1. 在 2026年5月18日前，填写附件报名表并接受课外活动条款，通过学校在线表单提交报名。\n2. 报名后直接向 Autoescuela Merinero 缴纳理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费。\n3. 如有疑问，发邮件至 extraescolares.mor@colegiobrains.com。\n孩子准备: 参加每日3小时线上直播理论课（5月25日至29日，共5天），并在平台上完成辅导及自学任务，累计完成40小时理论培训。\n报名: 是\n付款: 是\n费用: • 理论课（线上强化，40小时）：€50（含税），家长直接付给 Autoescuela Merinero\n• 实际驾驶课（每节45分钟）：€35（含税），家长直接付给 Autoescuela Merinero\n• 报名费：€45/人，由学校代付给驾校（含数字教材及平台使用权），家长无需另付此项\n• DGT 官方考试费：家长直接缴纳，Brains 学生享优惠条件\n截止: 2026-05-18\n原文: https://drive.google.com/file/d/1Guah_FEJ2tOullq421WUwIPum3T2UAtA/view?usp=drive_link
-LOCATION:Online en directo (plataforma Autoescuela Merinero) + clases prácticas en Brains International School La Moraleja
+DESCRIPTION:适用: IB文凭课程（DP）二年级学生\n家长: 1. 填写随通知附上的报名表，并接受课外活动通用条款；2. 在 5月18日前通过学校在线表格完成报名；3. 报名截止后，直接向 Autoescuela Merinero 支付理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费\n孩子准备: 参加每日3小时线上直播理论课（共5天，25–29 May），并在平台上完成辅导与自学任务，累计完成40小时理论培训\n报名: 是\n付款: 是\n费用: • 理论课（线上强化，40小时）：€50（含税），家长直接付给 Autoescuela Merinero\n• 实际驾驶课（每节45分钟）：€35（含税），家长直接付给 Autoescuela Merinero\n• 报名费：€45/人，由学校代付给驾校（含数字教材及平台使用权）\n• DGT 官方考试费：家长直接缴纳，Brains 学生享优惠条件\n截止: 2026-05-18\n原文: https://drive.google.com/file/d/1Guah_FEJ2tOullq421WUwIPum3T2UAtA/view?usp=drive_link
+LOCATION:Online en directo (plataforma Autoescuela Merinero) + Brains International School La Moraleja
 SUMMARY:驾校合作项目"在 BRAINS 考驾照" / Autoescuela Merinero – Proyecto "Tu carné de conducir en BRAINS"
 UID:39c48daf48e0ab0f@school_helper
 END:VEVENT

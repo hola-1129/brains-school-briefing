@@ -13,9 +13,9 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260505
-DESCRIPTION:适用: 四年级ESO（初四）至一年级Bachillerato（高一）学生；⚠️ 国际文凭课程（Bachillerato Internacional / IB Diploma）学生除外\n家长: 1. 确认孩子是否就读 Bachillerato LOMLOE（非IB课程）；2. 在申请窗口期内（2026年5月5日起15个工作日）登录上方链接，查阅完整要求并提交奖学金申请；3. 仔细阅读学校附件中的 Orden 1534/2026 全文，了解资格条件、所需材料及提交方式。\n报名: 是\n付款: 否\n费用: 奖学金（免费申请，资助金额见官方文件）\n截止: 2026-05-26\n原文: https://drive.google.com/file/d/1HCQGnEX7w1--1JLfflqRKhn7kG4A-ovn/view?usp=drive_link
+DESCRIPTION:适用: 初四（4º ESO）至高一（1º Bachillerato）学生家庭\n家长: 1. 确认子女是否就读 Bachillerato LOMLOE（国际文凭 IB 项目学生不在申请范围内）。2. 在截止日期前登录上方链接，仔细阅读 Orden 1534/2026 中的申请条件、所需材料及提交方式，并在线完成申请。申请窗口自 2026年5月5日起开放，共 15 个工作日。\n报名: 是\n付款: 否\n费用: 奖学金申请，无需缴费\n截止: 2026-05-26\n原文: https://drive.google.com/file/d/1HCQGnEX7w1--1JLfflqRKhn7kG4A-ovn/view?usp=drive_link
 LOCATION:sede.comunidad.madrid（在线申请）
-SUMMARY:2026-2027学年高中阶段奖学金申请 / Becas de Bachillerato 2026-2027
+SUMMARY:2026-2027学年高中奖学金（Bachillerato）申请通知 / Becas de Bachillerato 2026-2027
 UID:02e152f9e22785b5@school_helper
 END:VEVENT
 END:VCALENDAR

@@ -13,8 +13,8 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260504
-DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 阅读随信附上的奖学金宣传册（folleto informativo）；如有意向或疑问，联系学校获取更多信息\n孩子准备: 保持优异的学业成绩（expediente académico），成绩排名越高，获得奖学金比例越大；有意向攻读法学（Derecho）+ 专业硕士的学生可重点关注\n报名: 原文未说明\n付款: 原文未说明\n费用: 奖学金覆盖学费折扣：第一名学术成绩可获 50% 奖学金，第二名可获 30% 奖学金（针对 ISDE 法学学位 + 专业硕士课程学费）\n原文: https://drive.google.com/file/d/1wFVhGfIOI3LINJT1iK6wtAuwpaEoEvbL/view?usp=drive_link
-LOCATION:ISDE (Instituto Superior de Derecho y Economía)
+DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 阅读随信附上的奖学金宣传册（folleto informativo）；如有意向或疑问，联系学校获取更多信息\n孩子准备: 保持优异学业成绩（expediente académico），对法学方向感兴趣的学生可关注申请资格；具体申请流程请向学校咨询\n报名: 原文未说明\n付款: 原文未说明\n费用: 奖学金覆盖学费折扣：第一名学业成绩可获 50% 奖学金，第二名可获 30% 奖学金（针对 ISDE 法学学位 + 专业硕士课程学费）\n原文: https://drive.google.com/file/d/1wFVhGfIOI3LINJT1iK6wtAuwpaEoEvbL/view?usp=drive_link
+LOCATION:Brains International School La Moraleja / ISDE (Instituto Superior de Derecho y Economía)
 SUMMARY:"大型律所"奖学金项目 – ISDE 合作 / Becas "Grandes Firmas" / "Top Law Firms" Scholarship Programme – ISDE
 UID:1e7b24af7451c189@school_helper
 END:VEVENT

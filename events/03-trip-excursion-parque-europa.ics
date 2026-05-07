@@ -12,11 +12,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 幼儿预备班（Preparatory）\n家长: 无需报名或缴费；如有疑问请直接联系学校老师\n孩子准备: 无需自带午餐，学校统一提供；穿着舒适适合户外活动的服装（原文未明确说明，建议参考学校日常着装要求）\n报名: 否\n付款: 否\n费用: 学校提供午餐（picnic），原文未提及额外费用\n原文: https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link
+DESCRIPTION:适用: 幼儿预备班（Preparatory）\n家长: 无需报名或付费；如有疑问请直接联系学校老师\n孩子准备: 无需自带午餐，学校统一提供；建议穿着舒适便于户外活动的衣物（原文未明确说明）\n报名: 否\n付款: 否\n费用: 学校提供午餐（picnic），原文未提额外费用\n原文: https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link
 DTEND:20260507T143000Z
 LOCATION:Parque Europa\, Madrid
 DTSTART:20260507T093000Z
-SUMMARY:校外活动：欧洲公园（Parque Europa） / Trip/Excursión: Parque Europa
+SUMMARY:郊游：欧洲公园（Parque Europa） / Trip/Excursión: Parque Europa
 UID:1df9c1aed1341d76@school_helper
 END:VEVENT
 END:VCALENDAR

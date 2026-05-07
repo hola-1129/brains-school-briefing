@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260618
+DESCRIPTION:适用: 幼儿园 A 班\n家长: 为孩子准备好演出服装，在毕业典礼结束后陪同观看演出\n孩子准备: 按角色准备服装：女生穿白色飘逸裙，男生穿棕/米色短裤+白T恤+背带\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1apXzNbt8ZReV9hyThEnjc1IJ60KesGrF/view?usp=drive_link
+LOCATION:Polideportivo de secundaria
+SUMMARY:年终戏剧节 – PREPARATORY A：《普拉特罗》 / Festival de teatro – PREPARATORY A: "Platero"
+UID:dce9e6a1f7844d81@school_helper
+END:VEVENT
+END:VCALENDAR
