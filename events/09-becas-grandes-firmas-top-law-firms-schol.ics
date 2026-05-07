@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 1. 阅读随函附上的宣传册，了解奖学金细则及课程信息；2. 若子女有意向，及时联系学校获取申请方式；3. 关注后续学校通知，确认申请截止日期\n孩子准备: 有意申请的学生需具备优秀学业成绩（expediente académico）；对法学方向（Grado en Derecho + Máster de Especialización）感兴趣\n报名: 原文未说明\n付款: 否\n费用: 奖学金本身免费；所覆盖的课程（Grado en Derecho + Máster）学费原文未列明，奖学金可抵扣 50% 或 30%\n原文: https://drive.google.com/file/d/1wFVhGfIOI3LINJT1iK6wtAuwpaEoEvbL/view?usp=drive_link
+SUMMARY:"大型律所"奖学金项目（ISDE 合作） / Becas "Grandes Firmas" / "Top Law Firms" Scholarship Programme
+UID:1e7b24af7451c189@school_helper
+END:VEVENT
+END:VCALENDAR

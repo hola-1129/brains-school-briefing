@@ -13,7 +13,7 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260514
-DESCRIPTION:适用: 幼儿园及小学阶段全体学生\n家长: 为孩子准备传统服装或至少一件马德里节日配饰，确保孩子在5月14日（周四）穿戴好后上学。无需报名或缴费。\n孩子准备: 当天可穿马德里传统服装到校，或搭配一件典型配饰（如头巾、丘拉波帽、背心、披肩等）；无需购买全套服装，一件配饰即可。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link
+DESCRIPTION:适用: 幼儿园及小学全体学生\n家长: 为孩子准备马德里传统服装或至少一件相关配饰（头巾、平顶帽、马甲、披肩、康乃馨均可），确保孩子当天穿戴上学。无需报名，无需缴费。\n孩子准备: 穿着马德里传统服装，或佩戴相关传统配饰（如头巾 pañuelo、平顶帽 gorra de chulapo、马甲 chaleco、披肩 mantón、康乃馨等）上学。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link
 LOCATION:Brains International School La Moraleja
 SUMMARY:圣伊西德罗节庆活动 / Celebración San Isidro
 UID:38a9ce8f1b0de3b8@school_helper
@@ -30,9 +30,9 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260525
-DESCRIPTION:适用: 2年级 IB文凭课程（Diploma Programme）学生\n家长: 1. 在2026年5月18日（周一）前填写并提交报名表，接受课外活动条款。\n2. 报名截止后，直接向Autoescuela Merinero支付理论课费用（50€）及后续实际驾驶课费用（每节35€）。\n3. 后续自行向DGT缴纳官方考试费（享Brains学生优惠）。\n4. 如有疑问，发邮件至 extraescolares.mor@colegiobrains.com。\n孩子准备: 学生需在5月25日至29日期间每天参加3小时线上直播课，并在平台上完成辅导及自主学习任务，合计完成40小时理论培训。\n报名: 是\n付款: 是\n费用: 理论课（在线强化）：50€（含税），家长直接付给Autoescuela Merinero；实际驾驶课（每节45分钟）：35€（含税），家长直接付给Autoescuela Merinero；报名费：45€/人，由学校代付给驾校（含数字教材及平台使用权）；DGT官方考试费：家长直接缴纳，Brains学生享优惠条件\n截止: 2026-05-18\n原文: https://drive.google.com/file/d/1Guah_FEJ2tOullq421WUwIPum3T2UAtA/view?usp=drive_link
-LOCATION:Curso intensivo online en directo (desde el colegio / plataforma online)
-SUMMARY:「在BRAINS考驾照」项目 – 与Autoescuela Merinero合作 / Proyecto "Tu carné de conducir en BRAINS" – Autoescuela Merinero
+DESCRIPTION:适用: 国际文凭课程（DP）二年级学生\n家长: 1. 在 2026-05-18 前填写附件报名表并接受课外活动条款；2. 报名截止后直接向 Autoescuela Merinero 支付理论课费（€50）、实际驾驶课费（€35/节）及 DGT 官方考试费；3. 如有疑问发邮件至 extraescolares.mor@colegiobrains.com\n孩子准备: 参加每日3小时在线直播理论课（25–29 May），并在平台上完成辅导与自学任务，累计完成40学时理论培训\n报名: 是\n付款: 是\n费用: • 理论课（强化在线直播，40学时）：€50（含税），家长直接付给 Autoescuela Merinero\n• 实际驾驶课（每节45分钟）：€35（含税），家长直接付给 Autoescuela Merinero\n• 报名费：€45/人，由学校代付给驾校（含数字教材及平台使用权）\n• DGT 官方考试费：家长直接缴纳，Brains 学生享优惠条件\n截止: 2026-05-18\n原文: https://drive.google.com/file/d/1Guah_FEJ2tOullq421WUwIPum3T2UAtA/view?usp=drive_link
+LOCATION:Online en directo (plataforma Autoescuela Merinero) + Brains International School La Moraleja
+SUMMARY:驾校合作项目"在 BRAINS 考驾照" / Autoescuela Merinero – Proyecto "Tu carné de conducir en BRAINS"
 UID:39c48daf48e0ab0f@school_helper
 END:VEVENT
 BEGIN:VEVENT
@@ -47,9 +47,9 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260504
-DESCRIPTION:适用: 就读于马德里自治区私立授权学校高中阶段（Bachillerato）一年级或二年级、或已预留学位的学生（2026-2027学年）\n家长: 【紧急，约2026年5月23日截止】尽快登录 www.comunidad.madrid 或 BDNS 官网，在15个工作日内（自2026年5月5日起算）提交奖学金申请；核实家庭人均年收入是否低于35\,913€（以2024年度收入为准）；整理入学证明及成绩材料备用\n孩子准备: 确认已在私立授权学校办理2026-2027学年Bachillerato入学或预留学位手续；确认非留级生；准备好2024年度家庭人均收入材料（上限35\,913€）；准备好最近已完成学年的成绩单（用于学业评分，5分起计）\n报名: 是\n付款: 否\n费用: 无需缴费；奖学金金额：家庭人均年收入≤10\,000€者每年3\,750€（每月375€，9月至次年6月共10个月）；人均收入10\,000.01€至35\,913€者每年2\,000€（每月200€）。若学费总额低于奖学金金额，则按实际学费发放。\n截止: 2026-05-23\n原文: https://drive.google.com/file/d/1JIQRoJAN5cm0-g61tbRtkgRmvkY9VHzz/view?usp=drive_link
-LOCATION:Comunidad de Madrid (solicitud telemática vía BDNS / web institucional)
-SUMMARY:2026-2027学年高中阶段（Bachillerato）奖学金申请——马德里自治区私立授权学校 / Becas de Bachillerato 2026-2027 (centros privados autorizados\, Comunidad de Madrid)
+DESCRIPTION:适用: 就读于马德里自治区经授权私立学校高中阶段（Bachillerato 1º 或 2º）的学生\n家长: 1. 确认孩子是否符合申请资格（已在私立授权学校报名/预留 2026-2027 学年 Bachillerato 学位、非留级生、家庭人均年收入 ≤35\,913€）。2. 准备 2024 年度家庭收入证明及孩子最近一学年成绩单。3. 在截止日期前（公告发布后 15 个工作日内，约 2026-05-23）通过官方渠道提交申请。\n孩子准备: 提供最近一个已完成学年的最终成绩（用于学术评分，5–10分对应0.5–2分加分）；确保全学年持续满足申请条件。\n报名: 是\n付款: 否\n费用: 奖学金金额：家庭人均年收入 ≤10\,000€ 者每年 3\,750€（每月 375€，9月至次年6月共10个月）；人均收入 10\,000.01€–35\,913€ 者每年 2\,000€（每月 200€）。若学费总额低于奖学金金额，则按实际学费发放。\n截止: 2026-05-23\n原文: https://drive.google.com/file/d/1JIQRoJAN5cm0-g61tbRtkgRmvkY9VHzz/view?usp=drive_link
+LOCATION:Comunidad de Madrid — centros privados autorizados por la Consejería de Educación\, Ciencia y Universidades
+SUMMARY:2026-2027学年高中阶段（Bachillerato）奖学金申请 / Becas de Bachillerato 2026-2027
 UID:750236c3230bb47e@school_helper
 END:VEVENT
 BEGIN:VEVENT
@@ -63,11 +63,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 高中二年级（Bachillerato 2.º）学生（B照线下班）及DP学生（B照线上强化班）；可选微型车（AM/Microcar）和摩托车（Moto）\n家长: 1）填写并签署报名表（Hoja de Inscripción），附DNI复印件，在2025年11月19日前提交（名额有限，先到先得）；2）等待秘书处邮件确认名额；3）理论课费用、实操课费用及DGT考试费直接向Autoescuela Merinero支付（非向学校缴纳）；4）如需退课，须书面通知extraescolares.mor@colegiobrains.com，已确认入学后学校代缴的45欧元注册费不予退还\n孩子准备: 准备DNI正反面复印件随报名表一并提交；参加B照实际驾驶考试须年满18岁；须遵守Autoescuela Merinero及学校的内部规定，保证出勤和准时\n报名: 是\n付款: 是\n费用: 理论课：50欧元/月（含税）；驾驶实操课（45分钟）：35欧元/节（含税）；DGT官方考试费由家庭自行承担；学校代缴注册费45欧元/人（含平台及教材，家庭无需另付）\n截止: 2025-11-19\n原文: https://drive.google.com/file/d/15kKtj6npwTm1-nirjVaAv8Lg6J8vnz3W/view?usp=drive_link
+DESCRIPTION:适用: 高中二年级（B照线下班）；DP课程（B照线上强化班）；可选：AM微型车 / 摩托车\n家长: 1. 填写报名表（Hoja de Inscripción），附上学生及家长/监护人 DNI 正反面复印件，签字后提交学校。\n2. 在表格中勾选"肖像权"及"数据共享"两项授权意向（同意/不同意）。\n3. 等待秘书处邮件确认名额（先到先得，满员后进入候补名单）。\n4. 确认名额后，直接向 Autoescuela Merinero 缴纳理论课费、练车费及DGT考试费。\n5. 如需退课，须以书面形式发送至 extraescolares.mor@colegiobrains.com；已确认入学后，学校代缴的45€注册费不予退还。\n孩子准备: • B照路考要求年满18岁，请确认考试时孩子是否已达到年龄要求。\n• 保证出勤率和准时到课（家庭须承诺配合）。\n• 遵守 Autoescuela Merinero 及学校的内部规定。\n报名: 是\n付款: 是\n费用: • 理论课（B照线下/DP线上）：50 €/月（含税）\n• 实际驾驶练习（45分钟/节）：35 €/节（含税）\n• DGT官方考试费（笔试+路考）：由家庭自行承担，金额按DGT标准\n• 注册费（matrícula）：45 €，由学校代缴，家庭无需另付\n• 注意：学校每月不向家庭收费，仅代缴注册费\n截止: 2025-11-19\n原文: https://drive.google.com/file/d/15kKtj6npwTm1-nirjVaAv8Lg6J8vnz3W/view?usp=drive_link
 DTEND:20251119T173000Z
-LOCATION:Brains International School La Moraleja（clases presenciales en el centro\; DP en directo online)
+LOCATION:Brains International School La Moraleja（clases presenciales en centro）
 DTSTART:20251119T153000Z
-SUMMARY:Merinero驾校合作项目——驾照培训报名（Brains La Moraleja校区） / Autoescuela Merinero – Programa de Carné de Conducir (Brains International School La Moraleja)
+SUMMARY:驾校合作项目（Brains × Autoescuela Merinero） / Autoescuela Merinero – Programa de Conducir (Convenio Brains)
 UID:1230ab894a279b53@school_helper
 END:VEVENT
 BEGIN:VEVENT
@@ -81,11 +81,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 2º Bachillerato 学生（B 类驾照）、DP 学生（B 类强化网课）、以及可选的 AM（微型车）和摩托车课程学生\n家长: 1. 填写并签署报名表（家长/监护人签名 + 学生签名）。2. 附上 DNI 复印件（正反面）。3. 在表格中勾选数据授权选项（肖像/姓名使用授权、向驾校及 DGT 共享信息授权）。4. 理论课及驾驶练习费用直接支付给 Autoescuela Merinero（学校不开具月度发票）。5. 如需退课，须发邮件至 extraescolares.mor@colegiobrains.com；已缴驾校费用按驾校退款政策处理，学校代付的 €45 报名费一经确认不予退还。\n孩子准备: 准备好 DNI 身份证正反面复印件，与报名表一同提交；确保按时出勤；参加 B 类路考时须年满 18 岁。\n报名: 是\n付款: 是\n费用: 理论课：每月 €50（含税），B 类；DP 强化班 €50（含税）一次性。驾驶练习：每节课（45分钟）€35（含税）。DGT 官方考试费由家长自行缴纳。报名费 €45 由学校代付，家长无需支付。\n截止: 2025-11-19\n原文: https://drive.google.com/file/d/19VqufZxOqq_LILNYuxqpBl03Ew57Op8C/view?usp=drive_link
+DESCRIPTION:适用: 高中二年级（B 类驾照）、DP 课程（强化线上 B 类）、AM（微型车）、摩托车学员\n家长: 1. 填写并签署报名表（父母/监护人及学生均需签名），附上 DNI 正反面复印件后提交\n2. 直接向 Autoescuela Merinero 缴纳理论课、驾驶练习及 DGT 考试费用\n3. 如需退课或变更，须发邮件至 extraescolares.mor@colegiobrains.com\n4. 在表格中勾选是否同意使用学生肖像/姓名，以及是否同意向驾校和 DGT 共享必要信息\n孩子准备: 参加 B 类实际驾驶考试时须年满 18 岁；需遵守 Autoescuela Merinero 及学校的课程规定；按时出勤\n报名: 是\n付款: 是\n费用: • 理论课（面授/线上）：B 类 €50/月（含税）；DP 强化班 €50 一次性（含税）\n• 驾驶练习（45 分钟/节）：€35/节（含税）\n• DGT 官方考试费：由家庭直接缴纳\n• 注册费 €45：由学校代缴，家庭无需支付\n• 费用直接支付给 Autoescuela Merinero，学校不开具月度发票\n截止: 2025-11-19\n原文: https://drive.google.com/file/d/19VqufZxOqq_LILNYuxqpBl03Ew57Op8C/view?usp=drive_link
 DTEND:20251119T173000Z
-LOCATION:Brains International School La Moraleja (presencial) / Online en vivo (DP intensivo)
+LOCATION:Brains International School La Moraleja（课堂课）\; DP 为 live online（线上直播）
 DTSTART:20251119T153000Z
-SUMMARY:驾校报名表——Merinero 驾校（Brains La Moraleja 合作项目） / Hoja de inscripción – Autoescuela Merinero (Driving School)
+SUMMARY:驾校报名表 – Merinero 驾校合作项目 / Hoja de inscripción – Autoescuela Merinero (Driving School Programme)
 UID:1d8bd9286d6ab2eb@school_helper
 END:VEVENT
 BEGIN:VEVENT
@@ -99,11 +99,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTART;VALUE=DATE:20260609
-DESCRIPTION:适用: 学前班A/B班、小学一至六年级各班（含6年级）\n家长: 1. 确认孩子所在班级的演出日期和时间（各班日期不同，请仔细核对）。\n2. 提前为孩子准备好对应角色的服装和道具。\n3. 演出当天可前往中学体育馆（polideportivo de secundaria）观看演出。\n4. 如有疑问，联系老师：cguerrero@colegiobrains.com 或 bzafra@colegiobrains.com\n孩子准备: 按照自己班级和角色的要求，在演出当天穿戴好指定服装到校。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1apXzNbt8ZReV9hyThEnjc1IJ60KesGrF/view?usp=drive_link
-LOCATION:Polideportivo de secundaria (secondary school sports hall)
-SUMMARY:年终戏剧演出节（学前班至六年级） / Festival de teatro / Drama performance – PREPARATORY & 6º
-UID:05083f724e94e150@school_helper
+DTSTART;VALUE=DATE:20260618
+DESCRIPTION:适用: 幼儿预备班 A 班\n家长: 为孩子准备好演出服装，演出时间在毕业典礼结束后，请留意典礼时间安排\n孩子准备: 按角色准备服装：女生穿白色飘逸裙，男生穿棕/米色短裤+白T恤+背带\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1apXzNbt8ZReV9hyThEnjc1IJ60KesGrF/view?usp=drive_link
+LOCATION:Polideportivo de secundaria
+SUMMARY:年终戏剧节 – PREPARATORY A 班《Platero》 / Festival de fin de curso – Drama Performance: PREPARATORY A ("Platero")
+UID:dce9e6a1f7844d81@school_helper
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -117,8 +117,9 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260505
-DESCRIPTION:适用: 初四（4º ESO）至高一（1º Bachillerato）年级家庭\n家长: 1. 确认孩子是否就读西班牙教育法（LOMLOE）框架下的普通Bachillerato课程（注意：就读国际文凭课程IB Diploma的学生不在申请资格之内）。\n2. 在申请窗口开放期间（2026年5月5日起15个工作日内）登录官网，仔细阅读申请要求、材料清单及提交方式，并在截止日前完成在线申请。\n报名: 是\n付款: 否\n截止: 2026-05-26\n原文: https://drive.google.com/file/d/1HCQGnEX7w1--1JLfflqRKhn7kG4A-ovn/view?usp=drive_link
-SUMMARY:2026-2027学年高中阶段奖学金（Bachillerato）申请通知 / Becas de Bachillerato 2026-2027
+DESCRIPTION:适用: 初四（4º ESO）至高一（1º Bachillerato）学生家庭；⚠️ 国际文凭课程（Bachillerato Internacional / IB Diploma）学生明确排除在外\n家长: 1. 确认子女是否就读 Bachillerato LOMLOE（非 IB Diploma）课程，符合条件方可申请。2. 在申请窗口开放期间（2026年5月5日起15个工作日内）登录上方链接，按要求提交奖学金申请材料。3. 仔细阅读附件中的完整 Orden 1534/2026，了解具体资格要求、所需文件及提交方式。\n孩子准备: 无需学生单独操作，由家长完成申请；学生需确认自己修读的是 Bachillerato LOMLOE 课程。\n报名: 是\n付款: 否\n费用: 奖学金申请本身免费\n截止: 2026-05-26\n原文: https://drive.google.com/file/d/1HCQGnEX7w1--1JLfflqRKhn7kG4A-ovn/view?usp=drive_link
+LOCATION:sede.comunidad.madrid（在线申请）
+SUMMARY:2026-2027学年高中奖学金申请通知 / Becas de Bachillerato 2026-2027
 UID:02e152f9e22785b5@school_helper
 END:VEVENT
 BEGIN:VEVENT
@@ -132,11 +133,27 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 小学二年级（2ºA、2ºB、2ºC班）\n家长: 确认孩子所在班级对应的出行日期（2ºC：5月5日；2ºA/2ºB：5月12日）；确保孩子当天穿着完整校服；注意出发时间为10:45，请确保孩子准时到校。\n孩子准备: 穿着完整校服；2ºC班出行日期为5月5日，2ºA和2ºB班出行日期为5月12日，请注意各自班级对应日期，务必准时。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 1. 阅读随函附上的宣传册，了解奖学金细则及课程信息；2. 若子女有意向，及时联系学校获取申请方式；3. 关注后续学校通知，确认申请截止日期\n孩子准备: 有意申请的学生需具备优秀学业成绩（expediente académico）；对法学方向（Grado en Derecho + Máster de Especialización）感兴趣\n报名: 原文未说明\n付款: 否\n费用: 奖学金本身免费；所覆盖的课程（Grado en Derecho + Máster）学费原文未列明，奖学金可抵扣 50% 或 30%\n原文: https://drive.google.com/file/d/1wFVhGfIOI3LINJT1iK6wtAuwpaEoEvbL/view?usp=drive_link
+SUMMARY:"大型律所"奖学金项目（ISDE 合作） / Becas "Grandes Firmas" / "Top Law Firms" Scholarship Programme
+UID:1e7b24af7451c189@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 小学二年级（2º Primaria）\n家长: 确保孩子当天穿好完整校服，并按时送达学校（出发时间 10:45，请务必准时）\n孩子准备: 须穿着完整校服（full school uniform / correctamente uniformados）\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link
 DTEND:20260505T134500Z
 LOCATION:Planetario de Madrid\, Parque Tierno Galván\, Av. del Planetario\, 16\, Arganzuela\, 28045\, Madrid
 DTSTART:20260505T104500Z
-SUMMARY:马德里天文馆教育参观活动 / Excursión al Planetario de Madrid
+SUMMARY:马德里天文馆教育参观 / Excursión al Planetario de Madrid
 UID:49d7f40026b33e35@school_helper
 END:VEVENT
 BEGIN:VEVENT
@@ -150,11 +167,29 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 小学四年级全体学生（4ºA、4ºB、4ºC班）\n家长: 知悉活动安排即可。当天学生10:45从学校出发，预计13:15返校，请注意接送时间。\n孩子准备: 无需特别准备；学生将分三组，由专业导览员讲解史前时代、前罗马民族及罗马帝国相关内容。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1wHy804GtgUszFe9aTsKG9uB-5zwKOfLz/view?usp=drive_link
+DESCRIPTION:适用: 幼儿预备班（Preparatory）\n家长: 无需报名或缴费。如有疑问，请直接联系学校老师。注意关注天气，活动以天气允许为前提。\n孩子准备: 无需自带午餐，学校统一提供；建议穿着适合户外活动的舒适服装（原文未明确说明，仅供参考）\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link
+DTEND:20260507T143000Z
+LOCATION:Parque Europa\, Madrid
+DTSTART:20260507T093000Z
+SUMMARY:校外活动：欧洲公园（Parque Europa） / Trip/Excursión: Parque Europa
+UID:1df9c1aed1341d76@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 小学四年级（4ºA、4ºB、4ºC 全部班级）\n家长: 留意出行当天（5月6日）孩子按时到校，确保10:45前到位；原文未提及需签署同意书或缴费，如有后续通知请关注学校跟进信息。\n孩子准备: 无需特别准备；参观内容涵盖史前史、前罗马民族（pueblos prerromanos）及罗马帝国，可提前与孩子回顾课堂相关内容。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1wHy804GtgUszFe9aTsKG9uB-5zwKOfLz/view?usp=drive_link
 DTEND:20260506T131500Z
 LOCATION:Museo Arqueológico Nacional\, Calle de Serrano\, 13\, Madrid
 DTSTART:20260506T104500Z
-SUMMARY:校外参观：国家考古博物馆（Museo Arqueológico Nacional） / Excursión: Museo Arqueológico Nacional
+SUMMARY:校外参观：国家考古博物馆 / Trip/Excursión: Museo Arqueológico
 UID:5e171b292abdc8f4@school_helper
 END:VEVENT
 END:VCALENDAR

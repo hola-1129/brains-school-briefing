@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 幼儿预备班（Preparatory）\n家长: 无需报名或缴费。如有疑问，请直接联系学校老师。注意关注天气，活动以天气允许为前提。\n孩子准备: 无需自带午餐，学校统一提供；建议穿着适合户外活动的舒适服装（原文未明确说明，仅供参考）\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link
+DTEND:20260507T143000Z
+LOCATION:Parque Europa\, Madrid
+DTSTART:20260507T093000Z
+SUMMARY:校外活动：欧洲公园（Parque Europa） / Trip/Excursión: Parque Europa
+UID:1df9c1aed1341d76@school_helper
+END:VEVENT
+END:VCALENDAR

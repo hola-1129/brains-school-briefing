@@ -37,9 +37,10 @@
       "http_status": null,
       "error": "",
       "categories": [
+        "Infantil / 幼儿园",
         "Preparatory"
       ],
-      "parent_action_needed": false,
+      "parent_action_needed": true,
       "extracted": true
     },
     {
@@ -50,7 +51,7 @@
       "http_status": null,
       "error": "",
       "categories": [
-        "Primaria / 小学",
+        "Infantil / 幼儿园",
         "Preparatory"
       ],
       "parent_action_needed": true,
@@ -119,7 +120,7 @@
       "categories": [
         "Bachillerato / 高中"
       ],
-      "parent_action_needed": false,
+      "parent_action_needed": true,
       "extracted": true
     },
     {
@@ -130,6 +131,7 @@
       "http_status": null,
       "error": "",
       "categories": [
+        "Bachillerato / 高中",
         "IBDP"
       ],
       "parent_action_needed": true,
@@ -143,7 +145,7 @@
       "http_status": null,
       "error": "",
       "categories": [
-        "仅供了解的信息"
+        "IBDP"
       ],
       "parent_action_needed": true,
       "extracted": true
