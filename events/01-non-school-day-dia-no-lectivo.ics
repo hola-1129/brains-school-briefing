@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:适用: 全体学生及家庭\n家长: 无需任何操作。5月15日（周五）学校关闭，请家长提前安排好当天的托管或出行计划。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/18ygPhFVPvmy0Xm03cqHQTdy4Ie8aVKrz/view?usp=drive_link
+SUMMARY:非上课日（学校关闭） / Non-school day / Día no lectivo
+UID:3e4acf7351edd2f8@school_helper
+END:VEVENT
+END:VCALENDAR

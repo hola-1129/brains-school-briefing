@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260511
+DESCRIPTION:适用: 全体家长（尤其是音乐学院课程1年级和2年级学生家庭）\n家长: 1. 已有1年级或2年级学生的家长：确认已收到学校关于"初级学位（Grado Elemental）停办"的个别通知，并了解后续可选路径。\n2. 关注学校即将发布的2026/27学年新教育方案（oferta educativa）。\n3. 如有疑问，主动联系学校获取个性化指导。\n4. 4年级学生家长：本次变动不影响你们，无需额外行动。\n孩子准备: 无需学生额外准备；后续可根据家庭选择，准备音乐学院入学或转学考试（examen de acceso o traslado al Conservatorio）。\n报名: 否\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1sxUMzvalSlMWyAzZkzXA90relu8FXmLx/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:音乐学院课程重要通知 / Conservatory Information / Información Conservatorio
+UID:e4ff864883b83fe8@school_helper
+END:VEVENT
+END:VCALENDAR

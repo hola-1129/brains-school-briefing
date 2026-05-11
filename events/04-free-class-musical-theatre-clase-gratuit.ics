@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 预备班（Preparatory）至小学二年级（2º Primaria）\n家长: 发邮件至 extraescolares.mor@colegiobrains.com 为孩子报名免费体验课；名额有限，每场仅 10 人\n孩子准备: 无需特别准备，体验课无任何义务（sin compromiso）\n报名: 是\n付款: 否\n费用: 体验课免费（Free / Gratuita）；若正式报名课外活动，月费 60€\n原文: https://drive.google.com/file/d/1nu80yQqoA_vXhoZO70aKyBxCwLcXOVFa/view?usp=drive_link
+DTEND:20260513T141500Z
+LOCATION:Aula de ballet
+DTSTART:20260513T133000Z
+SUMMARY:免费体验课：音乐剧（Teatro Musical） / Free class: Musical Theatre / Clase gratuita: Teatro Musical
+UID:302296a7befc0f0f@school_helper
+END:VEVENT
+END:VCALENDAR
