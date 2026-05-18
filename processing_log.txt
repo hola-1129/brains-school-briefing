@@ -1,82 +1,42 @@
 School Helper 处理日志
-生成时间: 2026-05-11T18:38:06
-周次:     (未识别)  (unknown-20260511)
-输入 PDF: jwkmcr_Briefing_Semanal_11_Mayo.pdf
+生成时间: 2026-05-18T17:31:16
+周次:     Semana: 18 de MAYO 2026  (2026-W21)
+输入 PDF: zgqryt_Briefing_Semanal_18_DE_MAYO.pdf
 
-链接总数:   9
-  下载成功: 9
+链接总数:   4
+  下载成功: 4
   失败/跳过: 0
-LLM 抽取成功: 9
+LLM 抽取成功: 4
 
 ----------------------------------------------------------------------
-[1] Non-school day / Día no lectivo
+[1] NOTICIA: NUTRITION & HEALTH - UVA
     stage:  GENERAL
-    url:    https://drive.google.com/file/d/18ygPhFVPvmy0Xm03cqHQTdy4Ie8aVKrz/view?usp=drive_link
-    status: ok (http=200)
-    分类:   全校通用通知
-    日期:   2026-05-15
-    报名:   否
-
-[2] Healthy Recipe / Receta Saludable: Nutela
-    stage:  GENERAL
-    url:    https://drive.google.com/file/d/1GXhJaOpxxgWHK0Y5rkrQzkVfY68v9aJJ/view?usp=drive_link
+    url:    https://drive.google.com/file/d/1XOFFN9FtuZDm_JK9MPh3wYSUkknz72Md/view?usp=drive_link
     status: ok (http=200)
     分类:   全校通用通知
     日期:   (原文未说明)
     报名:   否
 
-[3] Conservatory Information / Información Conservatorio
+[2] Ayudas para alumnos con necesidades educativas
     stage:  GENERAL
-    url:    https://drive.google.com/file/d/1sxUMzvalSlMWyAzZkzXA90relu8FXmLx/view?usp=drive_link
+    url:    https://drive.google.com/file/d/1c60gn085h5VgOP1M9m40IGlwLqSfS7aI/view?usp=drive_link
     status: ok (http=200)
     分类:   全校通用通知
-    日期:   2026-05-11
-    报名:   否
-
-[4] Free class: Musical Theatre / Clase gratuita: Teatro Musical
-    stage:  PREPARATORY -
-    url:    https://drive.google.com/file/d/1nu80yQqoA_vXhoZO70aKyBxCwLcXOVFa/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Primaria / 小学 / Preparatory
-    日期:   2026-05-13
+    日期:   2026-05-19
     报名:   是
 
-[5] Circular: Camp/ Campamento "LAS NOGUERAS"
+[3] Becas Educación Infantil 2026/2027
+    stage:  YOUNG LEARNERS,
+    url:    https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Infantil / 幼儿园
+    日期:   2026-05-19
+    报名:   是
+
+[4] Graduación
     stage:  6º PRIMARIA
-    url:    https://drive.google.com/file/d/1RgZNNxJZEviAk-mQEJBvz0t52df9zObM/view?usp=drive_link
+    url:    https://drive.google.com/file/d/1wDBZVCBpq20pqv2Qz6Jf6hrSWWteqDQH/view?usp=drive_link
     status: ok (http=200)
     分类:   Primaria / 小学
-    日期:   2026-06-08
-    报名:   否
-
-[6] Medical Records / Ficha Médica
-    stage:  
-    url:    https://drive.google.com/file/d/10THOcRewbTBUEJQkHvme4OSVgxSqO51q/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Primaria / 小学
-    日期:   (原文未说明)
+    日期:   2026-06-17
     报名:   原文未说明
-
-[7] Authorisation / Autorización
-    stage:  
-    url:    https://drive.google.com/file/d/1osIro1l6jFXKfYr7lxc1Ch_z8OByz4Q2/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Primaria / 小学
-    日期:   2026-06-08
-    报名:   是
-
-[8] Items Recommended / Material Recomendado
-    stage:  
-    url:    https://drive.google.com/file/d/17TSnbKgk95bkIo88HUpWJFnJB4n6dHym/view?usp=drive_link
-    status: ok (http=200)
-    分类:   仅供了解的信息
-    日期:   (原文未说明)
-    报名:   原文未说明
-
-[9] Idol Talent
-    stage:  PRIMARIA - ESO
-    url:    https://drive.google.com/file/d/15jPn-0s24SIVRHxg4QOXsKEVPxlJyqGG/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Primaria / 小学 / ESO / 中学
-    日期:   (原文未说明)
-    报名:   

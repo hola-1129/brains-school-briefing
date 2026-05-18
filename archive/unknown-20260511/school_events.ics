@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 预备班（Preparatory）至小学二年级（2º Primaria）\n家长: 发邮件至 extraescolares.mor@colegiobrains.com 为孩子报名免费体验课；名额有限，每场仅 10 人\n孩子准备: 无需特别准备，体验课无任何义务（sin compromiso）\n报名: 是\n付款: 否\n费用: 体验课免费（Free / Gratuita）；若正式报名课外活动，月费 60€\n原文: https://drive.google.com/file/d/1nu80yQqoA_vXhoZO70aKyBxCwLcXOVFa/view?usp=drive_link
+DTEND:20260513T141500Z
+LOCATION:Aula de ballet
+DTSTART:20260513T133000Z
+SUMMARY:免费体验课：音乐剧（Teatro Musical） / Free class: Musical Theatre / Clase gratuita: Teatro Musical
+UID:302296a7befc0f0f@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260608
+DESCRIPTION:适用: 小学六年级\n家长: 1. 在授权书上填写家长/监护人姓名、学生姓名、班级及联系电话，并由双方家长/监护人签字。2. 将签好的授权书、医疗卡（tarjeta sanitaria）复印件及医疗表格（ficha médica）一并提交给班主任。\n孩子准备: 参加为期5天的营地活动（2026年6月8日至12日）\n报名: 是\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1osIro1l6jFXKfYr7lxc1Ch_z8OByz4Q2/view?usp=drive_link
+LOCATION:Las Nogueras Camp
+SUMMARY:「Las Nogueras 营地」2026 授权书（小学六年级） / AUTHORISATION "LAS NOGUERAS CAMP" 2026 (PRIMARY 6)
+UID:73118430e3355ac1@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:适用: 全体学生及家庭\n家长: 无需任何操作。5月15日（周五）学校关闭，请家长提前安排好当天的托管或出行计划。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/18ygPhFVPvmy0Xm03cqHQTdy4Ie8aVKrz/view?usp=drive_link
+SUMMARY:非上课日（学校关闭） / Non-school day / Día no lectivo
+UID:3e4acf7351edd2f8@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 小学六年级\n家长: 1. 【不参加】须在5月18日前发邮件告知班主任。\n2. 【参加】将授权书（autorización）、医疗表格（ficha médica）及医保卡复印件（社保或私人医保）通过电子邮件发给班主任。\n3. 离异/分居家庭须提供双方各一份授权书，或双方共同签署的一份授权书。\n4. 如孩子需服药，请将药品连同姓名、剂量、服药时间说明直接交给老师。\n5. 可参加5月13日20:00的线上说明会（链接见原文 REUNION ONLINE LAS NOGUERAS）。\n6. 如有疑问，联系协调员 Andrés Rivero：actividadescomplementarias@colegiobrains.com 或 606995551。\n孩子准备: 不得携带手机或贵重物品；需服药的学生须将药品及书面说明交给老师\n报名: 否\n付款: 是\n费用: 495 €（将在6月账单中扣款）\n截止: 2026-05-18\n原文: https://drive.google.com/file/d/1RgZNNxJZEviAk-mQEJBvz0t52df9zObM/view?usp=drive_link
+DTEND:20260608T163000Z
+LOCATION:Las Nogueras. Escuela de Naturaleza\, Carretera de Miranda del Rey s/n\, Santa Elena (Jaén) — Parque Natural de Despeñaperros
+DTSTART:20260608T090000Z
+SUMMARY:多冒险夏令营"LAS NOGUERAS" — 小学六年级 / Campamento Multiaventura "LAS NOGUERAS" - 6º PRIMARIA
+UID:662b52795c72f6ab@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260511
+DESCRIPTION:适用: 全体家长（尤其是音乐学院课程1年级和2年级学生家庭）\n家长: 1. 已有1年级或2年级学生的家长：确认已收到学校关于"初级学位（Grado Elemental）停办"的个别通知，并了解后续可选路径。\n2. 关注学校即将发布的2026/27学年新教育方案（oferta educativa）。\n3. 如有疑问，主动联系学校获取个性化指导。\n4. 4年级学生家长：本次变动不影响你们，无需额外行动。\n孩子准备: 无需学生额外准备；后续可根据家庭选择，准备音乐学院入学或转学考试（examen de acceso o traslado al Conservatorio）。\n报名: 否\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1sxUMzvalSlMWyAzZkzXA90relu8FXmLx/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:音乐学院课程重要通知 / Conservatory Information / Información Conservatorio
+UID:e4ff864883b83fe8@school_helper
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,125 @@
+{
+  "week_label": "",
+  "week_iso": "unknown-20260511",
+  "items": [
+    {
+      "title": "Non-school day / Día no lectivo",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/18ygPhFVPvmy0Xm03cqHQTdy4Ie8aVKrz/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Healthy Recipe / Receta Saludable: Nutela",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1GXhJaOpxxgWHK0Y5rkrQzkVfY68v9aJJ/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Conservatory Information / Información Conservatorio",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1sxUMzvalSlMWyAzZkzXA90relu8FXmLx/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Free class: Musical Theatre / Clase gratuita: Teatro Musical",
+      "stage": "PREPARATORY -",
+      "url": "https://drive.google.com/file/d/1nu80yQqoA_vXhoZO70aKyBxCwLcXOVFa/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学",
+        "Preparatory"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Circular: Camp/ Campamento \"LAS NOGUERAS\"",
+      "stage": "6º PRIMARIA",
+      "url": "https://drive.google.com/file/d/1RgZNNxJZEviAk-mQEJBvz0t52df9zObM/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Medical Records / Ficha Médica",
+      "stage": "",
+      "url": "https://drive.google.com/file/d/10THOcRewbTBUEJQkHvme4OSVgxSqO51q/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Authorisation / Autorización",
+      "stage": "",
+      "url": "https://drive.google.com/file/d/1osIro1l6jFXKfYr7lxc1Ch_z8OByz4Q2/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Items Recommended / Material Recomendado",
+      "stage": "",
+      "url": "https://drive.google.com/file/d/17TSnbKgk95bkIo88HUpWJFnJB4n6dHym/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Idol Talent",
+      "stage": "PRIMARIA - ESO",
+      "url": "https://drive.google.com/file/d/15jPn-0s24SIVRHxg4QOXsKEVPxlJyqGG/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学",
+        "ESO / 中学"
+      ],
+      "parent_action_needed": false,
+      "extracted": true
+    }
+  ]
+}
