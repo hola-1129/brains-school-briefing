@@ -1,36 +1,29 @@
-📚 Brains 学校周通知（Semana: 4 de MAYO 2026）
+📚 Brains 学校周通知（Semana: 18 de MAYO 2026）
 
 ⭐ 本周重点：
-  • NOTICAS NUTRITION&HEALTH Omega 3 (GENERAL) — 日期待定
-  • Celebración San Isidro (INFANTIL - PRIMARIA) — 日期待定
-  • Trip/Excursión: Planetario (2º PRIMARIA) — 日期待定
-  • Trip/Excursión: Museo Arqueológico (4º PRIMARIA) — 日期待定
+  • 营养与健康科普通讯——葡萄：运动员的秘密武器 (GENERAL) — 日期待定 ✍️
+  • 有特殊教育需求学生的补助申请（2026/2027学年） (GENERAL) — 2026-05-19 ✍️
+  • 2026/2027学年婴幼儿教育（第一周期）奖学金申请 (YOUNG LEARNERS) — 2026-05-19 ✍️
+  • 小学六年级毕业典礼 (6º PRIMARIA) — 2026-06-17 ✍️
+
+✍️ 需要家长操作：
+  • 营养与健康科普通讯——葡萄：运动员的秘密武器：无需操作。这是一篇学校发布的营养科普文章，供家长和学生阅读了解，无需报名或缴费。
+  • 有特殊教育需求学生的补助申请（2026/2027学年）（截止 2026-09-10）：1. 确认孩子是否符合申请条件（残疾、严重行为/语言沟通障碍、自闭症谱系障碍 TEA、超常能力 Altas Capacidades）；2. 提前阅读完整公告、准备所需材料；3. 在申请窗口期（2026年5月19日至9月10日）内登录官网完成在线申请。
+  • 2026/2027学年婴幼儿教育（第一周期）奖学金申请（截止 2026-06-08）：1. 在 2026年5月19日至6月8日（含首尾两天）期间提交奖学金申请；2. 申请时务必填写学校中心代码 28048324（B.R.A. Institución）；3. 点击通知中的链接"Becas Primer Ciclo Educación Infantil 2026-2027"查阅完整申请信息
+  • 小学六年级毕业典礼：留意学校后续发送的毕业典礼详细日程（programa detallado），收到后确认相关安排。
 
 🎓 各年级事项：
   [GENERAL]
-    - NOTICAS NUTRITION&HEALTH Omega 3
-  [INFANTIL - PRIMARIA]
-    - Celebración San Isidro
-  [PREPARATORY]
-    - Trip/Excursión: Parque Europa
-  [PREPARATORY - 6º]
-    - Drama performance / Festival de teatro
-  [2º PRIMARIA]
-    - Trip/Excursión: Planetario
-  [4º PRIMARIA]
-    - Trip/Excursión: Museo Arqueológico
-  [4º ESO - 1º BACHILLERATO]
-    - Becas de Bachillerato 2026-2027
-  [(LOMLOE)]
-    - Becas de Bachillerato 2026-2027
-  [BACHILLERATO]
-    - “Top Law Firms” Scholarship/Becas “Grandes Firmas"
-  [(LOMLOE-IBDP)]
-    - “Top Law Firms” Scholarship/Becas “Grandes Firmas"
-  [2º IBDP]
-    - Auotoescuela Merino-Brains
-  [其他]
-    - Auotoescuela Merino-Brains
-    - Hoja de inscripción (Español)
+    - 营养与健康科普通讯——葡萄：运动员的秘密武器
+    - 有特殊教育需求学生的补助申请（2026/2027学年） — 2026-05-19
+  [YOUNG LEARNERS]
+    - 2026/2027学年婴幼儿教育（第一周期）奖学金申请 — 2026-05-19
+  [6º PRIMARIA]
+    - 小学六年级毕业典礼 — 2026-06-17
+
+🗓 时间节点：
+  2026-05-19 — 2026/2027学年婴幼儿教育（第一周期）奖学金申请
+  2026-05-19 — 有特殊教育需求学生的补助申请（2026/2027学年）
+  2026-06-17 09:30 — 小学六年级毕业典礼
 
 ℹ️ 详细中文版见 weekly_briefing_cn.md，日历可导入 school_events.ics。

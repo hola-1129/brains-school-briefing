@@ -13,8 +13,9 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260519
-DESCRIPTION:适用: 幼儿园阶段（Educación Infantil 第一周期）在读学生家庭\n家长: 在 2026年5月19日至6月8日（含首尾两日）期间，登录 BOCM 指定链接提交奖学金申请，申请时务必填写学校中心代码 28048324（B.R.A. Institución）。\n报名: 是\n付款: 否\n截止: 2026-06-08\n原文: https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link
-SUMMARY:2026/2027学年幼儿教育第一阶段奖学金申请 / Becas Educación Infantil 2026/2027
+DESCRIPTION:适用: 幼儿园小学段（Educación Infantil 第一周期）在读学生家庭\n家长: 1. 在 2026年5月19日至6月8日（含首尾两天）期间提交奖学金申请；2. 申请时务必填写学校中心代码 28048324（B.R.A. Institución）；3. 点击通知中的链接"Becas Primer Ciclo Educación Infantil 2026-2027"查阅完整申请信息\n报名: 是\n付款: 否\n截止: 2026-06-08\n原文: https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:2026/2027学年婴幼儿教育（第一周期）奖学金申请 / Becas Educación Infantil 2026/2027
 UID:e60a2eeb96abb8e9@school_helper
 END:VEVENT
 END:VCALENDAR
