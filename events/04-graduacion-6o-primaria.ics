@@ -12,11 +12,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 小学六年级\n家长: 留意学校后续发送的毕业典礼详细日程（programa detallado），收到后确认相关安排。\n孩子准备: 参加戏剧小组（grupo de teatro）的学生需在典礼结束后进行戏剧演出，请提前做好排练准备。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1wDBZVCBpq20pqv2Qz6Jf6hrSWWteqDQH/view?usp=drive_link
+DESCRIPTION:适用: 小学六年级\n家长: 留意后续几周内学校发出的毕业典礼详细日程通知，暂无需采取其他行动。\n孩子准备: 属于剧团（grupo de teatro）的学生需在典礼后进行戏剧演出，请做好排练准备。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1wDBZVCBpq20pqv2Qz6Jf6hrSWWteqDQH/view?usp=drive_link
 DTEND:20260617T093000Z
 LOCATION:Brains International School La Moraleja
 DTSTART:20260617T093000Z
-SUMMARY:小学六年级毕业典礼 / Graduación – 6º PRIMARIA
+SUMMARY:六年级毕业典礼 / Graduación – 6º PRIMARIA
 UID:da60b9ce57f6fb06@school_helper
 END:VEVENT
 END:VCALENDAR
