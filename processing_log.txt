@@ -1,5 +1,5 @@
 School Helper 处理日志
-生成时间: 2026-05-18T18:38:05
+生成时间: 2026-05-18T20:43:26
 周次:     Semana: 18 de MAYO 2026  (2026-W21)
 输入 PDF: zgqryt_Briefing_Semanal_18_DE_MAYO.pdf
 
@@ -29,7 +29,7 @@ LLM 抽取成功: 4
     stage:  YOUNG LEARNERS,
     url:    https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link
     status: ok (http=None)
-    分类:   Infantil / 幼儿园 / Primaria / 小学
+    分类:   Infantil / 幼儿园
     日期:   2026-05-19
     报名:   是
 

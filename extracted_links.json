@@ -36,8 +36,7 @@
       "http_status": null,
       "error": "",
       "categories": [
-        "Infantil / 幼儿园",
-        "Primaria / 小学"
+        "Infantil / 幼儿园"
       ],
       "parent_action_needed": true,
       "extracted": true

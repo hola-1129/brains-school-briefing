@@ -13,7 +13,8 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260519
-DESCRIPTION:适用: 全体学生（有特殊教育支持需求者）\n家长: 1. 确认孩子是否符合申请条件（残疾、严重行为/语言沟通障碍、自闭症谱系障碍 TEA、超常能力 Altas Capacidades）；2. 提前阅读完整公告、准备所需材料；3. 在申请窗口期（2026年5月19日至9月10日）内登录官网完成在线申请。\n孩子准备: 无需学生本人操作，由家长代为申请。\n报名: 是\n付款: 否\n费用: 补助项目（免费申请）；补助内容涵盖：餐厅费（comedor）、交通费（transporte）、教学材料（material didáctico）、教育康复（reeducación pedagógica）、超常能力专项课程等。\n截止: 2026-09-10\n原文: https://drive.google.com/file/d/1c60gn085h5VgOP1M9m40IGlwLqSfS7aI/view?usp=drive_link
+DESCRIPTION:适用: 全体学生（有特殊教育支持需求者）\n家长: 1. 确认孩子是否符合申请条件（残疾、严重行为/语言沟通障碍、自闭症谱系障碍 TEA、超常能力 Altas Capacidades）；2. 提前查阅官方公告，准备所需材料；3. 在申请窗口期（2026年5月19日至9月10日）内通过官网完成在线申请。\n孩子准备: 无需学生本人操作，由家长代为申请。\n报名: 是\n付款: 否\n费用: 补助项目，无需缴费；补助内容涵盖：餐厅（comedor）、交通（transporte）、教学材料（material didáctico）、教育康复（reeducación pedagógica）、超常能力专项项目等。\n截止: 2026-09-10\n原文: https://drive.google.com/file/d/1c60gn085h5VgOP1M9m40IGlwLqSfS7aI/view?usp=drive_link
+LOCATION:https://www.becaseducacion.gob.es/becas-y-ayudas/ayudas-apoyo-educativo/tipos-de-becas.html
 SUMMARY:有特殊教育需求学生的补助申请（2026/2027学年） / Ayudas para alumnos con necesidades educativas (curso 2026/2027)
 UID:9be803fc723b70a4@school_helper
 END:VEVENT
