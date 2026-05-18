@@ -1,29 +1,36 @@
-📚 Brains 学校周通知（Semana: 18 de MAYO 2026）
+📚 Brains 学校周通知（Semana: 4 de MAYO 2026）
 
 ⭐ 本周重点：
-  • 营养与健康专题：葡萄——运动员的秘密武器 (GENERAL) — 日期待定 ✍️
-  • 有特殊教育需求学生的补助申请（2026/2027学年） (GENERAL) — 2026-05-19 ✍️
-  • 2026/2027学年幼儿教育第一阶段奖学金申请 (YOUNG LEARNERS) — 2026-05-19 ✍️
-  • 小学六年级毕业典礼 (6º PRIMARIA) — 2026-06-17 ✍️
-
-✍️ 需要家长操作：
-  • 营养与健康专题：葡萄——运动员的秘密武器：无需报名或缴费。可将本期营养科普内容分享给孩子，鼓励在运动前尝试天然葡萄汁（紫葡萄汁）替代商业运动补剂（pre-workout）。
-  • 有特殊教育需求学生的补助申请（2026/2027学年）（截止 2026-09-10）：1. 确认孩子是否符合申请条件（见适用对象）；2. 提前查阅官方公告，准备所需材料；3. 在申请窗口期（2026年5月19日至9月10日）内登录官网完成在线申请。
-  • 2026/2027学年幼儿教育第一阶段奖学金申请（截止 2026-06-08）：在 2026年5月19日至6月8日（含首尾两日）期间，登录 BOCM 指定链接提交奖学金申请，申请时务必填写学校中心代码 28048324（B.R.A. Institución）。
-  • 小学六年级毕业典礼：留意学校后续发送的毕业典礼详细日程（programa detallado），收到后确认相关安排。
+  • NOTICAS NUTRITION&HEALTH Omega 3 (GENERAL) — 日期待定
+  • Celebración San Isidro (INFANTIL - PRIMARIA) — 日期待定
+  • Trip/Excursión: Planetario (2º PRIMARIA) — 日期待定
+  • Trip/Excursión: Museo Arqueológico (4º PRIMARIA) — 日期待定
 
 🎓 各年级事项：
   [GENERAL]
-    - 营养与健康专题：葡萄——运动员的秘密武器
-    - 有特殊教育需求学生的补助申请（2026/2027学年） — 2026-05-19
-  [YOUNG LEARNERS]
-    - 2026/2027学年幼儿教育第一阶段奖学金申请 — 2026-05-19
-  [6º PRIMARIA]
-    - 小学六年级毕业典礼 — 2026-06-17
-
-🗓 时间节点：
-  2026-05-19 — 2026/2027学年幼儿教育第一阶段奖学金申请
-  2026-05-19 — 有特殊教育需求学生的补助申请（2026/2027学年）
-  2026-06-17 09:30 — 小学六年级毕业典礼
+    - NOTICAS NUTRITION&HEALTH Omega 3
+  [INFANTIL - PRIMARIA]
+    - Celebración San Isidro
+  [PREPARATORY]
+    - Trip/Excursión: Parque Europa
+  [PREPARATORY - 6º]
+    - Drama performance / Festival de teatro
+  [2º PRIMARIA]
+    - Trip/Excursión: Planetario
+  [4º PRIMARIA]
+    - Trip/Excursión: Museo Arqueológico
+  [4º ESO - 1º BACHILLERATO]
+    - Becas de Bachillerato 2026-2027
+  [(LOMLOE)]
+    - Becas de Bachillerato 2026-2027
+  [BACHILLERATO]
+    - “Top Law Firms” Scholarship/Becas “Grandes Firmas"
+  [(LOMLOE-IBDP)]
+    - “Top Law Firms” Scholarship/Becas “Grandes Firmas"
+  [2º IBDP]
+    - Auotoescuela Merino-Brains
+  [其他]
+    - Auotoescuela Merino-Brains
+    - Hoja de inscripción (Español)
 
 ℹ️ 详细中文版见 weekly_briefing_cn.md，日历可导入 school_events.ics。

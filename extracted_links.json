@@ -1,58 +1,177 @@
 {
-  "week_label": "Semana: 18 de MAYO 2026",
-  "week_iso": "2026-W21",
+  "week_label": "Semana: 4 de MAYO 2026",
+  "week_iso": "2026-W19",
   "items": [
     {
-      "title": "NOTICIA: NUTRITION & HEALTH - UVA",
+      "title": "NOTICAS NUTRITION&HEALTH Omega 3",
       "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/1XOFFN9FtuZDm_JK9MPh3wYSUkknz72Md/view?usp=drive_link",
+      "url": "https://drive.google.com/file/d/1VNRzj2spEuH15gYSCvlwV3IDp-7ppWsq/view?usp=drive_link",
       "status": "ok",
       "http_status": null,
       "error": "",
       "categories": [
         "全校通用通知"
       ],
-      "parent_action_needed": true,
-      "extracted": true
+      "parent_action_needed": false,
+      "extracted": false
     },
     {
-      "title": "Ayudas para alumnos con necesidades educativas",
-      "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/1c60gn085h5VgOP1M9m40IGlwLqSfS7aI/view?usp=drive_link",
+      "title": "Celebración San Isidro",
+      "stage": "INFANTIL - PRIMARIA",
+      "url": "https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link",
       "status": "ok",
       "http_status": null,
       "error": "",
       "categories": [
-        "全校通用通知"
+        "Infantil / 幼儿园",
+        "Primaria / 小学"
       ],
-      "parent_action_needed": true,
-      "extracted": true
+      "parent_action_needed": false,
+      "extracted": false
     },
     {
-      "title": "Becas Educación Infantil 2026/2027",
-      "stage": "YOUNG LEARNERS,",
-      "url": "https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link",
+      "title": "Trip/Excursión: Parque Europa",
+      "stage": "PREPARATORY",
+      "url": "https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link",
       "status": "ok",
       "http_status": null,
       "error": "",
       "categories": [
-        "Infantil / 幼儿园"
+        "Preparatory"
       ],
-      "parent_action_needed": true,
-      "extracted": true
+      "parent_action_needed": false,
+      "extracted": false
     },
     {
-      "title": "Graduación",
-      "stage": "6º PRIMARIA",
-      "url": "https://drive.google.com/file/d/1wDBZVCBpq20pqv2Qz6Jf6hrSWWteqDQH/view?usp=drive_link",
+      "title": "Drama performance / Festival de teatro",
+      "stage": "PREPARATORY - 6º",
+      "url": "https://drive.google.com/file/d/1apXzNbt8ZReV9hyThEnjc1IJ60KesGrF/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "Preparatory"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "Trip/Excursión: Planetario",
+      "stage": "2º PRIMARIA",
+      "url": "https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link",
       "status": "ok",
       "http_status": null,
       "error": "",
       "categories": [
         "Primaria / 小学"
       ],
-      "parent_action_needed": true,
-      "extracted": true
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "Trip/Excursión: Museo Arqueológico",
+      "stage": "4º PRIMARIA",
+      "url": "https://drive.google.com/file/d/1wHy804GtgUszFe9aTsKG9uB-5zwKOfLz/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "Becas de Bachillerato 2026-2027",
+      "stage": "4º ESO - 1º BACHILLERATO",
+      "url": "https://drive.google.com/file/d/1HCQGnEX7w1--1JLfflqRKhn7kG4A-ovn/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "ESO / 中学",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "Becas de Bachillerato 2026-2027",
+      "stage": "(LOMLOE)",
+      "url": "https://drive.google.com/file/d/1JIQRoJAN5cm0-g61tbRtkgRmvkY9VHzz/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "“Top Law Firms” Scholarship/Becas “Grandes Firmas\"",
+      "stage": "BACHILLERATO",
+      "url": "https://drive.google.com/file/d/1wFVhGfIOI3LINJT1iK6wtAuwpaEoEvbL/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "“Top Law Firms” Scholarship/Becas “Grandes Firmas\"",
+      "stage": "(LOMLOE-IBDP)",
+      "url": "https://drive.google.com/file/d/1FIt77GnLxrd2I29WJOGYqroc-mWiyUFo/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "IBDP"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "Auotoescuela Merino-Brains",
+      "stage": "2º IBDP",
+      "url": "https://drive.google.com/file/d/1Guah_FEJ2tOullq421WUwIPum3T2UAtA/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "IBDP"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "Auotoescuela Merino-Brains",
+      "stage": "",
+      "url": "https://drive.google.com/file/d/15kKtj6npwTm1-nirjVaAv8Lg6J8vnz3W/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "Hoja de inscripción (Español)",
+      "stage": "",
+      "url": "https://drive.google.com/file/d/19VqufZxOqq_LILNYuxqpBl03Ew57Op8C/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
     }
   ]
 }
