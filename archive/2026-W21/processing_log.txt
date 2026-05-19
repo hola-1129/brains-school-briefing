@@ -1,0 +1,42 @@
+School Helper 处理日志
+生成时间: 2026-05-19T00:48:59
+周次:     Semana: 18 de MAYO 2026  (2026-W21)
+输入 PDF: zgqryt_Briefing_Semanal_18_DE_MAYO.pdf
+
+链接总数:   4
+  下载成功: 4
+  失败/跳过: 0
+LLM 抽取成功: 4
+
+----------------------------------------------------------------------
+[1] NOTICIA: NUTRITION & HEALTH - UVA
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/1XOFFN9FtuZDm_JK9MPh3wYSUkknz72Md/view?usp=drive_link
+    status: ok (http=None)
+    分类:   全校通用通知
+    日期:   (原文未说明)
+    报名:   否
+
+[2] Ayudas para alumnos con necesidades educativas
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/1c60gn085h5VgOP1M9m40IGlwLqSfS7aI/view?usp=drive_link
+    status: ok (http=None)
+    分类:   全校通用通知
+    日期:   2026-05-19
+    报名:   是
+
+[3] Becas Educación Infantil 2026/2027
+    stage:  YOUNG LEARNERS,
+    url:    https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link
+    status: ok (http=None)
+    分类:   Infantil / 幼儿园
+    日期:   2026-05-19
+    报名:   是
+
+[4] Graduación
+    stage:  6º PRIMARIA
+    url:    https://drive.google.com/file/d/1wDBZVCBpq20pqv2Qz6Jf6hrSWWteqDQH/view?usp=drive_link
+    status: ok (http=None)
+    分类:   Primaria / 小学
+    日期:   2026-06-17
+    报名:   否

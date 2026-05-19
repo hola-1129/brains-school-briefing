@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 幼儿预备班A/B至小学六年级A/B各班\n家长: 1. 确认孩子所在班级的演出日期和时间（各班日期不同，见下方备注）。\n2. 按孩子的角色准备好指定服装，演出前送孩子穿戴到位。\n3. 家长可出席观看演出，请届时前往中学体育馆。\n4. 如有疑问，联系 cguerrero@colegiobrains.com 或 bzafra@colegiobrains.com。\n孩子准备: 根据所在班级和扮演角色，提前准备好对应服装（详见上方服装清单）；演出当天穿戴整齐到场。\n报名: 原文未说明\n付款: 否\n费用: 原文未提及\n原文: https://drive.google.com/file/d/1apXzNbt8ZReV9hyThEnjc1IJ60KesGrF/view?usp=drive_link
+DTEND:20260609T091500Z
+LOCATION:Polideportivo de secundaria\, Colegio Brains\, Madrid
+DTSTART:20260609T091500Z
+SUMMARY:年终戏剧汇演节 / Festival de teatro / Drama performance – End-of-Year Festival
+UID:05083f724e94e150@school_helper
+END:VEVENT
+END:VCALENDAR

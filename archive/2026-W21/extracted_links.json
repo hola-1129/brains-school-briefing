@@ -1,0 +1,58 @@
+{
+  "week_label": "Semana: 18 de MAYO 2026",
+  "week_iso": "2026-W21",
+  "items": [
+    {
+      "title": "NOTICIA: NUTRITION & HEALTH - UVA",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1XOFFN9FtuZDm_JK9MPh3wYSUkknz72Md/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Ayudas para alumnos con necesidades educativas",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1c60gn085h5VgOP1M9m40IGlwLqSfS7aI/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Becas Educación Infantil 2026/2027",
+      "stage": "YOUNG LEARNERS,",
+      "url": "https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "Infantil / 幼儿园"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Graduación",
+      "stage": "6º PRIMARIA",
+      "url": "https://drive.google.com/file/d/1wDBZVCBpq20pqv2Qz6Jf6hrSWWteqDQH/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    }
+  ]
+}
