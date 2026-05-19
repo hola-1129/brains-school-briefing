@@ -1,12 +1,12 @@
 School Helper 处理日志
-生成时间: 2026-05-18T18:26:28
+生成时间: 2026-05-19T13:30:01
 周次:     Semana: 4 de MAYO 2026  (2026-W19)
 输入 PDF: Briefing_simple.pdf
 
 链接总数:   13
   下载成功: 13
   失败/跳过: 0
-LLM 抽取成功: 0
+LLM 抽取成功: 13
 
 ----------------------------------------------------------------------
 [1] NOTICAS NUTRITION&HEALTH Omega 3
@@ -14,75 +14,101 @@ LLM 抽取成功: 0
     url:    https://drive.google.com/file/d/1VNRzj2spEuH15gYSCvlwV3IDp-7ppWsq/view?usp=drive_link
     status: ok (http=None)
     分类:   全校通用通知
+    日期:   (原文未说明)
+    报名:   否
 
 [2] Celebración San Isidro
     stage:  INFANTIL - PRIMARIA
     url:    https://drive.google.com/file/d/1icJKAMK-f5nXZtS1dN7tCT-d2fz-4Dev/view?usp=drive_link
     status: ok (http=None)
     分类:   Infantil / 幼儿园 / Primaria / 小学
+    日期:   2026-05-14
+    报名:   否
 
 [3] Trip/Excursión: Parque Europa
     stage:  PREPARATORY
     url:    https://drive.google.com/file/d/1btqofZgvTn0w87dapJsfTpz89s6mv2_I/view?usp=drive_link
     status: ok (http=None)
-    分类:   Preparatory
+    分类:   Infantil / 幼儿园 / Preparatory
+    日期:   2026-05-07
+    报名:   原文未说明
 
 [4] Drama performance / Festival de teatro
     stage:  PREPARATORY - 6º
     url:    https://drive.google.com/file/d/1apXzNbt8ZReV9hyThEnjc1IJ60KesGrF/view?usp=drive_link
     status: ok (http=None)
-    分类:   Preparatory
+    分类:   Infantil / 幼儿园 / Primaria / 小学 / Preparatory
+    日期:   2026-06-09
+    报名:   原文未说明
 
 [5] Trip/Excursión: Planetario
     stage:  2º PRIMARIA
     url:    https://drive.google.com/file/d/1b9i009JYxqiWpHMG_jWPOLJxV0bdZyOd/view?usp=drive_link
     status: ok (http=None)
     分类:   Primaria / 小学
+    日期:   2026-05-05
+    报名:   原文未说明
 
 [6] Trip/Excursión: Museo Arqueológico
     stage:  4º PRIMARIA
     url:    https://drive.google.com/file/d/1wHy804GtgUszFe9aTsKG9uB-5zwKOfLz/view?usp=drive_link
     status: ok (http=None)
     分类:   Primaria / 小学
+    日期:   2026-05-06
+    报名:   原文未说明
 
 [7] Becas de Bachillerato 2026-2027
     stage:  4º ESO - 1º BACHILLERATO
     url:    https://drive.google.com/file/d/1HCQGnEX7w1--1JLfflqRKhn7kG4A-ovn/view?usp=drive_link
     status: ok (http=None)
     分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   2026-05-05
+    报名:   是
 
 [8] Becas de Bachillerato 2026-2027
     stage:  (LOMLOE)
     url:    https://drive.google.com/file/d/1JIQRoJAN5cm0-g61tbRtkgRmvkY9VHzz/view?usp=drive_link
     status: ok (http=None)
-    分类:   仅供了解的信息
+    分类:   Bachillerato / 高中
+    日期:   2026-05-04
+    报名:   是
 
 [9] “Top Law Firms” Scholarship/Becas “Grandes Firmas"
     stage:  BACHILLERATO
     url:    https://drive.google.com/file/d/1wFVhGfIOI3LINJT1iK6wtAuwpaEoEvbL/view?usp=drive_link
     status: ok (http=None)
     分类:   Bachillerato / 高中
+    日期:   2026-05-04
+    报名:   原文未说明
 
 [10] “Top Law Firms” Scholarship/Becas “Grandes Firmas"
     stage:  (LOMLOE-IBDP)
     url:    https://drive.google.com/file/d/1FIt77GnLxrd2I29WJOGYqroc-mWiyUFo/view?usp=drive_link
     status: ok (http=None)
     分类:   IBDP
+    日期:   (原文未说明)
+    报名:   是
 
 [11] Auotoescuela Merino-Brains
     stage:  2º IBDP
     url:    https://drive.google.com/file/d/1Guah_FEJ2tOullq421WUwIPum3T2UAtA/view?usp=drive_link
     status: ok (http=None)
     分类:   IBDP
+    日期:   2026-05-25
+    报名:   是
 
 [12] Auotoescuela Merino-Brains
     stage:  
     url:    https://drive.google.com/file/d/15kKtj6npwTm1-nirjVaAv8Lg6J8vnz3W/view?usp=drive_link
     status: ok (http=None)
-    分类:   仅供了解的信息
+    分类:   Bachillerato / 高中
+    日期:   2025-11-19
+    报名:   是
 
 [13] Hoja de inscripción (Español)
     stage:  
     url:    https://drive.google.com/file/d/19VqufZxOqq_LILNYuxqpBl03Ew57Op8C/view?usp=drive_link
     status: ok (http=None)
-    分类:   仅供了解的信息
+    分类:   Bachillerato / 高中
+    日期:   2025-11-19
+    报名:   是

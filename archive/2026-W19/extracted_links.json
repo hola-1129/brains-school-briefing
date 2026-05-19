@@ -12,8 +12,8 @@
       "categories": [
         "全校通用通知"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Celebración San Isidro",
@@ -26,8 +26,8 @@
         "Infantil / 幼儿园",
         "Primaria / 小学"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Trip/Excursión: Parque Europa",
@@ -37,10 +37,11 @@
       "http_status": null,
       "error": "",
       "categories": [
+        "Infantil / 幼儿园",
         "Preparatory"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Drama performance / Festival de teatro",
@@ -50,10 +51,12 @@
       "http_status": null,
       "error": "",
       "categories": [
+        "Infantil / 幼儿园",
+        "Primaria / 小学",
         "Preparatory"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Trip/Excursión: Planetario",
@@ -65,8 +68,8 @@
       "categories": [
         "Primaria / 小学"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Trip/Excursión: Museo Arqueológico",
@@ -78,8 +81,8 @@
       "categories": [
         "Primaria / 小学"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Becas de Bachillerato 2026-2027",
@@ -92,8 +95,8 @@
         "ESO / 中学",
         "Bachillerato / 高中"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Becas de Bachillerato 2026-2027",
@@ -103,10 +106,10 @@
       "http_status": null,
       "error": "",
       "categories": [
-        "仅供了解的信息"
+        "Bachillerato / 高中"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "“Top Law Firms” Scholarship/Becas “Grandes Firmas\"",
@@ -118,8 +121,8 @@
       "categories": [
         "Bachillerato / 高中"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "“Top Law Firms” Scholarship/Becas “Grandes Firmas\"",
@@ -131,8 +134,8 @@
       "categories": [
         "IBDP"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Auotoescuela Merino-Brains",
@@ -144,8 +147,8 @@
       "categories": [
         "IBDP"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Auotoescuela Merino-Brains",
@@ -155,10 +158,10 @@
       "http_status": null,
       "error": "",
       "categories": [
-        "仅供了解的信息"
+        "Bachillerato / 高中"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     },
     {
       "title": "Hoja de inscripción (Español)",
@@ -168,10 +171,10 @@
       "http_status": null,
       "error": "",
       "categories": [
-        "仅供了解的信息"
+        "Bachillerato / 高中"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
     }
   ]
 }
