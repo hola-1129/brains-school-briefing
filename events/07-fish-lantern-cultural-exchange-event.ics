@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 初中一年级（ESO一年级）\n家长: 本次活动为学校在校内举办，家长无需报名或缴费，收到通知知悉即可；如有意愿出席请主动联系学校确认。\n孩子准备: 无需额外准备，学校将在课堂内安排动手制作鱼灯的体验工坊。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1t35X2op4pi6Hm4C9xWE_NIEYLRB8ISiu/view?usp=drive_link
+DTEND:20260528T103000Z
+LOCATION:Brains International School La Moraleja
+DTSTART:20260528T103000Z
+SUMMARY:鱼灯文化交流活动 / Fish Lantern – Cultural Exchange Event
+UID:99204faab2d455b6@school_helper
+END:VEVENT
+END:VCALENDAR

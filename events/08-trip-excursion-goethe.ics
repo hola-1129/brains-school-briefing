@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 初一（德语班）学生\n家长: 阅读通知即可，如有疑问请发邮件联系老师 Georgina Mattison（Georgina.Mattison@colegiobrains.com）。原文未要求家长签字或付款。\n孩子准备: 学校会为学生准备野餐午餐（picnic），学生无需自带午饭；乘坐地铁（metro）出行，有两位老师全程陪同。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/14c8wMHB7t4X1wYIlFMccQJ0R6qiBAOI4/view?usp=drive_link
+DTEND:20260603T150000Z
+LOCATION:Goethe-Institut Madrid
+DTSTART:20260603T090000Z
+SUMMARY:德语部门组织的歌德学院参观活动 / Trip/Excursión: GOETHE
+UID:117baa210009f172@school_helper
+END:VEVENT
+END:VCALENDAR

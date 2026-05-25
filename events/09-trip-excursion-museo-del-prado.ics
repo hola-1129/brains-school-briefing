@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 初四（ESO四年级），以及高一（BACH一年级）选修"古典语言基础"课的学生\n家长: 本次通知为纯告知性质，原文未要求家长签署同意书或缴费。建议家长确认孩子当天按时到校（出发时间约上午9点），并留意孩子约下午2点返校。\n孩子准备: 无需特别准备，原文未提及携带材料或特定着装要求。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1329D19U1pgQXxIdHMqatPdR3bNml4DpI/view?usp=drive_link
+DTEND:20260601T140000Z
+LOCATION:Museo del Prado\, Madrid
+DTSTART:20260601T090000Z
+SUMMARY:普拉多博物馆参观活动 / Trip/Excursión: Museo del Prado
+UID:6a81267856bdb2b9@school_helper
+END:VEVENT
+END:VCALENDAR

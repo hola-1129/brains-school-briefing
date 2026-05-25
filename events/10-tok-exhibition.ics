@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 高中一年级 IBDP 学生（对应 1º Bachillerato）\n家长: 发邮件至 huansun@colegiobrains.com 确认是否出席；在 9:00–11:30 之间选择方便的时间段前往中学餐厅参观\n孩子准备: 学生需展示围绕一个知识论问题（TOK prompt）自选的三件实物，并向家长和老师阐述其对"知识"的思考与反思\n报名: 是\n付款: 否\n原文: https://drive.google.com/file/d/1qi1Fc2eGxutYKfvERp2S6-R5OrsVwdsf/view?usp=drive_link
+DTEND:20260528T113000Z
+LOCATION:Comedor de Secundaria\, Brains International School La Moraleja
+DTSTART:20260528T090000Z
+SUMMARY:TOK（知识论）展览 / TOK Exhibition
+UID:d6bc359a880ab563@school_helper
+END:VEVENT
+END:VCALENDAR

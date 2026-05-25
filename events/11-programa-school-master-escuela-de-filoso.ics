@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 高中一年级（1º Bachillerato）\n家长: 本次为告知性通知，家长无需报名或缴费，确认孩子当天正常到校参加活动即可。\n孩子准备: 无需特别准备；当天将在图书馆参加讲座（8:50–9:45）及工作坊，并由纳瓦拉大学（Universidad de Navarra）颁发结业证书（diploma）。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1xculdI5SzaBvF9RwqkPg1_8JLz1SXknW/view?usp=drive_link
+DTEND:20260529T113500Z
+LOCATION:Biblioteca del colegio (Brains International School La Moraleja)
+DTSTART:20260529T085000Z
+SUMMARY:School Master"哲学家学校"项目——最终课程 / Programa School Master "Escuela de filósofos" – Sesión final
+UID:56efe5d9535ece49@school_helper
+END:VEVENT
+END:VCALENDAR

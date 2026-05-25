@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 幼小衔接预备班（Preparatory）学生及家庭\n家长: 关注学校后续发出的详细典礼程序单（programme）；目前无需报名或付款，留意后续通知即可。\n孩子准备: 典礼结束后将进行话剧演出（theatre production），学生需配合学校排练准备。\n报名: 原文未说明\n付款: 否\n原文: https://drive.google.com/file/d/1tlNxPzx17shOJIWKDAd3rwaep2L1utmY/view?usp=drive_link
+DTEND:20260618T093000Z
+LOCATION:Brains International School La Moraleja
+DTSTART:20260618T093000Z
+SUMMARY:Preparatory 毕业典礼 / Graduation / Graduación – PREPARATORY
+UID:87350a43247a124a@school_helper
+END:VEVENT
+END:VCALENDAR

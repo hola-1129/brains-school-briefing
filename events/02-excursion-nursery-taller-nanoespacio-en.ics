@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 幼儿园班级\n家长: 留意孩子出行当天（6月2日）按时送到学校，确保孩子9:30前到校；如学校后续发送同意书或缴费通知，请及时签署/缴纳。\n孩子准备: 无特别说明，正常着装上学即可；由班主任及额外成人陪同出行，家长无需接送至博物馆。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1o79iPh3LD1NC-jNHwVUzV40S9G8KP8tF/view?usp=drive_link
+DTEND:20260602T110000Z
+LOCATION:Museo MUNCYT\, Madrid
+DTSTART:20260602T093000Z
+SUMMARY:幼儿园参观 MUNCYT 博物馆——"纳米空间"工作坊 / Excursión Nursery – Taller "Nanoespacio" en Museo MUNCYT
+UID:b9131c7f0c764627@school_helper
+END:VEVENT
+END:VCALENDAR

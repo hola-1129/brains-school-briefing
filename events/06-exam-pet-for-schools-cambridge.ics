@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 小学六年级\n家长: 1. 确保孩子携带有效身份证件（DNI / 护照），无证件不得入场；2. 当天送孩子至学校安保门岗（garita de seguridad），08:45 前到达；3. 考试结束后在同一门岗接孩子（口语结束时间不固定，需等候）；4. 提醒孩子提前查好自己的 Cambridge Code，7月16日起可在 https://candidates.cambridgeenglish.org 查成绩。\n孩子准备: 1. 必须携带身份证或护照，否则无法参加考试；2. 自备铅笔、橡皮、蓝/黑色圆珠笔；3. 带零食和水（全程留校上午）；4. 禁止携带手机、智能手表等任何电子设备；5. 禁止使用字典、翻译机、修正液（tippex）；6. 进场后核对试卷上姓名是否正确，有误立即告知监考员。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1lSzA3HeOJMKHc9QW6eaZ7zK8lakvk_zC/view?usp=drive_link
+DTEND:20260606T115000Z
+LOCATION:Brains International School\, La Moraleja
+DTSTART:20260606T084500Z
+SUMMARY:剑桥 PET FOR SCHOOLS 考试 / Exam PET FOR SCHOOLS (Cambridge)
+UID:49820f3225001af4@school_helper
+END:VEVENT
+END:VCALENDAR

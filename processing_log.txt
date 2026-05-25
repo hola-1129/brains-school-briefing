@@ -1,42 +1,98 @@
 School Helper 处理日志
-生成时间: 2026-05-19T13:45:11
-周次:     Semana: 18 de MAYO 2026  (2026-W21)
-输入 PDF: zgqryt_Briefing_Semanal_18_DE_MAYO.pdf
+生成时间: 2026-05-25T18:37:40
+周次:     Semana: 25 de MAYO 2026  (2026-W22)
+输入 PDF: dwpdwl_Briefing_Semanal_25_mayo.pdf
 
-链接总数:   4
-  下载成功: 4
+链接总数:   11
+  下载成功: 11
   失败/跳过: 0
-LLM 抽取成功: 4
+LLM 抽取成功: 11
 
 ----------------------------------------------------------------------
-[1] NOTICIA: NUTRITION & HEALTH - UVA
+[1] Receta Nutrition & Health
     stage:  GENERAL
-    url:    https://drive.google.com/file/d/1XOFFN9FtuZDm_JK9MPh3wYSUkknz72Md/view?usp=drive_link
-    status: ok (http=None)
+    url:    https://drive.google.com/file/d/1CEVQG702IeArMWr2_ZPmhgaQ5oFQ9N-I/view?usp=drive_link
+    status: ok (http=200)
     分类:   全校通用通知
     日期:   (原文未说明)
+    报名:   原文未说明
+
+[2] Trip / Excursión: Nanoespacio
+    stage:  NURSERY
+    url:    https://drive.google.com/file/d/1o79iPh3LD1NC-jNHwVUzV40S9G8KP8tF/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Infantil / 幼儿园
+    日期:   2026-06-02
+    报名:   原文未说明
+
+[3] Trip/Excursión: Pequelab
+    stage:  RECEPTION
+    url:    https://drive.google.com/file/d/1fzJ0HdZgE5ei1QUf6Ytf0lH83tzBIu9w/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Infantil / 幼儿园
+    日期:   2026-06-03
+    报名:   原文未说明
+
+[4] Graduation / Graduación
+    stage:  PREPARATORY
+    url:    https://drive.google.com/file/d/1tlNxPzx17shOJIWKDAd3rwaep2L1utmY/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Preparatory
+    日期:   2026-06-18
+    报名:   原文未说明
+
+[5] Exam KET
+    stage:  5º PRIMARIA
+    url:    https://drive.google.com/file/d/1qDdwj_q5BxzPjH_Wr7omDRztXbtt_wiq/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Primaria / 小学
+    日期:   2026-06-06
+    报名:   原文未说明
+
+[6] Exam PET
+    stage:  6º PRIMARIA
+    url:    https://drive.google.com/file/d/1lSzA3HeOJMKHc9QW6eaZ7zK8lakvk_zC/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Primaria / 小学
+    日期:   2026-06-06
+    报名:   原文未说明
+
+[7] School Event / Evento escolar: Fish Lantern
+    stage:  1º ESO
+    url:    https://drive.google.com/file/d/1t35X2op4pi6Hm4C9xWE_NIEYLRB8ISiu/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学
+    日期:   2026-05-28
     报名:   否
 
-[2] Ayudas para alumnos con necesidades educativas
-    stage:  GENERAL
-    url:    https://drive.google.com/file/d/1c60gn085h5VgOP1M9m40IGlwLqSfS7aI/view?usp=drive_link
-    status: ok (http=None)
-    分类:   全校通用通知
-    日期:   2026-05-19
+[8] Trip/Excursión: GOETHE
+    stage:  1º ESO (ALEMAN)
+    url:    https://drive.google.com/file/d/14c8wMHB7t4X1wYIlFMccQJ0R6qiBAOI4/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学
+    日期:   2026-06-03
+    报名:   原文未说明
+
+[9] Trip/Excursión: Museo del Prado
+    stage:  4º ESO
+    url:    https://drive.google.com/file/d/1329D19U1pgQXxIdHMqatPdR3bNml4DpI/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学
+    日期:   2026-06-01
+    报名:   原文未说明
+
+[10] TOK Exhibition
+    stage:  4º ESO, 1º BACH
+    url:    https://drive.google.com/file/d/1qi1Fc2eGxutYKfvERp2S6-R5OrsVwdsf/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Bachillerato / 高中 / IBDP
+    日期:   2026-05-28
     报名:   是
 
-[3] Becas Educación Infantil 2026/2027
-    stage:  YOUNG LEARNERS,
-    url:    https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link
-    status: ok (http=None)
-    分类:   Infantil / 幼儿园
-    日期:   2026-05-19
-    报名:   是
-
-[4] Graduación
-    stage:  6º PRIMARIA
-    url:    https://drive.google.com/file/d/1wDBZVCBpq20pqv2Qz6Jf6hrSWWteqDQH/view?usp=drive_link
-    status: ok (http=None)
-    分类:   Primaria / 小学
-    日期:   2026-06-17
+[11] Programa School Master “Escuela de filósofos”
+    stage:  1º BACH
+    url:    https://drive.google.com/file/d/1xculdI5SzaBvF9RwqkPg1_8JLz1SXknW/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Bachillerato / 高中
+    日期:   2026-05-29
     报名:   否

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 小学五年级\n家长: 1. 【10:00】送孩子到学校安保门（garita de seguridad），等待工作人员带入考场（口语部分）。\n2. 口语结束后接孩子外出等候，【12:30】准时送回安保门参加笔试（阅读、写作、听力）。\n3. 【14:30】在安保门接孩子离校。\n4. 考试当天学校仅对考生开放，家长及无关人员不得进入校舍内部，请严格遵守。\n5. 确保孩子随身携带有效身份证件。\n孩子准备: 1. 提前确认携带有效身份证件（DNI 或护照），无证件不得入场。\n2. 自备铅笔、橡皮、蓝/黑圆珠笔，不可向他人借用。\n3. 不得携带任何电子设备进入考场。\n4. 入场后核对试卷上的姓名是否正确，如有误立即告知监考员。\n5. 课堂上已发放个人 Cambridge Code，7月16日起可登录 https://candidates.cambridgeenglish.org 查询成绩。\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1qDdwj_q5BxzPjH_Wr7omDRztXbtt_wiq/view?usp=drive_link
+DTEND:20260606T143000Z
+LOCATION:Brains International School\, La Moraleja
+DTSTART:20260606T100000Z
+SUMMARY:剑桥 KET 校园版考试 / Exam KET FOR SCHOOLS (Cambridge)
+UID:f10b24d3ad58dd13@school_helper
+END:VEVENT
+END:VCALENDAR

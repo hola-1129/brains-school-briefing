@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 幼儿园 Reception 班（A班、B班）\n家长: 本通知为纯告知性质，原文未要求家长签署同意书或缴费；家长留意当天出行时间安排即可（Reception A 9:30 出发，Reception B 10:45 出发，午饭前返校）\n孩子准备: 无需特别准备，班主任及额外成人陪同出行，午饭前返校\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1fzJ0HdZgE5ei1QUf6Ytf0lH83tzBIu9w/view?usp=drive_link
+DTEND:20260603T093000Z
+LOCATION:Museo MUNCYT\, Madrid
+DTSTART:20260603T093000Z
+SUMMARY:Reception 年级赴 MUNCYT 博物馆"Pequelab"科学工坊校外活动 / Excursión de Reception al Museo MUNCYT – Taller "Pequelab"
+UID:45a775c61888cf56@school_helper
+END:VEVENT
+END:VCALENDAR

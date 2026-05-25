@@ -1,13 +1,13 @@
 {
-  "week_label": "Semana: 18 de MAYO 2026",
-  "week_iso": "2026-W21",
+  "week_label": "Semana: 25 de MAYO 2026",
+  "week_iso": "2026-W22",
   "items": [
     {
-      "title": "NOTICIA: NUTRITION & HEALTH - UVA",
+      "title": "Receta Nutrition & Health",
       "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/1XOFFN9FtuZDm_JK9MPh3wYSUkknz72Md/view?usp=drive_link",
+      "url": "https://drive.google.com/file/d/1CEVQG702IeArMWr2_ZPmhgaQ5oFQ9N-I/view?usp=drive_link",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
       "error": "",
       "categories": [
         "全校通用通知"
@@ -16,24 +16,11 @@
       "extracted": true
     },
     {
-      "title": "Ayudas para alumnos con necesidades educativas",
-      "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/1c60gn085h5VgOP1M9m40IGlwLqSfS7aI/view?usp=drive_link",
+      "title": "Trip / Excursión: Nanoespacio",
+      "stage": "NURSERY",
+      "url": "https://drive.google.com/file/d/1o79iPh3LD1NC-jNHwVUzV40S9G8KP8tF/view?usp=drive_link",
       "status": "ok",
-      "http_status": null,
-      "error": "",
-      "categories": [
-        "全校通用通知"
-      ],
-      "parent_action_needed": true,
-      "extracted": true
-    },
-    {
-      "title": "Becas Educación Infantil 2026/2027",
-      "stage": "YOUNG LEARNERS,",
-      "url": "https://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_linkhttps://drive.google.com/file/d/1lDpe_zrXy88lZNFVbq7bgou5EFyam9UB/view?usp=drive_link",
-      "status": "ok",
-      "http_status": null,
+      "http_status": 200,
       "error": "",
       "categories": [
         "Infantil / 幼儿园"
@@ -42,14 +29,119 @@
       "extracted": true
     },
     {
-      "title": "Graduación",
-      "stage": "6º PRIMARIA",
-      "url": "https://drive.google.com/file/d/1wDBZVCBpq20pqv2Qz6Jf6hrSWWteqDQH/view?usp=drive_link",
+      "title": "Trip/Excursión: Pequelab",
+      "stage": "RECEPTION",
+      "url": "https://drive.google.com/file/d/1fzJ0HdZgE5ei1QUf6Ytf0lH83tzBIu9w/view?usp=drive_link",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Infantil / 幼儿园"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Graduation / Graduación",
+      "stage": "PREPARATORY",
+      "url": "https://drive.google.com/file/d/1tlNxPzx17shOJIWKDAd3rwaep2L1utmY/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Preparatory"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Exam KET",
+      "stage": "5º PRIMARIA",
+      "url": "https://drive.google.com/file/d/1qDdwj_q5BxzPjH_Wr7omDRztXbtt_wiq/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
       "error": "",
       "categories": [
         "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Exam PET",
+      "stage": "6º PRIMARIA",
+      "url": "https://drive.google.com/file/d/1lSzA3HeOJMKHc9QW6eaZ7zK8lakvk_zC/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "School Event / Evento escolar: Fish Lantern",
+      "stage": "1º ESO",
+      "url": "https://drive.google.com/file/d/1t35X2op4pi6Hm4C9xWE_NIEYLRB8ISiu/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Trip/Excursión: GOETHE",
+      "stage": "1º ESO (ALEMAN)",
+      "url": "https://drive.google.com/file/d/14c8wMHB7t4X1wYIlFMccQJ0R6qiBAOI4/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Trip/Excursión: Museo del Prado",
+      "stage": "4º ESO",
+      "url": "https://drive.google.com/file/d/1329D19U1pgQXxIdHMqatPdR3bNml4DpI/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "TOK Exhibition",
+      "stage": "4º ESO, 1º BACH",
+      "url": "https://drive.google.com/file/d/1qi1Fc2eGxutYKfvERp2S6-R5OrsVwdsf/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Bachillerato / 高中",
+        "IBDP"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Programa School Master “Escuela de filósofos”",
+      "stage": "1º BACH",
+      "url": "https://drive.google.com/file/d/1xculdI5SzaBvF9RwqkPg1_8JLz1SXknW/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Bachillerato / 高中"
       ],
       "parent_action_needed": true,
       "extracted": true
