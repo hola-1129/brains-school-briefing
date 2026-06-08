@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 初四（4º ESO）及高一（1º BACH）德语课学生\n家长: 如孩子无法参加，须提前联系德语部告知；如有疑问可发邮件至 Georgina.Mattison@colegiobrains.com\n孩子准备: 出发前在手机上下载并安装「Stadtrallye」App；带好水，可自带零食和少量现金\n报名: 否\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1r0tLsAwAbYd8rsArNfF0v4qKafZ5QbLi/view?usp=drive_link
+DTEND:20260617T143000Z
+LOCATION:Goethe-Institut Madrid & barrio de Chamberí
+DTSTART:20260617T090000Z
+SUMMARY:歌德学院参观 & Chamberí街区寻宝游（德语活动） / Trip/Visita GOETHE
+UID:cf80a7e26e778f7a@school_helper
+END:VEVENT
+END:VCALENDAR

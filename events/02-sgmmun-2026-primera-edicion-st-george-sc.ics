@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260925
+DESCRIPTION:适用: 小学六年级至初一（及所有有兴趣的学生，无论经验多少）\n家长: 1. 若孩子有兴趣，鼓励其尽快发邮件至 fwhyte@colegiobrains.com 表达意向；2. 9月第一周前确认孩子是否参加（一旦报名须承诺出席）；3. 提前核查 9月25–27日是否有其他安排冲突\n孩子准备: 有意向参加的学生现在联系 Fraser Whyte 表达意向；9月第一周正式确认出席；确保9月25–27日无其他冲突\n报名: 是\n付款: 原文未说明\n费用: 原文未说明 SGMMUN 2026 的费用；但学年结束前校内将举办一场免费非正式 MUN 体验会（no cost）\n截止: 2026-09-01\n原文: https://drive.google.com/file/d/1_jUN2RPtHJ0dmT05ioDyhvL7qx7nF5r5/view?usp=drive_link
+LOCATION:St George School
+SUMMARY:SGMMUN 2026 模拟联合国大会（首届） / SGMMUN 2026 – Primera edición (St George School)
+UID:490a01a77f70e777@school_helper
+END:VEVENT
+END:VCALENDAR

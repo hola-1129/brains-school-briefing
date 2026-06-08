@@ -1,0 +1,97 @@
+{
+  "week_label": "Semana: 8 de JUNIO 2026",
+  "week_iso": "2026-W24",
+  "items": [
+    {
+      "title": "Healthy recipe / Receta saludable",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/18HYSOkAuH5y3bFZP_pssBAM2hFqnwJ9Z/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "SGMMUN 2026",
+      "stage": "6º PRIMARIA – 1º",
+      "url": "https://drive.google.com/file/d/1_jUN2RPtHJ0dmT05ioDyhvL7qx7nF5r5/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Trip / Excursión Parque de la Vega",
+      "stage": "1º ESO",
+      "url": "https://drive.google.com/file/d/1PcZN7OxZqWTSBxWq0uF8Rfe6SU3wtbqg/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Personal proyect presentation/ Presentación de proyecto",
+      "stage": "4º ESO",
+      "url": "https://drive.google.com/file/d/1YfqRK3DP9Y9ZJmM51k-1ky_s1i4CSVJo/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "personal",
+      "stage": "",
+      "url": "https://drive.google.com/file/d/1ZT3dUfGLmmA82hf2L0HWJlJqwlIJF62d/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Earlier departure and Ipad Return/ Salida anticipada y",
+      "stage": "4º ESO",
+      "url": "https://drive.google.com/file/d/13p-PD59Qr59sMi363AYjzEqLrm9TZnWR/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Trip/Visita GOETHE",
+      "stage": "4º ESO - 1º",
+      "url": "https://drive.google.com/file/d/1r0tLsAwAbYd8rsArNfF0v4qKafZ5QbLi/view?usp=drive_link",
+      "status": "ok",
+      "http_status": null,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    }
+  ]
+}

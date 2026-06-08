@@ -1,0 +1,66 @@
+School Helper 处理日志
+生成时间: 2026-06-08T19:21:14
+周次:     Semana: 8 de JUNIO 2026  (2026-W24)
+输入 PDF: vlhqmy_Briefing_Semanal.pdf
+
+链接总数:   7
+  下载成功: 7
+  失败/跳过: 0
+LLM 抽取成功: 7
+
+----------------------------------------------------------------------
+[1] Healthy recipe / Receta saludable
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/18HYSOkAuH5y3bFZP_pssBAM2hFqnwJ9Z/view?usp=drive_link
+    status: ok (http=None)
+    分类:   全校通用通知
+    日期:   (原文未说明)
+    报名:   否
+
+[2] SGMMUN 2026
+    stage:  6º PRIMARIA – 1º
+    url:    https://drive.google.com/file/d/1_jUN2RPtHJ0dmT05ioDyhvL7qx7nF5r5/view?usp=drive_link
+    status: ok (http=None)
+    分类:   Primaria / 小学
+    日期:   2026-09-25
+    报名:   是
+
+[3] Trip / Excursión Parque de la Vega
+    stage:  1º ESO
+    url:    https://drive.google.com/file/d/1PcZN7OxZqWTSBxWq0uF8Rfe6SU3wtbqg/view?usp=drive_link
+    status: ok (http=None)
+    分类:   ESO / 中学
+    日期:   2026-06-15
+    报名:   否
+
+[4] Personal proyect presentation/ Presentación de proyecto
+    stage:  4º ESO
+    url:    https://drive.google.com/file/d/1YfqRK3DP9Y9ZJmM51k-1ky_s1i4CSVJo/view?usp=drive_link
+    status: ok (http=None)
+    分类:   ESO / 中学
+    日期:   2026-06-12
+    报名:   原文未说明
+
+[5] personal
+    stage:  
+    url:    https://drive.google.com/file/d/1ZT3dUfGLmmA82hf2L0HWJlJqwlIJF62d/view?usp=drive_link
+    status: ok (http=None)
+    分类:   仅供了解的信息
+    日期:   (原文未说明)
+    报名:   否
+
+[6] Earlier departure and Ipad Return/ Salida anticipada y
+    stage:  4º ESO
+    url:    https://drive.google.com/file/d/13p-PD59Qr59sMi363AYjzEqLrm9TZnWR/view?usp=drive_link
+    status: ok (http=None)
+    分类:   ESO / 中学
+    日期:   2026-06-18
+    报名:   是
+
+[7] Trip/Visita GOETHE
+    stage:  4º ESO - 1º
+    url:    https://drive.google.com/file/d/1r0tLsAwAbYd8rsArNfF0v4qKafZ5QbLi/view?usp=drive_link
+    status: ok (http=None)
+    分类:   ESO / 中学
+    日期:   2026-06-17
+    报名:   否

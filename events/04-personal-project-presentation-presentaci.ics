@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 初四（MYP第五年）学生及家长\n家长: 出席6月12日上午9:00–11:30的个人项目展示活动，现场参观学生作品并与学生交流\n孩子准备: 学生需在展示现场介绍自己的个人项目成果，与到场家长及来宾交流\n报名: 原文未说明\n付款: 否\n原文: https://drive.google.com/file/d/1YfqRK3DP9Y9ZJmM51k-1ky_s1i4CSVJo/view?usp=drive_link
+DTEND:20260612T113000Z
+LOCATION:Patio superior – césped artificial de las escaleras de entrada\, Brains Moraleja (si el tiempo lo permite)
+DTSTART:20260612T090000Z
+SUMMARY:国际文凭MYP个人项目成果展示 / Personal Project Presentation / Presentación de Proyecto Personal
+UID:2d067a957fec5800@school_helper
+END:VEVENT
+END:VCALENDAR

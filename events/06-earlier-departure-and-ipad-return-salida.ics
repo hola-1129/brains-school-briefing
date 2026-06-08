@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 初四（ESO第四年）学生\n家长: ① 【截止 6月12日 16:30】填写提前离校授权表格，授权孩子于 6月18日 13:50 离校；② 提醒孩子提前备份 iPad 数据，并准备好归还所需全套配件（含充电器，否则罚款 €25）\n孩子准备: 归还 iPad 前，务必将所有需要保留的文件备份至 Google Drive 和/或 iCloud；按要求将 iPad 充满电（100%）、密码改为 0000，并备齐原装保护套和充电器\n报名: 是\n付款: 原文未说明\n费用: 若未归还充电器，将在下一期学费账单中额外收取 €25\n截止: 2026-06-12\n原文: https://drive.google.com/file/d/13p-PD59Qr59sMi363AYjzEqLrm9TZnWR/view?usp=drive_link
+DTEND:20260618T140000Z
+LOCATION:Departamento de Informática del colegio / Brains International School La Moraleja
+DTSTART:20260618T110000Z
+SUMMARY:提前离校 & 归还 iPad（4º ESO） / Earlier departure and iPad Return / Salida anticipada y Devolución de iPads
+UID:50ce25b70a42abc1@school_helper
+END:VEVENT
+END:VCALENDAR
