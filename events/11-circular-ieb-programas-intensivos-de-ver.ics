@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 初四（4º ESO）年级学生\n家长: 如有意向让孩子参加，请通过邮件 mariona.mera@ieb.es 联系 IEB 报名；同时可点击通知中的链接查看两门课程的详细介绍及宣传单页（flyer）。\n孩子准备: 选择感兴趣的课程（金融市场入门 或 国际商务与分析入门），由家长协助完成报名及缴费（300 €）。\n报名: 是\n付款: 是\n费用: 报名费 300 €（原价 600 €，学校合作折扣 50%）\n原文: https://drive.google.com/file/d/1SfvwxJB6JQUJLSwG-svs4w4IFu38VJz6/view?usp=drive_link
+DTEND:20260615T130000Z
+LOCATION:Campus de Aravaca\, Madrid
+DTSTART:20260615T100000Z
+SUMMARY:IEB 暑期强化课程通知 / Circular IEB – Programas Intensivos de Verano
+UID:f48c05916c574b62@school_helper
+END:VEVENT
+END:VCALENDAR

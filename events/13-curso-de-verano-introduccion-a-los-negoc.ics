@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 原文未说明适用年级（推测为高中生或大学预科阶段）\n家长: 1. 确认是否为孩子报名（联系 admisiones@ieb.es 或致电 91 524 06 15）；2. 准备缴纳课程费用 600€；3. 确认孩子每日可自行前往马德里 Talgo大道5号上课（10:00–13:00）。\n孩子准备: 课程共32小时，周一至周五每天10:00–13:00上课，持续两周（6月22日至7月3日）。课程包含5个模块：国际商务基础、创新基础、市场营销基础、地缘政治基础、以及PRAXAR©商业模拟器实战。学生需参与团队合作、数据分析展示及商业竞赛模拟。\n报名: 原文未说明\n付款: 是\n费用: 600€\n原文: https://drive.google.com/file/d/1FexjyfiU7y7LH9Ghj311NASjT6mVDPSf/view?usp=drive_link
+DTEND:20250622T130000Z
+LOCATION:Avenida del Talgo\, nº5\, Madrid (IEB) — Modalidad Presencial
+DTSTART:20250622T100000Z
+SUMMARY:暑期课程：国际商务与数据分析入门 / Curso de Verano: Introducción a los Negocios Internacionales y Analytics
+UID:428d319abc51929c@school_helper
+END:VEVENT
+END:VCALENDAR

@@ -12,12 +12,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 初一（ESO第一年）全体学生\n家长: 确认孩子所在班级的出发时间，并为孩子准备好帽子、水和零食。\n孩子准备: 1º ESO A、C、D 班：9:00 集合出发；1º ESO B 班：9:50 集合出发。携带帽子、水和零食。\n报名: 否\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1PcZN7OxZqWTSBxWq0uF8Rfe6SU3wtbqg/view?usp=drive_link
-DTEND:20260615T120000Z
-LOCATION:Parque de la Vega
-DTSTART:20260615T090000Z
-SUMMARY:德拉维加公园校外活动 / Trip / Excursión Parque de la Vega
-UID:edaa9b623537faea@school_helper
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:适用: 小学六年级\n家长: 无需主动报名或填表。学校已根据学生背景与教师推荐自动分组，家长只需知悉孩子将进入哪条英语路线（English Language & Literature 或 English Language Acquisition）。如有疑问可联系英语部门负责人。\n孩子准备: 升入初一（1º ESO）后将按分组进入对应英语课程，两条路线均会备考剑桥英语（Cambridge English）考试，无需提前额外准备。\n报名: 否\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1VFpFYfB-sSe2D0jR-IHXo-XaqMPBzJMX/view?usp=drive_link
+LOCATION:La Moraleja\, Brains International School
+SUMMARY:初一英语分组安排 2026/2027 / English Groups 1º ESO 2026/2027
+UID:37713bf72bd378c8@school_helper
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -30,12 +29,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 初四（4º ESO）及高一（1º BACH）德语课学生\n家长: 如孩子无法参加，须提前联系德语部告知；如有疑问可发邮件至 Georgina.Mattison@colegiobrains.com\n孩子准备: 出发前在手机上下载并安装「Stadtrallye」应用；带好水和零食；可带少量现金\n报名: 否\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1r0tLsAwAbYd8rsArNfF0v4qKafZ5QbLi/view?usp=drive_link
-DTEND:20260617T143000Z
-LOCATION:Goethe-Institut Madrid & barrio de Chamberí
-DTSTART:20260617T090000Z
-SUMMARY:歌德学院参观 & Chamberí街区寻宝游 / Trip/Visita GOETHE
-UID:cf80a7e26e778f7a@school_helper
+DTSTART;VALUE=DATE:20260901
+DESCRIPTION:适用: 高中四年级（即将升入西班牙高中毕业班 Bachillerato）\n家长: 1. 确认家中是否已有符合要求的 MacBook（需兼容最新版 macOS）；2. 如需购买新设备，可自由选择任意渠道，或通过学校专属店铺（https://tienda-educacion.k-tuin.com/，访问码 BRAINSMAD）享受教育优惠价；3. 若孩子选修 Design Technology、Dibujo Técnico 或 Ciencias de la Computación，需考虑配置更高的机型；4. 使用旧设备的家庭建议为设备购买意外险。\n孩子准备: 升入 Bachillerato 前须备好一台符合要求的 MacBook。若选购新机，可访问学校专属教育商店：https://tienda-educacion.k-tuin.com/（访问码：BRAINSMAD）。若使用旧设备，强烈建议为设备购买保险。\n报名: 原文未说明\n付款: 否\n费用: 学校承担教育软件授权、设备配置与管理费用，不额外收取技术费用。设备本身由家长自行购买（可选择使用已有设备或通过学校专属店铺购买，购买渠道完全自愿）。\n原文: https://drive.google.com/file/d/1-CDG3XX2cYdWQky_WSS7Q73SMFEGJ-5l/view?usp=drive_link
+LOCATION:Brains International Schools\, Madrid
+SUMMARY:BYOM 项目（自带 Mac 上学计划） / Project / Proyecto BYOM (Bring Your Own Mac)
+UID:4a7d1d89aea298b9@school_helper
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -48,12 +46,12 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 初四（MYP第五年）学生及家长\n家长: 出席6月12日上午9:00–11:30的个人项目展示活动，现场参观学生作品并与学生交流\n孩子准备: 学生需在展示现场介绍自己的个人项目成果，与到场家长及来宾交流\n报名: 原文未说明\n付款: 否\n原文: https://drive.google.com/file/d/1YfqRK3DP9Y9ZJmM51k-1ky_s1i4CSVJo/view?usp=drive_link
-DTEND:20260612T113000Z
-LOCATION:Patio superior – césped artificial de las escaleras de entrada\, Brains Moraleja (si el tiempo lo permite)
-DTSTART:20260612T090000Z
-SUMMARY:国际文凭MYP个人项目成果展示 / Personal Project Presentation / Presentación de Proyecto Personal
-UID:2d067a957fec5800@school_helper
+DESCRIPTION:适用: 初四（4º ESO）年级学生\n家长: 如有意向让孩子参加，请通过邮件 mariona.mera@ieb.es 联系 IEB 报名；同时可点击通知中的链接查看两门课程的详细介绍及宣传单页（flyer）。\n孩子准备: 选择感兴趣的课程（金融市场入门 或 国际商务与分析入门），由家长协助完成报名及缴费（300 €）。\n报名: 是\n付款: 是\n费用: 报名费 300 €（原价 600 €，学校合作折扣 50%）\n原文: https://drive.google.com/file/d/1SfvwxJB6JQUJLSwG-svs4w4IFu38VJz6/view?usp=drive_link
+DTEND:20260615T130000Z
+LOCATION:Campus de Aravaca\, Madrid
+DTSTART:20260615T100000Z
+SUMMARY:IEB 暑期强化课程通知 / Circular IEB – Programas Intensivos de Verano
+UID:f48c05916c574b62@school_helper
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -66,11 +64,12 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTART;VALUE=DATE:20260925
-DESCRIPTION:适用: 小学六年级至初一（及所有有兴趣的学生，无论经验多少）\n家长: 1. 若孩子有兴趣，鼓励其尽快发邮件至 fwhyte@colegiobrains.com 表达意向；2. 9月第一周前确认孩子是否参加（一旦报名须承诺出席）；3. 提前核查 9月25–27日是否有其他安排冲突\n孩子准备: 有意向参加的学生现在联系 Fraser Whyte 表达意向；9月第一周正式确认出席；确保9月25–27日无其他冲突\n报名: 是\n付款: 原文未说明\n费用: 原文未说明 SGMMUN 2026 的费用；但学年结束前校内将举办一场免费非正式 MUN 体验会（no cost）\n截止: 2026-09-01\n原文: https://drive.google.com/file/d/1_jUN2RPtHJ0dmT05ioDyhvL7qx7nF5r5/view?usp=drive_link
-LOCATION:St George School
-SUMMARY:SGMMUN 2026 模拟联合国大会（首届） / SGMMUN 2026 – Primera edición (St George School)
-UID:490a01a77f70e777@school_helper
+DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 1. 决定是否为孩子报名参加此暑期课程；2. 如报名，准备缴纳 600€ 课程费用；3. 通过邮件 admisiones@ieb.es 或电话 91 524 06 15 联系 IEB 招生办完成报名手续。\n孩子准备: 课程共32小时，分6个模块：①经济学入门（货币时间价值、市场惯例、TIR/TAE、收益率曲线）；②宏观经济学（经济周期、货币政策、宏观指标）；③金融工具与市场（固定收益、股票、衍生品、基金、加密货币）；④投资流程（投资组合理论、资产配置）；⑤投资银行与企业估值（并购M&A、估值方法）；⑥使用 Stock Track© 模拟器实操。学生需每天上午10:00–13:00到场，共两周。\n报名: 原文未说明\n付款: 是\n费用: 600€\n原文: https://drive.google.com/file/d/1EAVv6Ea9C0A_R45mWH_sjUVVDopEjuli/view?usp=drive_link
+DTEND:20250622T130000Z
+LOCATION:Avenida del Talgo\, nº5\, Madrid（IEB 校区，线下面授）
+DTSTART:20250622T100000Z
+SUMMARY:暑期课程——金融市场入门（IEB） / Curso de Verano – Introducción a los Mercados Financieros (IEB)
+UID:902c8ce88dc2bfa0@school_helper
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -83,11 +82,95 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 初四（ESO第四年）学生\n家长: ① 【截止 6月12日 16:30】填写提前离校授权表格，授权孩子于 6月18日 13:50 离校；② 提醒孩子提前备份 iPad 数据，并准备好归还所需全套配件（含充电器，否则罚款 €25）\n孩子准备: 归还 iPad 前，务必将所有需要保留的文件备份至 Google Drive 和/或 iCloud；按要求将 iPad 充满电（100%）、密码改为 0000，并备齐原装保护套和充电器\n报名: 是\n付款: 原文未说明\n费用: 若未归还充电器，将在下一期学费账单中额外收取 €25\n截止: 2026-06-12\n原文: https://drive.google.com/file/d/13p-PD59Qr59sMi363AYjzEqLrm9TZnWR/view?usp=drive_link
-DTEND:20260618T140000Z
-LOCATION:Departamento de Informática del colegio / Brains International School La Moraleja
-DTSTART:20260618T110000Z
-SUMMARY:提前离校 & 归还 iPad（4º ESO） / Earlier departure and iPad Return / Salida anticipada y Devolución de iPads
-UID:50ce25b70a42abc1@school_helper
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:适用: 一年级\n家长: 1. 注意6月19日（周五）放学时间提前至14:15，校车同步发车，请提前安排接送。2. 当天无课外活动、图书馆不开放，请告知孩子。3. 期末成绩可从6月12日起登录 Esemtia 平台查看，成绩公布后48小时内为考试复议申请期，如有异议请及时提交。4. 新学年（2026-2027）开学日为9月7日（周一），请提前规划暑假行程。\n孩子准备: 当天参与文化部门安排的节日活动，无需携带特别物品；注意14:15准时离校。\n报名: 否\n付款: 否\n截止: 2026-06-14\n原文: https://drive.google.com/file/d/1lCu9Qxoc_2RIKI7qeoPTM2xrr17pSp5B/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:学年结束与新学年开始通知 / Fin y comienzo de curso / End and Beginning of School Year
+UID:c23b3acd0bd325c7@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 原文未说明适用年级（推测为高中生或大学预科阶段）\n家长: 1. 确认是否为孩子报名（联系 admisiones@ieb.es 或致电 91 524 06 15）；2. 准备缴纳课程费用 600€；3. 确认孩子每日可自行前往马德里 Talgo大道5号上课（10:00–13:00）。\n孩子准备: 课程共32小时，周一至周五每天10:00–13:00上课，持续两周（6月22日至7月3日）。课程包含5个模块：国际商务基础、创新基础、市场营销基础、地缘政治基础、以及PRAXAR©商业模拟器实战。学生需参与团队合作、数据分析展示及商业竞赛模拟。\n报名: 原文未说明\n付款: 是\n费用: 600€\n原文: https://drive.google.com/file/d/1FexjyfiU7y7LH9Ghj311NASjT6mVDPSf/view?usp=drive_link
+DTEND:20250622T130000Z
+LOCATION:Avenida del Talgo\, nº5\, Madrid (IEB) — Modalidad Presencial
+DTSTART:20250622T100000Z
+SUMMARY:暑期课程：国际商务与数据分析入门 / Curso de Verano: Introducción a los Negocios Internacionales y Analytics
+UID:428d319abc51929c@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:适用: 六年级学生（即将升入初一/1º ESO）\n家长: ⚠️ 优先报名截止日期为 2026年5月20日（注意：通知日期为6月15日，截止日期早于通知日期，请立即确认是否仍有名额）。如有意向，须尽快通过通知中的在线表单为孩子完成报名登记。\n孩子准备: 无需自备乐器或材料；课程在校内正常上课时间进行，每周两节，替代普通音乐课。可学习的乐器包括：鼓（Batería）、电贝斯（bajo eléctrico）、吉他（guitarras）、钢琴（piano）、尤克里里（ukelele）或人声（voz）。\n报名: 是\n付款: 是\n费用: 90€/月，含所有教材及乐器（由学校在课堂内提供）\n截止: 2026-05-20\n原文: https://drive.google.com/file/d/19Eu9ZU3DthV8PfExqpcMEmSv3sWMjrgU/view?usp=drive_link
+SUMMARY:提醒：器乐课（Instrumental Music）2026–2027学年报名 / Reminder / Recordatorio: Inscripción Instrumental Music 2026–2027
+UID:40a6e2f8b7a3e341@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260616
+DESCRIPTION:适用: 中学阶段（ESO）参与该项目的学生及家庭\n家长: 无需特别操作；留意典礼当天安排，届时陪同/接送孩子领取结业证书（diplomas acreditativos）即可。\n孩子准备: 参与结业典礼，领取 School Master 结业证书（diploma acreditativo），证明已完成 F1 及汽车工程项目全年课程。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1v1x87cgwKfNnupJ6rxKQbBoGrBZtZ3Y9/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:"Formula Brains" School Master 结业典礼 / "Formula Brains" School Master – Acto de Clausura
+UID:ddd5e02ec660ee30@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:适用: 幼儿部（NURSERY、PRE-NURSERY、YOUNG LEARNERS）\n家长: 1. 请安排6月19日（周五）14:15前接孩子或确认校车接送；2. 新学年开学日：YOUNG LEARNERS 和 PRE-NURSERY 请于9月4日（周五）送孩子返校，NURSERY 至小学6年级请于9月7日（周一）返校。\n孩子准备: 无需特别准备；注意当天无课外活动（extraescolares）、无多功能室（polivalente）活动，图书馆（biblioteca）也不开放。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1Rp0jTP2ML1zBmLTgKk8rmAP-ojp4u1-o/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:学年结束与新学年开始通知 / Fin y comienzo de curso / End and Beginning of School Year
+UID:65b1576db0f5a891@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:适用: 中学阶段（ESO），其中四年级 ESO 有额外要求\n家长: \n1. 【所有 ESO 家长】注意 6月19日（周五）放学时间提前至 14:15，当天无课外活动、图书馆关闭，请相应调整接送安排。\n2. 【所有 ESO 家长】6月19日起可登录 Esemtia 平台查看期末成绩；如需申请试卷复查，须在 48 小时内（即6月21日前）提出。\n3. 【4º ESO 家长专属】6月18日（周四）须让孩子归还 iPad；若希望孩子归还后提前离校去准备毕业舞会（18:30开始），须提前提供书面家长授权（autorización previa）。\n4. 记录新学年开学日：2026年9月7日（周一）。\n\n孩子准备: \n- 6月19日为学年最后一天，参加老师安排的庆祝活动，14:15 乘校车离校。\n- 4º ESO 学生须于 6月18日（周四）归还 iPad，之后凭家长授权可提前离校准备毕业舞会。\n\n报名: 原文未说明\n付款: 原文未说明\n截止: 2026-06-21\n原文: https://drive.google.com/file/d/1NPfD3tsdIF1GXd2VrI8euMwL2mwy_O-4/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:学年结束与新学年开始通知 / Fin y comienzo de curso / End and Beginning of School Year
+UID:be882922475d9caa@school_helper
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 1. 决定是否为孩子报名参加此暑期课程；2. 如报名，准备缴纳 600€ 课程费用；3. 通过邮件 admisiones@ieb.es 或电话 91 524 06 15 联系 IEB 招生办完成报名手续。\n孩子准备: 课程共32小时，分6个模块：①经济学入门（货币时间价值、市场惯例、TIR/TAE、收益率曲线）；②宏观经济学（经济周期、货币政策、宏观指标）；③金融工具与市场（固定收益、股票、衍生品、基金、加密货币）；④投资流程（投资组合理论、资产配置）；⑤投资银行与企业估值（并购M&A、估值方法）；⑥使用 Stock Track© 模拟器实操。学生需每天上午10:00–13:00到场，共两周。\n报名: 原文未说明\n付款: 是\n费用: 600€\n原文: https://drive.google.com/file/d/1EAVv6Ea9C0A_R45mWH_sjUVVDopEjuli/view?usp=drive_link
+DTEND:20250622T130000Z
+LOCATION:Avenida del Talgo\, nº5\, Madrid（IEB 校区，线下面授）
+DTSTART:20250622T100000Z
+SUMMARY:暑期课程——金融市场入门（IEB） / Curso de Verano – Introducción a los Mercados Financieros (IEB)
+UID:902c8ce88dc2bfa0@school_helper
+END:VEVENT
+END:VCALENDAR

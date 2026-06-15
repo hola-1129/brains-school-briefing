@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260901
+DESCRIPTION:适用: 高中四年级（即将升入西班牙高中毕业班 Bachillerato）\n家长: 1. 确认家中是否已有符合要求的 MacBook（需兼容最新版 macOS）；2. 如需购买新设备，可自由选择任意渠道，或通过学校专属店铺（https://tienda-educacion.k-tuin.com/，访问码 BRAINSMAD）享受教育优惠价；3. 若孩子选修 Design Technology、Dibujo Técnico 或 Ciencias de la Computación，需考虑配置更高的机型；4. 使用旧设备的家庭建议为设备购买意外险。\n孩子准备: 升入 Bachillerato 前须备好一台符合要求的 MacBook。若选购新机，可访问学校专属教育商店：https://tienda-educacion.k-tuin.com/（访问码：BRAINSMAD）。若使用旧设备，强烈建议为设备购买保险。\n报名: 原文未说明\n付款: 否\n费用: 学校承担教育软件授权、设备配置与管理费用，不额外收取技术费用。设备本身由家长自行购买（可选择使用已有设备或通过学校专属店铺购买，购买渠道完全自愿）。\n原文: https://drive.google.com/file/d/1-CDG3XX2cYdWQky_WSS7Q73SMFEGJ-5l/view?usp=drive_link
+LOCATION:Brains International Schools\, Madrid
+SUMMARY:BYOM 项目（自带 Mac 上学计划） / Project / Proyecto BYOM (Bring Your Own Mac)
+UID:4a7d1d89aea298b9@school_helper
+END:VEVENT
+END:VCALENDAR

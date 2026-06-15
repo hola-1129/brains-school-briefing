@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260616
+DESCRIPTION:适用: 中学阶段（ESO）参与该项目的学生及家庭\n家长: 无需特别操作；留意典礼当天安排，届时陪同/接送孩子领取结业证书（diplomas acreditativos）即可。\n孩子准备: 参与结业典礼，领取 School Master 结业证书（diploma acreditativo），证明已完成 F1 及汽车工程项目全年课程。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1v1x87cgwKfNnupJ6rxKQbBoGrBZtZ3Y9/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:"Formula Brains" School Master 结业典礼 / "Formula Brains" School Master – Acto de Clausura
+UID:ddd5e02ec660ee30@school_helper
+END:VEVENT
+END:VCALENDAR

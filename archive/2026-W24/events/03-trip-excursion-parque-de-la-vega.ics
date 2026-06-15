@@ -12,7 +12,7 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 初一（1º ESO）全体学生\n家长: 为孩子准备帽子、小背包（装水）和上午加餐零食；确认孩子所在班级对应的出发时间（A/C/D 班 9:00，B 班 9:50）。\n孩子准备: 按班级分组出发：1º ESO A、C、D 班 9:00 出发；1º ESO B 班 9:50 出发。全程由老师陪同，预计 11:35–12:00 返校。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1PcZN7OxZqWTSBxWq0uF8Rfe6SU3wtbqg/view?usp=drive_link
+DESCRIPTION:适用: 初一（ESO第一年）全体学生\n家长: 确认孩子所在班级的出发时间，并为孩子准备好帽子、水和零食。\n孩子准备: 1º ESO A、C、D 班：9:00 集合出发；1º ESO B 班：9:50 集合出发。携带帽子、水和零食。\n报名: 否\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1PcZN7OxZqWTSBxWq0uF8Rfe6SU3wtbqg/view?usp=drive_link
 DTEND:20260615T120000Z
 LOCATION:Parque de la Vega
 DTSTART:20260615T090000Z

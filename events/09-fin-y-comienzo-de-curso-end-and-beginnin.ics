@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:适用: 一年级\n家长: 1. 注意6月19日（周五）放学时间提前至14:15，校车同步发车，请提前安排接送。2. 当天无课外活动、图书馆不开放，请告知孩子。3. 期末成绩可从6月12日起登录 Esemtia 平台查看，成绩公布后48小时内为考试复议申请期，如有异议请及时提交。4. 新学年（2026-2027）开学日为9月7日（周一），请提前规划暑假行程。\n孩子准备: 当天参与文化部门安排的节日活动，无需携带特别物品；注意14:15准时离校。\n报名: 否\n付款: 否\n截止: 2026-06-14\n原文: https://drive.google.com/file/d/1lCu9Qxoc_2RIKI7qeoPTM2xrr17pSp5B/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:学年结束与新学年开始通知 / Fin y comienzo de curso / End and Beginning of School Year
+UID:c23b3acd0bd325c7@school_helper
+END:VEVENT
+END:VCALENDAR

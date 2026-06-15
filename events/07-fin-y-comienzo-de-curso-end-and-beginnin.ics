@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:适用: 中学阶段（ESO），其中四年级 ESO 有额外要求\n家长: \n1. 【所有 ESO 家长】注意 6月19日（周五）放学时间提前至 14:15，当天无课外活动、图书馆关闭，请相应调整接送安排。\n2. 【所有 ESO 家长】6月19日起可登录 Esemtia 平台查看期末成绩；如需申请试卷复查，须在 48 小时内（即6月21日前）提出。\n3. 【4º ESO 家长专属】6月18日（周四）须让孩子归还 iPad；若希望孩子归还后提前离校去准备毕业舞会（18:30开始），须提前提供书面家长授权（autorización previa）。\n4. 记录新学年开学日：2026年9月7日（周一）。\n\n孩子准备: \n- 6月19日为学年最后一天，参加老师安排的庆祝活动，14:15 乘校车离校。\n- 4º ESO 学生须于 6月18日（周四）归还 iPad，之后凭家长授权可提前离校准备毕业舞会。\n\n报名: 原文未说明\n付款: 原文未说明\n截止: 2026-06-21\n原文: https://drive.google.com/file/d/1NPfD3tsdIF1GXd2VrI8euMwL2mwy_O-4/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:学年结束与新学年开始通知 / Fin y comienzo de curso / End and Beginning of School Year
+UID:be882922475d9caa@school_helper
+END:VEVENT
+END:VCALENDAR

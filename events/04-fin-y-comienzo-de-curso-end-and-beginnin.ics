@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:适用: 幼儿部（NURSERY、PRE-NURSERY、YOUNG LEARNERS）\n家长: 1. 请安排6月19日（周五）14:15前接孩子或确认校车接送；2. 新学年开学日：YOUNG LEARNERS 和 PRE-NURSERY 请于9月4日（周五）送孩子返校，NURSERY 至小学6年级请于9月7日（周一）返校。\n孩子准备: 无需特别准备；注意当天无课外活动（extraescolares）、无多功能室（polivalente）活动，图书馆（biblioteca）也不开放。\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/1Rp0jTP2ML1zBmLTgKk8rmAP-ojp4u1-o/view?usp=drive_link
+LOCATION:Brains International School La Moraleja
+SUMMARY:学年结束与新学年开始通知 / Fin y comienzo de curso / End and Beginning of School Year
+UID:65b1576db0f5a891@school_helper
+END:VEVENT
+END:VCALENDAR

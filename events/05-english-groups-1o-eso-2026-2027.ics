@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:适用: 小学六年级\n家长: 无需主动报名或填表。学校已根据学生背景与教师推荐自动分组，家长只需知悉孩子将进入哪条英语路线（English Language & Literature 或 English Language Acquisition）。如有疑问可联系英语部门负责人。\n孩子准备: 升入初一（1º ESO）后将按分组进入对应英语课程，两条路线均会备考剑桥英语（Cambridge English）考试，无需提前额外准备。\n报名: 否\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1VFpFYfB-sSe2D0jR-IHXo-XaqMPBzJMX/view?usp=drive_link
+LOCATION:La Moraleja\, Brains International School
+SUMMARY:初一英语分组安排 2026/2027 / English Groups 1º ESO 2026/2027
+UID:37713bf72bd378c8@school_helper
+END:VEVENT
+END:VCALENDAR

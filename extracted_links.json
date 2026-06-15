@@ -1,13 +1,13 @@
 {
-  "week_label": "Semana: 8 de JUNIO 2026",
-  "week_iso": "2026-W24",
+  "week_label": "Semana: 15 de JUNIO 2026",
+  "week_iso": "2026-W25",
   "items": [
     {
-      "title": "Healthy recipe / Receta saludable",
+      "title": "Summer Camp 2026",
       "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/18HYSOkAuH5y3bFZP_pssBAM2hFqnwJ9Z/view?usp=drive_link",
+      "url": "https://drive.google.com/file/d/1_kVOK_lI2_V_RQ6GSjNoZAJSaC3k5gmY/view?usp=drive_link",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
       "error": "",
       "categories": [
         "全校通用通知"
@@ -16,50 +16,11 @@
       "extracted": true
     },
     {
-      "title": "SGMMUN 2026",
-      "stage": "6º PRIMARIA – 1º",
-      "url": "https://drive.google.com/file/d/1_jUN2RPtHJ0dmT05ioDyhvL7qx7nF5r5/view?usp=drive_link",
-      "status": "ok",
-      "http_status": null,
-      "error": "",
-      "categories": [
-        "Primaria / 小学"
-      ],
-      "parent_action_needed": true,
-      "extracted": true
-    },
-    {
-      "title": "Trip / Excursión Parque de la Vega",
-      "stage": "1º ESO",
-      "url": "https://drive.google.com/file/d/1PcZN7OxZqWTSBxWq0uF8Rfe6SU3wtbqg/view?usp=drive_link",
-      "status": "ok",
-      "http_status": null,
-      "error": "",
-      "categories": [
-        "ESO / 中学"
-      ],
-      "parent_action_needed": true,
-      "extracted": true
-    },
-    {
-      "title": "Personal proyect presentation/ Presentación de proyecto",
-      "stage": "4º ESO",
-      "url": "https://drive.google.com/file/d/1YfqRK3DP9Y9ZJmM51k-1ky_s1i4CSVJo/view?usp=drive_link",
-      "status": "ok",
-      "http_status": null,
-      "error": "",
-      "categories": [
-        "ESO / 中学"
-      ],
-      "parent_action_needed": true,
-      "extracted": true
-    },
-    {
-      "title": "personal",
+      "title": "Summer Camp 2026",
       "stage": "",
-      "url": "https://drive.google.com/file/d/1ZT3dUfGLmmA82hf2L0HWJlJqwlIJF62d/view?usp=drive_link",
+      "url": "https://drive.google.com/file/d/1U9P5i60izCokregFPYKuJY9jR6xpYFAR/view?usp=drive_link",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
       "error": "",
       "categories": [
         "仅供了解的信息"
@@ -68,11 +29,68 @@
       "extracted": true
     },
     {
-      "title": "Earlier departure and Ipad Return/ Salida anticipada y",
-      "stage": "4º ESO",
-      "url": "https://drive.google.com/file/d/13p-PD59Qr59sMi363AYjzEqLrm9TZnWR/view?usp=drive_link",
+      "title": "Recomendaciones 3er Trimestre Bibliotecas Brains La",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1SocLQf6zCPq0M0UTvE11f7n5oddgycEn/view?usp=drive_link",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知",
+        "Infantil / 幼儿园",
+        "Primaria / 小学",
+        "ESO / 中学",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "End and Beggining of school year / Fin y comienzo de curso",
+      "stage": "INFANTIL -",
+      "url": "https://drive.google.com/file/d/1Rp0jTP2ML1zBmLTgKk8rmAP-ojp4u1-o/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Infantil / 幼儿园"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "English Groups 1º ESO 2026/2027",
+      "stage": "6º PRIMARIA",
+      "url": "https://drive.google.com/file/d/1VFpFYfB-sSe2D0jR-IHXo-XaqMPBzJMX/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "*Reminder / Recordatorio* Inscripción Instrumental Music",
+      "stage": "6º PRIMARIA Y",
+      "url": "https://drive.google.com/file/d/19Eu9ZU3DthV8PfExqpcMEmSv3sWMjrgU/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学",
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "End and Beggining of school year / Fin y comienzo de curso",
+      "stage": "ESO",
+      "url": "https://drive.google.com/file/d/1NPfD3tsdIF1GXd2VrI8euMwL2mwy_O-4/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
       "error": "",
       "categories": [
         "ESO / 中学"
@@ -81,14 +99,80 @@
       "extracted": true
     },
     {
-      "title": "Trip/Visita GOETHE",
-      "stage": "4º ESO - 1º",
-      "url": "https://drive.google.com/file/d/1r0tLsAwAbYd8rsArNfF0v4qKafZ5QbLi/view?usp=drive_link",
+      "title": "“Formula Brains” School Master programme",
+      "stage": "ESO -",
+      "url": "https://drive.google.com/file/d/1v1x87cgwKfNnupJ6rxKQbBoGrBZtZ3Y9/view?usp=drive_link",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
       "error": "",
       "categories": [
         "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "End and Beggining of school year / Fin y comienzo de curso",
+      "stage": "1º",
+      "url": "https://drive.google.com/file/d/1lCu9Qxoc_2RIKI7qeoPTM2xrr17pSp5B/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Project / Proyecto BYOM (Bring Your Own Mac)",
+      "stage": "4º ESO",
+      "url": "https://drive.google.com/file/d/1-CDG3XX2cYdWQky_WSS7Q73SMFEGJ-5l/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Circular IEB",
+      "stage": "4º ESO Y",
+      "url": "https://drive.google.com/file/d/1SfvwxJB6JQUJLSwG-svs4w4IFu38VJz6/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Circular IEB",
+      "stage": "BACHILLERATO",
+      "url": "https://drive.google.com/file/d/1EAVv6Ea9C0A_R45mWH_sjUVVDopEjuli/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "Curso de Verano Introducción a los mercados financieros",
+      "stage": "",
+      "url": "https://drive.google.com/file/d/1FexjyfiU7y7LH9Ghj311NASjT6mVDPSf/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Bachillerato / 高中"
       ],
       "parent_action_needed": true,
       "extracted": true

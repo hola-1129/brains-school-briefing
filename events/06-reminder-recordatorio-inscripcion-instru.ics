@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:适用: 六年级学生（即将升入初一/1º ESO）\n家长: ⚠️ 优先报名截止日期为 2026年5月20日（注意：通知日期为6月15日，截止日期早于通知日期，请立即确认是否仍有名额）。如有意向，须尽快通过通知中的在线表单为孩子完成报名登记。\n孩子准备: 无需自备乐器或材料；课程在校内正常上课时间进行，每周两节，替代普通音乐课。可学习的乐器包括：鼓（Batería）、电贝斯（bajo eléctrico）、吉他（guitarras）、钢琴（piano）、尤克里里（ukelele）或人声（voz）。\n报名: 是\n付款: 是\n费用: 90€/月，含所有教材及乐器（由学校在课堂内提供）\n截止: 2026-05-20\n原文: https://drive.google.com/file/d/19Eu9ZU3DthV8PfExqpcMEmSv3sWMjrgU/view?usp=drive_link
+SUMMARY:提醒：器乐课（Instrumental Music）2026–2027学年报名 / Reminder / Recordatorio: Inscripción Instrumental Music 2026–2027
+UID:40a6e2f8b7a3e341@school_helper
+END:VEVENT
+END:VCALENDAR
