@@ -1,5 +1,33 @@
 {
   "week_label": "Semana: 14 de SEPTIEMBRE 2026",
   "week_iso": "2026-W38",
-  "items": []
+  "items": [
+    {
+      "title": "CALENDAR / CALENDARIO ESCOLAR",
+      "stage": "INFANTIL/PRIMARIA",
+      "url": "file:///C:/Users/Secretaria21/Desktop/mzjvvr_CALENDARIO_2627_Familias_1.pdf",
+      "status": "non_pdf",
+      "http_status": null,
+      "error": "链接不是网页地址（可能是发件人电脑上的本地文件路径），需人工从学校原始通知/邮件中获取附件",
+      "categories": [
+        "Infantil / 幼儿园",
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    },
+    {
+      "title": "NEWS / NOTICIAS NUTRITIONS &",
+      "stage": "GENERAL",
+      "url": "file:///C:/Users/Secretaria21/Desktop/NOTICAS%20NUTRITION&HEALTH%20Granada%20(A4).pdf",
+      "status": "non_pdf",
+      "http_status": null,
+      "error": "链接不是网页地址（可能是发件人电脑上的本地文件路径），需人工从学校原始通知/邮件中获取附件",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    }
+  ]
 }

@@ -1,11 +1,26 @@
 School Helper 处理日志
-生成时间: 2026-09-14T17:00:33
+生成时间: 2026-09-15T12:51:56
 周次:     Semana: 14 de SEPTIEMBRE 2026  (2026-W38)
 输入 PDF: rcrjww_Briefing_Semanal_14_SEPTIEMBRE.pdf
 
-链接总数:   0
+链接总数:   2
   下载成功: 0
-  失败/跳过: 0
+  失败/跳过: 2
 LLM 抽取成功: 0
 
 ----------------------------------------------------------------------
+[1] CALENDAR / CALENDARIO ESCOLAR
+    stage:  INFANTIL/PRIMARIA
+    url:    file:///C:/Users/Secretaria21/Desktop/mzjvvr_CALENDARIO_2627_Familias_1.pdf
+    status: non_pdf (http=None)
+    error:  链接不是网页地址（可能是发件人电脑上的本地文件路径），需人工从学校原始通知/邮件中获取附件
+    ⚠️  链接非 PDF，需手动下载
+    分类:   Infantil / 幼儿园 / Primaria / 小学
+
+[2] NEWS / NOTICIAS NUTRITIONS &
+    stage:  GENERAL
+    url:    file:///C:/Users/Secretaria21/Desktop/NOTICAS%20NUTRITION&HEALTH%20Granada%20(A4).pdf
+    status: non_pdf (http=None)
+    error:  链接不是网页地址（可能是发件人电脑上的本地文件路径），需人工从学校原始通知/邮件中获取附件
+    ⚠️  链接非 PDF，需手动下载
+    分类:   全校通用通知
