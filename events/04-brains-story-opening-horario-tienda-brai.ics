@@ -12,11 +12,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 全体家长（通用通知）\n家长: 通过线上商店下单；留意订单就绪通知；选择居家配送或按营业时间前往实体店自取\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1AtrMXxpooH8pXDgUnUWOywGtNZtKL9pG/view?usp=drive_link
+DESCRIPTION:适用: 全体家长（通用通知）\n家长: 请通过线上商店 tiendamadrid.colegiobrains.com 下单；订单完成后留意邮件/短信通知，按需选择家庭配送或到校实体店自取（工作日 08:30–13:00 或 15:00–17:00）\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1AtrMXxpooH8pXDgUnUWOywGtNZtKL9pG/view?usp=drive_link
 DTEND:20260907T130000Z
-LOCATION:Tienda física de Brains (Madrid)
+LOCATION:Tienda física: Colegio Brains Madrid
 DTSTART:20260907T083000Z
-SUMMARY:Brains校内商店开业通知 / 营业时间安排 / Brains Story Opening / Horario Tienda Brains
+SUMMARY:Brains校内商店开业通知 / 新营业时间公告 / Brains Story Opening / Horario Tienda Brains
 UID:dca5b113145316ca@school_helper
 END:VEVENT
 END:VCALENDAR

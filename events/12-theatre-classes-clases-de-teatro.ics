@@ -13,7 +13,7 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20260907
-DESCRIPTION:适用: 小学三年级至六年级\n家长: 带孩子于9月7日起前往戏剧教室完成现场报名（仅需提供姓名与姓氏）\n报名: 是\n付款: 否\n费用: 免费\n原文: https://drive.google.com/file/d/1VM9PqyGKHbA-HgQ9drOAMyxWUiNrKW6o/view?usp=drive_link
+DESCRIPTION:适用: 小学三年级至六年级\n家长: 带孩子前往戏剧教室，向老师Concha Guerrero或Beatriz Zafra报上学生姓名和家长姓氏完成报名\n报名: 是\n付款: 否\n费用: 免费\n原文: https://drive.google.com/file/d/1VM9PqyGKHbA-HgQ9drOAMyxWUiNrKW6o/view?usp=drive_link
 LOCATION:Theatre room / aula de teatro
 SUMMARY:戏剧课/戏剧工作坊 / Theatre Classes / Clases de teatro
 UID:70eb2e4ad34e5cbc@school_helper

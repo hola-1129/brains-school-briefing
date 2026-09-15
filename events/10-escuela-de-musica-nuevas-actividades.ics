@@ -13,8 +13,8 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20241001
-DESCRIPTION:适用: 小学一至四年级\n报名: 是\n付款: 是\n费用: 59€/月\n原文: https://drive.google.com/file/d/1kc-MhQUJmJlSvyfPTPLsZrY8z-d51jU-/view?usp=drive_link
-SUMMARY:音乐学校：新增活动 / Escuela de música: Nuevas Actividades
+DESCRIPTION:适用: 小学一至四年级\n家长: 家长须在开学前（10月起实施）通过提供的Google表单完成在线报名，并缴纳每月59欧元费用\n报名: 是\n付款: 是\n费用: 59欧元/月\n原文: https://drive.google.com/file/d/1kc-MhQUJmJlSvyfPTPLsZrY8z-d51jU-/view?usp=drive_link
+SUMMARY:音乐学校：新增课程活动 / Escuela de música: Nuevas Actividades
 UID:9556194881c20747@school_helper
 END:VEVENT
 END:VCALENDAR

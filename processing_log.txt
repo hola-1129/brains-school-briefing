@@ -1,5 +1,5 @@
 School Helper 处理日志
-生成时间: 2026-09-15T13:57:08
+生成时间: 2026-09-15T15:22:21
 周次:     Semana: 7 de SEPTIEMBRE 2026  (2026-W37)
 输入 PDF: dpmrms_Briefing_Semanal__7_Septiembre.pdf
 
@@ -28,7 +28,7 @@ LLM 抽取成功: 12
 [3] Cuaderno Informativo
     stage:  General
     url:    https://drive.google.com/file/d/16EUxVgPdSpxehvDcEhbSl3QhoWILVGnB/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   全校通用通知
     日期:   (原文未说明)
     报名:   原文未说明
@@ -36,7 +36,7 @@ LLM 抽取成功: 12
 [4] Brains Story Opening / Horario Tienda Brains
     stage:  General
     url:    https://drive.google.com/file/d/1AtrMXxpooH8pXDgUnUWOywGtNZtKL9pG/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   全校通用通知
     日期:   2026-09-07
     报名:   原文未说明
@@ -44,23 +44,23 @@ LLM 抽取成功: 12
 [5] Circular: Extra Curricular Activities /
     stage:  General
     url:    https://drive.google.com/file/d/1o6NANebDakuGpIrfQZjYsX0tebPBy61l/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   全校通用通知
-    日期:   2026-09-16
+    日期:   (原文未说明)
     报名:   是
 
 [6] (无标题)
     stage:  
     url:    https://drive.google.com/file/d/1kqnSY8lSPo94553wX8PbNHY9ywHo5Ltb/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Infantil / 幼儿园 / Primaria / 小学 / Preparatory / ESO / 中学 / Bachillerato / 高中
+    status: ok (http=None)
+    分类:   Preparatory / Bachillerato / 高中
     日期:   (原文未说明)
     报名:   是
 
 [7] Dossier (español)
     stage:  
     url:    https://drive.google.com/file/d/1Y23CizTeAu0SJ5aSIDtNM1cSspVvuKUl/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   仅供了解的信息
     日期:   (原文未说明)
     报名:   是
@@ -68,7 +68,7 @@ LLM 抽取成功: 12
 [8] Hoja Inscripción (español)
     stage:  
     url:    https://drive.google.com/file/d/1xS1kgxFsxAPngUHEovUsXz0M3s1RVHjM/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   仅供了解的信息
     日期:   (原文未说明)
     报名:   是
@@ -76,7 +76,7 @@ LLM 抽取成功: 12
 [9] Dossier (English)
     stage:  
     url:    https://drive.google.com/file/d/1_YcnomPz3aDXE7KdWmmu0E7lKFIBe5b_/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   仅供了解的信息
     日期:   (原文未说明)
     报名:   是
@@ -84,7 +84,7 @@ LLM 抽取成功: 12
 [10] Escuela de música: Nuevas Actividades
     stage:  1º - 4º Primaria
     url:    https://drive.google.com/file/d/1kc-MhQUJmJlSvyfPTPLsZrY8z-d51jU-/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   Primaria / 小学
     日期:   2024-10-01
     报名:   是
@@ -92,7 +92,7 @@ LLM 抽取成功: 12
 [11] Escuela de música: Nuevas Actividades
     stage:  
     url:    https://drive.google.com/file/d/1UPeEfgdZR8yEGLVxeVgePaZwoI7X61vu/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   Infantil / 幼儿园 / Primaria / 小学 / Preparatory
     日期:   2024-10-01
     报名:   是
@@ -100,7 +100,7 @@ LLM 抽取成功: 12
 [12] Theatre Classes / Clases de teatro
     stage:  3º - 6º Primaria
     url:    https://drive.google.com/file/d/1VM9PqyGKHbA-HgQ9drOAMyxWUiNrKW6o/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   Primaria / 小学
     日期:   2026-09-07
     报名:   是
