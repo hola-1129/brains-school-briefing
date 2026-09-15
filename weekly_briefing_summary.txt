@@ -1,13 +1,56 @@
-📚 Brains 学校周通知（Semana: 14 de SEPTIEMBRE 2026）
+📚 Brains 学校周通知（Semana: 7 de SEPTIEMBRE 2026）
 
 ⭐ 本周重点：
-  • CALENDAR / CALENDARIO ESCOLAR (INFANTIL/PRIMARIA) — 日期待定
-  • NEWS / NOTICIAS NUTRITIONS & (GENERAL) — 日期待定
+  • 欢迎来到2026–2027学年！ (General) — 2026-09-07
+  • 校园共处手册 (General) — 日期待定 ✍️
+  • 2026/2027学年信息手册 (General) — 日期待定 ✍️
+  • Brains校内商店开业通知 / 营业时间安排 (General) — 2026-09-07 ✍️
+  • 课外活动报名通知 (General) — 2026-09-16 ✍️
+  • Brains学校2026/2027学年课后拓展活动总览 (Preparatory a Bachillerato (Infantil, Primaria, ESO, Bachillerato)) — 日期待定 ✍️
+  • 课外活动报名手册（西班牙语版） () — 日期待定 ✍️
+  • 课外活动报名表（西班牙语版） (All students / All grades) — 日期待定 ✍️
+
+✍️ 需要家长操作：
+  • 校园共处手册：阅读并理解学校关于行为规范、权利义务、冲突解决及惩戒程序的正式规定；配合学校落实以尊重、合作和情感教育为基础的共处模式
+  • 2026/2027学年信息手册：阅读并保存本学年信息手册，了解学校整体安排、教育理念、服务项目及联系方式
+  • Brains校内商店开业通知 / 营业时间安排：通过线上商店下单；留意订单就绪通知；选择居家配送或按营业时间前往实体店自取
+  • 课外活动报名通知：查看通知详情
+  • Brains学校2026/2027学年课后拓展活动总览：查看通知详情
+  • 课外活动报名手册（西班牙语版）：查看通知详情
+  • 课外活动报名表（西班牙语版）：家长需为孩子选择课外活动，并于学校秘书处完成纸质报名及缴费；部分项目需提前邮件沟通名额或评估；注意各项目适用年级、时段及费用结构，避免重复或冲突报名
+  • 课后活动报名表：家长需亲自到校务处提交本表（除Music School、Psychopedagogical department和Kumon外）；确保9月15日前以邮件方式书面提出当月增/退/改选申请；留意每月账单扣费
+  • 音乐学校：新增活动：查看通知详情
+  • 音乐学校：新活动启动：在线填写注册表单（链接已提供）；确认孩子是否选择替代性音乐活动（非强制，但需主动报名）
+  • 戏剧课/戏剧工作坊：带孩子于9月7日起前往戏剧教室完成现场报名（仅需提供姓名与姓氏）
 
 🎓 各年级事项：
-  [INFANTIL/PRIMARIA]
-    - CALENDAR / CALENDARIO ESCOLAR
-  [GENERAL]
-    - NEWS / NOTICIAS NUTRITIONS &
+  [General]
+    - 欢迎来到2026–2027学年！ — 2026-09-07
+    - 校园共处手册
+    - 2026/2027学年信息手册
+    - Brains校内商店开业通知 / 营业时间安排 — 2026-09-07
+    - 课外活动报名通知 — 2026-09-16
+  [Preparatory a Bachillerato (Infantil, Primaria, ESO, Bachillerato)]
+    - Brains学校2026/2027学年课后拓展活动总览
+  [其他]
+    - 课外活动报名手册（西班牙语版）
+  [All students / All grades]
+    - 课外活动报名表（西班牙语版）
+  [Students – Brains Schools]
+    - 课后活动报名表
+  [1º - 4º Primaria]
+    - 音乐学校：新增活动 — 2024-10-01
+  [EARLY YEARS (YOUNG LEARNERS – PRE-NURSERY–NURSERY); EARLY YEARS (RECEPTION & PREPARATORY); PRIMARY SCHOOL (Years 1 to 4)]
+    - 音乐学校：新活动启动 — 2024-10-01
+  [3º - 6º Primaria]
+    - 戏剧课/戏剧工作坊 — 2026-09-07
+
+🗓 时间节点：
+  2024-10-01 — 音乐学校：新增活动
+  2024-10-01 — 音乐学校：新活动启动
+  2026-09-07 — 戏剧课/戏剧工作坊
+  2026-09-07 — 欢迎来到2026–2027学年！
+  2026-09-07 08:30 — Brains校内商店开业通知 / 营业时间安排
+  2026-09-16 — 课外活动报名通知
 
 ℹ️ 详细中文版见 weekly_briefing_cn.md，日历可导入 school_events.ics。

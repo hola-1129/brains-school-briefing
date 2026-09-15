@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20241001
+DESCRIPTION:适用: 幼儿部（低龄学习者/学前班/托班）、幼儿部（小班/预备班）、小学部（1–4年级）\n家长: 在线填写注册表单（链接已提供）；确认孩子是否选择替代性音乐活动（非强制，但需主动报名）\n报名: 是\n付款: 是\n费用: 幼儿部活动：55欧元/月；小学部键盘乐团：59欧元/月\n原文: https://drive.google.com/file/d/1UPeEfgdZR8yEGLVxeVgePaZwoI7X61vu/view?usp=drive_link
+LOCATION:School of Music / during regular Music lesson timetable slot
+SUMMARY:音乐学校：新活动启动 / Escuela de música: Nuevas Actividades
+UID:88326145059b0083@school_helper
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20241001
+DESCRIPTION:适用: 小学一至四年级\n报名: 是\n付款: 是\n费用: 59€/月\n原文: https://drive.google.com/file/d/1kc-MhQUJmJlSvyfPTPLsZrY8z-d51jU-/view?usp=drive_link
+SUMMARY:音乐学校：新增活动 / Escuela de música: Nuevas Actividades
+UID:9556194881c20747@school_helper
+END:VEVENT
+END:VCALENDAR

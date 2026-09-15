@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260907
+DESCRIPTION:适用: 全体家长（通用通知）\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1k4962EKijyOyMoMd7orPD5FkyQaPPnr9/view?usp=drive_link
+SUMMARY:欢迎来到2026–2027学年！ / Welcome to the 2026-2027 school year!
+UID:832b7a6037264848@school_helper
+END:VEVENT
+END:VCALENDAR
