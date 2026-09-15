@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20241001
+DESCRIPTION:适用: 小学一至四年级\n家长: 家长须在开学前（10月起实施）通过提供的Google表单完成在线报名，并缴纳每月59欧元费用\n报名: 是\n付款: 是\n费用: 59欧元/月\n原文: https://drive.google.com/file/d/1kc-MhQUJmJlSvyfPTPLsZrY8z-d51jU-/view?usp=drive_link
+SUMMARY:音乐学校：新增课程活动 / Escuela de música: Nuevas Actividades
+UID:9556194881c20747@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260907
+DESCRIPTION:适用: 全体家长（通用通知）\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1k4962EKijyOyMoMd7orPD5FkyQaPPnr9/view?usp=drive_link
+SUMMARY:欢迎来到2026–2027学年！ / Welcome to the 2026-2027 school year!
+UID:832b7a6037264848@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20260907
+DESCRIPTION:适用: 小学三年级至六年级\n家长: 带孩子前往戏剧教室，向老师Concha Guerrero或Beatriz Zafra报上学生姓名和家长姓氏完成报名\n报名: 是\n付款: 否\n费用: 免费\n原文: https://drive.google.com/file/d/1VM9PqyGKHbA-HgQ9drOAMyxWUiNrKW6o/view?usp=drive_link
+LOCATION:Theatre room / aula de teatro
+SUMMARY:戏剧课/戏剧工作坊 / Theatre Classes / Clases de teatro
+UID:70eb2e4ad34e5cbc@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DESCRIPTION:适用: 全体家长（通用通知）\n家长: 请通过线上商店 tiendamadrid.colegiobrains.com 下单；订单完成后留意邮件/短信通知，按需选择家庭配送或到校实体店自取（工作日 08:30–13:00 或 15:00–17:00）\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1AtrMXxpooH8pXDgUnUWOywGtNZtKL9pG/view?usp=drive_link
+DTEND:20260907T130000Z
+LOCATION:Tienda física: Colegio Brains Madrid
+DTSTART:20260907T083000Z
+SUMMARY:Brains校内商店开业通知 / 新营业时间公告 / Brains Story Opening / Horario Tienda Brains
+UID:dca5b113145316ca@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20241001
+DESCRIPTION:适用: 幼儿部（低龄学习者／托班／小托班）、幼儿部（小班／预备班）、小学部（1–4年级）\n家长: 登录指定Google表单完成在线报名；确认所选活动是否替代孩子当学期常规音乐课；按月缴纳对应费用（55欧元或59欧元）\n报名: 是\n付款: 是\n费用: €55/月（幼儿部两项活动）；€59/月（小学键盘乐团）\n原文: https://drive.google.com/file/d/1UPeEfgdZR8yEGLVxeVgePaZwoI7X61vu/view?usp=drive_link
+SUMMARY:音乐学校：新活动项目 / Escuela de música: Nuevas Actividades
+UID:88326145059b0083@school_helper
+END:VEVENT
+END:VCALENDAR

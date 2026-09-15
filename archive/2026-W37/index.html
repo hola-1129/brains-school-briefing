@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Brains School Weekly Briefing 中文家长版</title>
+<style>
+:root { --fg:#1a1a1a; --muted:#6b6b6b; --bg:#fff; --card:#f6f7f9;
+        --accent:#0b66c2; --accent-hover:#084d92; --warn:#b54708;
+        --border:#e1e4e8; --pill:#eef2f7; --brand-navy:#24295b; }
+* { box-sizing: border-box; }
+html { overflow-x: hidden; }
+body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+       "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+       color:var(--fg); background:var(--bg); line-height:1.55;
+       -webkit-font-smoothing: antialiased;
+       overflow-wrap: anywhere; word-break: break-word; overflow-x: hidden; }
+.container { max-width: 820px; margin: 0 auto; padding: 1.25rem 1rem 4rem; }
+header { padding: 1.5rem 0 1rem; border-bottom: 2px solid var(--border); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+header .logo-wrap { flex-shrink: 0; background: var(--brand-navy); border-radius: 8px;
+                     padding: .5rem .7rem; line-height: 0; }
+header .logo-wrap img { height: 40px; width: auto; display: block; }
+header .header-text { flex: 1; min-width: 0; }
+header h1 { margin: 0 0 .25rem; font-size: 1.35rem; line-height: 1.25; font-weight: 700; letter-spacing: -.01em; }
+header .meta { color: var(--muted); font-size: .88rem; margin: 0 0 .75rem; }
+h2 { font-size:1.2rem; margin: 1.6rem 0 .6rem; padding-top:.6rem; border-top: 1px solid var(--border); }
+h3 { font-size:1.05rem; margin: 1.2rem 0 .4rem; color: var(--accent); }
+h4 { font-size:1rem; margin: 0 0 .35rem; }
+ul { padding-left: 1.2rem; }
+li { margin: .15rem 0; }
+.btn { display: inline-block; padding: .55rem .9rem; border-radius: 6px;
+       background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+       margin: .25rem .25rem .25rem 0; font-size: .92rem; }
+.btn:hover { background: var(--accent-hover); }
+.btn-ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+.btn-ghost:hover { background: var(--accent); color:#fff; }
+.btn-maps { background: #1a73e8; }
+.btn-maps:hover { background: #1557b0; }
+.intent-box { background: #fffbeb; border-left: 4px solid #d97706; border-radius: 0 6px 6px 0;
+              padding: .55rem .8rem; margin: .5rem 0; font-size: .92rem; }
+.intent-box .intent-label { font-weight: 700; color: #92400e; margin-right: .4rem; }
+/* 年级配色 */
+.grade-general      { --grade: #7c3aed; }
+.grade-infantil     { --grade: #db2777; }
+.grade-primaria     { --grade: #0b66c2; }
+.grade-preparatory  { --grade: #0891b2; }
+.grade-eso          { --grade: #16a34a; }
+.grade-bachillerato { --grade: #d97706; }
+.grade-ibdp         { --grade: #dc2626; }
+.grade-pill { display: inline-block; background: var(--grade, #6b6b6b); color: #fff;
+              padding: .12rem .6rem; border-radius: 999px; font-size: .78rem;
+              font-weight: 600; margin-right: .4rem; vertical-align: middle; }
+.grade-pill.grade-specific { padding: .15rem .75rem; font-size: .82rem;
+              box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--grade, #6b6b6b); }
+h3.grade-h { color: var(--grade, var(--accent));
+             border-left: 4px solid var(--grade, var(--accent));
+             padding-left: .6rem; }
+.event.has-grade { border-left: 4px solid var(--grade, var(--border)); }
+.priority-grid .grade-pill { color: #fff; background: var(--grade, var(--pill)); }
+.event { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+         padding: .8rem 1rem; margin: .8rem 0; }
+.event h4 .es { color: var(--muted); font-weight: 400; font-size: .9rem; margin-left: .5rem; }
+.event .pill { display: inline-block; background: var(--pill); color: var(--muted);
+               padding: .1rem .55rem; border-radius: 999px; font-size: .8rem; margin-right: .35rem; }
+.event dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .25rem .75rem;
+            margin: .35rem 0 .5rem; font-size: .92rem; }
+.event dt { color: var(--muted); }
+.event dd { margin: 0; }
+.event .raw { color: var(--muted); font-size: .85rem; border-left: 3px solid var(--border);
+              padding: .25rem .6rem; margin-top: .5rem; }
+.event .warn { color: var(--warn); font-weight: 600; }
+.timeline { list-style: none; padding-left: 0; }
+.timeline li { padding: .35rem 0; border-bottom: 1px dashed var(--border); font-size: .95rem; }
+.timeline .date { display: inline-block; min-width: 7rem; color: var(--accent); font-weight: 600; }
+.priority-grid { display: grid; gap: .5rem; }
+footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top: 1rem;
+         border-top: 1px solid var(--border); }
+@media (max-width: 480px) {
+  .event dl { grid-template-columns: minmax(0, 1fr); gap: .1rem 0; }
+  .event dt { margin-top: .4rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo-wrap"><img src="./logo_brains.png" alt="Brains School"></div>
+<div class="header-text">
+<h1>Weekly Briefing · 中文家长版</h1>
+<p class="meta">Semana: 7 de SEPTIEMBRE 2026 · 共 12 个事项 · 生成于 2026-09-15 15:22</p>
+</div>
+</header>
+<section><h2>⭐ 本周重点</h2>
+<div class="priority-grid">
+<div>• <span class="grade-pill grade-general">全校</span> <a href="#event-1"><strong>欢迎来到2026–2027学年！</strong></a> — 2026-09-07</div>
+<div>• <span class="grade-pill grade-general">全校</span> <a href="#event-2"><strong>校园共处手册</strong></a> — 日期待定 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-general">全校</span> <a href="#event-3"><strong>2026/2027学年信息手册</strong></a> — 日期待定 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-general">全校</span> <a href="#event-4"><strong>Brains校内商店开业通知 / 新营业时间公告</strong></a> — 2026-09-07 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-general">全校</span> <a href="#event-5"><strong>2026–2027学年课外活动报名通知</strong></a> — 日期待定 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-preparatory">幼升小预备</span> <a href="#event-6"><strong>Brains学校2026/2027学年课后拓展活动总览</strong></a> — 日期待定 <span class="warn">✍️ 需要操作</span></div>
+<div>• <a href="#event-7"><strong>课外活动报名手册（西班牙语版）</strong></a> — 日期待定 <span class="warn">✍️ 需要操作</span></div>
+<div>• <a href="#event-8"><strong>课外活动报名表（西班牙语）</strong></a> — 日期待定 <span class="warn">✍️ 需要操作</span></div>
+</div>
+</section>
+<section><h2>✍️ 家长需要操作</h2>
+<ul>
+<li><span class="grade-pill grade-general">全校</span> <a href="#event-2"><strong>校园共处手册</strong></a>：阅读并理解学校关于行为规范、权利义务、冲突解决方式及家校协同育人的整体框架；该手册为家校合作提供基础共识，无需签字或缴费，但需在日常教育中配合落实相关理念。</li>
+<li><span class="grade-pill grade-general">全校</span> <a href="#event-3"><strong>2026/2027学年信息手册</strong></a>：查阅手册内容，了解新学年各项政策、服务、费用及家校协作要求；首次入读家庭需特别关注注册（matriculación）、保险（seguro escolar）、校服（uniformes）、交通（transporte）及补充服务（servicios complementarios）等章节</li>
+<li><span class="grade-pill grade-general">全校</span> <a href="#event-4"><strong>Brains校内商店开业通知 / 新营业时间公告</strong></a>：请通过线上商店 tiendamadrid.colegiobrains.com 下单；订单完成后留意邮件/短信通知，按需选择家庭配送或到校实体店自取（工作日 08:30–13:00 或 15:00–17:00）</li>
+<li><span class="grade-pill grade-general">全校</span> <a href="#event-5"><strong>2026–2027学年课外活动报名通知</strong></a>：下载并完整填写《报名申请表》，连同确认意向一并发送至指定邮箱；注意首月费用将按比例计入当月学校账单</li>
+<li><span class="grade-pill grade-preparatory">幼升小预备</span> <a href="#event-6"><strong>Brains学校2026/2027学年课后拓展活动总览</strong></a>：查看通知详情</li>
+<li><a href="#event-7"><strong>课外活动报名手册（西班牙语版）</strong></a>：查看通知详情</li>
+<li><a href="#event-8"><strong>课外活动报名表（西班牙语）</strong></a>：家长需为孩子选择并报名课外活动，前往学校教务处完成注册及缴费；如需退改选，须通过指定邮箱提交申请</li>
+<li><a href="#event-9"><strong>课后活动报名表</strong></a>：查看通知详情</li>
+<li><span class="grade-pill grade-primaria grade-specific">小学四年级</span> <a href="#event-10"><strong>音乐学校：新增课程活动</strong></a>：家长须在开学前（10月起实施）通过提供的Google表单完成在线报名，并缴纳每月59欧元费用</li>
+<li><span class="grade-pill grade-infantil">幼儿园</span> <a href="#event-11"><strong>音乐学校：新活动项目</strong></a>：登录指定Google表单完成在线报名；确认所选活动是否替代孩子当学期常规音乐课；按月缴纳对应费用（55欧元或59欧元）</li>
+<li><span class="grade-pill grade-primaria grade-specific">小学六年级</span> <a href="#event-12"><strong>戏剧课/戏剧工作坊</strong></a>：带孩子前往戏剧教室，向老师Concha Guerrero或Beatriz Zafra报上学生姓名和家长姓氏完成报名</li>
+</ul>
+</section>
+<section><h2>🗓 重要时间线</h2>
+<ol class="timeline">
+<li><span class="date">2024-10-01</span> <a href="#event-10">音乐学校：新增课程活动</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2024-10-01</span> <a href="#event-11">音乐学校：新活动项目</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2026-09-07</span> <a href="#event-1">欢迎来到2026–2027学年！</a></li>
+<li><span class="date">2026-09-07</span> <a href="#event-12">戏剧课/戏剧工作坊</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2026-09-07 08:30</span> <a href="#event-4">Brains校内商店开业通知 / 新营业时间公告</a></li>
+</ol>
+</section>
+<section><h2>🎓 按年级分类</h2>
+<h3 class="grade-h grade-general">全校通用通知</h3>
+<div id="event-1">
+<article class="event has-grade grade-general">
+<span class="grade-pill grade-general">全校</span>
+<h4>#1 【欢迎来到2026–2027学年！】<span class="es">Welcome to the 2026-2027 school year!</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体家长（通用通知）（General）</dd>
+<dt>关键时间</dt><dd>2026-09-07</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>(无具体行动)</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>原文关键词</dt><dd>welcome, 2026-2027, school year, families, Brains International School, La Moraleja</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>这是一份面向全体家长的开学季情感联结型通知，旨在传递学校温暖、开放、家校协同的价值观；并非事务性要求，而是通过校长亲署信建立信任感与归属感；同时隐含强化‘Brains Family’品牌认同，为后续学年各项合作（如活动参与、意见征询、费用缴纳等）铺垫情感基础。</div>
+<div class="raw">原文摘录：Madrid, 7th September 2026 
+
+Welcome to the 2026-2027 school year! 
+Dear Families, 
+We begin a new school year with great excitement, delighted to welcome back our families 
+and to greet those joining our community for the first time.</div>
+<div><a class="btn" href="./events/01-welcome-to-the-2026-2027-school-year.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1k4962EKijyOyMoMd7orPD5FkyQaPPnr9/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-2">
+<article class="event has-grade grade-general">
+<span class="grade-pill grade-general">全校</span>
+<h4>#2 【校园共处手册】<span class="es">Manual de convivencia</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体学生、家长及教职员工（General）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>阅读并理解学校关于行为规范、权利义务、冲突解决方式及家校协同育人的整体框架；该手册为家校合作提供基础共识，无需签字或缴费，但需在日常教育中配合落实相关理念。</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 本手册非一次性通知，而是学校年度教育治理的纲领性文件；家长无需签署回执，但其内容将直接影响学生在校行为管理、纪律处理及家校沟通依据。</dd>
+<dt>原文关键词</dt><dd>Manual de convivencia, Brains International Schools, valores educativos, normas de convivencia, derechos y deberes, modelo educativo</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校发布此手册的核心目的是履行西班牙《马德里自治区学校共处条例》（Decreto 32/2019）的法定告知义务，确立依法治校的制度基础；同时向家长系统传达学校价值观导向的教育逻辑与行为干预路径，旨在构建家校对‘何为恰当教育回应’的共识，降低因理念差异引发的误解与投诉；并非用于收费、活动报名或即时行动，而是为全年教育实践提供可追溯、可协商的共同参照系。</div>
+<div class="raw">原文摘录：El Manual de Convivencia de los Colegios Brains define la organización y funcionamiento del Centro en relación al modelo de convivencia que queremos en nuestro proyecto educativo. Este Manual concreta, de forma coherente con nuestros valores de centro, tanto el conjunto de normas y procedimientos para orientar el comportamiento y la actitud de toda la Comunidad Educativa como la metodología para su aplicación, guiando el proceso educativo del alumnado.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1EwUHnvCV3ANSDk3DyfYB_9g2HyZ2JKfe/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-3">
+<article class="event has-grade grade-general">
+<span class="grade-pill grade-general">全校</span>
+<h4>#3 【2026/2027学年信息手册】<span class="es">Cuaderno Informativo</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体家长与学生（General）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>查阅手册内容，了解新学年各项政策、服务、费用及家校协作要求；首次入读家庭需特别关注注册（matriculación）、保险（seguro escolar）、校服（uniformes）、交通（transporte）及补充服务（servicios complementarios）等章节</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 手册为全年政策总览，非单一活动通知；具体执行细则（如缴费时间、报名方式、校服订购渠道等）需参阅后续专项通知或联系学校办公室</dd>
+<dt>原文关键词</dt><dd>Cuaderno Informativo, 2026/2027, Brains International Schools, matriculación, seguro escolar, uniformes</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校发布此手册的核心目的是履行法定告知义务并建立清晰的家校契约基础。作为新学年启动的纲领性文件，它系统整合了招生、收费、安全、健康、课程支持等关键政策，既满足西班牙《教育组织法》（LOMLOE）对透明化沟通的要求，也为后续具体事项（如保险购买、校服订购）的执行提供依据，同时向新生家庭传递教育理念以增强信任感。</div>
+<div class="raw">原文摘录：Estimadas familias, queridos alumnos y alumnas: Es un verdadero placer darles la bienvenida a un nuevo curso escolar en Brains International School La Moraleja. Comenzamos una nueva etapa llena de ilusión, nuevos retos y oportunidades para seguir creciendo juntos. [...] En el Cuaderno Informativo del año escolar 2026 / 2027, encontrarán detalles sobre las actividades, proyectos pedagógicos y novedades que hemos preparado con esmero para este nuevo curso.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/16EUxVgPdSpxehvDcEhbSl3QhoWILVGnB/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-4">
+<article class="event has-grade grade-general">
+<span class="grade-pill grade-general">全校</span>
+<h4>#4 【Brains校内商店开业通知 / 新营业时间公告】<span class="es">Brains Story Opening / Horario Tienda Brains</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体家长（通用通知）（General）</dd>
+<dt>关键时间</dt><dd>2026-09-07  08:30 – 13:00</dd>
+<dt>地点</dt><dd>实体店：马德里Brains学校内 / Tienda física: Colegio Brains Madrid</dd>
+<dt>家长需要做</dt><dd>请通过线上商店 tiendamadrid.colegiobrains.com 下单；订单完成后留意邮件/短信通知，按需选择家庭配送或到校实体店自取（工作日 08:30–13:00 或 15:00–17:00）</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 所有订单必须通过线上商店提交，不接受电话、微信或到店现场下单</dd>
+<dt>原文关键词</dt><dd>tienda online, horario, recogida, envío a domicilio, pedidos, 2026-2027</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在统一采购流程，推动家长使用线上商店（tiendamadrid.colegiobrains.com），减少线下订单管理成本；同时明确实体店服务时段，优化人力排班与取货体验。该通知不涉及强制消费或新增收费，属常规运营信息更新，也隐含提升家校数字化协作效率的管理意图。</div>
+<div class="raw">原文摘录：Mornings L-V: 8:30-13:00
+Afternoons L-V: 15:00-17:00
+
+Estimadas familias,
+Les informamos del nuevo horario de atención de la tienda para el curso 2026-2027.
+Les recordamos que todos los pedidos deberán realizarse únicamente a través de nuestra tienda online: tiendamadrid.colegiobrains.com</div>
+<div><a class="btn" href="./events/04-brains-story-opening-horario-tienda-brai.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%AE%9E%E4%BD%93%E5%BA%97%EF%BC%9A%E9%A9%AC%E5%BE%B7%E9%87%8CBrains%E5%AD%A6%E6%A0%A1%E5%86%85+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1AtrMXxpooH8pXDgUnUWOywGtNZtKL9pG/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-5">
+<article class="event has-grade grade-general">
+<span class="grade-pill grade-general">全校</span>
+<h4>#5 【2026–2027学年课外活动报名通知】<span class="es">EXTRACURRICULAR ACTIVITIES OFFER 2026 – 2027 SCHOOL YEAR</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体学生及家长（General）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>下载并完整填写《报名申请表》，连同确认意向一并发送至指定邮箱；注意首月费用将按比例计入当月学校账单</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；填写并邮件发送《报名申请表》至 extraescolares.mor@colegiobrains.com；付款 是；费用 自9月16日（周三）起开展的活动，首月收取50%月费，通过学校账单按月结方式收取</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名表为启动任何课外活动的强制性文件；新老生均须提交；名额招满即止</dd>
+<dt>原文关键词</dt><dd>extraescolares, inscripción, formulario obligatorio, plazas limitadas, cuota mensual, 2026-2027</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在系统化启动新学年课外活动招生流程，通过强制签署报名表确保法律合规性与数据留痕；收费安排（首月半价+月结）兼顾家长接受度与财务可预测性；‘名额招满即止’的表述既制造合理紧迫感，也规避超额招生风险，体现运营精细化管理。</div>
+<div class="raw">原文摘录：• Hoja de solicitud de inscripción: (documento obligatorio para iniciar cualquier actividad). 
+
+Proceso de Inscripción: 
+1. Formulario obligatorio: es imprescindible cumplimentar la hoja de inscripción. Esto aplica tanto para nuevos alumnos como para quienes deseen continuar en una actividad del curso anterior. 
+2. Envío por correo: una vez cumplimentado, se deberá enviar el documento a la siguiente dirección de correo: extraescolares.mor@colegiobrains.com 
+3. Plazo: el periodo de inscripción permanecerá abierto hasta cubrir las plazas disponibles.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1o6NANebDakuGpIrfQZjYsX0tebPBy61l/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3 class="grade-h grade-infantil">Infantil / 幼儿园</h3>
+<div id="event-11">
+<article class="event has-grade grade-infantil">
+<span class="grade-pill grade-infantil">幼儿园</span>
+<h4>#11 【音乐学校：新活动项目】<span class="es">Escuela de música: Nuevas Actividades</span></h4>
+<div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span><span class="pill">Preparatory</span></div>
+<dl>
+<dt>适用对象</dt><dd>幼儿部（低龄学习者／托班／小托班）、幼儿部（小班／预备班）、小学部（1–4年级）（EARLY YEARS (YOUNG LEARNERS – PRE-NURSERY–NURSERY); EARLY YEARS (RECEPTION &amp; PREPARATORY); PRIMARY SCHOOL (Years 1 to 4)）</dd>
+<dt>关键时间</dt><dd>2024-10-01</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>登录指定Google表单完成在线报名；确认所选活动是否替代孩子当学期常规音乐课；按月缴纳对应费用（55欧元或59欧元）</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；Google 表单在线填写：https://docs.google.com/forms/d/e/1FAIpQLScPAWBIJ4LF_gsEc99T4BEIhg5xOuJB_rcmNbCJa8prjUzROA/viewform?usp=header；付款 是；费用 €55/月（幼儿部两项活动）；€59/月（小学键盘乐团）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 新活动为**替代常规音乐课的选修选项**，非课外兴趣班；将纳入PYP课程评估并体现在成绩单中；每班最多8人，需及时报名以确保名额。</dd>
+<dt>原文关键词</dt><dd>Music alternative activity, Early Years music, Keyboard Lab, Keyboard Orchestra, PYP curriculum, optional music class</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过提供符合PYP框架的、可评估的音乐课程替代方案，提升课程多样性与个性化水平；同时以结构化、分龄设计的付费活动拓展音乐教育服务，既满足不同发展阶段学生的体验需求，也为音乐学校可持续运营补充资源；该举措也隐含强化家校协同——要求家长主动选择并签署同意，将家庭意愿正式纳入课程实施前提。</div>
+<div class="raw">原文摘录：As is already the case in secondary school, we are now also offering students in Early Years and Primary the possibility of taking a new optional activity instead of the regular Music class. It will take place during the Music lesson and, like the regular class, will follow the same curriculum, guidelines and assessment criteria as the other PYP subjects. It will therefore be assessed and included in the report card.</div>
+<div><a class="btn" href="./events/11-escuela-de-musica-nuevas-actividades.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1UPeEfgdZR8yEGLVxeVgePaZwoI7X61vu/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3 class="grade-h grade-primaria">Primaria / 小学</h3>
+<div id="event-10">
+<article class="event has-grade grade-primaria">
+<span class="grade-pill grade-primaria grade-specific">小学四年级</span>
+<h4>#10 【音乐学校：新增课程活动】<span class="es">Escuela de música: Nuevas Actividades</span></h4>
+<div><span class="pill">Primaria / 小学</span></div>
+<dl>
+<dt>适用对象</dt><dd>小学一至四年级（1º - 4º Primaria）</dd>
+<dt>关键时间</dt><dd>2024-10-01</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>家长须在开学前（10月起实施）通过提供的Google表单完成在线报名，并缴纳每月59欧元费用</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；Google 表单在线填写（链接见通知正文）；付款 是；费用 59欧元/月</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 该活动将替代常规音乐课（música curricular），纳入PYP课程体系，计入正式成绩单（boletín de calificaciones）；需通过指定Google表单完成注册，非自动默认加入。</dd>
+<dt>原文关键词</dt><dd>Orquesta de Teclados, 1º–4º Primaria, actividad optativa, música curricular, PYP, inscripción online</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过增设键盘乐团等可收费选修课，将音乐教育深度嵌入PYP课程评估体系，既提升课程专业形象与家长认可度，又为音乐学校开辟可持续的专项经费来源；同时以‘替代常规音乐课’方式规避课时冲突，确保参与率与收费转化率。</div>
+<div class="raw">原文摘录：Con esta nueva iniciativa queremos seguir construyendo una Escuela de Música abierta, innovadora y adaptada a las necesidades de nuestros alumnos, donde cada etapa tenga su propia forma de acercarse a la música. Las nuevas actividades darán comienzo en el mes de octubre y para formalizar la inscripción es necesario cumplimentar el formulario que encontrarán en este enlace: https://docs.google.com/forms/d/e/1FAIpQLScPAWBIJ4LF_gsEc99T4BEIhg5xOuJB_rcmNbCJa8prjUzROA/viewform?usp=header</div>
+<div><a class="btn" href="./events/10-escuela-de-musica-nuevas-actividades.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1kc-MhQUJmJlSvyfPTPLsZrY8z-d51jU-/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-11">
+<article class="event has-grade grade-primaria">
+<span class="grade-pill grade-primaria">小学</span>
+<h4>#11 【音乐学校：新活动项目】<span class="es">Escuela de música: Nuevas Actividades</span></h4>
+<div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span><span class="pill">Preparatory</span></div>
+<dl>
+<dt>适用对象</dt><dd>幼儿部（低龄学习者／托班／小托班）、幼儿部（小班／预备班）、小学部（1–4年级）（EARLY YEARS (YOUNG LEARNERS – PRE-NURSERY–NURSERY); EARLY YEARS (RECEPTION &amp; PREPARATORY); PRIMARY SCHOOL (Years 1 to 4)）</dd>
+<dt>关键时间</dt><dd>2024-10-01</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>登录指定Google表单完成在线报名；确认所选活动是否替代孩子当学期常规音乐课；按月缴纳对应费用（55欧元或59欧元）</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；Google 表单在线填写：https://docs.google.com/forms/d/e/1FAIpQLScPAWBIJ4LF_gsEc99T4BEIhg5xOuJB_rcmNbCJa8prjUzROA/viewform?usp=header；付款 是；费用 €55/月（幼儿部两项活动）；€59/月（小学键盘乐团）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 新活动为**替代常规音乐课的选修选项**，非课外兴趣班；将纳入PYP课程评估并体现在成绩单中；每班最多8人，需及时报名以确保名额。</dd>
+<dt>原文关键词</dt><dd>Music alternative activity, Early Years music, Keyboard Lab, Keyboard Orchestra, PYP curriculum, optional music class</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过提供符合PYP框架的、可评估的音乐课程替代方案，提升课程多样性与个性化水平；同时以结构化、分龄设计的付费活动拓展音乐教育服务，既满足不同发展阶段学生的体验需求，也为音乐学校可持续运营补充资源；该举措也隐含强化家校协同——要求家长主动选择并签署同意，将家庭意愿正式纳入课程实施前提。</div>
+<div class="raw">原文摘录：As is already the case in secondary school, we are now also offering students in Early Years and Primary the possibility of taking a new optional activity instead of the regular Music class. It will take place during the Music lesson and, like the regular class, will follow the same curriculum, guidelines and assessment criteria as the other PYP subjects. It will therefore be assessed and included in the report card.</div>
+<div><a class="btn" href="./events/11-escuela-de-musica-nuevas-actividades.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1UPeEfgdZR8yEGLVxeVgePaZwoI7X61vu/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-12">
+<article class="event has-grade grade-primaria">
+<span class="grade-pill grade-primaria grade-specific">小学六年级</span>
+<h4>#12 【戏剧课/戏剧工作坊】<span class="es">Theatre Classes / Clases de teatro</span></h4>
+<div><span class="pill">Primaria / 小学</span></div>
+<dl>
+<dt>适用对象</dt><dd>小学三年级至六年级（3º - 6º Primaria）</dd>
+<dt>关键时间</dt><dd>2026-09-07</dd>
+<dt>地点</dt><dd>戏剧教室 / Theatre room / aula de teatro</dd>
+<dt>家长需要做</dt><dd>带孩子前往戏剧教室，向老师Concha Guerrero或Beatriz Zafra报上学生姓名和家长姓氏完成报名</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；现场登记：前往戏剧教室提供学生姓名和家长姓氏；付款 否；费用 免费</dd>
+<dt>原文关键词</dt><dd>Theatre Workshop, Taller de Teatro, voluntary, gratuita, 3º a 6º Primaria, sign up</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过低门槛、零成本的戏剧活动提升学生的综合软技能（表达力、专注力、团队协作等），同时以‘自愿参与’为前提降低家长顾虑；通知强调‘游戏为驱动’和‘从错误中学习’，实为传递教育理念、建立家校对素质教育目标的共识，并为后续课程开展积累学生参与基数。</div>
+<div class="raw">原文摘录：The workshop will begin on the 7th of September and signing up is very simple: just go down to the Theatre room and give us your name and surname.</div>
+<div><a class="btn" href="./events/12-theatre-classes-clases-de-teatro.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%88%8F%E5%89%A7%E6%95%99%E5%AE%A4+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1VM9PqyGKHbA-HgQ9drOAMyxWUiNrKW6o/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3 class="grade-h grade-preparatory">Preparatory</h3>
+<div id="event-6">
+<article class="event has-grade grade-preparatory">
+<span class="grade-pill grade-preparatory">幼升小预备</span>
+<h4>#6 【Brains学校2026/2027学年课后拓展活动总览】<span class="es">EXTRA ESCOLARES BRAINS 2026/2027</span></h4>
+<div><span class="pill">Preparatory</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>预备班（Preparatory）至高中（Bachillerato）全体学生（Preparatory a Bachillerato）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>Brains学校拉莫拉莱哈校区 / Colegio Brains La Moraleja</dd>
+<dt>家长需要做</dt><dd>(无具体行动)</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；前往校务处（Secretaría del Centro）现场报名；部分项目需联系指定教师或邮箱；付款 是；费用 各项目费用不等，从24€/节（西语/中文/ELE/暑期班）至155€/月（ARTLAB 3节/周）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 新生必须完成报名（cumplimentar la inscripción）；退课、调课或建议请发邮件至 extraescolares.mor@colegiobrains.com；多数活动自10月起开课；部分项目（如Kumon、CLASES PARTICULARES、LOGOPEDIA等）为个性化服务，需单独联系教师预约。</dd>
+<dt>原文关键词</dt><dd>extraescolares, inscripción, matrícula, tarifas, Secretaría del Centro, octubre</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在系统性推广并落实2026/2027学年全部课后拓展项目，核心目标是完成新学年收费项目的家长确认与签约闭环。通过集中发布详尽的课程清单（含时段、对象、价格、负责人），既履行了法定告知义务，也高效驱动家长在开学前完成缴费与选课决策，保障课外活动收入稳定性和课程开班可行性；同时将行政流程（报名/退改/咨询）标准化为‘校务处办理+指定邮箱’双通道，降低管理成本。</div>
+<div class="raw">原文摘录：Para altas nuevas es necesario cumplimentar la inscripción. Para bajas, cambios o sugerencias pueden escribir un correo en la siguiente dirección: extraescolares.mor@colegiobrains.com</div>
+<div><a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Brains%E5%AD%A6%E6%A0%A1%E6%8B%89%E8%8E%AB%E6%8B%89%E8%8E%B1%E5%93%88%E6%A0%A1%E5%8C%BA+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1kqnSY8lSPo94553wX8PbNHY9ywHo5Ltb/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-11">
+<article class="event has-grade grade-preparatory">
+<span class="grade-pill grade-preparatory">幼升小预备</span>
+<h4>#11 【音乐学校：新活动项目】<span class="es">Escuela de música: Nuevas Actividades</span></h4>
+<div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span><span class="pill">Preparatory</span></div>
+<dl>
+<dt>适用对象</dt><dd>幼儿部（低龄学习者／托班／小托班）、幼儿部（小班／预备班）、小学部（1–4年级）（EARLY YEARS (YOUNG LEARNERS – PRE-NURSERY–NURSERY); EARLY YEARS (RECEPTION &amp; PREPARATORY); PRIMARY SCHOOL (Years 1 to 4)）</dd>
+<dt>关键时间</dt><dd>2024-10-01</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>登录指定Google表单完成在线报名；确认所选活动是否替代孩子当学期常规音乐课；按月缴纳对应费用（55欧元或59欧元）</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；Google 表单在线填写：https://docs.google.com/forms/d/e/1FAIpQLScPAWBIJ4LF_gsEc99T4BEIhg5xOuJB_rcmNbCJa8prjUzROA/viewform?usp=header；付款 是；费用 €55/月（幼儿部两项活动）；€59/月（小学键盘乐团）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 新活动为**替代常规音乐课的选修选项**，非课外兴趣班；将纳入PYP课程评估并体现在成绩单中；每班最多8人，需及时报名以确保名额。</dd>
+<dt>原文关键词</dt><dd>Music alternative activity, Early Years music, Keyboard Lab, Keyboard Orchestra, PYP curriculum, optional music class</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过提供符合PYP框架的、可评估的音乐课程替代方案，提升课程多样性与个性化水平；同时以结构化、分龄设计的付费活动拓展音乐教育服务，既满足不同发展阶段学生的体验需求，也为音乐学校可持续运营补充资源；该举措也隐含强化家校协同——要求家长主动选择并签署同意，将家庭意愿正式纳入课程实施前提。</div>
+<div class="raw">原文摘录：As is already the case in secondary school, we are now also offering students in Early Years and Primary the possibility of taking a new optional activity instead of the regular Music class. It will take place during the Music lesson and, like the regular class, will follow the same curriculum, guidelines and assessment criteria as the other PYP subjects. It will therefore be assessed and included in the report card.</div>
+<div><a class="btn" href="./events/11-escuela-de-musica-nuevas-actividades.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1UPeEfgdZR8yEGLVxeVgePaZwoI7X61vu/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3 class="grade-h grade-bachillerato">Bachillerato / 高中</h3>
+<div id="event-6">
+<article class="event has-grade grade-bachillerato">
+<span class="grade-pill grade-bachillerato">高中</span>
+<h4>#6 【Brains学校2026/2027学年课后拓展活动总览】<span class="es">EXTRA ESCOLARES BRAINS 2026/2027</span></h4>
+<div><span class="pill">Preparatory</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>预备班（Preparatory）至高中（Bachillerato）全体学生（Preparatory a Bachillerato）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>Brains学校拉莫拉莱哈校区 / Colegio Brains La Moraleja</dd>
+<dt>家长需要做</dt><dd>(无具体行动)</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；前往校务处（Secretaría del Centro）现场报名；部分项目需联系指定教师或邮箱；付款 是；费用 各项目费用不等，从24€/节（西语/中文/ELE/暑期班）至155€/月（ARTLAB 3节/周）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 新生必须完成报名（cumplimentar la inscripción）；退课、调课或建议请发邮件至 extraescolares.mor@colegiobrains.com；多数活动自10月起开课；部分项目（如Kumon、CLASES PARTICULARES、LOGOPEDIA等）为个性化服务，需单独联系教师预约。</dd>
+<dt>原文关键词</dt><dd>extraescolares, inscripción, matrícula, tarifas, Secretaría del Centro, octubre</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在系统性推广并落实2026/2027学年全部课后拓展项目，核心目标是完成新学年收费项目的家长确认与签约闭环。通过集中发布详尽的课程清单（含时段、对象、价格、负责人），既履行了法定告知义务，也高效驱动家长在开学前完成缴费与选课决策，保障课外活动收入稳定性和课程开班可行性；同时将行政流程（报名/退改/咨询）标准化为‘校务处办理+指定邮箱’双通道，降低管理成本。</div>
+<div class="raw">原文摘录：Para altas nuevas es necesario cumplimentar la inscripción. Para bajas, cambios o sugerencias pueden escribir un correo en la siguiente dirección: extraescolares.mor@colegiobrains.com</div>
+<div><a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Brains%E5%AD%A6%E6%A0%A1%E6%8B%89%E8%8E%AB%E6%8B%89%E8%8E%B1%E5%93%88%E6%A0%A1%E5%8C%BA+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1kqnSY8lSPo94553wX8PbNHY9ywHo5Ltb/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3>家长需要行动的事项</h3>
+<div id="event-2">
+<article class="event">
+<h4>#2 【校园共处手册】<span class="es">Manual de convivencia</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体学生、家长及教职员工（General）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>阅读并理解学校关于行为规范、权利义务、冲突解决方式及家校协同育人的整体框架；该手册为家校合作提供基础共识，无需签字或缴费，但需在日常教育中配合落实相关理念。</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 本手册非一次性通知，而是学校年度教育治理的纲领性文件；家长无需签署回执，但其内容将直接影响学生在校行为管理、纪律处理及家校沟通依据。</dd>
+<dt>原文关键词</dt><dd>Manual de convivencia, Brains International Schools, valores educativos, normas de convivencia, derechos y deberes, modelo educativo</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校发布此手册的核心目的是履行西班牙《马德里自治区学校共处条例》（Decreto 32/2019）的法定告知义务，确立依法治校的制度基础；同时向家长系统传达学校价值观导向的教育逻辑与行为干预路径，旨在构建家校对‘何为恰当教育回应’的共识，降低因理念差异引发的误解与投诉；并非用于收费、活动报名或即时行动，而是为全年教育实践提供可追溯、可协商的共同参照系。</div>
+<div class="raw">原文摘录：El Manual de Convivencia de los Colegios Brains define la organización y funcionamiento del Centro en relación al modelo de convivencia que queremos en nuestro proyecto educativo. Este Manual concreta, de forma coherente con nuestros valores de centro, tanto el conjunto de normas y procedimientos para orientar el comportamiento y la actitud de toda la Comunidad Educativa como la metodología para su aplicación, guiando el proceso educativo del alumnado.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1EwUHnvCV3ANSDk3DyfYB_9g2HyZ2JKfe/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-3">
+<article class="event">
+<h4>#3 【2026/2027学年信息手册】<span class="es">Cuaderno Informativo</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体家长与学生（General）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>查阅手册内容，了解新学年各项政策、服务、费用及家校协作要求；首次入读家庭需特别关注注册（matriculación）、保险（seguro escolar）、校服（uniformes）、交通（transporte）及补充服务（servicios complementarios）等章节</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 手册为全年政策总览，非单一活动通知；具体执行细则（如缴费时间、报名方式、校服订购渠道等）需参阅后续专项通知或联系学校办公室</dd>
+<dt>原文关键词</dt><dd>Cuaderno Informativo, 2026/2027, Brains International Schools, matriculación, seguro escolar, uniformes</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校发布此手册的核心目的是履行法定告知义务并建立清晰的家校契约基础。作为新学年启动的纲领性文件，它系统整合了招生、收费、安全、健康、课程支持等关键政策，既满足西班牙《教育组织法》（LOMLOE）对透明化沟通的要求，也为后续具体事项（如保险购买、校服订购）的执行提供依据，同时向新生家庭传递教育理念以增强信任感。</div>
+<div class="raw">原文摘录：Estimadas familias, queridos alumnos y alumnas: Es un verdadero placer darles la bienvenida a un nuevo curso escolar en Brains International School La Moraleja. Comenzamos una nueva etapa llena de ilusión, nuevos retos y oportunidades para seguir creciendo juntos. [...] En el Cuaderno Informativo del año escolar 2026 / 2027, encontrarán detalles sobre las actividades, proyectos pedagógicos y novedades que hemos preparado con esmero para este nuevo curso.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/16EUxVgPdSpxehvDcEhbSl3QhoWILVGnB/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-4">
+<article class="event">
+<h4>#4 【Brains校内商店开业通知 / 新营业时间公告】<span class="es">Brains Story Opening / Horario Tienda Brains</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体家长（通用通知）（General）</dd>
+<dt>关键时间</dt><dd>2026-09-07  08:30 – 13:00</dd>
+<dt>地点</dt><dd>实体店：马德里Brains学校内 / Tienda física: Colegio Brains Madrid</dd>
+<dt>家长需要做</dt><dd>请通过线上商店 tiendamadrid.colegiobrains.com 下单；订单完成后留意邮件/短信通知，按需选择家庭配送或到校实体店自取（工作日 08:30–13:00 或 15:00–17:00）</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 所有订单必须通过线上商店提交，不接受电话、微信或到店现场下单</dd>
+<dt>原文关键词</dt><dd>tienda online, horario, recogida, envío a domicilio, pedidos, 2026-2027</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在统一采购流程，推动家长使用线上商店（tiendamadrid.colegiobrains.com），减少线下订单管理成本；同时明确实体店服务时段，优化人力排班与取货体验。该通知不涉及强制消费或新增收费，属常规运营信息更新，也隐含提升家校数字化协作效率的管理意图。</div>
+<div class="raw">原文摘录：Mornings L-V: 8:30-13:00
+Afternoons L-V: 15:00-17:00
+
+Estimadas familias,
+Les informamos del nuevo horario de atención de la tienda para el curso 2026-2027.
+Les recordamos que todos los pedidos deberán realizarse únicamente a través de nuestra tienda online: tiendamadrid.colegiobrains.com</div>
+<div><a class="btn" href="./events/04-brains-story-opening-horario-tienda-brai.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%AE%9E%E4%BD%93%E5%BA%97%EF%BC%9A%E9%A9%AC%E5%BE%B7%E9%87%8CBrains%E5%AD%A6%E6%A0%A1%E5%86%85+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1AtrMXxpooH8pXDgUnUWOywGtNZtKL9pG/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-5">
+<article class="event">
+<h4>#5 【2026–2027学年课外活动报名通知】<span class="es">EXTRACURRICULAR ACTIVITIES OFFER 2026 – 2027 SCHOOL YEAR</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体学生及家长（General）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>下载并完整填写《报名申请表》，连同确认意向一并发送至指定邮箱；注意首月费用将按比例计入当月学校账单</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；填写并邮件发送《报名申请表》至 extraescolares.mor@colegiobrains.com；付款 是；费用 自9月16日（周三）起开展的活动，首月收取50%月费，通过学校账单按月结方式收取</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名表为启动任何课外活动的强制性文件；新老生均须提交；名额招满即止</dd>
+<dt>原文关键词</dt><dd>extraescolares, inscripción, formulario obligatorio, plazas limitadas, cuota mensual, 2026-2027</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在系统化启动新学年课外活动招生流程，通过强制签署报名表确保法律合规性与数据留痕；收费安排（首月半价+月结）兼顾家长接受度与财务可预测性；‘名额招满即止’的表述既制造合理紧迫感，也规避超额招生风险，体现运营精细化管理。</div>
+<div class="raw">原文摘录：• Hoja de solicitud de inscripción: (documento obligatorio para iniciar cualquier actividad). 
+
+Proceso de Inscripción: 
+1. Formulario obligatorio: es imprescindible cumplimentar la hoja de inscripción. Esto aplica tanto para nuevos alumnos como para quienes deseen continuar en una actividad del curso anterior. 
+2. Envío por correo: una vez cumplimentado, se deberá enviar el documento a la siguiente dirección de correo: extraescolares.mor@colegiobrains.com 
+3. Plazo: el periodo de inscripción permanecerá abierto hasta cubrir las plazas disponibles.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1o6NANebDakuGpIrfQZjYsX0tebPBy61l/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-6">
+<article class="event">
+<h4>#6 【Brains学校2026/2027学年课后拓展活动总览】<span class="es">EXTRA ESCOLARES BRAINS 2026/2027</span></h4>
+<div><span class="pill">Preparatory</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>预备班（Preparatory）至高中（Bachillerato）全体学生（Preparatory a Bachillerato）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>Brains学校拉莫拉莱哈校区 / Colegio Brains La Moraleja</dd>
+<dt>家长需要做</dt><dd>(无具体行动)</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；前往校务处（Secretaría del Centro）现场报名；部分项目需联系指定教师或邮箱；付款 是；费用 各项目费用不等，从24€/节（西语/中文/ELE/暑期班）至155€/月（ARTLAB 3节/周）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 新生必须完成报名（cumplimentar la inscripción）；退课、调课或建议请发邮件至 extraescolares.mor@colegiobrains.com；多数活动自10月起开课；部分项目（如Kumon、CLASES PARTICULARES、LOGOPEDIA等）为个性化服务，需单独联系教师预约。</dd>
+<dt>原文关键词</dt><dd>extraescolares, inscripción, matrícula, tarifas, Secretaría del Centro, octubre</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在系统性推广并落实2026/2027学年全部课后拓展项目，核心目标是完成新学年收费项目的家长确认与签约闭环。通过集中发布详尽的课程清单（含时段、对象、价格、负责人），既履行了法定告知义务，也高效驱动家长在开学前完成缴费与选课决策，保障课外活动收入稳定性和课程开班可行性；同时将行政流程（报名/退改/咨询）标准化为‘校务处办理+指定邮箱’双通道，降低管理成本。</div>
+<div class="raw">原文摘录：Para altas nuevas es necesario cumplimentar la inscripción. Para bajas, cambios o sugerencias pueden escribir un correo en la siguiente dirección: extraescolares.mor@colegiobrains.com</div>
+<div><a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Brains%E5%AD%A6%E6%A0%A1%E6%8B%89%E8%8E%AB%E6%8B%89%E8%8E%B1%E5%93%88%E6%A0%A1%E5%8C%BA+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1kqnSY8lSPo94553wX8PbNHY9ywHo5Ltb/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-7">
+<article class="event">
+<h4>#7 【课外活动报名手册（西班牙语版）】<span class="es">Dossier (español)</span></h4>
+<div><span class="pill">仅供了解的信息</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体学生及家长</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>(无具体行动)</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；需前往学校秘书处现场报名（除音乐学校、心理教育中心、Kumon外）；或发送邮件至 extraescolares.mor@colegiobrains.com；付款 是；费用 按月收费，首期扣款日期为10月1日；费用包含在当月学校账单中（recibo del colegio）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名按申请先后顺序录取；额满后进入候补名单；退费仅限每月15日前书面申请；当月退课不退费；缺课或活动取消均不退款</dd>
+<dt>原文关键词</dt><dd>extraescolares, inscripción, cobro mensual, lista de espera, baja escrita, secretaría</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在系统化管理大量课外活动的招生与财务流程，确保服务合规运营并控制风险。通过强调‘先到先得’、‘不退当月费’、‘按时接孩子’等条款，降低运营不确定性与家校纠纷；同时将数据处理、收费、退课等关键环节全部纳入合同框架，既履行GDPR与西班牙LOPDGDD法律义务，也为后续可能的政府监管审计或补贴申报留存完整依据。</div>
+<div class="raw">原文摘录：• Las familias se comprometen y responsabilizarán a cumplir los horarios de recogida de la actividad.
+• La inscripción de un alumno/a a una actividad, se realizará por orden riguroso de presentación de solicitudes. Alcanzados los máximos establecidos en cada actividad, se abrirá una lista de espera.
+• Los cobros se realizarán mensualmente por medio del recibo del colegio y se cobrará a mes vencido. El primer cobro se realizará el 1 de octubre.
+• Cualquier alta, baja o variación, deberá comunicarse por escrito antes del día 15 del mes anterior, del que se quiere causar la baja, a través del correo: extraescolares.mor@colegiobrains.com
+• Si un alumno causara baja dentro del mes corriente, no se realizará devolución alguna.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1Y23CizTeAu0SJ5aSIDtNM1cSspVvuKUl/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-8">
+<article class="event">
+<h4>#8 【课外活动报名表（西班牙语）】<span class="es">Hoja Inscripción (español)</span></h4>
+<div><span class="pill">仅供了解的信息</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体学生（All students / Todos los alumnos）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>Brains 学校拉莫拉莱哈校区 / Colegio Brains La Moraleja</dd>
+<dt>家长需要做</dt><dd>家长需为孩子选择并报名课外活动，前往学校教务处完成注册及缴费；如需退改选，须通过指定邮箱提交申请</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；到学校教务处（School Secretary’s Office）现场报名；部分课程另提供邮箱报名（如 extraescolares.mor@colegiobrains.com 或 secretariacede@colegiobrains.com）；付款 是；费用 各活动费用不等，如 ARTLAB 60分钟课：41–103 €/月；FASHION &amp; ENTREPRENEURSHIP：100–132 €/月；MUSICAL THEATRE：20 €年费 + 63 €/月；部分课程按次收费（如中文课、西班牙语ELE课：24 €/节）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 新生报名须填写注册表；退课、调课或提出建议，请发送邮件至 extraescolares.mor@colegiobrains.com；多数活动自10月起开课；部分课程有最低成团人数要求（如3–8人），未达人数可能取消；费用按月/按次收取，不含教材（如暑期阅读工作坊注明‘阅读用书不包含在费用内’）</dd>
+<dt>原文关键词</dt><dd>extraescolares, inscripción, matrícula, actividades, Brains La Moraleja, 2026/2027</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在系统启动新学年（2026/2027）课外活动招生流程，通过集中发布课程清单与明确报名路径，提高家长响应效率并保障财务回款节奏；同时以结构化信息（费用、时段、师资、适用年级）降低咨询成本，减少因信息不对称引发的后续争议；部分课程标注最小开班人数，也隐含风险管控意图——避免资源空转。</div>
+<div class="raw">原文摘录：For new registrations it is necessary to fill in the registration form.
+For cancellations, changes or suggestions, please send an email to the following address: extraescolares.mor@colegiobrains.com</div>
+<div><a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Brains+%E5%AD%A6%E6%A0%A1%E6%8B%89%E8%8E%AB%E6%8B%89%E8%8E%B1%E5%93%88%E6%A0%A1%E5%8C%BA+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1xS1kgxFsxAPngUHEovUsXz0M3s1RVHjM/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-9">
+<article class="event">
+<h4>#9 【课后活动报名表】<span class="es">After School Activities Registration Form</span></h4>
+<div><span class="pill">仅供了解的信息</span></div>
+<dl>
+<dt>适用对象</dt><dd>Brains 学校全体学生（Students – Brains Schools）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>(无具体行动)</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；需前往校务处（周一至周五 09:00–16:30）现场提交；音乐学校、心理教育部门及Kumon课程除外，须直接联系对应负责人；付款 是；费用 按月收费，首期付款日期为10月1日；费用包含在当月学校账单中</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 报名按申请先后顺序录取，额满即止并启动候补名单；退费仅限每月15日前书面申请，当月退出不退费；活动因不可抗力取消或学生缺勤，仍照常收取当月费用</dd>
+<dt>原文关键词</dt><dd>After School Activities, Registration Form, monthly fee, waiting list, withdrawal deadline, data protection</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在系统化管理课后活动的招生与财务流程，确保服务可持续运营；通过明确缴费规则、退费限制和候补机制，降低运营风险与家长争议；同时履行西班牙《数据保护法》（LOPD-GDD）下的法律告知义务，为后续向银行、监管机构等第三方共享数据提供合规依据。</div>
+<div class="raw">原文摘录：The enrolment of a student for an activity will be carried out in strict order of presentation of applications. Once the maximums established for each activity have been reached, a waiting list will be opened.
+•
+Charges will be made monthly, through the invoice from the school. The first payment will be made on October 1st.
+•
+Any addition, withdrawal or variation must be communicated in writing before the 15th day of the month prior to the month in which the cancellation is to be made by the email: extraescolares.mor@colegiobrains.com 
+•
+If a student withdraws within the corresponding month, no refund will be made.
+•
+When a student cannot go to class or the activity cannot be held for reasons beyond the control of the center, the school will not be responsible and will charge the monthly fee for use.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1_YcnomPz3aDXE7KdWmmu0E7lKFIBe5b_/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-10">
+<article class="event">
+<h4>#10 【音乐学校：新增课程活动】<span class="es">Escuela de música: Nuevas Actividades</span></h4>
+<div><span class="pill">Primaria / 小学</span></div>
+<dl>
+<dt>适用对象</dt><dd>小学一至四年级（1º - 4º Primaria）</dd>
+<dt>关键时间</dt><dd>2024-10-01</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>家长须在开学前（10月起实施）通过提供的Google表单完成在线报名，并缴纳每月59欧元费用</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；Google 表单在线填写（链接见通知正文）；付款 是；费用 59欧元/月</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 该活动将替代常规音乐课（música curricular），纳入PYP课程体系，计入正式成绩单（boletín de calificaciones）；需通过指定Google表单完成注册，非自动默认加入。</dd>
+<dt>原文关键词</dt><dd>Orquesta de Teclados, 1º–4º Primaria, actividad optativa, música curricular, PYP, inscripción online</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过增设键盘乐团等可收费选修课，将音乐教育深度嵌入PYP课程评估体系，既提升课程专业形象与家长认可度，又为音乐学校开辟可持续的专项经费来源；同时以‘替代常规音乐课’方式规避课时冲突，确保参与率与收费转化率。</div>
+<div class="raw">原文摘录：Con esta nueva iniciativa queremos seguir construyendo una Escuela de Música abierta, innovadora y adaptada a las necesidades de nuestros alumnos, donde cada etapa tenga su propia forma de acercarse a la música. Las nuevas actividades darán comienzo en el mes de octubre y para formalizar la inscripción es necesario cumplimentar el formulario que encontrarán en este enlace: https://docs.google.com/forms/d/e/1FAIpQLScPAWBIJ4LF_gsEc99T4BEIhg5xOuJB_rcmNbCJa8prjUzROA/viewform?usp=header</div>
+<div><a class="btn" href="./events/10-escuela-de-musica-nuevas-actividades.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1kc-MhQUJmJlSvyfPTPLsZrY8z-d51jU-/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-11">
+<article class="event">
+<h4>#11 【音乐学校：新活动项目】<span class="es">Escuela de música: Nuevas Actividades</span></h4>
+<div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span><span class="pill">Preparatory</span></div>
+<dl>
+<dt>适用对象</dt><dd>幼儿部（低龄学习者／托班／小托班）、幼儿部（小班／预备班）、小学部（1–4年级）（EARLY YEARS (YOUNG LEARNERS – PRE-NURSERY–NURSERY); EARLY YEARS (RECEPTION &amp; PREPARATORY); PRIMARY SCHOOL (Years 1 to 4)）</dd>
+<dt>关键时间</dt><dd>2024-10-01</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>登录指定Google表单完成在线报名；确认所选活动是否替代孩子当学期常规音乐课；按月缴纳对应费用（55欧元或59欧元）</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；Google 表单在线填写：https://docs.google.com/forms/d/e/1FAIpQLScPAWBIJ4LF_gsEc99T4BEIhg5xOuJB_rcmNbCJa8prjUzROA/viewform?usp=header；付款 是；费用 €55/月（幼儿部两项活动）；€59/月（小学键盘乐团）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 新活动为**替代常规音乐课的选修选项**，非课外兴趣班；将纳入PYP课程评估并体现在成绩单中；每班最多8人，需及时报名以确保名额。</dd>
+<dt>原文关键词</dt><dd>Music alternative activity, Early Years music, Keyboard Lab, Keyboard Orchestra, PYP curriculum, optional music class</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过提供符合PYP框架的、可评估的音乐课程替代方案，提升课程多样性与个性化水平；同时以结构化、分龄设计的付费活动拓展音乐教育服务，既满足不同发展阶段学生的体验需求，也为音乐学校可持续运营补充资源；该举措也隐含强化家校协同——要求家长主动选择并签署同意，将家庭意愿正式纳入课程实施前提。</div>
+<div class="raw">原文摘录：As is already the case in secondary school, we are now also offering students in Early Years and Primary the possibility of taking a new optional activity instead of the regular Music class. It will take place during the Music lesson and, like the regular class, will follow the same curriculum, guidelines and assessment criteria as the other PYP subjects. It will therefore be assessed and included in the report card.</div>
+<div><a class="btn" href="./events/11-escuela-de-musica-nuevas-actividades.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1UPeEfgdZR8yEGLVxeVgePaZwoI7X61vu/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-12">
+<article class="event">
+<h4>#12 【戏剧课/戏剧工作坊】<span class="es">Theatre Classes / Clases de teatro</span></h4>
+<div><span class="pill">Primaria / 小学</span></div>
+<dl>
+<dt>适用对象</dt><dd>小学三年级至六年级（3º - 6º Primaria）</dd>
+<dt>关键时间</dt><dd>2026-09-07</dd>
+<dt>地点</dt><dd>戏剧教室 / Theatre room / aula de teatro</dd>
+<dt>家长需要做</dt><dd>带孩子前往戏剧教室，向老师Concha Guerrero或Beatriz Zafra报上学生姓名和家长姓氏完成报名</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；现场登记：前往戏剧教室提供学生姓名和家长姓氏；付款 否；费用 免费</dd>
+<dt>原文关键词</dt><dd>Theatre Workshop, Taller de Teatro, voluntary, gratuita, 3º a 6º Primaria, sign up</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过低门槛、零成本的戏剧活动提升学生的综合软技能（表达力、专注力、团队协作等），同时以‘自愿参与’为前提降低家长顾虑；通知强调‘游戏为驱动’和‘从错误中学习’，实为传递教育理念、建立家校对素质教育目标的共识，并为后续课程开展积累学生参与基数。</div>
+<div class="raw">原文摘录：The workshop will begin on the 7th of September and signing up is very simple: just go down to the Theatre room and give us your name and surname.</div>
+<div><a class="btn" href="./events/12-theatre-classes-clases-de-teatro.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%88%8F%E5%89%A7%E6%95%99%E5%AE%A4+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1VM9PqyGKHbA-HgQ9drOAMyxWUiNrKW6o/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+</section>
+<section><h2>📅 日历添加区</h2>
+<p>iOS 用户：点击下方按钮，Safari 会弹出"加入日历"对话框。Android 用户会下载 .ics 文件，再用日历 app 打开导入。</p>
+<p><a class="btn" href="./school_events.ics">添加全部本周日历</a></p>
+<p>单独添加某个事项：</p><ul>
+<li><a href="./events/01-welcome-to-the-2026-2027-school-year.ics">📅 欢迎来到2026–2027学年！ / Welcome to the 2026-2027 school year!</a></li>
+<li><a href="./events/04-brains-story-opening-horario-tienda-brai.ics">📅 Brains校内商店开业通知 / 新营业时间公告 / Brains Story Opening / Horario Tienda Brains</a></li>
+<li><a href="./events/10-escuela-de-musica-nuevas-actividades.ics">📅 音乐学校：新增课程活动 / Escuela de música: Nuevas Actividades</a></li>
+<li><a href="./events/11-escuela-de-musica-nuevas-actividades.ics">📅 音乐学校：新活动项目 / Escuela de música: Nuevas Actividades</a></li>
+<li><a href="./events/12-theatre-classes-clases-de-teatro.ics">📅 戏剧课/戏剧工作坊 / Theatre Classes / Clases de teatro</a></li>
+</ul>
+</section>
+<section><h2>🔗 学校原文 PDF 链接</h2><ul>
+<li>#1 欢迎来到2026–2027学年！ / Welcome to the 2026-2027 school year! <a href="https://drive.google.com/file/d/1k4962EKijyOyMoMd7orPD5FkyQaPPnr9/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#2 校园共处手册 / Manual de convivencia <a href="https://drive.google.com/file/d/1EwUHnvCV3ANSDk3DyfYB_9g2HyZ2JKfe/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#3 2026/2027学年信息手册 / Cuaderno Informativo <a href="https://drive.google.com/file/d/16EUxVgPdSpxehvDcEhbSl3QhoWILVGnB/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#4 Brains校内商店开业通知 / 新营业时间公告 / Brains Story Opening / Horario Tienda Brains <a href="https://drive.google.com/file/d/1AtrMXxpooH8pXDgUnUWOywGtNZtKL9pG/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#5 2026–2027学年课外活动报名通知 / EXTRACURRICULAR ACTIVITIES OFFER 2026 – 2027 SCHOOL YEAR <a href="https://drive.google.com/file/d/1o6NANebDakuGpIrfQZjYsX0tebPBy61l/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#6 Brains学校2026/2027学年课后拓展活动总览 / EXTRA ESCOLARES BRAINS 2026/2027 <a href="https://drive.google.com/file/d/1kqnSY8lSPo94553wX8PbNHY9ywHo5Ltb/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#7 课外活动报名手册（西班牙语版） / Dossier (español) <a href="https://drive.google.com/file/d/1Y23CizTeAu0SJ5aSIDtNM1cSspVvuKUl/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#8 课外活动报名表（西班牙语） / Hoja Inscripción (español) <a href="https://drive.google.com/file/d/1xS1kgxFsxAPngUHEovUsXz0M3s1RVHjM/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#9 课后活动报名表 / After School Activities Registration Form <a href="https://drive.google.com/file/d/1_YcnomPz3aDXE7KdWmmu0E7lKFIBe5b_/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#10 音乐学校：新增课程活动 / Escuela de música: Nuevas Actividades <a href="https://drive.google.com/file/d/1kc-MhQUJmJlSvyfPTPLsZrY8z-d51jU-/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#11 音乐学校：新活动项目 / Escuela de música: Nuevas Actividades <a href="https://drive.google.com/file/d/1UPeEfgdZR8yEGLVxeVgePaZwoI7X61vu/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#12 戏剧课/戏剧工作坊 / Theatre Classes / Clases de teatro <a href="https://drive.google.com/file/d/1VM9PqyGKHbA-HgQ9drOAMyxWUiNrKW6o/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+</ul></section>
+<footer>
+<p>本页由 school_helper agent 自动生成。如发现与学校原文不一致，以学校原文为准。</p>
+<p>历史归档（如有）位于 <code>./archive/&lt;YYYY-Www&gt;/index.html</code></p>
+</footer>
+</div>
+</body>
+</html>
