@@ -7,7 +7,7 @@
       "stage": "INFANTIL Y PRIMARIA",
       "url": "https://drive.google.com/file/d/1XAcqmV8mIwGAhZhui2tGx2VmuGb0-wmH/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "Infantil / 幼儿园",
@@ -21,7 +21,7 @@
       "stage": "INFANTIL Y PRIMARIA",
       "url": "https://drive.google.com/file/d/14U6VnKJRlEZrNT_jKTiIOrP2PD9QAfej/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "Infantil / 幼儿园",
@@ -35,12 +35,12 @@
       "stage": "GENERAL",
       "url": "https://drive.google.com/file/d/1aNjuV7wRPdhGusarkUc731CHIIlVcNl0/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "全校通用通知"
       ],
-      "parent_action_needed": true,
+      "parent_action_needed": false,
       "extracted": true
     }
   ]

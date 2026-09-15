@@ -12,9 +12,16 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTART;VALUE=DATE:20260904
-DESCRIPTION:适用: 婴幼儿部与小学部\n家长: 查阅并确认新学年关键时间节点，包括开学日、学期分段（UDI）、假期安排、非授课日及成绩报告发放日期\n报名: 原文未说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1XAcqmV8mIwGAhZhui2tGx2VmuGb0-wmH/view?usp=drive_link
-SUMMARY:2026–2027学年校历（婴幼儿部与小学部） / CALENDAR / CALENDARIO ESCOLAR 2026-2027
+DESCRIPTION:适用: 婴幼儿部与小学部\n家长: 查阅并确认新学
+ 年关键日期（开学、结课、各评估节点、假期、非授课
+ 日等），无需签字或缴费；注意6年级学生需特别关注UDI 
+ 5持续至6月初及5月7日毕业展（EXHIBITION 6º）\n报名: 否\n
+ 付款: 否\n原文: https://drive.google.com/file/d/1XAcqmV8mIwGAhZhui2tG
+ x2VmuGb0-wmH/view?usp=drive_link
+DTEND:20260904T235900Z
+DTSTART:20260904T000000Z
+SUMMARY:2026–2027学年校历（婴幼儿部与小学部） / CALENDAR / 
+ CALENDARIO ESCOLAR 2026-2027
 UID:355887521140163b@school_helper
 END:VEVENT
 END:VCALENDAR

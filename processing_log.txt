@@ -1,5 +1,5 @@
 School Helper 处理日志
-生成时间: 2026-09-15T16:01:23
+生成时间: 2026-09-15T17:49:06
 周次:     Semana: 14 de SEPTIEMBRE 2026  (2026-W38)
 输入 PDF: body_briefing_1a0a539825e8003d.json
 
@@ -12,15 +12,15 @@ LLM 抽取成功: 3
 [1] CALENDAR / CALENDARIO ESCOLAR 2026-2027
     stage:  INFANTIL Y PRIMARIA
     url:    https://drive.google.com/file/d/1XAcqmV8mIwGAhZhui2tGx2VmuGb0-wmH/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   Infantil / 幼儿园 / Primaria / 小学
     日期:   2026-09-04
-    报名:   原文未说明
+    报名:   否
 
 [2] CIRCULAR KUMON
     stage:  INFANTIL Y PRIMARIA
     url:    https://drive.google.com/file/d/14U6VnKJRlEZrNT_jKTiIOrP2PD9QAfej/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   Infantil / 幼儿园 / Primaria / 小学
     日期:   2020-09-22
     报名:   是
@@ -28,7 +28,7 @@ LLM 抽取成功: 3
 [3] NEWS / NOTICIAS NUTRITIONS & HEALTH
     stage:  GENERAL
     url:    https://drive.google.com/file/d/1aNjuV7wRPdhGusarkUc731CHIIlVcNl0/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   全校通用通知
     日期:   (原文未说明)
     报名:   原文未说明

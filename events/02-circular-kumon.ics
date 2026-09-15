@@ -12,7 +12,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DESCRIPTION:适用: 学前部与小学部\n家长: 如感兴趣，请于会前发送邮件至 javier.hernando@kumon.org，注明家长联系方式及孩子所在年级，以获取会议链接\n报名: 是\n付款: 原文未说明\n原文: https://drive.google.com/file/d/14U6VnKJRlEZrNT_jKTiIOrP2PD9QAfej/view?usp=drive_link
+DESCRIPTION:适用: 学前部与小学部\n家长: 如感兴趣，请于会
+ 前发送邮件至 javier.hernando@kumon.org，注明家长联系方式及
+ 孩子所在年级，以获取会议链接\n报名: 是\n付款: 原文未
+ 说明\n原文: https://drive.google.com/file/d/14U6VnKJRlEZrNT_jKTiIOrP2P
+ D9QAfej/view?usp=drive_link
 DTEND:20200922T190000Z
 LOCATION:Online (Microsoft Teams)
 DTSTART:20200922T190000Z

@@ -1,7 +1,7 @@
 # 学校周通知中文家长版
 
 - **周次**: Semana: 14 de SEPTIEMBRE 2026  (2026-W38)
-- **生成时间**: 2026-09-15 16:01
+- **生成时间**: 2026-09-15 17:49
 - **事项数量**: 3
 
 ## 👨‍👩‍👧‍👦 我家孩子相关（1º Primaria, 4º Primaria, Primaria, Infantil-Primaria, General）
@@ -13,7 +13,7 @@
 ## 🗓 本周重要时间线
 
 - **2020-09-22 19:00** — #2 Kumon 课外辅导项目通知 ⚠️ 家长需提前处理
-- **2026-09-04** — #1 2026–2027学年校历（婴幼儿部与小学部）
+- **2026-09-04 00:00** — #1 2026–2027学年校历（婴幼儿部与小学部）
 
 ## 全校通用通知
 
@@ -22,72 +22,50 @@
 - **中文说明**: 营养与健康资讯
 - **关键时间**: (原文未说明)
 - **地点**: (原文未说明)
-- **家长需要做什么**: 阅读并了解石榴的营养价值与健康益处，可考虑将其纳入家庭日常饮食
+- **家长需要做什么**: (无具体行动)
 - **孩子需要准备什么**: (原文未说明)
 - **是否需要报名/付款**: 原文未说明；付款：原文未说明
 - **注意事项**: 无
 - **西语/英语原文关键词**: pomegranate, nutritional benefits, gut microbiota, antioxidants, Mediterranean diet, health education
 - **学校原文链接**: https://drive.google.com/file/d/1aNjuV7wRPdhGusarkUc731CHIIlVcNl0/view?usp=drive_link
 
-💡 **学校视角**：学校旨在通过科普性内容提升家长对健康饮食的认知，强化家校在儿童营养教育上的协同；该资讯不涉及具体活动或要求，属于常规健康素养传播，意在塑造专业、科学、关怀型的学校形象，并为后续可能开展的食育课程或校园健康活动建立信任基础。
+💡 **学校视角**：学校发布此资讯旨在开展家庭健康教育延伸，强化家校在营养素养上的协同；通过传递科学、可信的饮食健康知识（如石榴的多系统益处），提升家长对地中海饮食模式的认可度与实践意愿；本质上属于非强制性健康科普传播，不涉及收费、签名或行动要求，重在建立专业、关怀的学校形象并支持学生长期健康习惯养成。
 
-> 原文摘录: The Pomegranate: Health’s red treasure
-We often look for “magic” supplements or superfoods outside our Mediterranean diet, forgetting that we have seasonal gems like pomegranate right at our fingertips. Beyond its vibrant color and delicious taste, this fruit is a truly natural jewel, offering comprehensive benefits for the entire body—from the brain to the digestive system.
+> 原文摘录: BREAKING NEWS
+Brains La Moraleja
+The Pomegranate: Health’s red treasure
+We often look for “magic” supplements or superfoods outside our Mediterranean diet,
+forgetting that we have seasonal gems like pomegranate right at our fingertips. Beyond its
+vibrant color and delicious taste, this fruit is a truly natural jewel, offering comprehensive
+benefits for the entire body—from the brain to the digestive system.
 
 ## Infantil / 幼儿园
 
 ### 1. 【2026–2027学年校历（婴幼儿部与小学部）】
 - **适用对象**: 婴幼儿部与小学部（原文 INFANTIL Y PRIMARIA）
 - **中文说明**: 2026–2027学年校历（婴幼儿部与小学部）
-- **关键时间**: 2026-09-04
+- **关键时间**: 2026-09-04  00:00 – 23:59
 - **地点**: (原文未说明)
-- **家长需要做什么**: 查阅并确认新学年关键时间节点，包括开学日、学期分段（UDI）、假期安排、非授课日及成绩报告发放日期
+- **家长需要做什么**: 查阅并确认新学年关键日期（开学、结课、各评估节点、假期、非授课日等），无需签字或缴费；注意6年级学生需特别关注UDI 5持续至6月初及5月7日毕业展（EXHIBITION 6º）
 - **孩子需要准备什么**: (原文未说明)
-- **是否需要报名/付款**: 原文未说明；付款：原文未说明
-- **注意事项**: ⚠️ 注意：⚠️ 此为暂定校历（provisional hasta enero），2027年1月前可能调整；6年级学生第6个UDI结束时间与其他年级不同，且需参加5月7日的毕业成果展（EXHIBITION 6º）
-- **西语/英语原文关键词**: Calendario Escolar, UDI, vacaciones, días no lectivos, boletines, EXHIBITION 6º
+- **是否需要报名/付款**: 否；付款：否
+- **注意事项**: ⚠️ 注意：⚠️ 此为暂定校历（provisional hasta enero），2027年1月前可能调整；⚠️ 6年级学生UDI安排与其他年级不同，第5单元持续至6月初；⚠️ EXHIBITION 6º（6年级毕业展）定于2027年5月7日
+- **西语/英语原文关键词**: calendario escolar, Infantil, Primaria, UDI, vacaciones, EXHIBITION 6º
 - **学校原文链接**: https://drive.google.com/file/d/1XAcqmV8mIwGAhZhui2tGx2VmuGb0-wmH/view?usp=drive_link
 
-💡 **学校视角**：学校发布此校历旨在履行法定告知义务，提前向家长透明公示全学年教学节奏与法定/校本假日安排，便于家庭规划；同时通过明确UDI分段和6年级专项活动（如5月成果展），间接展示其项目式学习（UDI）课程体系的结构化与成果导向特征，增强家长对教学模式的理解与信任。
+💡 **学校视角**：学校发布此校历旨在履行法定告知义务，提前向家长清晰传达全学年教学节奏与重要时间节点，便于家庭规划；同时通过明确标注6年级特殊安排（如延长UDI 5、独立毕业展）体现分层教学管理，增强家长对高年级过渡阶段的信任感；‘provisional hasta enero’的标注亦为后续可能的微调预留管理弹性。
 
-> 原文摘录: CURSO ESCOLAR
+> 原文摘录: Calendario Escolar 2026-2027 (provisional hasta enero)
+CURSO ESCOLAR
 4 de septiembre: comienzo primer ciclo de Infantil 
 7 de septiembre: comienza segundo ciclo de Infantil y Primaria 
-18 de junio: fin. 
-UDI´s
-- 1ª UDI: del 14 de sept. al 23 de oct. 
-- 2ª UDI: del 26 de oct.  al 11 de dic. 
-- 3ª UDI: del  11 de ene. al 11 de feb. 
-- 4ª UDI: del 16 de feb. al 18 de mar. 
-- 5ª UDI: del 30 de marz. al 07 de may.  
-- 6ª UDI: del 10 de mayo al 18 jun. (excepto 6º que continúa con 
-la UDI 5 hasta principio de junio)) 
-- EXHIBITION 6º 7 de mayo.
+18 de junio: fin.
+...
+EXHIBITION 6º 7 de mayo.
 VACACIONES 
 NAVIDAD : del 23 de diciembre al 6 de enero (ambos inclusive) 
-SEMANA SANTA: del 19 de marzo al 29 de marzo (ambos 
-inclusive)
-DÍAS NO LECTIVOS 
-MADRID 
-FIESTAS 
-BRAINS
-12 de oct. 
-2 y 9 de nov. 
-7 y 8 de dic. 
-7 y 8 de ene. 
-12 y 15 de feb. 
-30 oct. Halloween 
-26 nov. Día Fundadores 
-27 nov. Encendido y 
-Familias Internacionales 
-17 marz. S. Patrick 
-18 marz. Día del Padre 
-23 abri. Día del libro 
-30 abri. Día de Madre
-ENTREGA BOLETINES
-1ª ev: 21diciembre
-2ª ev: 17 mar.
-3ª ev: 16 junio
+SEMANA SANTA: del 19 de marzo al 29 de marzo (ambos inclusive)
+DÍAS NO LECTIVOS...
 
 ### 2. 【Kumon 课外辅导项目通知】
 - **适用对象**: 学前部与小学部（原文 INFANTIL Y PRIMARIA）
@@ -114,55 +92,28 @@ Durante la sesión explicaremos también cómo se determina el punto de partida 
 ### 1. 【2026–2027学年校历（婴幼儿部与小学部）】
 - **适用对象**: 婴幼儿部与小学部（原文 INFANTIL Y PRIMARIA）
 - **中文说明**: 2026–2027学年校历（婴幼儿部与小学部）
-- **关键时间**: 2026-09-04
+- **关键时间**: 2026-09-04  00:00 – 23:59
 - **地点**: (原文未说明)
-- **家长需要做什么**: 查阅并确认新学年关键时间节点，包括开学日、学期分段（UDI）、假期安排、非授课日及成绩报告发放日期
+- **家长需要做什么**: 查阅并确认新学年关键日期（开学、结课、各评估节点、假期、非授课日等），无需签字或缴费；注意6年级学生需特别关注UDI 5持续至6月初及5月7日毕业展（EXHIBITION 6º）
 - **孩子需要准备什么**: (原文未说明)
-- **是否需要报名/付款**: 原文未说明；付款：原文未说明
-- **注意事项**: ⚠️ 注意：⚠️ 此为暂定校历（provisional hasta enero），2027年1月前可能调整；6年级学生第6个UDI结束时间与其他年级不同，且需参加5月7日的毕业成果展（EXHIBITION 6º）
-- **西语/英语原文关键词**: Calendario Escolar, UDI, vacaciones, días no lectivos, boletines, EXHIBITION 6º
+- **是否需要报名/付款**: 否；付款：否
+- **注意事项**: ⚠️ 注意：⚠️ 此为暂定校历（provisional hasta enero），2027年1月前可能调整；⚠️ 6年级学生UDI安排与其他年级不同，第5单元持续至6月初；⚠️ EXHIBITION 6º（6年级毕业展）定于2027年5月7日
+- **西语/英语原文关键词**: calendario escolar, Infantil, Primaria, UDI, vacaciones, EXHIBITION 6º
 - **学校原文链接**: https://drive.google.com/file/d/1XAcqmV8mIwGAhZhui2tGx2VmuGb0-wmH/view?usp=drive_link
 
-💡 **学校视角**：学校发布此校历旨在履行法定告知义务，提前向家长透明公示全学年教学节奏与法定/校本假日安排，便于家庭规划；同时通过明确UDI分段和6年级专项活动（如5月成果展），间接展示其项目式学习（UDI）课程体系的结构化与成果导向特征，增强家长对教学模式的理解与信任。
+💡 **学校视角**：学校发布此校历旨在履行法定告知义务，提前向家长清晰传达全学年教学节奏与重要时间节点，便于家庭规划；同时通过明确标注6年级特殊安排（如延长UDI 5、独立毕业展）体现分层教学管理，增强家长对高年级过渡阶段的信任感；‘provisional hasta enero’的标注亦为后续可能的微调预留管理弹性。
 
-> 原文摘录: CURSO ESCOLAR
+> 原文摘录: Calendario Escolar 2026-2027 (provisional hasta enero)
+CURSO ESCOLAR
 4 de septiembre: comienzo primer ciclo de Infantil 
 7 de septiembre: comienza segundo ciclo de Infantil y Primaria 
-18 de junio: fin. 
-UDI´s
-- 1ª UDI: del 14 de sept. al 23 de oct. 
-- 2ª UDI: del 26 de oct.  al 11 de dic. 
-- 3ª UDI: del  11 de ene. al 11 de feb. 
-- 4ª UDI: del 16 de feb. al 18 de mar. 
-- 5ª UDI: del 30 de marz. al 07 de may.  
-- 6ª UDI: del 10 de mayo al 18 jun. (excepto 6º que continúa con 
-la UDI 5 hasta principio de junio)) 
-- EXHIBITION 6º 7 de mayo.
+18 de junio: fin.
+...
+EXHIBITION 6º 7 de mayo.
 VACACIONES 
 NAVIDAD : del 23 de diciembre al 6 de enero (ambos inclusive) 
-SEMANA SANTA: del 19 de marzo al 29 de marzo (ambos 
-inclusive)
-DÍAS NO LECTIVOS 
-MADRID 
-FIESTAS 
-BRAINS
-12 de oct. 
-2 y 9 de nov. 
-7 y 8 de dic. 
-7 y 8 de ene. 
-12 y 15 de feb. 
-30 oct. Halloween 
-26 nov. Día Fundadores 
-27 nov. Encendido y 
-Familias Internacionales 
-17 marz. S. Patrick 
-18 marz. Día del Padre 
-23 abri. Día del libro 
-30 abri. Día de Madre
-ENTREGA BOLETINES
-1ª ev: 21diciembre
-2ª ev: 17 mar.
-3ª ev: 16 junio
+SEMANA SANTA: del 19 de marzo al 29 de marzo (ambos inclusive)
+DÍAS NO LECTIVOS...
 
 ### 2. 【Kumon 课外辅导项目通知】
 - **适用对象**: 学前部与小学部（原文 INFANTIL Y PRIMARIA）
@@ -189,55 +140,28 @@ Durante la sesión explicaremos también cómo se determina el punto de partida 
 ### 1. 【2026–2027学年校历（婴幼儿部与小学部）】
 - **适用对象**: 婴幼儿部与小学部（原文 INFANTIL Y PRIMARIA）
 - **中文说明**: 2026–2027学年校历（婴幼儿部与小学部）
-- **关键时间**: 2026-09-04
+- **关键时间**: 2026-09-04  00:00 – 23:59
 - **地点**: (原文未说明)
-- **家长需要做什么**: 查阅并确认新学年关键时间节点，包括开学日、学期分段（UDI）、假期安排、非授课日及成绩报告发放日期
+- **家长需要做什么**: 查阅并确认新学年关键日期（开学、结课、各评估节点、假期、非授课日等），无需签字或缴费；注意6年级学生需特别关注UDI 5持续至6月初及5月7日毕业展（EXHIBITION 6º）
 - **孩子需要准备什么**: (原文未说明)
-- **是否需要报名/付款**: 原文未说明；付款：原文未说明
-- **注意事项**: ⚠️ 注意：⚠️ 此为暂定校历（provisional hasta enero），2027年1月前可能调整；6年级学生第6个UDI结束时间与其他年级不同，且需参加5月7日的毕业成果展（EXHIBITION 6º）
-- **西语/英语原文关键词**: Calendario Escolar, UDI, vacaciones, días no lectivos, boletines, EXHIBITION 6º
+- **是否需要报名/付款**: 否；付款：否
+- **注意事项**: ⚠️ 注意：⚠️ 此为暂定校历（provisional hasta enero），2027年1月前可能调整；⚠️ 6年级学生UDI安排与其他年级不同，第5单元持续至6月初；⚠️ EXHIBITION 6º（6年级毕业展）定于2027年5月7日
+- **西语/英语原文关键词**: calendario escolar, Infantil, Primaria, UDI, vacaciones, EXHIBITION 6º
 - **学校原文链接**: https://drive.google.com/file/d/1XAcqmV8mIwGAhZhui2tGx2VmuGb0-wmH/view?usp=drive_link
 
-💡 **学校视角**：学校发布此校历旨在履行法定告知义务，提前向家长透明公示全学年教学节奏与法定/校本假日安排，便于家庭规划；同时通过明确UDI分段和6年级专项活动（如5月成果展），间接展示其项目式学习（UDI）课程体系的结构化与成果导向特征，增强家长对教学模式的理解与信任。
+💡 **学校视角**：学校发布此校历旨在履行法定告知义务，提前向家长清晰传达全学年教学节奏与重要时间节点，便于家庭规划；同时通过明确标注6年级特殊安排（如延长UDI 5、独立毕业展）体现分层教学管理，增强家长对高年级过渡阶段的信任感；‘provisional hasta enero’的标注亦为后续可能的微调预留管理弹性。
 
-> 原文摘录: CURSO ESCOLAR
+> 原文摘录: Calendario Escolar 2026-2027 (provisional hasta enero)
+CURSO ESCOLAR
 4 de septiembre: comienzo primer ciclo de Infantil 
 7 de septiembre: comienza segundo ciclo de Infantil y Primaria 
-18 de junio: fin. 
-UDI´s
-- 1ª UDI: del 14 de sept. al 23 de oct. 
-- 2ª UDI: del 26 de oct.  al 11 de dic. 
-- 3ª UDI: del  11 de ene. al 11 de feb. 
-- 4ª UDI: del 16 de feb. al 18 de mar. 
-- 5ª UDI: del 30 de marz. al 07 de may.  
-- 6ª UDI: del 10 de mayo al 18 jun. (excepto 6º que continúa con 
-la UDI 5 hasta principio de junio)) 
-- EXHIBITION 6º 7 de mayo.
+18 de junio: fin.
+...
+EXHIBITION 6º 7 de mayo.
 VACACIONES 
 NAVIDAD : del 23 de diciembre al 6 de enero (ambos inclusive) 
-SEMANA SANTA: del 19 de marzo al 29 de marzo (ambos 
-inclusive)
-DÍAS NO LECTIVOS 
-MADRID 
-FIESTAS 
-BRAINS
-12 de oct. 
-2 y 9 de nov. 
-7 y 8 de dic. 
-7 y 8 de ene. 
-12 y 15 de feb. 
-30 oct. Halloween 
-26 nov. Día Fundadores 
-27 nov. Encendido y 
-Familias Internacionales 
-17 marz. S. Patrick 
-18 marz. Día del Padre 
-23 abri. Día del libro 
-30 abri. Día de Madre
-ENTREGA BOLETINES
-1ª ev: 21diciembre
-2ª ev: 17 mar.
-3ª ev: 16 junio
+SEMANA SANTA: del 19 de marzo al 29 de marzo (ambos inclusive)
+DÍAS NO LECTIVOS...
 
 ### 2. 【Kumon 课外辅导项目通知】
 - **适用对象**: 学前部与小学部（原文 INFANTIL Y PRIMARIA）
@@ -258,23 +182,6 @@ ENTREGA BOLETINES
 Martes 22 de septiembre, a las 19:00 h
 
 Durante la sesión explicaremos también cómo se determina el punto de partida de cada alumno y cómo se adapta el trabajo a sus necesidades y capacidades.
-
-### 3. 【营养与健康资讯】
-- **适用对象**: 全体家长（通用通知）（原文 GENERAL）
-- **中文说明**: 营养与健康资讯
-- **关键时间**: (原文未说明)
-- **地点**: (原文未说明)
-- **家长需要做什么**: 阅读并了解石榴的营养价值与健康益处，可考虑将其纳入家庭日常饮食
-- **孩子需要准备什么**: (原文未说明)
-- **是否需要报名/付款**: 原文未说明；付款：原文未说明
-- **注意事项**: 无
-- **西语/英语原文关键词**: pomegranate, nutritional benefits, gut microbiota, antioxidants, Mediterranean diet, health education
-- **学校原文链接**: https://drive.google.com/file/d/1aNjuV7wRPdhGusarkUc731CHIIlVcNl0/view?usp=drive_link
-
-💡 **学校视角**：学校旨在通过科普性内容提升家长对健康饮食的认知，强化家校在儿童营养教育上的协同；该资讯不涉及具体活动或要求，属于常规健康素养传播，意在塑造专业、科学、关怀型的学校形象，并为后续可能开展的食育课程或校园健康活动建立信任基础。
-
-> 原文摘录: The Pomegranate: Health’s red treasure
-We often look for “magic” supplements or superfoods outside our Mediterranean diet, forgetting that we have seasonal gems like pomegranate right at our fingertips. Beyond its vibrant color and delicious taste, this fruit is a truly natural jewel, offering comprehensive benefits for the entire body—from the brain to the digestive system.
 
 
 ---
