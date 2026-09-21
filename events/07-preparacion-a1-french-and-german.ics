@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 六年级\n家长: 如孩子拟参加，请于10月开
+ 课前，通过Toddle平台分别向法语老师Paula Vicente Cantero（
+ 周四上课）或德语老师Georgina Mattison（周二上课）发送确
+ 认信息。\n孩子准备: 无需特别准备\n报名: 是\n付款: 否\n
+ 费用: 免费\n原文: https://drive.google.com/file/d/1Hh3gbyuyeril3NJuf
+ XcvVEMuoBqOvuwf/view?usp=drive_link
+DTEND:20261001T114500Z
+LOCATION:French room / German room
+DTSTART:20261001T111500Z
+SUMMARY:A1法语与德语官方考试备考课 / PREPARACION A1 FRENCH AND 
+ GERMAN
+UID:9081032e8b8ed438@school_helper
+END:VEVENT
+END:VCALENDAR

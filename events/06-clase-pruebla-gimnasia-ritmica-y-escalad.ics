@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 幼儿园至小学六年级\n家长: 需提前在线填
+ 写报名表（https://forms.gle/Sobqq7BwMqFaVJUVA），注明想参加的
+ 活动及具体时段\n报名: 是\n付款: 否\n费用: 免费\n截止: 2
+ 026-09-20\n原文: https://drive.google.com/file/d/1S6S5UmDoyM7HGh9Ebxujno
+ o0Cydu86ZW/view?usp=drive_link
+DTEND:20260921T174500Z
+DTSTART:20260921T103000Z
+SUMMARY:韵律体操与攀岩体验课 / CLASE PRUEBLA GIMNASIA RITMICA Y E
+ SCALADA
+UID:acdf635396c74a91@school_helper
+END:VEVENT
+END:VCALENDAR

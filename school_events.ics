@@ -12,17 +12,15 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTAMP:20260915T160802Z
-DESCRIPTION:适用: 学前班及小学阶段学生家长\n家长: 如感兴
- 趣，请于会前发送邮件至 javier.hernando@kumon.org，注明联系
- 方式及孩子所在年级，以获取会议链接\n报名: 是\n付款: 
- 原文未说明\n原文: https://drive.google.com/file/d/14U6VnKJRlEZrNT_j
- KTiIOrP2PD9QAfej/view?usp=drive_link
-DTEND:20200922T190000Z
-LOCATION:Online (Microsoft Teams)
-DTSTART:20200922T190000Z
-SUMMARY:Kumon 课外辅导项目通知 / CIRCULAR KUMON
-UID:9c697b15a4522556@school_helper
+DTSTART;VALUE=DATE:20261001
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 全体学生家长\n家长: 如需为孩子报名，请
+ 填写附件中的报名表，并于10月起开课前发送至指定邮箱
+ \n报名: 是\n付款: 原文未说明\n原文: https://drive.google.com/f
+ ile/d/1E2TyH6Hk9af2VEEiy31g7Ttw4xAdtg9Y/view?usp=drive_link
+SUMMARY:个性化辅导课 / 一对一补习课 / CLASES PARTICULARES / PAR
+ TICULAR TUTORING
+UID:8b244b9621d9038e@school_helper
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -35,16 +33,183 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTAMP:20260915T160802Z
-DESCRIPTION:适用: 婴幼儿部与小学部\n家长: 查阅并确认新学
- 年关键日期（开学、结课、各评估节点、假期、非授课
- 日等），无需签字或缴费；注意6年级学生展览日（5月7
- 日）及期末安排差异\n报名: 否\n付款: 否\n原文: https://dri
- ve.google.com/file/d/1XAcqmV8mIwGAhZhui2tGx2VmuGb0-wmH/view?usp=drive_link
-DTEND:20260904T235900Z
-DTSTART:20260904T000000Z
-SUMMARY:2026–2027学年校历（婴幼儿部与小学部） / CALENDAR / 
- CALENDARIO ESCOLAR 2026-2027
-UID:355887521140163b@school_helper
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 六年级\n家长: 如孩子拟参加，请于10月开
+ 课前，通过Toddle平台分别向法语老师Paula Vicente Cantero（
+ 周四上课）或德语老师Georgina Mattison（周二上课）发送确
+ 认信息。\n孩子准备: 无需特别准备\n报名: 是\n付款: 否\n
+ 费用: 免费\n原文: https://drive.google.com/file/d/1Hh3gbyuyeril3NJuf
+ XcvVEMuoBqOvuwf/view?usp=drive_link
+DTEND:20261001T114500Z
+LOCATION:French room / German room
+DTSTART:20261001T111500Z
+SUMMARY:A1法语与德语官方考试备考课 / PREPARACION A1 FRENCH AND 
+ GERMAN
+UID:9081032e8b8ed438@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 初中部（ESO）与高中部（Bachillerato）学生\
+ n家长: 请学生自行填写线上注册表单（FORM/FORMULARIO）；
+ 家长无需签字或缴费，但需知悉并支持孩子参与\n孩子准
+ 备: 无需提前准备材料；首次参会请于9月24日周四课间11:
+ 35准时到实验室参加说明会\n报名: 是\n付款: 否\n截止: 202
+ 6-09-24\n原文: https://drive.google.com/file/d/1iw0f_IV-QMNofjeb4UtJnvR5
+ GEygNK4Y/view?usp=drive_link
+DTEND:20260924T113500Z
+LOCATION:laboratories
+DTSTART:20260924T113500Z
+SUMMARY:科学俱乐部（2026–2027学年） / CLUB DE CIENCIAS / SCIENCE
+  CLUB 26-27
+UID:716ad46b4bdfbf99@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 初中部（ESO）与高中部（BACH）\n家长: 无
+ 需报名或缴费；请提醒孩子周五16:30直接前往Desdoble 2教
+ 室，现场联系负责人Arman Isayan老师即可参与。\n报名: 否\
+ n付款: 否\n费用: 免费\n原文: https://drive.google.com/file/d/1_rC
+ xyUnEvIuC5n6DAUDocaX6NgQwxDfu/view?usp=drive_link
+DTEND:20260921T173000Z
+LOCATION:'Desdoble' 2
+DTSTART:20260921T163000Z
+SUMMARY:国际象棋俱乐部 / CLUB DE CHESS / CLUB DE AJEDREZ
+UID:a7bd33b585d5c7e8@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 四年级中等教育（相当于初三）学生\n家
+ 长: 为孩子准备体育课服装、备用衣物（T恤、袜子、运
+ 动鞋）、防晒/防寒用品；确保孩子准时到校\n孩子准备: 
+ 体育课服装；若天气寒冷需穿全套校运动服+抓绒外套；
+ 若晴热需带遮阳帽和防晒霜；另备一套干爽T恤、袜子和
+ 运动鞋以防浸水\n报名: 原文未说明\n付款: 否\n费用: 学
+ 校全额补贴，学生无需付费\n原文: https://drive.google.com/fil
+ e/d/1bwhdK_Wwy8V9kPN4-YqQm4Py_emQYXBw/view?usp=drive_link
+DTEND:20260929T163000Z
+LOCATION:Parque Natural de las Hoces del río Duratón
+DTSTART:20260929T085000Z
+SUMMARY:杜罗河峡谷自然公园研学旅行（9月29日/10月1日） / 
+ TRIP / EXCURSION HOCES DEL DURATON 26-27
+UID:eb5d64560570919a@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 学前班（Pre-Nursery）幼儿\n报名: 是\n付款: 
+ 是\n费用: 75 €/月\n原文: https://drive.google.com/file/d/1bht2FBc3
+ H2KmT_RUW79c3lXjI6wh7nqB/view?usp=drive_link
+DTEND:20261001T163000Z
+DTSTART:20261001T160000Z
+SUMMARY:语言刺激工作坊 / LANGUAGE STIMULATION WORSHOP / TALLER
+UID:f0b3d3b6faa36719@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 初中部（ESO）与高中部（Bachillerato）学生\
+ n家长: 无需家长操作；请知悉该空间已开放，供孩子课
+ 间自由使用\n报名: 否\n付款: 否\n原文: https://drive.google.co
+ m/file/d/1mdggOcrdHuikBQF-0kbBAXniUjQSYC4-/view?usp=drive_link
+DTEND:20260921T120000Z
+LOCATION:classroom desdoble 2 (Library Floor)
+DTSTART:20260921T113500Z
+SUMMARY:游戏室（Ludoteca）启用通知 / GAMES ROOM / LUDOTECA
+UID:d603fda0316dee27@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 幼儿园至小学六年级\n家长: 需提前在线填
+ 写报名表（https://forms.gle/Sobqq7BwMqFaVJUVA），注明想参加的
+ 活动及具体时段\n报名: 是\n付款: 否\n费用: 免费\n截止: 2
+ 026-09-20\n原文: https://drive.google.com/file/d/1S6S5UmDoyM7HGh9Ebxujno
+ o0Cydu86ZW/view?usp=drive_link
+DTEND:20260921T174500Z
+DTSTART:20260921T103000Z
+SUMMARY:韵律体操与攀岩体验课 / CLASE PRUEBLA GIMNASIA RITMICA Y E
+ SCALADA
+UID:acdf635396c74a91@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260921T150347Z
+DESCRIPTION:适用: 小学二至六年级学生\n家长: 需在9月29日前
+ 发邮件预约免费试听课；若决定参加正式课程，须完成
+ 报名并按月缴纳75欧元费用\n报名: 是\n付款: 是\n费用: 75 
+ €/月\n原文: https://drive.google.com/file/d/1hHqFKy5Mt0tEqt_8M0pEiWOy
+ o2oPtnue/view?usp=drive_link
+DTEND:20261001T171500Z
+LOCATION:School premises (implied)
+DTSTART:20261001T163000Z
+SUMMARY:阅读与创意写作工作坊 / READING AND CREATING WRITING WORKS
+ HOP
+UID:2e6c6d00e6d943eb@school_helper
 END:VEVENT
 END:VCALENDAR
