@@ -1,130 +1,18 @@
 School Helper 处理日志
-生成时间: 2026-09-21T17:03:47
+生成时间: 2026-09-23T12:30:24
 周次:     Semana: 21 de SEPTIEMBRE 2026  (2026-W39)
-输入 PDF: vdkqqm_BRIEFING_2125_SEPTIEMBRE.pdf
+输入 PDF: body_briefing_1a0cdbd88952ec2a.json
 
-链接总数:   15
-  下载成功: 14
+链接总数:   1
+  下载成功: 0
   失败/跳过: 1
-LLM 抽取成功: 14
+LLM 抽取成功: 0
 
 ----------------------------------------------------------------------
-[1] CLASES PARTICULARES / PARTICULAR TUTORING
-    stage:  GENERAL
-    url:    https://drive.google.com/file/d/1E2TyH6Hk9af2VEEiy31g7Ttw4xAdtg9Y/view?usp=drive_link
-    status: ok (http=200)
-    分类:   全校通用通知
-    日期:   2026-10-01
-    报名:   是
-
-[2] CLASSES
-    stage:  
-    url:    https://drive.google.com/file/d/1wtgYIu4NBpapJrEd58lpWYrwlkPQXQRn/view?usp=drive_link
-    status: ok (http=200)
-    分类:   仅供了解的信息
-    日期:   (原文未说明)
-    报名:   是
-
-[3] RECETA / RECIPE NUTRITION & HEALTH
-    stage:  GENERAL
-    url:    https://drive.google.com/file/d/125KRnWDe7peugu9-fIl11cNAyIZohnO4/view?usp=drive_link
-    status: ok (http=200)
-    分类:   全校通用通知
-    日期:   (原文未说明)
-    报名:   原文未说明
-
-[4] LANGUAGE STIMULATION WORSHOP / TALLER
-    stage:  PRE NURSERY
-    url:    https://drive.google.com/file/d/1bht2FBc3H2KmT_RUW79c3lXjI6wh7nqB/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Infantil / 幼儿园
-    日期:   2026-10-01
-    报名:   是
-
-[5] READING AND CREATING WRITING WORKSHOP /
-    stage:  INFANTIL - PRIMARIA
-    url:    https://drive.google.com/file/d/1hHqFKy5Mt0tEqt_8M0pEiWOyo2oPtnue/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Primaria / 小学
-    日期:   2026-10-01
-    报名:   是
-
-[6] CLASE PRUEBLA GIMNASIA RITMICA Y ESCALADA
-    stage:  INFANTIL - PRIMARIA
-    url:    https://drive.google.com/file/d/1S6S5UmDoyM7HGh9Ebxujnoo0Cydu86ZW/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Infantil / 幼儿园 / Primaria / 小学
-    日期:   2026-09-21
-    报名:   是
-
-[7] PREPARACION A1 FRENCH AND GERMAN
-    stage:  6º PRIMARIA
-    url:    https://drive.google.com/file/d/1Hh3gbyuyeril3NJufXcvVEMuoBqOvuwf/view?usp=drive_link
-    status: ok (http=200)
-    分类:   Primaria / 小学
-    日期:   2026-10-01
-    报名:   是
-
-[8] LANG & LIT- BOOK ACADEMIC YEAR 26-27
-    stage:  1º ESO
-    url:    https://drive.google.com/file/d/1rxlW-b3O9S-jwvYBAJyAwtw57dzztrVH/view?usp=drive_link
-    status: ok (http=200)
-    分类:   ESO / 中学
-    日期:   (原文未说明)
-    报名:   原文未说明
-
-[9] LANG & LIT - BOOK ACADEMIC YEAR 26-27
-    stage:  3º ESO
-    url:    https://drive.google.com/file/d/1lZOCZXmn4EKpXDOleycalC6eV08cSR4-/view?usp=drive_link
-    status: ok (http=200)
-    分类:   ESO / 中学
-    日期:   (原文未说明)
-    报名:   原文未说明
-
-[10] LANG & LIT - BOOK ACADEMIC YEAR 26-27
-    stage:  4º ESO
-    url:    https://drive.google.com/file/d/1j8_LrQCdG4SEemX5lP8zJ6VYmJzbD0Jl/view?usp=drive_link
-    status: ok (http=200)
-    分类:   ESO / 中学
-    日期:   (原文未说明)
-    报名:   原文未说明
-
-[11] TRIP / EXCURSION HOCES DEL DURATON 26-27
-    stage:  4º ESO
-    url:    https://drive.google.com/file/d/1bwhdK_Wwy8V9kPN4-YqQm4Py_emQYXBw/view?usp=drive_link
-    status: ok (http=200)
-    分类:   ESO / 中学
-    日期:   2026-09-29
-    报名:   原文未说明
-
-[12] ENGLISH LANGUAGE ACQUISITIONS YEAR 26-27
-    stage:  ESO - BACH
-    url:    https://drive.google.com/drive/folders/1gafJy7blK3oUp9x8FCQWeHNAEzT15YNh?usp=drive_link
+[1] http://get.adobe.com/es/reader/
+    stage:  .
+    url:    http://get.adobe.com/es/reader/
     status: non_pdf (http=200)
-    error:  Content-Type=text/html; charset=utf-8 非 PDF（可能是网页/重定向到登录），需手动下载
+    error:  Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载
     ⚠️  链接非 PDF，需手动下载
-    分类:   ESO / 中学
-
-[13] CLUB DE CIENCIAS / SCIENCE CLUB 26-27
-    stage:  ESO / BACH
-    url:    https://drive.google.com/file/d/1iw0f_IV-QMNofjeb4UtJnvR5GEygNK4Y/view?usp=drive_link
-    status: ok (http=200)
-    分类:   ESO / 中学 / Bachillerato / 高中
-    日期:   2026-09-24
-    报名:   是
-
-[14] CLUB DE CHESS / CLUB DE AJEDREZ
-    stage:  ESO / BACH
-    url:    https://drive.google.com/file/d/1_rCxyUnEvIuC5n6DAUDocaX6NgQwxDfu/view?usp=drive_link
-    status: ok (http=200)
-    分类:   ESO / 中学 / Bachillerato / 高中
-    日期:   2026-09-21
-    报名:   否
-
-[15] GAMES ROOM / LUDOTECA
-    stage:  ESO / BACH
-    url:    https://drive.google.com/file/d/1mdggOcrdHuikBQF-0kbBAXniUjQSYC4-/view?usp=drive_link
-    status: ok (http=200)
-    分类:   ESO / 中学 / Bachillerato / 高中
-    日期:   2026-09-21
-    报名:   否
+    分类:   仅供了解的信息
