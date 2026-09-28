@@ -1,19 +1,101 @@
 {
-  "week_label": "Semana: 21 de SEPTIEMBRE 2026",
-  "week_iso": "2026-W39",
+  "week_label": "Semana: 28 de SEPTIEMBRE 2026",
+  "week_iso": "2026-W40",
   "items": [
     {
-      "title": "http://get.adobe.com/es/reader/",
-      "stage": ".",
-      "url": "http://get.adobe.com/es/reader/",
-      "status": "non_pdf",
+      "title": "INTERNATIONAL FAMILIES 1º MEETING",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1_kt_fwmVZ7pIdmQKHZPldzjcjOBk4JSN/view?usp=drive_link",
+      "status": "ok",
       "http_status": 200,
-      "error": "Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载",
+      "error": "",
       "categories": [
-        "仅供了解的信息"
+        "全校通用通知"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "CIRCULAR CENTENARIO",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1HMGSwQ0lWKIsayHfR-UMFfnrIWpICwJK/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "CIRCULAR CORO/ CHORUS",
+      "stage": "PRIMARIA",
+      "url": "https://drive.google.com/file/d/11pvMhE_I4_eDqN0XassTG-uu6QrWxjMN/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "CIRCULAR ESCUELA DE MUSICA / MUSIC",
+      "stage": "PRIMARIA - ESO",
+      "url": "https://drive.google.com/file/d/134ZzOy1AFpl2JqpoGZByaFJ6yWyZVTvN/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学",
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "CLUB DE CIENCIAS / SCIENCE CLUB",
+      "stage": "ESO - BACHILLERATO",
+      "url": "https://drive.google.com/file/d/1RCxbWx6Tc1Bco3turbXKTcvrY1OBoBSH/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "SCHOOL MASTER FORMULA 1",
+      "stage": "3º - 4º ESO - 1º BACH",
+      "url": "https://drive.google.com/file/d/1atCpSRBpLraRKi3h6HIMonTRmI6KCfqu/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "CIRCULAR MEDICINA / MEDICINE",
+      "stage": "4º ESO – BACH",
+      "url": "https://drive.google.com/file/d/1Umkus7mjdzCdpK-EAN9MsZAjECmWmO2B/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
     }
   ]
 }

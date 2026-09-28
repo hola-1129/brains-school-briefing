@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20260928T150206Z
+DESCRIPTION:适用: 初中三年级、四年级及高中一年级学生\n
+ 家长: 发送学生全名及所在年级至邮箱 butrera@colegiobrains.c
+ om 完成报名\n报名: 是\n付款: 否\n费用: 免费（由CINNED基
+ 金会全额资助）\n原文: https://drive.google.com/file/d/1atCpSRBpLr
+ aRKi3h6HIMonTRmI6KCfqu/view?usp=drive_link
+DTEND:20261102T180000Z
+DTSTART:20261102T163000Z
+SUMMARY:校级大师课：F1大脑计划 / SCHOOL MASTER FORMULA 1
+UID:c2c01b680c01b09c@school_helper
+END:VEVENT
+END:VCALENDAR

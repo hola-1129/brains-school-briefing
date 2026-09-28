@@ -1,18 +1,66 @@
 School Helper 处理日志
-生成时间: 2026-09-23T12:30:24
-周次:     Semana: 21 de SEPTIEMBRE 2026  (2026-W39)
-输入 PDF: body_briefing_1a0cdbd88952ec2a.json
+生成时间: 2026-09-28T17:02:06
+周次:     Semana: 28 de SEPTIEMBRE 2026  (2026-W40)
+输入 PDF: qmjnyv_Briefing_Semanal_28_SEPTIEMBRE.pdf
 
-链接总数:   1
-  下载成功: 0
-  失败/跳过: 1
-LLM 抽取成功: 0
+链接总数:   7
+  下载成功: 7
+  失败/跳过: 0
+LLM 抽取成功: 7
 
 ----------------------------------------------------------------------
-[1] http://get.adobe.com/es/reader/
-    stage:  .
-    url:    http://get.adobe.com/es/reader/
-    status: non_pdf (http=200)
-    error:  Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载
-    ⚠️  链接非 PDF，需手动下载
-    分类:   仅供了解的信息
+[1] INTERNATIONAL FAMILIES 1º MEETING
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/1_kt_fwmVZ7pIdmQKHZPldzjcjOBk4JSN/view?usp=drive_link
+    status: ok (http=200)
+    分类:   全校通用通知
+    日期:   2026-10-02
+    报名:   是
+
+[2] CIRCULAR CENTENARIO
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/1HMGSwQ0lWKIsayHfR-UMFfnrIWpICwJK/view?usp=drive_link
+    status: ok (http=200)
+    分类:   全校通用通知
+    日期:   2026-10-01
+    报名:   原文未说明
+
+[3] CIRCULAR CORO/ CHORUS
+    stage:  PRIMARIA
+    url:    https://drive.google.com/file/d/11pvMhE_I4_eDqN0XassTG-uu6QrWxjMN/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Primaria / 小学
+    日期:   2026-10-06
+    报名:   是
+
+[4] CIRCULAR ESCUELA DE MUSICA / MUSIC
+    stage:  PRIMARIA - ESO
+    url:    https://drive.google.com/file/d/134ZzOy1AFpl2JqpoGZByaFJ6yWyZVTvN/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Primaria / 小学 / ESO / 中学
+    日期:   2026-09-28
+    报名:   是
+
+[5] CLUB DE CIENCIAS / SCIENCE CLUB
+    stage:  ESO - BACHILLERATO
+    url:    https://drive.google.com/file/d/1RCxbWx6Tc1Bco3turbXKTcvrY1OBoBSH/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   2026-09-24
+    报名:   是
+
+[6] SCHOOL MASTER FORMULA 1
+    stage:  3º - 4º ESO - 1º BACH
+    url:    https://drive.google.com/file/d/1atCpSRBpLraRKi3h6HIMonTRmI6KCfqu/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   2026-11-02
+    报名:   是
+
+[7] CIRCULAR MEDICINA / MEDICINE
+    stage:  4º ESO – BACH
+    url:    https://drive.google.com/file/d/1Umkus7mjdzCdpK-EAN9MsZAjECmWmO2B/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   2026-10-11
+    报名:   是

@@ -1,0 +1,19 @@
+{
+  "week_label": "Semana: 21 de SEPTIEMBRE 2026",
+  "week_iso": "2026-W39",
+  "items": [
+    {
+      "title": "http://get.adobe.com/es/reader/",
+      "stage": ".",
+      "url": "http://get.adobe.com/es/reader/",
+      "status": "non_pdf",
+      "http_status": 200,
+      "error": "Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    }
+  ]
+}

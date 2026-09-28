@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261011
+DTSTAMP:20260928T150206Z
+DESCRIPTION:适用: 4年级高中（ESO）至大学预科（Bachillerato）
+ \n家长: 协助学生完成Premed Projects平台注册；确认学生能
+ 按时参与或回看线上活动\n孩子准备: 无需特殊准备；建
+ 议稳定网络环境及基础英语理解能力（课程为英文授课
+ ，含西语摘要）\n报名: 是\n付款: 否\n费用: 免费\n原文: h
+ ttps://drive.google.com/file/d/1Umkus7mjdzCdpK-EAN9MsZAjECmWmO2B/view?usp=
+ drive_link
+LOCATION:online
+SUMMARY:医学主题通知 / CIRCULAR MEDICINA / MEDICINE
+UID:a392fd48597e776e@school_helper
+END:VEVENT
+END:VCALENDAR
