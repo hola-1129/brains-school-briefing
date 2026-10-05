@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 阿尔科本达斯市所有中小学，以及受邀的
+ 其他市镇学校\n家长: 无需自行报名；请关注所在学校通
+ 知，配合校方完成学生参赛意向确认；如孩子符合包容
+ 性组别条件，需提前与学校沟通并提供必要说明\n孩子准
+ 备: 按年龄分组参赛（如Benjamín 2017–2018年出生），需穿
+ 运动服、运动鞋；参加Inclusiva（包容性）组别者须符合
+ 运动障碍条件\n报名: 是\n付款: 否\n费用: 免费；现场报
+ 名需缴纳3欧元\n截止: 2026-10-09\n原文: https://drive.google.com/
+ file/d/12w9sAuikBJ4Ec3B2HWug_qfGN1dwh2n0/view?usp=drive_link
+DTEND:20261018T125000Z
+LOCATION:Calle de Carlos Muñoz Ruíz (Valdelasfuentes)\, Alcobendas
+DTSTART:20261018T100000Z
+SUMMARY:校园一英里赛规则 / REGLAMENTO MILLA ESCOLAR
+UID:58501612cc589ac4@school_helper
+END:VEVENT
+END:VCALENDAR

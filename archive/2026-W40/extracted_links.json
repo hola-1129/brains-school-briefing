@@ -1,0 +1,19 @@
+{
+  "week_label": "Semana: 28 de SEPTIEMBRE 2026",
+  "week_iso": "2026-W40",
+  "items": [
+    {
+      "title": "secretariacede@colegiobrains.com",
+      "stage": "",
+      "url": "mailto:secretariacede@colegiobrains.com",
+      "status": "non_pdf",
+      "http_status": null,
+      "error": "链接不是网页地址（可能是发件人电脑上的本地文件路径），需人工从学校原始通知/邮件中获取附件",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": false,
+      "extracted": false
+    }
+  ]
+}

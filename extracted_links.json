@@ -1,19 +1,193 @@
 {
-  "week_label": "Semana: 28 de SEPTIEMBRE 2026",
-  "week_iso": "2026-W40",
+  "week_label": "Semana: 5 de OCTUBRE 2026",
+  "week_iso": "2026-W41",
   "items": [
     {
-      "title": "secretariacede@colegiobrains.com",
-      "stage": "",
-      "url": "mailto:secretariacede@colegiobrains.com",
-      "status": "non_pdf",
-      "http_status": null,
-      "error": "链接不是网页地址（可能是发件人电脑上的本地文件路径），需人工从学校原始通知/邮件中获取附件",
+      "title": "MILLA ESCOLAR",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1LMTnNUdo4Dt2Dr-C1XQLiOw4uIjLrpyW/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
       "categories": [
-        "仅供了解的信息"
+        "全校通用通知",
+        "Bachillerato / 高中"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "RULES / REGLAMENTO MILLA ESCOLAR",
+      "stage": "",
+      "url": "https://drive.google.com/file/d/12w9sAuikBJ4Ec3B2HWug_qfGN1dwh2n0/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "DANTE READING CLUB / CLUB DE LECTURA",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/11jXEbl427xkjZ2A72WkhiCFZEYA4kEYP/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "HEALTHY NUTRITION / ALIMENTACION",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/14tCtfTI8dEgQUedvnMG8faoL4mnCtAmD/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "MENU OCTUBRE 2026",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1YRdFjwKC7zujCysHCTvtFO7wy3vNtYgc/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知",
+        "Infantil / 幼儿园",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "RECREATIONAL MATHS / MATEMATICAS",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1Oam0pLAsm1O_uAjQj8iinE0Bk8Y37v6P/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "PSYCHOMOTOR SKILLS / TALLER",
+      "stage": "NURSERY -",
+      "url": "https://drive.google.com/file/d/1LxMbWCi-7aqLD_ju0ORitDvbDXzvcofu/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Infantil / 幼儿园"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "QUORIA",
+      "stage": "5º PRIMARIA - ESO",
+      "url": "https://drive.google.com/file/d/1RylqZsNCpMgP9ubsGPrQBqF10GITouol/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Primaria / 小学",
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "WORKSHOPS TCA / TALLERES TCA",
+      "stage": "1º ESO",
+      "url": "https://drive.google.com/file/d/1IoBQvGHFbL54vTW257-U296ruLppkscD/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "TRIP / SALIDA NACAVERRADA 3º ESO C Y D",
+      "stage": "3º ESO C Y D",
+      "url": "https://drive.google.com/file/d/1nFeQJ7nKWoxwZxb8_Dkdsi0IjphiLjsH/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "TRIP / SALIDA NACAVERRADA 3º ESO A Y B",
+      "stage": "3º ESO A Y B",
+      "url": "https://drive.google.com/file/d/1kTN4c9Q_sUFa6X9zzSsGEYJhZlbGhyiA/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "COMPETITION / CONCURSO COMIC",
+      "stage": "ESO - BACH",
+      "url": "https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw-ykOhCiL-/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "UNIVERSITY/UNIVERSIDAD DE NAVARRA",
+      "stage": "1º BACH",
+      "url": "https://drive.google.com/file/d/1GFgyy1Vx_I-anPfEafaxl_v6NmQwV91I/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "BRITISH EDUCATION FAIR 2026",
+      "stage": "BACHILLERATO",
+      "url": "https://drive.google.com/file/d/1xCL7IEyuT7GaYJGR7X-t8e8h5izwULWF/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
     }
   ]
 }

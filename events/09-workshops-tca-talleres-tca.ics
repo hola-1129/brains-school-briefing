@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261005
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 1年级初中（相当于中国初二）\n家长: 阅
+ 读附件问卷，确认内容无敏感问题；在授权栏勾选‘是
+ ’或‘否’并填写学生姓名；签署后交回学校\n孩子准备
+ : 在家与家长共同完成匿名前测问卷（含身体、心理情绪
+ 及社会健康相关态度问题）\n报名: 是\n付款: 否\n截止: 20
+ 26-10-05\n原文: https://drive.google.com/file/d/1IoBQvGHFbL54vTW257-U296
+ ruLppkscD/view?usp=drive_link
+SUMMARY:TCA预防工作坊（饮食行为障碍预防项目） / WORKSHOPS 
+ TCA / TALLERES TCA
+UID:fb295c4f44c5c414@school_helper
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 全体学生（通用）\n家长: 无需报名或缴费
+ ；确保孩子每周二11:35前带好iPad和笔前往顶层焦点教室7
+ 号参与\n孩子准备: 携带 iPad 和一支笔\n报名: 否\n付款: 
+ 否\n费用: 免费\n原文: https://drive.google.com/file/d/1Oam0pLAsm1O_
+ uAjQj8iinE0Bk8Y37v6P/view?usp=drive_link
+DTEND:20261006T113500Z
+LOCATION:Focus Room 7\, on the top floor / desdoble 7\, planta alta
+DTSTART:20261006T113500Z
+SUMMARY:趣味数学活动 / RECREATIONAL MATHS / MATEMATICAS
+UID:c99e29a124bac9cf@school_helper
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 3º ESO（初中三年级）C班与D班学生\n家长: 
+ 确认孩子已备齐全部推荐物品；如孩子有自然环境相关
+ 过敏史，务必确保其携带急救药物并已向体育老师说明\n
+ 孩子准备: 自备上述物品；如有自然环境相关过敏史，须
+ 随身携带急救药物（如万托林Ventolin）并主动告知老师\n
+ 报名: 原文未说明\n付款: 否\n原文: https://drive.google.com/fil
+ e/d/1nFeQJ7nKWoxwZxb8_Dkdsi0IjphiLjsH/view?usp=drive_link
+DTEND:20261013T160000Z
+LOCATION:Navacerrada
+DTSTART:20261013T090000Z
+SUMMARY:纳瓦塞拉达攀岩活动（3º ESO C班与D班） / TRIP / SALID
+ A NACAVERRADA 3º ESO C Y D
+UID:68c064bfe58ff373@school_helper
+END:VEVENT
+END:VCALENDAR

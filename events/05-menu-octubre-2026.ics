@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 全体学生（幼儿园至高中）\n家长: 无需行
+ 动；仅需知悉本月餐食安排及特殊饮食选项（如无麸质
+ 、低敏、软食等）\n报名: 否\n付款: 否\n原文: https://drive.
+ google.com/file/d/1YRdFjwKC7zujCysHCTvtFO7wy3vNtYgc/view?usp=drive_link
+DTEND:20261001T143000Z
+LOCATION:La Moraleja y Arturo Soria campuses
+DTSTART:20261001T130000Z
+SUMMARY:2026年10月学校午餐菜单 / MENU OCTUBRE 2026
+UID:e6c2a54838d91cd8@school_helper
+END:VEVENT
+END:VCALENDAR

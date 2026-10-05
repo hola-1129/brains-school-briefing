@@ -1,4 +1,292 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 阿尔科本达斯市所有中小学，以及受邀的
+ 其他市镇学校\n家长: 无需自行报名；请关注所在学校通
+ 知，配合校方完成学生参赛意向确认；如孩子符合包容
+ 性组别条件，需提前与学校沟通并提供必要说明\n孩子准
+ 备: 按年龄分组参赛（如Benjamín 2017–2018年出生），需穿
+ 运动服、运动鞋；参加Inclusiva（包容性）组别者须符合
+ 运动障碍条件\n报名: 是\n付款: 否\n费用: 免费；现场报
+ 名需缴纳3欧元\n截止: 2026-10-09\n原文: https://drive.google.com/
+ file/d/12w9sAuikBJ4Ec3B2HWug_qfGN1dwh2n0/view?usp=drive_link
+DTEND:20261018T125000Z
+LOCATION:Calle de Carlos Muñoz Ruíz (Valdelasfuentes)\, Alcobendas
+DTSTART:20261018T100000Z
+SUMMARY:校园一英里赛规则 / REGLAMENTO MILLA ESCOLAR
+UID:58501612cc589ac4@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 全体学生（通用）\n家长: 无需报名或缴费
+ ；确保孩子每周二11:35前带好iPad和笔前往顶层焦点教室7
+ 号参与\n孩子准备: 携带 iPad 和一支笔\n报名: 否\n付款: 
+ 否\n费用: 免费\n原文: https://drive.google.com/file/d/1Oam0pLAsm1O_
+ uAjQj8iinE0Bk8Y37v6P/view?usp=drive_link
+DTEND:20261006T113500Z
+LOCATION:Focus Room 7\, on the top floor / desdoble 7\, planta alta
+DTSTART:20261006T113500Z
+SUMMARY:趣味数学活动 / RECREATIONAL MATHS / MATEMATICAS
+UID:c99e29a124bac9cf@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261005
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 1年级初中（相当于中国初二）\n家长: 阅
+ 读附件问卷，确认内容无敏感问题；在授权栏勾选‘是
+ ’或‘否’并填写学生姓名；签署后交回学校\n孩子准备
+ : 在家与家长共同完成匿名前测问卷（含身体、心理情绪
+ 及社会健康相关态度问题）\n报名: 是\n付款: 否\n截止: 20
+ 26-10-05\n原文: https://drive.google.com/file/d/1IoBQvGHFbL54vTW257-U296
+ ruLppkscD/view?usp=drive_link
+SUMMARY:TCA预防工作坊（饮食行为障碍预防项目） / WORKSHOPS 
+ TCA / TALLERES TCA
+UID:fb295c4f44c5c414@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 幼儿园小班及幼升小衔接班（Reception）\n
+ 报名: 是\n付款: 是\n费用: 每月75欧元\n原文: https://drive.go
+ ogle.com/file/d/1LxMbWCi-7aqLD_ju0ORitDvbDXzvcofu/view?usp=drive_link
+DTEND:20261001T171500Z
+DTSTART:20261001T163000Z
+SUMMARY:心理运动技能工作坊（课后活动） / PSYCHOMOTOR SKILLS 
+ / TALLER
+UID:721354b4953d3849@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 3年级初中（ESO）A班与B班学生\n家长: 确认
+ 孩子已备齐所需物品；如孩子有自然环境相关过敏史，
+ 确保其携带必要药物并已向老师说明\n孩子准备: 自备上
+ 述物品；如有自然环境相关过敏史，须自带药物（如万
+ 托林Ventolin）并主动告知老师\n报名: 原文未说明\n付款: 
+ 否\n原文: https://drive.google.com/file/d/1kTN4c9Q_sUFa6X9zzSsGEYJhZlbG
+ hyiA/view?usp=drive_link
+DTEND:20261015T160000Z
+LOCATION:Navacerrada
+DTSTART:20261015T090000Z
+SUMMARY:3º ESO A班与B班纳瓦塞拉达攀岩活动 / TRIP / SALIDA NACA
+ VERRADA 3º ESO A Y B
+UID:ce0060711bb8e49e@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 全体学生（幼儿园至高中）\n家长: 无需行
+ 动；仅需知悉本月餐食安排及特殊饮食选项（如无麸质
+ 、低敏、软食等）\n报名: 否\n付款: 否\n原文: https://drive.
+ google.com/file/d/1YRdFjwKC7zujCysHCTvtFO7wy3vNtYgc/view?usp=drive_link
+DTEND:20261001T143000Z
+LOCATION:La Moraleja y Arturo Soria campuses
+DTSTART:20261001T130000Z
+SUMMARY:2026年10月学校午餐菜单 / MENU OCTUBRE 2026
+UID:e6c2a54838d91cd8@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261001
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 小学五年级至初中四年级（4º ESO）\n家长:
+  如需启用家庭端管理功能，须主动发送指定信息至 qoria@
+ colegiobrains.com 申请 Qustodio 许可；下载并参照《家庭使用
+ 指南》完成配置；观看 webinar 录像辅助设置\n报名: 是\n
+ 付款: 否\n费用: 免费（无额外费用）\n原文: https://drive.go
+ ogle.com/file/d/1RylqZsNCpMgP9ubsGPrQBqF10GITouol/view?usp=drive_link
+SUMMARY:Qoria 数字保护方案（含 Qustodio 家庭管理许可） / QUO
+ RIA
+UID:6d02f25c5be7c6cf@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 全体学生（Nursery 至 2º Bachillerato）\n孩子
+ 准备: 比赛当日须自备T恤并用安全别针牢固佩戴号码布\n
+ 报名: 是\n付款: 否\n费用: 校内统一报名免费；逾期自行
+ 报名需缴纳 €3\n截止: 2026-10-09\n原文: https://drive.google.com
+ /file/d/1LMTnNUdo4Dt2Dr-C1XQLiOw4uIjLrpyW/view?usp=drive_link
+DTEND:20261018T100000Z
+LOCATION:Calle Carlos Muñoz Ruiz\, Alcobendas (Valdelasfuentes)
+DTSTART:20261018T100000Z
+SUMMARY:校园一英里长跑活动 / MILLA ESCOLAR
+UID:4ada81f3124b5d3d@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261127
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 初中部（ESO）与高中部（Bachillerato）学生\
+ n家长: 无需签字、缴费或到场；仅需支持孩子自主完成
+ 创作并按时提交\n孩子准备: 独立创作8页自成一体的原创
+ 漫画/漫画小说（主题自选，须无暴力/色情敏感内容），
+ 另附500字中文或西语剧情摘要；信封内需注明姓名、姓
+ 氏、年级（如适用）及邮箱\n报名: 否\n付款: 否\n截止: 20
+ 26-11-27\n原文: https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw
+ -ykOhCiL-/view?usp=drive_link
+LOCATION:Secondary School Library / Biblioteca de Secundaria
+SUMMARY:漫画与图像小说创作大赛 / COMPETITION / CONCURSO COMIC
+UID:19ffb3fce79ede6f@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 3º ESO（初中三年级）C班与D班学生\n家长: 
+ 确认孩子已备齐全部推荐物品；如孩子有自然环境相关
+ 过敏史，务必确保其携带急救药物并已向体育老师说明\n
+ 孩子准备: 自备上述物品；如有自然环境相关过敏史，须
+ 随身携带急救药物（如万托林Ventolin）并主动告知老师\n
+ 报名: 原文未说明\n付款: 否\n原文: https://drive.google.com/fil
+ e/d/1nFeQJ7nKWoxwZxb8_Dkdsi0IjphiLjsH/view?usp=drive_link
+DTEND:20261013T160000Z
+LOCATION:Navacerrada
+DTSTART:20261013T090000Z
+SUMMARY:纳瓦塞拉达攀岩活动（3º ESO C班与D班） / TRIP / SALID
+ A NACAVERRADA 3º ESO C Y D
+UID:68c064bfe58ff373@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 高一（1º Bachillerato）学生\n家长: 如学生
+ 有意参加，家长须发送授权邮件至指定邮箱\n孩子准备: 
+ 自行往返交通；无需额外准备材料\n报名: 是\n付款: 否\n
+ 原文: https://drive.google.com/file/d/1GFgyy1Vx_I-anPfEafaxl_v6NmQwV91I/
+ view?usp=drive_link
+DTEND:20261107T150000Z
+LOCATION:Calle Marquesado de Santa Marta 3\, Madrid campus
+DTSTART:20261107T091500Z
+SUMMARY:纳瓦拉大学IB拓展论文（Extended Essay）指导博览会 / 
+ UNIVERSITY/UNIVERSIDAD DE NAVARRA
+UID:ebd6acfdbf8c256e@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 在10月1
+ 3日前填写Google表单完成同意确认\n孩子准备: 携带校服并
+ 按要求穿着\n报名: 是\n付款: 否\n截止: 2026-10-13\n原文: htt
+ ps://drive.google.com/file/d/1xCL7IEyuT7GaYJGR7X-t8e8h5izwULWF/view?usp=dr
+ ive_link
+DTEND:20261015T133000Z
+LOCATION:International School of Madrid\, Calle Serrano Galvache\, 13\, Mad
+ rid
+DTSTART:20261015T111500Z
+SUMMARY:2026年英国教育展 / BRITISH EDUCATION FAIR 2026
+UID:34eb05c73ddf29bb@school_helper
+END:VEVENT
 END:VCALENDAR

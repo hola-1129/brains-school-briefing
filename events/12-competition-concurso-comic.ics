@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261127
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 初中部（ESO）与高中部（Bachillerato）学生\
+ n家长: 无需签字、缴费或到场；仅需支持孩子自主完成
+ 创作并按时提交\n孩子准备: 独立创作8页自成一体的原创
+ 漫画/漫画小说（主题自选，须无暴力/色情敏感内容），
+ 另附500字中文或西语剧情摘要；信封内需注明姓名、姓
+ 氏、年级（如适用）及邮箱\n报名: 否\n付款: 否\n截止: 20
+ 26-11-27\n原文: https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw
+ -ykOhCiL-/view?usp=drive_link
+LOCATION:Secondary School Library / Biblioteca de Secundaria
+SUMMARY:漫画与图像小说创作大赛 / COMPETITION / CONCURSO COMIC
+UID:19ffb3fce79ede6f@school_helper
+END:VEVENT
+END:VCALENDAR

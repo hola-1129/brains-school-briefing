@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 全体学生（Nursery 至 2º Bachillerato）\n孩子
+ 准备: 比赛当日须自备T恤并用安全别针牢固佩戴号码布\n
+ 报名: 是\n付款: 否\n费用: 校内统一报名免费；逾期自行
+ 报名需缴纳 €3\n截止: 2026-10-09\n原文: https://drive.google.com
+ /file/d/1LMTnNUdo4Dt2Dr-C1XQLiOw4uIjLrpyW/view?usp=drive_link
+DTEND:20261018T100000Z
+LOCATION:Calle Carlos Muñoz Ruiz\, Alcobendas (Valdelasfuentes)
+DTSTART:20261018T100000Z
+SUMMARY:校园一英里长跑活动 / MILLA ESCOLAR
+UID:4ada81f3124b5d3d@school_helper
+END:VEVENT
+END:VCALENDAR

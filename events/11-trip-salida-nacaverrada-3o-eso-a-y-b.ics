@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 3年级初中（ESO）A班与B班学生\n家长: 确认
+ 孩子已备齐所需物品；如孩子有自然环境相关过敏史，
+ 确保其携带必要药物并已向老师说明\n孩子准备: 自备上
+ 述物品；如有自然环境相关过敏史，须自带药物（如万
+ 托林Ventolin）并主动告知老师\n报名: 原文未说明\n付款: 
+ 否\n原文: https://drive.google.com/file/d/1kTN4c9Q_sUFa6X9zzSsGEYJhZlbG
+ hyiA/view?usp=drive_link
+DTEND:20261015T160000Z
+LOCATION:Navacerrada
+DTSTART:20261015T090000Z
+SUMMARY:3º ESO A班与B班纳瓦塞拉达攀岩活动 / TRIP / SALIDA NACA
+ VERRADA 3º ESO A Y B
+UID:ce0060711bb8e49e@school_helper
+END:VEVENT
+END:VCALENDAR

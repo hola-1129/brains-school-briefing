@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261001
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 小学五年级至初中四年级（4º ESO）\n家长:
+  如需启用家庭端管理功能，须主动发送指定信息至 qoria@
+ colegiobrains.com 申请 Qustodio 许可；下载并参照《家庭使用
+ 指南》完成配置；观看 webinar 录像辅助设置\n报名: 是\n
+ 付款: 否\n费用: 免费（无额外费用）\n原文: https://drive.go
+ ogle.com/file/d/1RylqZsNCpMgP9ubsGPrQBqF10GITouol/view?usp=drive_link
+SUMMARY:Qoria 数字保护方案（含 Qustodio 家庭管理许可） / QUO
+ RIA
+UID:6d02f25c5be7c6cf@school_helper
+END:VEVENT
+END:VCALENDAR

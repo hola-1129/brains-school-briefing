@@ -1,0 +1,18 @@
+School Helper 处理日志
+生成时间: 2026-09-30T14:00:29
+周次:     Semana: 28 de SEPTIEMBRE 2026  (2026-W40)
+输入 PDF: body_briefing_1a0f2284f1e51453.json
+
+链接总数:   1
+  下载成功: 0
+  失败/跳过: 1
+LLM 抽取成功: 0
+
+----------------------------------------------------------------------
+[1] secretariacede@colegiobrains.com
+    stage:  
+    url:    mailto:secretariacede@colegiobrains.com
+    status: non_pdf (http=None)
+    error:  链接不是网页地址（可能是发件人电脑上的本地文件路径），需人工从学校原始通知/邮件中获取附件
+    ⚠️  链接非 PDF，需手动下载
+    分类:   仅供了解的信息

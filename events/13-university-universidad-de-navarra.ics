@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261005T153429Z
+DESCRIPTION:适用: 高一（1º Bachillerato）学生\n家长: 如学生
+ 有意参加，家长须发送授权邮件至指定邮箱\n孩子准备: 
+ 自行往返交通；无需额外准备材料\n报名: 是\n付款: 否\n
+ 原文: https://drive.google.com/file/d/1GFgyy1Vx_I-anPfEafaxl_v6NmQwV91I/
+ view?usp=drive_link
+DTEND:20261107T150000Z
+LOCATION:Calle Marquesado de Santa Marta 3\, Madrid campus
+DTSTART:20261107T091500Z
+SUMMARY:纳瓦拉大学IB拓展论文（Extended Essay）指导博览会 / 
+ UNIVERSITY/UNIVERSIDAD DE NAVARRA
+UID:ebd6acfdbf8c256e@school_helper
+END:VEVENT
+END:VCALENDAR
