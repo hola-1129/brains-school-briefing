@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 在10月1
+ 3日前填写Google表单完成同意确认\n孩子准备: 须穿着校服
+ \n报名: 是\n付款: 否\n截止: 2026-10-13\n原文: https://drive.goog
+ le.com/file/d/1xCL7IEyuT7GaYJGR7X-t8e8h5izwULWF/view?usp=drive_link
+DTEND:20261015T133000Z
+LOCATION:International School of Madrid\, Calle Serrano Galvache\, 13\, Mad
+ rid
+DTSTART:20261015T111500Z
+SUMMARY:2026年英国教育展 / BRITISH EDUCATION FAIR 2026
+UID:b4884451751feca8@school_helper
+END:VEVENT
+END:VCALENDAR

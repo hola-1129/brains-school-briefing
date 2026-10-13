@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261013
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 4年级初中（ESO）至高中（Bachillerato）学生
+ \n家长: 确认学生年龄是否符合15–18岁要求；如学生拟组
+ 队参赛，协助其组建4–12人团队；指导学生通过指定链
+ 接完成Google表单注册\n孩子准备: 需自主准备科学准确性
+ 、创意表达、沟通展示及RFP（招标需求书）响应能力；
+ 建议提前熟悉欧洲太空设计大赛（EUSDC）规则\n报名: 是\n
+ 付款: 原文未说明\n原文: https://drive.google.com/file/d/11KDfKgyp
+ fMhb2yGg1i3nxQyoDkJtaRT8/view?usp=drive_link
+SUMMARY:西班牙太空设计大赛（SPSDC）报名通知 / SPANISH SPACE 
+ DESING COMPETITION
+UID:ae9da837008f608c@school_helper
+END:VEVENT
+END:VCALENDAR

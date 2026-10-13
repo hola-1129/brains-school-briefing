@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 4年级初中（ESO）及1年级国际/国家高中（B
+ achillerato）学生\n家长: 无需缴费或报名；如需了解详情
+ ，可联系项目协调员Carmen Romera（carmen.romera@colegiobrains.com
+ ）\n孩子准备: 无需特别准备；需全程参与50小时课程（
+ 含企业参访与校内实习）\n报名: 原文未说明\n付款: 否\n
+ 费用: 无费用（100%校方奖学金覆盖）\n原文: https://drive.go
+ ogle.com/file/d/1AkWUnks6JdfEIlFG_NTz_5nwoecfFLru/view?usp=drive_link
+DTEND:20261119T180000Z
+LOCATION:miércoles de 16\,30 a 18\,00 h (con visitas a empresas y práctic
+ as en el colegio)
+DTSTART:20261119T163000Z
+SUMMARY:Brains质量与卓越运营研修项目（第八届） / SCHOOL MAS
+ TER CALIDAD Y EXCELENCIA
+UID:97448684fe61c55a@school_helper
+END:VEVENT
+END:VCALENDAR

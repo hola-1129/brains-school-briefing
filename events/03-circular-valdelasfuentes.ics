@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 初二年级（2º ESO）全体学生\n家长: 确保
+ 孩子当天携带常规课间点心（仅C、D班）及一根绳网袋（
+ bolsa de cuerdas）；无需签字、缴费或陪同\n孩子准备: C、D
+ 班学生需自带日常课间点心，并用绳网袋装好；A、B班未
+ 提及\n报名: 原文未说明\n付款: 原文未说明\n原文: https://
+ drive.google.com/file/d/1Ga-kw4JjcoHE7nYJfPr52kDQ8qL_QZUi/view?usp=drive_l
+ ink
+DTEND:20261020T121500Z
+LOCATION:Fuentelucha waste collection facilities and photovoltaic installat
+ ion
+DTSTART:20261020T090000Z
+SUMMARY:瓦尔德拉斯富恩特斯通知 / CIRCULAR VALDELASFUENTES
+UID:5459b4484e90f21a@school_helper
+END:VEVENT
+END:VCALENDAR
