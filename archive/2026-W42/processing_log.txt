@@ -1,0 +1,82 @@
+School Helper 处理日志
+生成时间: 2026-10-13T17:33:00
+周次:     Semana: 13 de OCTUBRE 2026  (2026-W42)
+输入 PDF: dbmnsf_Briefing_Semanal_13_OCTUBRE.pdf
+
+链接总数:   9
+  下载成功: 9
+  失败/跳过: 0
+LLM 抽取成功: 9
+
+----------------------------------------------------------------------
+[1] NUTRITION & HEALTH / ALIMENTACION
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/1N0FQ_nlwQpOM1lL8JZxcHghqMKl41_ho/view?usp=drive_link
+    status: ok (http=200)
+    分类:   全校通用通知
+    日期:   (原文未说明)
+    报名:   原文未说明
+
+[2] TALLER PINTURAS CALABAZAS
+    stage:  PRIMARIA
+    url:    https://drive.google.com/file/d/1l7KRIO4FoSiqu7MhCx9jV2abtcNaChnX/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Infantil / 幼儿园 / Primaria / 小学
+    日期:   2024-10-31
+    报名:   是
+
+[3] CIRCULAR VALDELASFUENTES
+    stage:  2º ESO
+    url:    https://drive.google.com/file/d/1Ga-kw4JjcoHE7nYJfPr52kDQ8qL_QZUi/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学
+    日期:   2026-10-20
+    报名:   原文未说明
+
+[4] SCHOOL MASTER CALIDAD Y EXCELENCIA
+    stage:  4º ESO – 1º BACH
+    url:    https://drive.google.com/file/d/1AkWUnks6JdfEIlFG_NTz_5nwoecfFLru/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   2026-11-19
+    报名:   原文未说明
+
+[5] SPANISH SPACE DESING COMPETITION
+    stage:  4ºESO-BACHILLERATO
+    url:    https://drive.google.com/file/d/11KDfKgypfMhb2yGg1i3nxQyoDkJtaRT8/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   2026-10-13
+    报名:   是
+
+[6] NUEVA MODALIDAD COMERO/NEW LUNCH
+    stage:  2º BACHILLERATO
+    url:    https://drive.google.com/file/d/1CaMFptRyG0xO6i6lM8CcX3tchhcRxktb/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Bachillerato / 高中
+    日期:   2026-10-19
+    报名:   是
+
+[7] COMPETITION / CONCURSO COMIC
+    stage:  ESO - BACH
+    url:    https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw-ykOhCiL-/view?usp=drive_link
+    status: ok (http=None)
+    分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   2026-11-27
+    报名:   否
+
+[8] UNIVERSITY/UNIVERSIDAD DE NAVARRA
+    stage:  1º BACH
+    url:    https://drive.google.com/file/d/1GFgyy1Vx_I-anPfEafaxl_v6NmQwV91I/view?usp=drive_link
+    status: ok (http=None)
+    分类:   Bachillerato / 高中
+    日期:   2026-11-07
+    报名:   是
+
+[9] BRITISH EDUCATION FAIR 2026
+    stage:  BACHILLERATO
+    url:    https://drive.google.com/file/d/1xCL7IEyuT7GaYJGR7X-t8e8h5izwULWF/view?usp=drive_link
+    status: ok (http=None)
+    分类:   Bachillerato / 高中
+    日期:   2026-10-15
+    报名:   是

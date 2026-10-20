@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Brains School Weekly Briefing 中文家长版</title>
+<style>
+:root { --fg:#1a1a1a; --muted:#6b6b6b; --bg:#fff; --card:#f6f7f9;
+        --accent:#0b66c2; --accent-hover:#084d92; --warn:#b54708;
+        --border:#e1e4e8; --pill:#eef2f7; --brand-navy:#24295b; }
+* { box-sizing: border-box; }
+html { overflow-x: hidden; }
+body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+       "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+       color:var(--fg); background:var(--bg); line-height:1.55;
+       -webkit-font-smoothing: antialiased;
+       overflow-wrap: anywhere; word-break: break-word; overflow-x: hidden; }
+.container { max-width: 820px; margin: 0 auto; padding: 1.25rem 1rem 4rem; }
+header { padding: 1.5rem 0 1rem; border-bottom: 2px solid var(--border); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+header .logo-wrap { flex-shrink: 0; background: var(--brand-navy); border-radius: 8px;
+                     padding: .5rem .7rem; line-height: 0; }
+header .logo-wrap img { height: 40px; width: auto; display: block; }
+header .header-text { flex: 1; min-width: 0; }
+header h1 { margin: 0 0 .25rem; font-size: 1.35rem; line-height: 1.25; font-weight: 700; letter-spacing: -.01em; }
+header .meta { color: var(--muted); font-size: .88rem; margin: 0 0 .75rem; }
+h2 { font-size:1.2rem; margin: 1.6rem 0 .6rem; padding-top:.6rem; border-top: 1px solid var(--border); }
+h3 { font-size:1.05rem; margin: 1.2rem 0 .4rem; color: var(--accent); }
+h4 { font-size:1rem; margin: 0 0 .35rem; }
+ul { padding-left: 1.2rem; }
+li { margin: .15rem 0; }
+.btn { display: inline-block; padding: .55rem .9rem; border-radius: 6px;
+       background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+       margin: .25rem .25rem .25rem 0; font-size: .92rem; }
+.btn:hover { background: var(--accent-hover); }
+.btn-ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+.btn-ghost:hover { background: var(--accent); color:#fff; }
+.btn-maps { background: #1a73e8; }
+.btn-maps:hover { background: #1557b0; }
+.intent-box { background: #fffbeb; border-left: 4px solid #d97706; border-radius: 0 6px 6px 0;
+              padding: .55rem .8rem; margin: .5rem 0; font-size: .92rem; }
+.intent-box .intent-label { font-weight: 700; color: #92400e; margin-right: .4rem; }
+/* 年级配色 */
+.grade-general      { --grade: #7c3aed; }
+.grade-infantil     { --grade: #db2777; }
+.grade-primaria     { --grade: #0b66c2; }
+.grade-preparatory  { --grade: #0891b2; }
+.grade-eso          { --grade: #16a34a; }
+.grade-bachillerato { --grade: #d97706; }
+.grade-ibdp         { --grade: #dc2626; }
+.grade-pill { display: inline-block; background: var(--grade, #6b6b6b); color: #fff;
+              padding: .12rem .6rem; border-radius: 999px; font-size: .78rem;
+              font-weight: 600; margin-right: .4rem; vertical-align: middle; }
+.grade-pill.grade-specific { padding: .15rem .75rem; font-size: .82rem;
+              box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--grade, #6b6b6b); }
+h3.grade-h { color: var(--grade, var(--accent));
+             border-left: 4px solid var(--grade, var(--accent));
+             padding-left: .6rem; }
+.event.has-grade { border-left: 4px solid var(--grade, var(--border)); }
+.priority-grid .grade-pill { color: #fff; background: var(--grade, var(--pill)); }
+.event { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+         padding: .8rem 1rem; margin: .8rem 0; }
+.event h4 .es { color: var(--muted); font-weight: 400; font-size: .9rem; margin-left: .5rem; }
+.event .pill { display: inline-block; background: var(--pill); color: var(--muted);
+               padding: .1rem .55rem; border-radius: 999px; font-size: .8rem; margin-right: .35rem; }
+.event dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .25rem .75rem;
+            margin: .35rem 0 .5rem; font-size: .92rem; }
+.event dt { color: var(--muted); }
+.event dd { margin: 0; }
+.event .raw { color: var(--muted); font-size: .85rem; border-left: 3px solid var(--border);
+              padding: .25rem .6rem; margin-top: .5rem; }
+.event .warn { color: var(--warn); font-weight: 600; }
+.timeline { list-style: none; padding-left: 0; }
+.timeline li { padding: .35rem 0; border-bottom: 1px dashed var(--border); font-size: .95rem; }
+.timeline .date { display: inline-block; min-width: 7rem; color: var(--accent); font-weight: 600; }
+.priority-grid { display: grid; gap: .5rem; }
+footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top: 1rem;
+         border-top: 1px solid var(--border); }
+@media (max-width: 480px) {
+  .event dl { grid-template-columns: minmax(0, 1fr); gap: .1rem 0; }
+  .event dt { margin-top: .4rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo-wrap"><img src="./logo_brains.png" alt="Brains School"></div>
+<div class="header-text">
+<h1>Weekly Briefing · 中文家长版</h1>
+<p class="meta">Semana: 13 de OCTUBRE 2026 · 共 9 个事项 · 生成于 2026-10-13 17:33</p>
+</div>
+</header>
+<section><h2>⭐ 本周重点</h2>
+<div class="priority-grid">
+<div>• <span class="grade-pill grade-general">全校</span> <a href="#event-1"><strong>营养与健康教育专题</strong></a> — 日期待定 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-infantil">幼儿园</span> <a href="#event-2"><strong>南瓜绘画工作坊</strong></a> — 2024-10-31 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-eso grade-specific">初中二年级</span> <a href="#event-3"><strong>瓦尔德拉斯富恩特斯通知</strong></a> — 2026-10-20 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-eso grade-specific">初中四年级</span> <a href="#event-4"><strong>Brains质量与卓越运营研修项目（第八届）</strong></a> — 2026-11-19 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-eso grade-specific">初中四年级</span> <a href="#event-5"><strong>西班牙太空设计大赛（SPSDC）报名通知</strong></a> — 2026-10-13 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-bachillerato grade-specific">高中二年级</span> <a href="#event-6"><strong>新午餐模式（每周2天）</strong></a> — 2026-10-19 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-eso">初中</span> <a href="#event-7"><strong>漫画与图像小说创作大赛</strong></a> — 2026-11-27 <span class="warn">✍️ 需要操作</span></div>
+<div>• <span class="grade-pill grade-bachillerato">高中</span> <a href="#event-8"><strong>国际文凭（IB）拓展论文（Extended Essay）撰写与指导博览会</strong></a> — 2026-11-07 <span class="warn">✍️ 需要操作</span></div>
+</div>
+</section>
+<section><h2>✍️ 家长需要操作</h2>
+<ul>
+<li><span class="grade-pill grade-general">全校</span> <a href="#event-1"><strong>营养与健康教育专题</strong></a>：了解胡萝卜的科学营养价值与常见误区；可参考食谱在家复现健康胡萝卜蛋糕</li>
+<li><span class="grade-pill grade-infantil">幼儿园</span> <a href="#event-2"><strong>南瓜绘画工作坊</strong></a>：等待学校发送报名问卷并及时填写；确保孩子当天由一名家长陪同参加</li>
+<li><span class="grade-pill grade-eso grade-specific">初中二年级</span> <a href="#event-3"><strong>瓦尔德拉斯富恩特斯通知</strong></a>：确保孩子当天携带常规课间点心（仅C、D班）及一根绳网袋（bolsa de cuerdas）；无需签字、缴费或陪同</li>
+<li><span class="grade-pill grade-eso grade-specific">初中四年级</span> <a href="#event-4"><strong>Brains质量与卓越运营研修项目（第八届）</strong></a>：无需缴费或报名；如需了解详情，可联系项目协调员Carmen Romera（carmen.romera@colegiobrains.com）</li>
+<li><span class="grade-pill grade-eso grade-specific">初中四年级</span> <a href="#event-5"><strong>西班牙太空设计大赛（SPSDC）报名通知</strong></a>：确认学生年龄是否符合15–18岁要求；如学生拟组队参赛，协助其组建4–12人团队；指导学生通过指定链接完成Google表单注册</li>
+<li><span class="grade-pill grade-bachillerato grade-specific">高中二年级</span> <a href="#event-6"><strong>新午餐模式（每周2天）</strong></a>：查看通知详情</li>
+<li><span class="grade-pill grade-eso">初中</span> <a href="#event-7"><strong>漫画与图像小说创作大赛</strong></a>（截止 <strong>2026-11-27</strong>）：无需签字、缴费或到场；但需知悉孩子可能投入较多课余时间创作，可协助准备材料或监督提交截止日</li>
+<li><span class="grade-pill grade-bachillerato">高中</span> <a href="#event-8"><strong>国际文凭（IB）拓展论文（Extended Essay）撰写与指导博览会</strong></a>：如学生有意参加，家长须发送授权邮件至指定邮箱</li>
+<li><span class="grade-pill grade-bachillerato">高中</span> <a href="#event-9"><strong>2026年英国教育展</strong></a>（截止 <strong>2026-10-13</strong>）：在10月13日前填写Google表单完成同意确认</li>
+</ul>
+</section>
+<section><h2>🗓 重要时间线</h2>
+<ol class="timeline">
+<li><span class="date">2024-10-31 11:00</span> <a href="#event-2">南瓜绘画工作坊</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2026-10-13</span> <a href="#event-5">西班牙太空设计大赛（SPSDC）报名通知</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2026-10-15 11:15</span> <a href="#event-9">2026年英国教育展</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2026-10-19</span> <a href="#event-6">新午餐模式（每周2天）</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2026-10-20 09:00</span> <a href="#event-3">瓦尔德拉斯富恩特斯通知</a></li>
+<li><span class="date">2026-11-07 09:15</span> <a href="#event-8">国际文凭（IB）拓展论文（Extended Essay）撰写与指导博览会</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+<li><span class="date">2026-11-19 16:30</span> <a href="#event-4">Brains质量与卓越运营研修项目（第八届）</a></li>
+<li><span class="date">2026-11-27</span> <a href="#event-7">漫画与图像小说创作大赛</a> <span class="warn">⚠️ 家长需提前处理</span></li>
+</ol>
+</section>
+<section><h2>🎓 按年级分类</h2>
+<h3 class="grade-h grade-general">全校通用通知</h3>
+<div id="event-1">
+<article class="event has-grade grade-general">
+<span class="grade-pill grade-general">全校</span>
+<h4>#1 【营养与健康教育专题】<span class="es">NUTRITION &amp; HEALTH / ALIMENTACION</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体学生及家长（通用通知）（GENERAL）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>了解胡萝卜的科学营养价值与常见误区；可参考食谱在家复现健康胡萝卜蛋糕</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 本文为科普宣传材料，非活动通知或操作指令；不涉及强制参与、缴费或签名</dd>
+<dt>原文关键词</dt><dd>carrots, vision, carotenoids, vitamin A, nutrition myth, healthy recipe</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过趣味科普内容（如二战胡萝卜谣言溯源）提升家长对儿童营养教育的重视度；以‘健康胡萝卜蛋糕’食谱为载体，将抽象营养知识具象化，增强家校在健康饮食理念上的共识；本质是品牌化健康教育传播，强化‘Brains Nutrition and Healthy Center’专业形象，而非组织具体活动或收取费用。</div>
+<div class="raw">原文摘录：Do carrots really improve eyesight?
+Recent scientific evidence confirms that carrots DO provide benefits for our vision. Along with healthy dietary habits, they can improve eye health thanks to pigments they contain called carotenoids.
+... However, carrots are not a miracle food. Consuming large amounts will not enhance visual function or prevent the development of myopia or astigmatism.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1N0FQ_nlwQpOM1lL8JZxcHghqMKl41_ho/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3 class="grade-h grade-infantil">Infantil / 幼儿园</h3>
+<div id="event-2">
+<article class="event has-grade grade-infantil">
+<span class="grade-pill grade-infantil">幼儿园</span>
+<h4>#2 【南瓜绘画工作坊】<span class="es">TALLER PINTURAS CALABAZAS</span></h4>
+<div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span></div>
+<dl>
+<dt>适用对象</dt><dd>小学部（含幼儿园）（PRIMARIA）</dd>
+<dt>关键时间</dt><dd>2024-10-31  11:00 – 13:00</dd>
+<dt>地点</dt><dd>Brains 学校校内 / Colegio Brains</dd>
+<dt>家长需要做</dt><dd>等待学校发送报名问卷并及时填写；确保孩子当天由一名家长陪同参加</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；学校将另行发送在线报名问卷（cuestionario de inscripción）；付款 否</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额仅20个，先到先得；报名后需等待学校邮件确认是否入选</dd>
+<dt>原文关键词</dt><dd>Taller de pintura, calabazas, Halloween, Nutrition and Healthy Centre, inscripción, familia</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过趣味性节日活动强化家校共育，同时借营养部门主导的科普环节（南瓜营养价值+健康食谱）自然植入健康饮食教育目标；活动不收费且提供全部物料，真实意图是提升家长对学校健康教育项目的认同感与参与度，并为 Nutrition and Healthy Centre 的年度工作成果做可视化呈现。</div>
+<div class="raw">原文摘录：El próximo sábado 31 de octubre, de 11:00 a 13:00, el colegio se llenará de color, imaginación… ¡y calabazas! Organizaremos un taller de pintura de calabazas dirigido al alumnado de Infantil y Primaria, que podrá venir acompañado de un familiar para disfrutar juntos de esta experiencia.</div>
+<div><a class="btn" href="./events/02-taller-pinturas-calabazas.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Brains+%E5%AD%A6%E6%A0%A1%E6%A0%A1%E5%86%85+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1l7KRIO4FoSiqu7MhCx9jV2abtcNaChnX/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3 class="grade-h grade-primaria">Primaria / 小学</h3>
+<div id="event-2">
+<article class="event has-grade grade-primaria">
+<span class="grade-pill grade-primaria">小学</span>
+<h4>#2 【南瓜绘画工作坊】<span class="es">TALLER PINTURAS CALABAZAS</span></h4>
+<div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span></div>
+<dl>
+<dt>适用对象</dt><dd>小学部（含幼儿园）（PRIMARIA）</dd>
+<dt>关键时间</dt><dd>2024-10-31  11:00 – 13:00</dd>
+<dt>地点</dt><dd>Brains 学校校内 / Colegio Brains</dd>
+<dt>家长需要做</dt><dd>等待学校发送报名问卷并及时填写；确保孩子当天由一名家长陪同参加</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；学校将另行发送在线报名问卷（cuestionario de inscripción）；付款 否</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额仅20个，先到先得；报名后需等待学校邮件确认是否入选</dd>
+<dt>原文关键词</dt><dd>Taller de pintura, calabazas, Halloween, Nutrition and Healthy Centre, inscripción, familia</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过趣味性节日活动强化家校共育，同时借营养部门主导的科普环节（南瓜营养价值+健康食谱）自然植入健康饮食教育目标；活动不收费且提供全部物料，真实意图是提升家长对学校健康教育项目的认同感与参与度，并为 Nutrition and Healthy Centre 的年度工作成果做可视化呈现。</div>
+<div class="raw">原文摘录：El próximo sábado 31 de octubre, de 11:00 a 13:00, el colegio se llenará de color, imaginación… ¡y calabazas! Organizaremos un taller de pintura de calabazas dirigido al alumnado de Infantil y Primaria, que podrá venir acompañado de un familiar para disfrutar juntos de esta experiencia.</div>
+<div><a class="btn" href="./events/02-taller-pinturas-calabazas.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Brains+%E5%AD%A6%E6%A0%A1%E6%A0%A1%E5%86%85+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1l7KRIO4FoSiqu7MhCx9jV2abtcNaChnX/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3 class="grade-h grade-eso">ESO / 中学</h3>
+<div id="event-3">
+<article class="event has-grade grade-eso">
+<span class="grade-pill grade-eso grade-specific">初中二年级</span>
+<h4>#3 【瓦尔德拉斯富恩特斯通知】<span class="es">CIRCULAR VALDELASFUENTES</span></h4>
+<div><span class="pill">ESO / 中学</span></div>
+<dl>
+<dt>适用对象</dt><dd>初二年级（2º ESO）全体学生（2º ESO）</dd>
+<dt>关键时间</dt><dd>2026-10-20  09:00 – 12:15   🌦 阵雨 20°/11°C 降水 25%</dd>
+<dt>地点</dt><dd>丰特卢查（Fuentelucha）垃圾回收处理中心及光伏电站 / Fuentelucha waste collection facilities and photovoltaic installation</dd>
+<dt>家长需要做</dt><dd>确保孩子当天携带常规课间点心（仅C、D班）及一根绳网袋（bolsa de cuerdas）；无需签字、缴费或陪同</dd>
+<dt>孩子需要准备</dt><dd>C、D班学生需自带日常课间点心，并用绳网袋装好；A、B班未提及</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 各班级出发与返校时间不同，请按所属班级对应时间准备；行程由校车统一接送，家长无需接送；无费用、无需签署同意书</dd>
+<dt>原文关键词</dt><dd>2º ESO, visita educativa, Fuentelucha, recogida de residuos, instalación fotovoltaica, salida escolar</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过实地参访环保设施，落实可持续发展教育目标，强化课程与现实议题的联结；同时借此展示学校在环境素养（environmental literacy）领域的教学实践，提升家校对跨学科主题学习（如STEM+公民责任）的认可度；该活动属免费教学延伸，不涉及收费或强制性家长参与，重在传递教育理念而非行政要求。</div>
+<div class="raw">原文摘录：Alcobendas, 13 de octubre de 2026
+Estimadas familias:
+Les informamos que el martes 20 de octubre todos los alumnos de 2º ESO realizarán una visita a las instalaciones de recogida de residuos y a la instalación fotovoltaica de Fuentelucha.
+La salida y el regreso al colegio será desde el centro en autobús en el horario siguiente...
+• 2ºESO A - Salida desde el colegio a las 9:00 y regreso al centro a las 10:15
+• 2ºESO B - Salida desde el centro a las 9:40 y regreso a las 11:00
+• 2º ESO C - Salida desde el centro a las 10:20 y regreso al centro a las 11:45.
+• 2º ESO D - Salida desde el centro 11:10 y el regreso a las 12:15.</div>
+<div><a class="btn" href="./events/03-circular-valdelasfuentes.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E4%B8%B0%E7%89%B9%E5%8D%A2%E6%9F%A5%EF%BC%88Fuentelucha%EF%BC%89%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%A4%84%E7%90%86%E4%B8%AD%E5%BF%83%E5%8F%8A%E5%85%89%E4%BC%8F%E7%94%B5%E7%AB%99+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1Ga-kw4JjcoHE7nYJfPr52kDQ8qL_QZUi/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-4">
+<article class="event has-grade grade-eso">
+<span class="grade-pill grade-eso grade-specific">初中四年级</span>
+<h4>#4 【Brains质量与卓越运营研修项目（第八届）】<span class="es">SCHOOL MASTER CALIDAD Y EXCELENCIA</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>4年级初中（ESO）及1年级国际/国家高中（Bachillerato）学生（4º ESO – 1º BACH）</dd>
+<dt>关键时间</dt><dd>2026-11-19  16:30 – 18:00</dd>
+<dt>地点</dt><dd>每周三16:30–18:00；含企业参访及校内实习 / miércoles de 16,30 a 18,00 h (con visitas a empresas y prácticas en el colegio)</dd>
+<dt>家长需要做</dt><dd>无需缴费或报名；如需了解详情，可联系项目协调员Carmen Romera（carmen.romera@colegiobrains.com）</dd>
+<dt>孩子需要准备</dt><dd>无需特别准备；需全程参与50小时课程（含企业参访与校内实习）</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 否；费用 无费用（100%校方奖学金覆盖）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 项目为课外培训，非必修课程；结业颁发证书并举行小型毕业仪式</dd>
+<dt>原文关键词</dt><dd>School Master, Calidad y Excelencia Operacional, 4º ESO, 1º Bachillerato, A.E.C., beca 100%</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过与西班牙质量协会（A.E.C.）合作，为高年级学生提供高附加值的跨学科职业启蒙教育，强化其对质量管理、企业运营与战略竞争力的认知；此举既展示学校在‘卓越教育’领域的标杆定位，也为后续申请政府或行业教育资助积累实践案例与成果背书，同时增强家长对学校升学支持能力的信任感。</div>
+<div class="raw">原文摘录：Este School Máster, acerca a los alumnos a los conceptos básicos de la calidad, la gestión y la excelencia operacional y su papel fundamental en la estrategia y en el funcionamiento de las empresas... Se trata de un programa de formación extracurricular con una carga horaria de 50h (miércoles de 16,30 a 18,00 h) que incluirá visitas programadas a lugares de referencia dentro del mundo de la empresa y unas prácticas en nuestro Colegio como centro referente de Calidad. Este programa no supondrá ningún coste para las familias, ya que los alumnos/as que participen serán becados 100% por el colegio.</div>
+<div><a class="btn" href="./events/04-school-master-calidad-y-excelencia.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%AF%8F%E5%91%A8%E4%B8%8916%3A30%E2%80%9318%3A00%EF%BC%9B%E5%90%AB%E4%BC%81%E4%B8%9A%E5%8F%82%E8%AE%BF%E5%8F%8A%E6%A0%A1%E5%86%85%E5%AE%9E%E4%B9%A0+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1AkWUnks6JdfEIlFG_NTz_5nwoecfFLru/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-5">
+<article class="event has-grade grade-eso">
+<span class="grade-pill grade-eso grade-specific">初中四年级</span>
+<h4>#5 【西班牙太空设计大赛（SPSDC）报名通知】<span class="es">SPANISH SPACE DESING COMPETITION</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>4年级初中（ESO）至高中（Bachillerato）学生（4ºESO-BACHILLERATO）</dd>
+<dt>关键时间</dt><dd>2026-10-13   🌤 晴间多云 28°/14°C</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>确认学生年龄是否符合15–18岁要求；如学生拟组队参赛，协助其组建4–12人团队；指导学生通过指定链接完成Google表单注册</dd>
+<dt>孩子需要准备</dt><dd>需自主准备科学准确性、创意表达、沟通展示及RFP（招标需求书）响应能力；建议提前熟悉欧洲太空设计大赛（EUSDC）规则</dd>
+<dt>报名/付款</dt><dd>报名 是；在线Google表单（含官网跳转入口）；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 国际决赛（NASA）要求全体队员参赛时未满18周岁；⚠️ 可个人或组队（4–12人）报名；⚠️ 鼓励跨学科综合能力发展，非传统课业类竞赛</dd>
+<dt>原文关键词</dt><dd>SPSDC, Spanish Space Design Competition, registration, NASA finals, age 15–18, team competition</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在为高年级学生提供高阶国际STEM实践平台，通过组织参与权威赛事（SPSDC/EUSDC）提升学校学术声誉与升学竞争力；同时借机筛选和培养具备科研潜力与团队领导力的尖子生，为后续推荐国际项目或大学申请积累实证材料；该通知本质是低干预式精英培养路径的启动信号，不涉及收费或强制参与，重在释放机会并建立家校对高阶发展的共识。</div>
+<div class="raw">原文摘录：Les escribo, para informarles que ya está abierto el formulario de registro para los participantes de la Spanish Space Design Competition (SPSDC). Este es el enlace directo al formulario: Formulario SPSDC.
+Antes de realizar la inscripción deben tener en cuenta:
+a) Todos los participantes deben tener entre 15 y 18 años. Para las finales internacionales en la NASA, todos los miembros del equipo deben ser menores de 18 años.
+b) Los participantes pueden inscribirse individualmente o en equipos de 4 a 12 personas...</div>
+<div><a class="btn" href="./events/05-spanish-space-desing-competition.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/11KDfKgypfMhb2yGg1i3nxQyoDkJtaRT8/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-7">
+<article class="event has-grade grade-eso">
+<span class="grade-pill grade-eso">初中</span>
+<h4>#7 【漫画与图像小说创作大赛】<span class="es">COMPETITION / CONCURSO COMIC</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>初中部（ESO）与高中部（Bachillerato）学生（ESO - BACH）</dd>
+<dt>关键时间</dt><dd>2026-11-27</dd>
+<dt>地点</dt><dd>初中部图书馆 / Secondary School Library / Biblioteca de Secundaria</dd>
+<dt>家长需要做</dt><dd>无需签字、缴费或到场；但需知悉孩子可能投入较多课余时间创作，可协助准备材料或监督提交截止日</dd>
+<dt>孩子需要准备</dt><dd>独立创作8页自成一体的原创漫画/漫画小说（主题自选，须无暴力/色情敏感内容），另附500字剧情摘要；在单独纸张注明参赛类别、姓名、姓氏、年级（如为在校生）、邮箱</dd>
+<dt>报名/付款</dt><dd>报名 否；付款 否</dd>
+<dt>截止日期</dt><dd class="warn">2026-11-27</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 作品须为原创且未发表/未投其他赛事；含暴力或色情敏感内容者将被取消资格；电子投稿请发送至 bibliotecasecmor@colegiobrains.com</dd>
+<dt>原文关键词</dt><dd>concurso cómic, novela gráfica, Biblioteca Secundaria, ESO, Bachillerato, plazo 27 noviembre 2026</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过跨学科活动（语言+艺术）激发中高年级学生的创意表达与叙事能力，同时强化图书馆与语言组的课程延伸功能；该竞赛不收费、不强制参与，实为展示学校人文素养教育成果的轻量级品牌项目，亦为后续申请教育创新类校本经费积累过程性素材。</div>
+<div class="raw">原文摘录：Submission deadline: by Friday 27th of November 2026.
+Entries must be original and unpublished, and must not have been submitted to any other competition or published previously.
+… the organisers reserve the right to disqualify entries containing sensitive content due to violent and/or sexual themes.</div>
+<div><a class="btn" href="./events/07-competition-concurso-comic.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%88%9D%E4%B8%AD%E9%83%A8%E5%9B%BE%E4%B9%A6%E9%A6%86+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw-ykOhCiL-/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3 class="grade-h grade-bachillerato">Bachillerato / 高中</h3>
+<div id="event-4">
+<article class="event has-grade grade-bachillerato">
+<span class="grade-pill grade-bachillerato">高中</span>
+<h4>#4 【Brains质量与卓越运营研修项目（第八届）】<span class="es">SCHOOL MASTER CALIDAD Y EXCELENCIA</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>4年级初中（ESO）及1年级国际/国家高中（Bachillerato）学生（4º ESO – 1º BACH）</dd>
+<dt>关键时间</dt><dd>2026-11-19  16:30 – 18:00</dd>
+<dt>地点</dt><dd>每周三16:30–18:00；含企业参访及校内实习 / miércoles de 16,30 a 18,00 h (con visitas a empresas y prácticas en el colegio)</dd>
+<dt>家长需要做</dt><dd>无需缴费或报名；如需了解详情，可联系项目协调员Carmen Romera（carmen.romera@colegiobrains.com）</dd>
+<dt>孩子需要准备</dt><dd>无需特别准备；需全程参与50小时课程（含企业参访与校内实习）</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 否；费用 无费用（100%校方奖学金覆盖）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 项目为课外培训，非必修课程；结业颁发证书并举行小型毕业仪式</dd>
+<dt>原文关键词</dt><dd>School Master, Calidad y Excelencia Operacional, 4º ESO, 1º Bachillerato, A.E.C., beca 100%</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过与西班牙质量协会（A.E.C.）合作，为高年级学生提供高附加值的跨学科职业启蒙教育，强化其对质量管理、企业运营与战略竞争力的认知；此举既展示学校在‘卓越教育’领域的标杆定位，也为后续申请政府或行业教育资助积累实践案例与成果背书，同时增强家长对学校升学支持能力的信任感。</div>
+<div class="raw">原文摘录：Este School Máster, acerca a los alumnos a los conceptos básicos de la calidad, la gestión y la excelencia operacional y su papel fundamental en la estrategia y en el funcionamiento de las empresas... Se trata de un programa de formación extracurricular con una carga horaria de 50h (miércoles de 16,30 a 18,00 h) que incluirá visitas programadas a lugares de referencia dentro del mundo de la empresa y unas prácticas en nuestro Colegio como centro referente de Calidad. Este programa no supondrá ningún coste para las familias, ya que los alumnos/as que participen serán becados 100% por el colegio.</div>
+<div><a class="btn" href="./events/04-school-master-calidad-y-excelencia.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%AF%8F%E5%91%A8%E4%B8%8916%3A30%E2%80%9318%3A00%EF%BC%9B%E5%90%AB%E4%BC%81%E4%B8%9A%E5%8F%82%E8%AE%BF%E5%8F%8A%E6%A0%A1%E5%86%85%E5%AE%9E%E4%B9%A0+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1AkWUnks6JdfEIlFG_NTz_5nwoecfFLru/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-5">
+<article class="event has-grade grade-bachillerato">
+<span class="grade-pill grade-bachillerato">高中</span>
+<h4>#5 【西班牙太空设计大赛（SPSDC）报名通知】<span class="es">SPANISH SPACE DESING COMPETITION</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>4年级初中（ESO）至高中（Bachillerato）学生（4ºESO-BACHILLERATO）</dd>
+<dt>关键时间</dt><dd>2026-10-13   🌤 晴间多云 28°/14°C</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>确认学生年龄是否符合15–18岁要求；如学生拟组队参赛，协助其组建4–12人团队；指导学生通过指定链接完成Google表单注册</dd>
+<dt>孩子需要准备</dt><dd>需自主准备科学准确性、创意表达、沟通展示及RFP（招标需求书）响应能力；建议提前熟悉欧洲太空设计大赛（EUSDC）规则</dd>
+<dt>报名/付款</dt><dd>报名 是；在线Google表单（含官网跳转入口）；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 国际决赛（NASA）要求全体队员参赛时未满18周岁；⚠️ 可个人或组队（4–12人）报名；⚠️ 鼓励跨学科综合能力发展，非传统课业类竞赛</dd>
+<dt>原文关键词</dt><dd>SPSDC, Spanish Space Design Competition, registration, NASA finals, age 15–18, team competition</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在为高年级学生提供高阶国际STEM实践平台，通过组织参与权威赛事（SPSDC/EUSDC）提升学校学术声誉与升学竞争力；同时借机筛选和培养具备科研潜力与团队领导力的尖子生，为后续推荐国际项目或大学申请积累实证材料；该通知本质是低干预式精英培养路径的启动信号，不涉及收费或强制参与，重在释放机会并建立家校对高阶发展的共识。</div>
+<div class="raw">原文摘录：Les escribo, para informarles que ya está abierto el formulario de registro para los participantes de la Spanish Space Design Competition (SPSDC). Este es el enlace directo al formulario: Formulario SPSDC.
+Antes de realizar la inscripción deben tener en cuenta:
+a) Todos los participantes deben tener entre 15 y 18 años. Para las finales internacionales en la NASA, todos los miembros del equipo deben ser menores de 18 años.
+b) Los participantes pueden inscribirse individualmente o en equipos de 4 a 12 personas...</div>
+<div><a class="btn" href="./events/05-spanish-space-desing-competition.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/11KDfKgypfMhb2yGg1i3nxQyoDkJtaRT8/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-6">
+<article class="event has-grade grade-bachillerato">
+<span class="grade-pill grade-bachillerato grade-specific">高中二年级</span>
+<h4>#6 【新午餐模式（每周2天）】<span class="es">NUEVA MODALIDAD COMERO/NEW LUNCH</span></h4>
+<div><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>高中二年级（相当于中国高三）（2º BACHILLERATO）</dd>
+<dt>关键时间</dt><dd>2026-10-19   🌧 小雨 15°/10°C 降水 30%</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>(无具体行动)</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；直接联系班级导师（tutor）；付款 是；费用 95 €/月</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 仅适用于下午课程仅安排在每周2天的2º BACHILLERATO学生；新选项自2026年10月19日（周一）起生效</dd>
+<dt>原文关键词</dt><dd>comedor, 2º BACHILLERATO, modalidad semanal, 95 €, tutor, 19 de octubre</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在优化高年级学生午餐服务的灵活性与经济性，通过提供按需定制的2天/周套餐，提升家长满意度与服务使用率；同时借机规范报名流程（统一由tutor对接），强化班级管理闭环；该调整也隐含为后续可能的分层收费或服务升级积累数据与家长接受度。</div>
+<div class="raw">原文摘录：Dado que algunos alumnos tienen clases curriculares por la tarde únicamente dos días a la semana, hemos considerado oportuno incorporar una nueva modalidad de comedor de 2 días semanales, con una cuota mensual de 95 €.
+Para agilizar los trámites, aquellas familias que deseen acogerse a esta nueva modalidad deberán comunicarlo directamente al tutor de su grupo.
+Esta nueva opción estará disponible a partir del próximo lunes 19 de octubre.</div>
+<div><a class="btn" href="./events/06-nueva-modalidad-comero-new-lunch.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1CaMFptRyG0xO6i6lM8CcX3tchhcRxktb/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-7">
+<article class="event has-grade grade-bachillerato">
+<span class="grade-pill grade-bachillerato">高中</span>
+<h4>#7 【漫画与图像小说创作大赛】<span class="es">COMPETITION / CONCURSO COMIC</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>初中部（ESO）与高中部（Bachillerato）学生（ESO - BACH）</dd>
+<dt>关键时间</dt><dd>2026-11-27</dd>
+<dt>地点</dt><dd>初中部图书馆 / Secondary School Library / Biblioteca de Secundaria</dd>
+<dt>家长需要做</dt><dd>无需签字、缴费或到场；但需知悉孩子可能投入较多课余时间创作，可协助准备材料或监督提交截止日</dd>
+<dt>孩子需要准备</dt><dd>独立创作8页自成一体的原创漫画/漫画小说（主题自选，须无暴力/色情敏感内容），另附500字剧情摘要；在单独纸张注明参赛类别、姓名、姓氏、年级（如为在校生）、邮箱</dd>
+<dt>报名/付款</dt><dd>报名 否；付款 否</dd>
+<dt>截止日期</dt><dd class="warn">2026-11-27</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 作品须为原创且未发表/未投其他赛事；含暴力或色情敏感内容者将被取消资格；电子投稿请发送至 bibliotecasecmor@colegiobrains.com</dd>
+<dt>原文关键词</dt><dd>concurso cómic, novela gráfica, Biblioteca Secundaria, ESO, Bachillerato, plazo 27 noviembre 2026</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过跨学科活动（语言+艺术）激发中高年级学生的创意表达与叙事能力，同时强化图书馆与语言组的课程延伸功能；该竞赛不收费、不强制参与，实为展示学校人文素养教育成果的轻量级品牌项目，亦为后续申请教育创新类校本经费积累过程性素材。</div>
+<div class="raw">原文摘录：Submission deadline: by Friday 27th of November 2026.
+Entries must be original and unpublished, and must not have been submitted to any other competition or published previously.
+… the organisers reserve the right to disqualify entries containing sensitive content due to violent and/or sexual themes.</div>
+<div><a class="btn" href="./events/07-competition-concurso-comic.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%88%9D%E4%B8%AD%E9%83%A8%E5%9B%BE%E4%B9%A6%E9%A6%86+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw-ykOhCiL-/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-8">
+<article class="event has-grade grade-bachillerato">
+<span class="grade-pill grade-bachillerato">高中</span>
+<h4>#8 【国际文凭（IB）拓展论文（Extended Essay）撰写与指导博览会】<span class="es">Fair on the development and supervision of Extended Essays in the Diploma Programme</span></h4>
+<div><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>高一（1º Bachillerato）学生（1º BACH）</dd>
+<dt>关键时间</dt><dd>2026-11-07  09:15 – 15:00</dd>
+<dt>地点</dt><dd>纳瓦拉大学马德里校区，Santa Marta侯爵街3号 / University of Navarra, Madrid campus, Calle Marquesado de Santa Marta 3</dd>
+<dt>家长需要做</dt><dd>如学生有意参加，家长须发送授权邮件至指定邮箱</dd>
+<dt>孩子需要准备</dt><dd>自行往返交通；由本校IB课程教师陪同</dd>
+<dt>报名/付款</dt><dd>报名 是；发送授权邮件至 mcristina@colegiobrains.com 或 melissa.koop@colegiobrains.com；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 学生需自行负责往返交通；活动全程由本校IB授课教师带队陪同</dd>
+<dt>原文关键词</dt><dd>Extended Essay, IB Diploma Programme, University of Navarra, 1º Bachillerato, workshops, authorization</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在为IB高一学生提供权威、实操性强的拓展论文指导资源，借助纳瓦拉大学专业力量提升学术写作能力；同时通过家长邮件授权机制，履行对校外活动的风险告知与知情同意程序，降低组织责任风险；该合作亦有助于强化学校IB项目专业形象与高校衔接资源。</div>
+<div class="raw">原文摘录：If your child is interested, you must send your authorization to the following email addresses: mcristina@colegiobrains.com or melissa.koop@colegiobrains.com.</div>
+<div><a class="btn" href="./events/08-fair-on-the-development-and-supervision.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E7%BA%B3%E7%93%A6%E6%8B%89%E5%A4%A7%E5%AD%A6%E9%A9%AC%E5%BE%B7%E9%87%8C%E6%A0%A1%E5%8C%BA%EF%BC%8CSanta+Marta%E4%BE%AF%E7%88%B5%E8%A1%973%E5%8F%B7+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1GFgyy1Vx_I-anPfEafaxl_v6NmQwV91I/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-9">
+<article class="event has-grade grade-bachillerato">
+<span class="grade-pill grade-bachillerato">高中</span>
+<h4>#9 【2026年英国教育展】<span class="es">BRITISH EDUCATION FAIR 2026</span></h4>
+<div><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>高中阶段（Bachillerato）学生（BACHILLERATO）</dd>
+<dt>关键时间</dt><dd>2026-10-15  11:15 – 13:30   ☁️ 阴 25°/15°C</dd>
+<dt>地点</dt><dd>马德里国际学校（Calle Serrano Galvache, 13, 马德里） / International School of Madrid, Calle Serrano Galvache, 13, Madrid</dd>
+<dt>家长需要做</dt><dd>在10月13日前填写Google表单完成同意确认</dd>
+<dt>孩子需要准备</dt><dd>须穿着校服</dd>
+<dt>报名/付款</dt><dd>报名 是；Google表单；付款 否</dd>
+<dt>截止日期</dt><dd class="warn">2026-10-13</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额按提交顺序先到先得，大巴满员即止；逾期不接受报名；未参加学生照常上课。</dd>
+<dt>原文关键词</dt><dd>British Education Fair, Bachillerato, British Council, university applications, UK studies, consent form</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在为有意向赴英读本科的学生提供权威升学渠道，同时借由英国文化协会（British Council）背书增强家长对升学指导服务的信任度；通过自愿参与+明确截止机制，既控制活动组织成本，又规避强制参与引发的合规风险；开放家长自行参会链接，实为延伸家校沟通场景，间接提升学校国际升学支持的专业形象。</div>
+<div class="raw">原文摘录：Parents of students wishing to attend should fill in the Google form to give their consent no later than October 13th. https://forms.gle/TN3MrhvdJCstNYNE6
+Students will be accepted until all spaces on the coach are filled and in order of receipt. No late registrations will be accepted.</div>
+<div><a class="btn" href="./events/09-british-education-fair-2026.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E9%A9%AC%E5%BE%B7%E9%87%8C%E5%9B%BD%E9%99%85%E5%AD%A6%E6%A0%A1%EF%BC%88Calle+Serrano+Galvache%2C+13%2C+%E9%A9%AC%E5%BE%B7%E9%87%8C%EF%BC%89+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1xCL7IEyuT7GaYJGR7X-t8e8h5izwULWF/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<h3>家长需要行动的事项</h3>
+<div id="event-1">
+<article class="event">
+<h4>#1 【营养与健康教育专题】<span class="es">NUTRITION &amp; HEALTH / ALIMENTACION</span></h4>
+<div><span class="pill">全校通用通知</span></div>
+<dl>
+<dt>适用对象</dt><dd>全体学生及家长（通用通知）（GENERAL）</dd>
+<dt>关键时间</dt><dd>(原文未说明)</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>了解胡萝卜的科学营养价值与常见误区；可参考食谱在家复现健康胡萝卜蛋糕</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 本文为科普宣传材料，非活动通知或操作指令；不涉及强制参与、缴费或签名</dd>
+<dt>原文关键词</dt><dd>carrots, vision, carotenoids, vitamin A, nutrition myth, healthy recipe</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过趣味科普内容（如二战胡萝卜谣言溯源）提升家长对儿童营养教育的重视度；以‘健康胡萝卜蛋糕’食谱为载体，将抽象营养知识具象化，增强家校在健康饮食理念上的共识；本质是品牌化健康教育传播，强化‘Brains Nutrition and Healthy Center’专业形象，而非组织具体活动或收取费用。</div>
+<div class="raw">原文摘录：Do carrots really improve eyesight?
+Recent scientific evidence confirms that carrots DO provide benefits for our vision. Along with healthy dietary habits, they can improve eye health thanks to pigments they contain called carotenoids.
+... However, carrots are not a miracle food. Consuming large amounts will not enhance visual function or prevent the development of myopia or astigmatism.</div>
+<div><a class="btn btn-ghost" href="https://drive.google.com/file/d/1N0FQ_nlwQpOM1lL8JZxcHghqMKl41_ho/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-2">
+<article class="event">
+<h4>#2 【南瓜绘画工作坊】<span class="es">TALLER PINTURAS CALABAZAS</span></h4>
+<div><span class="pill">Infantil / 幼儿园</span><span class="pill">Primaria / 小学</span></div>
+<dl>
+<dt>适用对象</dt><dd>小学部（含幼儿园）（PRIMARIA）</dd>
+<dt>关键时间</dt><dd>2024-10-31  11:00 – 13:00</dd>
+<dt>地点</dt><dd>Brains 学校校内 / Colegio Brains</dd>
+<dt>家长需要做</dt><dd>等待学校发送报名问卷并及时填写；确保孩子当天由一名家长陪同参加</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；学校将另行发送在线报名问卷（cuestionario de inscripción）；付款 否</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额仅20个，先到先得；报名后需等待学校邮件确认是否入选</dd>
+<dt>原文关键词</dt><dd>Taller de pintura, calabazas, Halloween, Nutrition and Healthy Centre, inscripción, familia</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过趣味性节日活动强化家校共育，同时借营养部门主导的科普环节（南瓜营养价值+健康食谱）自然植入健康饮食教育目标；活动不收费且提供全部物料，真实意图是提升家长对学校健康教育项目的认同感与参与度，并为 Nutrition and Healthy Centre 的年度工作成果做可视化呈现。</div>
+<div class="raw">原文摘录：El próximo sábado 31 de octubre, de 11:00 a 13:00, el colegio se llenará de color, imaginación… ¡y calabazas! Organizaremos un taller de pintura de calabazas dirigido al alumnado de Infantil y Primaria, que podrá venir acompañado de un familiar para disfrutar juntos de esta experiencia.</div>
+<div><a class="btn" href="./events/02-taller-pinturas-calabazas.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Brains+%E5%AD%A6%E6%A0%A1%E6%A0%A1%E5%86%85+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1l7KRIO4FoSiqu7MhCx9jV2abtcNaChnX/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-3">
+<article class="event">
+<h4>#3 【瓦尔德拉斯富恩特斯通知】<span class="es">CIRCULAR VALDELASFUENTES</span></h4>
+<div><span class="pill">ESO / 中学</span></div>
+<dl>
+<dt>适用对象</dt><dd>初二年级（2º ESO）全体学生（2º ESO）</dd>
+<dt>关键时间</dt><dd>2026-10-20  09:00 – 12:15   🌦 阵雨 20°/11°C 降水 25%</dd>
+<dt>地点</dt><dd>丰特卢查（Fuentelucha）垃圾回收处理中心及光伏电站 / Fuentelucha waste collection facilities and photovoltaic installation</dd>
+<dt>家长需要做</dt><dd>确保孩子当天携带常规课间点心（仅C、D班）及一根绳网袋（bolsa de cuerdas）；无需签字、缴费或陪同</dd>
+<dt>孩子需要准备</dt><dd>C、D班学生需自带日常课间点心，并用绳网袋装好；A、B班未提及</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 各班级出发与返校时间不同，请按所属班级对应时间准备；行程由校车统一接送，家长无需接送；无费用、无需签署同意书</dd>
+<dt>原文关键词</dt><dd>2º ESO, visita educativa, Fuentelucha, recogida de residuos, instalación fotovoltaica, salida escolar</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过实地参访环保设施，落实可持续发展教育目标，强化课程与现实议题的联结；同时借此展示学校在环境素养（environmental literacy）领域的教学实践，提升家校对跨学科主题学习（如STEM+公民责任）的认可度；该活动属免费教学延伸，不涉及收费或强制性家长参与，重在传递教育理念而非行政要求。</div>
+<div class="raw">原文摘录：Alcobendas, 13 de octubre de 2026
+Estimadas familias:
+Les informamos que el martes 20 de octubre todos los alumnos de 2º ESO realizarán una visita a las instalaciones de recogida de residuos y a la instalación fotovoltaica de Fuentelucha.
+La salida y el regreso al colegio será desde el centro en autobús en el horario siguiente...
+• 2ºESO A - Salida desde el colegio a las 9:00 y regreso al centro a las 10:15
+• 2ºESO B - Salida desde el centro a las 9:40 y regreso a las 11:00
+• 2º ESO C - Salida desde el centro a las 10:20 y regreso al centro a las 11:45.
+• 2º ESO D - Salida desde el centro 11:10 y el regreso a las 12:15.</div>
+<div><a class="btn" href="./events/03-circular-valdelasfuentes.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E4%B8%B0%E7%89%B9%E5%8D%A2%E6%9F%A5%EF%BC%88Fuentelucha%EF%BC%89%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%A4%84%E7%90%86%E4%B8%AD%E5%BF%83%E5%8F%8A%E5%85%89%E4%BC%8F%E7%94%B5%E7%AB%99+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1Ga-kw4JjcoHE7nYJfPr52kDQ8qL_QZUi/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-4">
+<article class="event">
+<h4>#4 【Brains质量与卓越运营研修项目（第八届）】<span class="es">SCHOOL MASTER CALIDAD Y EXCELENCIA</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>4年级初中（ESO）及1年级国际/国家高中（Bachillerato）学生（4º ESO – 1º BACH）</dd>
+<dt>关键时间</dt><dd>2026-11-19  16:30 – 18:00</dd>
+<dt>地点</dt><dd>每周三16:30–18:00；含企业参访及校内实习 / miércoles de 16,30 a 18,00 h (con visitas a empresas y prácticas en el colegio)</dd>
+<dt>家长需要做</dt><dd>无需缴费或报名；如需了解详情，可联系项目协调员Carmen Romera（carmen.romera@colegiobrains.com）</dd>
+<dt>孩子需要准备</dt><dd>无需特别准备；需全程参与50小时课程（含企业参访与校内实习）</dd>
+<dt>报名/付款</dt><dd>报名 原文未说明；付款 否；费用 无费用（100%校方奖学金覆盖）</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 项目为课外培训，非必修课程；结业颁发证书并举行小型毕业仪式</dd>
+<dt>原文关键词</dt><dd>School Master, Calidad y Excelencia Operacional, 4º ESO, 1º Bachillerato, A.E.C., beca 100%</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过与西班牙质量协会（A.E.C.）合作，为高年级学生提供高附加值的跨学科职业启蒙教育，强化其对质量管理、企业运营与战略竞争力的认知；此举既展示学校在‘卓越教育’领域的标杆定位，也为后续申请政府或行业教育资助积累实践案例与成果背书，同时增强家长对学校升学支持能力的信任感。</div>
+<div class="raw">原文摘录：Este School Máster, acerca a los alumnos a los conceptos básicos de la calidad, la gestión y la excelencia operacional y su papel fundamental en la estrategia y en el funcionamiento de las empresas... Se trata de un programa de formación extracurricular con una carga horaria de 50h (miércoles de 16,30 a 18,00 h) que incluirá visitas programadas a lugares de referencia dentro del mundo de la empresa y unas prácticas en nuestro Colegio como centro referente de Calidad. Este programa no supondrá ningún coste para las familias, ya que los alumnos/as que participen serán becados 100% por el colegio.</div>
+<div><a class="btn" href="./events/04-school-master-calidad-y-excelencia.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%AF%8F%E5%91%A8%E4%B8%8916%3A30%E2%80%9318%3A00%EF%BC%9B%E5%90%AB%E4%BC%81%E4%B8%9A%E5%8F%82%E8%AE%BF%E5%8F%8A%E6%A0%A1%E5%86%85%E5%AE%9E%E4%B9%A0+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1AkWUnks6JdfEIlFG_NTz_5nwoecfFLru/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-5">
+<article class="event">
+<h4>#5 【西班牙太空设计大赛（SPSDC）报名通知】<span class="es">SPANISH SPACE DESING COMPETITION</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>4年级初中（ESO）至高中（Bachillerato）学生（4ºESO-BACHILLERATO）</dd>
+<dt>关键时间</dt><dd>2026-10-13   🌤 晴间多云 28°/14°C</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>确认学生年龄是否符合15–18岁要求；如学生拟组队参赛，协助其组建4–12人团队；指导学生通过指定链接完成Google表单注册</dd>
+<dt>孩子需要准备</dt><dd>需自主准备科学准确性、创意表达、沟通展示及RFP（招标需求书）响应能力；建议提前熟悉欧洲太空设计大赛（EUSDC）规则</dd>
+<dt>报名/付款</dt><dd>报名 是；在线Google表单（含官网跳转入口）；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 国际决赛（NASA）要求全体队员参赛时未满18周岁；⚠️ 可个人或组队（4–12人）报名；⚠️ 鼓励跨学科综合能力发展，非传统课业类竞赛</dd>
+<dt>原文关键词</dt><dd>SPSDC, Spanish Space Design Competition, registration, NASA finals, age 15–18, team competition</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在为高年级学生提供高阶国际STEM实践平台，通过组织参与权威赛事（SPSDC/EUSDC）提升学校学术声誉与升学竞争力；同时借机筛选和培养具备科研潜力与团队领导力的尖子生，为后续推荐国际项目或大学申请积累实证材料；该通知本质是低干预式精英培养路径的启动信号，不涉及收费或强制参与，重在释放机会并建立家校对高阶发展的共识。</div>
+<div class="raw">原文摘录：Les escribo, para informarles que ya está abierto el formulario de registro para los participantes de la Spanish Space Design Competition (SPSDC). Este es el enlace directo al formulario: Formulario SPSDC.
+Antes de realizar la inscripción deben tener en cuenta:
+a) Todos los participantes deben tener entre 15 y 18 años. Para las finales internacionales en la NASA, todos los miembros del equipo deben ser menores de 18 años.
+b) Los participantes pueden inscribirse individualmente o en equipos de 4 a 12 personas...</div>
+<div><a class="btn" href="./events/05-spanish-space-desing-competition.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/11KDfKgypfMhb2yGg1i3nxQyoDkJtaRT8/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-6">
+<article class="event">
+<h4>#6 【新午餐模式（每周2天）】<span class="es">NUEVA MODALIDAD COMERO/NEW LUNCH</span></h4>
+<div><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>高中二年级（相当于中国高三）（2º BACHILLERATO）</dd>
+<dt>关键时间</dt><dd>2026-10-19   🌧 小雨 15°/10°C 降水 30%</dd>
+<dt>地点</dt><dd>(原文未说明)</dd>
+<dt>家长需要做</dt><dd>(无具体行动)</dd>
+<dt>孩子需要准备</dt><dd>(原文未说明)</dd>
+<dt>报名/付款</dt><dd>报名 是；直接联系班级导师（tutor）；付款 是；费用 95 €/月</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 仅适用于下午课程仅安排在每周2天的2º BACHILLERATO学生；新选项自2026年10月19日（周一）起生效</dd>
+<dt>原文关键词</dt><dd>comedor, 2º BACHILLERATO, modalidad semanal, 95 €, tutor, 19 de octubre</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在优化高年级学生午餐服务的灵活性与经济性，通过提供按需定制的2天/周套餐，提升家长满意度与服务使用率；同时借机规范报名流程（统一由tutor对接），强化班级管理闭环；该调整也隐含为后续可能的分层收费或服务升级积累数据与家长接受度。</div>
+<div class="raw">原文摘录：Dado que algunos alumnos tienen clases curriculares por la tarde únicamente dos días a la semana, hemos considerado oportuno incorporar una nueva modalidad de comedor de 2 días semanales, con una cuota mensual de 95 €.
+Para agilizar los trámites, aquellas familias que deseen acogerse a esta nueva modalidad deberán comunicarlo directamente al tutor de su grupo.
+Esta nueva opción estará disponible a partir del próximo lunes 19 de octubre.</div>
+<div><a class="btn" href="./events/06-nueva-modalidad-comero-new-lunch.ics">📅 加到手机日历</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1CaMFptRyG0xO6i6lM8CcX3tchhcRxktb/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-7">
+<article class="event">
+<h4>#7 【漫画与图像小说创作大赛】<span class="es">COMPETITION / CONCURSO COMIC</span></h4>
+<div><span class="pill">ESO / 中学</span><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>初中部（ESO）与高中部（Bachillerato）学生（ESO - BACH）</dd>
+<dt>关键时间</dt><dd>2026-11-27</dd>
+<dt>地点</dt><dd>初中部图书馆 / Secondary School Library / Biblioteca de Secundaria</dd>
+<dt>家长需要做</dt><dd>无需签字、缴费或到场；但需知悉孩子可能投入较多课余时间创作，可协助准备材料或监督提交截止日</dd>
+<dt>孩子需要准备</dt><dd>独立创作8页自成一体的原创漫画/漫画小说（主题自选，须无暴力/色情敏感内容），另附500字剧情摘要；在单独纸张注明参赛类别、姓名、姓氏、年级（如为在校生）、邮箱</dd>
+<dt>报名/付款</dt><dd>报名 否；付款 否</dd>
+<dt>截止日期</dt><dd class="warn">2026-11-27</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 作品须为原创且未发表/未投其他赛事；含暴力或色情敏感内容者将被取消资格；电子投稿请发送至 bibliotecasecmor@colegiobrains.com</dd>
+<dt>原文关键词</dt><dd>concurso cómic, novela gráfica, Biblioteca Secundaria, ESO, Bachillerato, plazo 27 noviembre 2026</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在通过跨学科活动（语言+艺术）激发中高年级学生的创意表达与叙事能力，同时强化图书馆与语言组的课程延伸功能；该竞赛不收费、不强制参与，实为展示学校人文素养教育成果的轻量级品牌项目，亦为后续申请教育创新类校本经费积累过程性素材。</div>
+<div class="raw">原文摘录：Submission deadline: by Friday 27th of November 2026.
+Entries must be original and unpublished, and must not have been submitted to any other competition or published previously.
+… the organisers reserve the right to disqualify entries containing sensitive content due to violent and/or sexual themes.</div>
+<div><a class="btn" href="./events/07-competition-concurso-comic.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%88%9D%E4%B8%AD%E9%83%A8%E5%9B%BE%E4%B9%A6%E9%A6%86+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw-ykOhCiL-/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-8">
+<article class="event">
+<h4>#8 【国际文凭（IB）拓展论文（Extended Essay）撰写与指导博览会】<span class="es">Fair on the development and supervision of Extended Essays in the Diploma Programme</span></h4>
+<div><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>高一（1º Bachillerato）学生（1º BACH）</dd>
+<dt>关键时间</dt><dd>2026-11-07  09:15 – 15:00</dd>
+<dt>地点</dt><dd>纳瓦拉大学马德里校区，Santa Marta侯爵街3号 / University of Navarra, Madrid campus, Calle Marquesado de Santa Marta 3</dd>
+<dt>家长需要做</dt><dd>如学生有意参加，家长须发送授权邮件至指定邮箱</dd>
+<dt>孩子需要准备</dt><dd>自行往返交通；由本校IB课程教师陪同</dd>
+<dt>报名/付款</dt><dd>报名 是；发送授权邮件至 mcristina@colegiobrains.com 或 melissa.koop@colegiobrains.com；付款 原文未说明</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 学生需自行负责往返交通；活动全程由本校IB授课教师带队陪同</dd>
+<dt>原文关键词</dt><dd>Extended Essay, IB Diploma Programme, University of Navarra, 1º Bachillerato, workshops, authorization</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在为IB高一学生提供权威、实操性强的拓展论文指导资源，借助纳瓦拉大学专业力量提升学术写作能力；同时通过家长邮件授权机制，履行对校外活动的风险告知与知情同意程序，降低组织责任风险；该合作亦有助于强化学校IB项目专业形象与高校衔接资源。</div>
+<div class="raw">原文摘录：If your child is interested, you must send your authorization to the following email addresses: mcristina@colegiobrains.com or melissa.koop@colegiobrains.com.</div>
+<div><a class="btn" href="./events/08-fair-on-the-development-and-supervision.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E7%BA%B3%E7%93%A6%E6%8B%89%E5%A4%A7%E5%AD%A6%E9%A9%AC%E5%BE%B7%E9%87%8C%E6%A0%A1%E5%8C%BA%EF%BC%8CSanta+Marta%E4%BE%AF%E7%88%B5%E8%A1%973%E5%8F%B7+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1GFgyy1Vx_I-anPfEafaxl_v6NmQwV91I/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+<div id="event-9">
+<article class="event">
+<h4>#9 【2026年英国教育展】<span class="es">BRITISH EDUCATION FAIR 2026</span></h4>
+<div><span class="pill">Bachillerato / 高中</span></div>
+<dl>
+<dt>适用对象</dt><dd>高中阶段（Bachillerato）学生（BACHILLERATO）</dd>
+<dt>关键时间</dt><dd>2026-10-15  11:15 – 13:30   ☁️ 阴 25°/15°C</dd>
+<dt>地点</dt><dd>马德里国际学校（Calle Serrano Galvache, 13, 马德里） / International School of Madrid, Calle Serrano Galvache, 13, Madrid</dd>
+<dt>家长需要做</dt><dd>在10月13日前填写Google表单完成同意确认</dd>
+<dt>孩子需要准备</dt><dd>须穿着校服</dd>
+<dt>报名/付款</dt><dd>报名 是；Google表单；付款 否</dd>
+<dt>截止日期</dt><dd class="warn">2026-10-13</dd>
+<dt>注意事项</dt><dd class="warn">⚠️ ⚠️ 名额按提交顺序先到先得，大巴满员即止；逾期不接受报名；未参加学生照常上课。</dd>
+<dt>原文关键词</dt><dd>British Education Fair, Bachillerato, British Council, university applications, UK studies, consent form</dd>
+</dl>
+<div class="intent-box"><span class="intent-label">💡 学校视角：</span>学校旨在为有意向赴英读本科的学生提供权威升学渠道，同时借由英国文化协会（British Council）背书增强家长对升学指导服务的信任度；通过自愿参与+明确截止机制，既控制活动组织成本，又规避强制参与引发的合规风险；开放家长自行参会链接，实为延伸家校沟通场景，间接提升学校国际升学支持的专业形象。</div>
+<div class="raw">原文摘录：Parents of students wishing to attend should fill in the Google form to give their consent no later than October 13th. https://forms.gle/TN3MrhvdJCstNYNE6
+Students will be accepted until all spaces on the coach are filled and in order of receipt. No late registrations will be accepted.</div>
+<div><a class="btn" href="./events/09-british-education-fair-2026.ics">📅 加到手机日历</a> <a class="btn btn-maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E9%A9%AC%E5%BE%B7%E9%87%8C%E5%9B%BD%E9%99%85%E5%AD%A6%E6%A0%A1%EF%BC%88Calle+Serrano+Galvache%2C+13%2C+%E9%A9%AC%E5%BE%B7%E9%87%8C%EF%BC%89+Madrid" target="_blank" rel="noopener">📍 Google Maps</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1xCL7IEyuT7GaYJGR7X-t8e8h5izwULWF/view?usp=drive_link" target="_blank" rel="noopener">查看学校原文</a></div>
+</article>
+</div>
+</section>
+<section><h2>📅 日历添加区</h2>
+<p>iOS 用户：点击下方按钮，Safari 会弹出"加入日历"对话框。Android 用户会下载 .ics 文件，再用日历 app 打开导入。</p>
+<p><a class="btn" href="./school_events.ics">添加全部本周日历</a></p>
+<p>单独添加某个事项：</p><ul>
+<li><a href="./events/02-taller-pinturas-calabazas.ics">📅 南瓜绘画工作坊 / TALLER PINTURAS CALABAZAS</a></li>
+<li><a href="./events/03-circular-valdelasfuentes.ics">📅 瓦尔德拉斯富恩特斯通知 / CIRCULAR VALDELASFUENTES</a></li>
+<li><a href="./events/04-school-master-calidad-y-excelencia.ics">📅 Brains质量与卓越运营研修项目（第八届） / SCHOOL MASTER CALIDAD Y EXCELENCIA</a></li>
+<li><a href="./events/05-spanish-space-desing-competition.ics">📅 西班牙太空设计大赛（SPSDC）报名通知 / SPANISH SPACE DESING COMPETITION</a></li>
+<li><a href="./events/06-nueva-modalidad-comero-new-lunch.ics">📅 新午餐模式（每周2天） / NUEVA MODALIDAD COMERO/NEW LUNCH</a></li>
+<li><a href="./events/07-competition-concurso-comic.ics">📅 漫画与图像小说创作大赛 / COMPETITION / CONCURSO COMIC</a></li>
+<li><a href="./events/08-fair-on-the-development-and-supervision.ics">📅 国际文凭（IB）拓展论文（Extended Essay）撰写与指导博览会 / Fair on the development and supervision of Extended Essays in the Diploma Programme</a></li>
+<li><a href="./events/09-british-education-fair-2026.ics">📅 2026年英国教育展 / BRITISH EDUCATION FAIR 2026</a></li>
+</ul>
+</section>
+<section><h2>🔗 学校原文 PDF 链接</h2><ul>
+<li>#1 营养与健康教育专题 / NUTRITION &amp; HEALTH / ALIMENTACION <a href="https://drive.google.com/file/d/1N0FQ_nlwQpOM1lL8JZxcHghqMKl41_ho/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#2 南瓜绘画工作坊 / TALLER PINTURAS CALABAZAS <a href="https://drive.google.com/file/d/1l7KRIO4FoSiqu7MhCx9jV2abtcNaChnX/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#3 瓦尔德拉斯富恩特斯通知 / CIRCULAR VALDELASFUENTES <a href="https://drive.google.com/file/d/1Ga-kw4JjcoHE7nYJfPr52kDQ8qL_QZUi/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#4 Brains质量与卓越运营研修项目（第八届） / SCHOOL MASTER CALIDAD Y EXCELENCIA <a href="https://drive.google.com/file/d/1AkWUnks6JdfEIlFG_NTz_5nwoecfFLru/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#5 西班牙太空设计大赛（SPSDC）报名通知 / SPANISH SPACE DESING COMPETITION <a href="https://drive.google.com/file/d/11KDfKgypfMhb2yGg1i3nxQyoDkJtaRT8/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#6 新午餐模式（每周2天） / NUEVA MODALIDAD COMERO/NEW LUNCH <a href="https://drive.google.com/file/d/1CaMFptRyG0xO6i6lM8CcX3tchhcRxktb/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#7 漫画与图像小说创作大赛 / COMPETITION / CONCURSO COMIC <a href="https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw-ykOhCiL-/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#8 国际文凭（IB）拓展论文（Extended Essay）撰写与指导博览会 / Fair on the development and supervision of Extended Essays in the Diploma Programme <a href="https://drive.google.com/file/d/1GFgyy1Vx_I-anPfEafaxl_v6NmQwV91I/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+<li>#9 2026年英国教育展 / BRITISH EDUCATION FAIR 2026 <a href="https://drive.google.com/file/d/1xCL7IEyuT7GaYJGR7X-t8e8h5izwULWF/view?usp=drive_link" target="_blank" rel="noopener">原文</a></li>
+</ul></section>
+<footer>
+<p>本页由 school_helper agent 自动生成。如发现与学校原文不一致，以学校原文为准。</p>
+<p>历史归档（如有）位于 <code>./archive/&lt;YYYY-Www&gt;/index.html</code></p>
+</footer>
+</div>
+</body>
+</html>

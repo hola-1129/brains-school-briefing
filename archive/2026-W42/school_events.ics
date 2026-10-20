@@ -1,0 +1,198 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 高中阶段（Bachillerato）学生\n家长: 在10月1
+ 3日前填写Google表单完成同意确认\n孩子准备: 须穿着校服
+ \n报名: 是\n付款: 否\n截止: 2026-10-13\n原文: https://drive.goog
+ le.com/file/d/1xCL7IEyuT7GaYJGR7X-t8e8h5izwULWF/view?usp=drive_link
+DTEND:20261015T133000Z
+LOCATION:International School of Madrid\, Calle Serrano Galvache\, 13\, Mad
+ rid
+DTSTART:20261015T111500Z
+SUMMARY:2026年英国教育展 / BRITISH EDUCATION FAIR 2026
+UID:b4884451751feca8@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 4年级初中（ESO）及1年级国际/国家高中（B
+ achillerato）学生\n家长: 无需缴费或报名；如需了解详情
+ ，可联系项目协调员Carmen Romera（carmen.romera@colegiobrains.com
+ ）\n孩子准备: 无需特别准备；需全程参与50小时课程（
+ 含企业参访与校内实习）\n报名: 原文未说明\n付款: 否\n
+ 费用: 无费用（100%校方奖学金覆盖）\n原文: https://drive.go
+ ogle.com/file/d/1AkWUnks6JdfEIlFG_NTz_5nwoecfFLru/view?usp=drive_link
+DTEND:20261119T180000Z
+LOCATION:miércoles de 16\,30 a 18\,00 h (con visitas a empresas y práctic
+ as en el colegio)
+DTSTART:20261119T163000Z
+SUMMARY:Brains质量与卓越运营研修项目（第八届） / SCHOOL MAS
+ TER CALIDAD Y EXCELENCIA
+UID:97448684fe61c55a@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261127
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 初中部（ESO）与高中部（Bachillerato）学生\
+ n家长: 无需签字、缴费或到场；但需知悉孩子可能投入
+ 较多课余时间创作，可协助准备材料或监督提交截止日\n
+ 孩子准备: 独立创作8页自成一体的原创漫画/漫画小说（
+ 主题自选，须无暴力/色情敏感内容），另附500字剧情摘
+ 要；在单独纸张注明参赛类别、姓名、姓氏、年级（如
+ 为在校生）、邮箱\n报名: 否\n付款: 否\n截止: 2026-11-27\n
+ 原文: https://drive.google.com/file/d/1G3ddnFaop4T-tgUZk2B8nsw-ykOhCiL-/
+ view?usp=drive_link
+LOCATION:Secondary School Library / Biblioteca de Secundaria
+SUMMARY:漫画与图像小说创作大赛 / COMPETITION / CONCURSO COMIC
+UID:7cb0c3f54724878d@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261013
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 4年级初中（ESO）至高中（Bachillerato）学生
+ \n家长: 确认学生年龄是否符合15–18岁要求；如学生拟组
+ 队参赛，协助其组建4–12人团队；指导学生通过指定链
+ 接完成Google表单注册\n孩子准备: 需自主准备科学准确性
+ 、创意表达、沟通展示及RFP（招标需求书）响应能力；
+ 建议提前熟悉欧洲太空设计大赛（EUSDC）规则\n报名: 是\n
+ 付款: 原文未说明\n原文: https://drive.google.com/file/d/11KDfKgyp
+ fMhb2yGg1i3nxQyoDkJtaRT8/view?usp=drive_link
+SUMMARY:西班牙太空设计大赛（SPSDC）报名通知 / SPANISH SPACE 
+ DESING COMPETITION
+UID:ae9da837008f608c@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261019
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 高中二年级（相当于中国高三）\n报名: 是
+ \n付款: 是\n费用: 95 €/月\n原文: https://drive.google.com/file/d
+ /1CaMFptRyG0xO6i6lM8CcX3tchhcRxktb/view?usp=drive_link
+SUMMARY:新午餐模式（每周2天） / NUEVA MODALIDAD COMERO/NEW LUNCH
+UID:7ab110e871f19165@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 小学部（含幼儿园）\n家长: 等待学校发送
+ 报名问卷并及时填写；确保孩子当天由一名家长陪同参
+ 加\n报名: 是\n付款: 否\n原文: https://drive.google.com/file/d/1l7
+ KRIO4FoSiqu7MhCx9jV2abtcNaChnX/view?usp=drive_link
+DTEND:20241031T130000Z
+LOCATION:Colegio Brains
+DTSTART:20241031T110000Z
+SUMMARY:南瓜绘画工作坊 / TALLER PINTURAS CALABAZAS
+UID:961146fcc6bac4dd@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 初二年级（2º ESO）全体学生\n家长: 确保
+ 孩子当天携带常规课间点心（仅C、D班）及一根绳网袋（
+ bolsa de cuerdas）；无需签字、缴费或陪同\n孩子准备: C、D
+ 班学生需自带日常课间点心，并用绳网袋装好；A、B班未
+ 提及\n报名: 原文未说明\n付款: 原文未说明\n原文: https://
+ drive.google.com/file/d/1Ga-kw4JjcoHE7nYJfPr52kDQ8qL_QZUi/view?usp=drive_l
+ ink
+DTEND:20261020T121500Z
+LOCATION:Fuentelucha waste collection facilities and photovoltaic installat
+ ion
+DTSTART:20261020T090000Z
+SUMMARY:瓦尔德拉斯富恩特斯通知 / CIRCULAR VALDELASFUENTES
+UID:5459b4484e90f21a@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261013T153300Z
+DESCRIPTION:适用: 高一（1º Bachillerato）学生\n家长: 如学生
+ 有意参加，家长须发送授权邮件至指定邮箱\n孩子准备: 
+ 自行往返交通；由本校IB课程教师陪同\n报名: 是\n付款: 
+ 原文未说明\n原文: https://drive.google.com/file/d/1GFgyy1Vx_I-anPfE
+ afaxl_v6NmQwV91I/view?usp=drive_link
+DTEND:20261107T150000Z
+LOCATION:University of Navarra\, Madrid campus\, Calle Marquesado de Santa 
+ Marta 3
+DTSTART:20261107T091500Z
+SUMMARY:国际文凭（IB）拓展论文（Extended Essay）撰写与指导
+ 博览会 / Fair on the development and supervision of Extended Essays in 
+ the Diploma Programme
+UID:f67984668503eb4a@school_helper
+END:VEVENT
+END:VCALENDAR
