@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261026T161847Z
+DESCRIPTION:适用: 初二年级（2º de ESO）学生\n家长: 无需报
+ 名或缴费；请确保孩子当天按时到校，着装得体\n孩子准
+ 备: 无需学生自行准备材料；建议穿着校服或整洁便装\n
+ 报名: 否\n付款: 否\n费用: 已包含在校费中（西班牙语版
+ 称“由学校资助”）\n原文: https://drive.google.com/file/d/1JEtM
+ Gnlb9ZoYrgjASvfR4iSbJvmkmGcm/view?usp=drive_link
+DTEND:20261029T113000Z
+LOCATION:Centro Cultural Sanchinarro
+DTSTART:20261029T091500Z
+SUMMARY:音乐剧《歌剧魅影》观演活动 / TEATRO / THEATRE PHANTOM 
+ OF THE OPERA
+UID:4340d2c830d3c3cb@school_helper
+END:VEVENT
+END:VCALENDAR

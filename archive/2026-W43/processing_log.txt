@@ -1,0 +1,26 @@
+School Helper 处理日志
+生成时间: 2026-10-20T11:00:28
+周次:     Semana: 19 de OCTUBRE 2026  (2026-W43)
+输入 PDF: body_briefing_1a158891fbd6b9c6.json
+
+链接总数:   2
+  下载成功: 0
+  失败/跳过: 2
+LLM 抽取成功: 0
+
+----------------------------------------------------------------------
+[1] http://get.adobe.com/es/reader/
+    stage:  . PLEASE NOTE: The attached file is in PDF format; if you have difficulty viewing it, download the latest version of ADOBE ACROBAT from http://get.adobe.com/es/reader/ .
+    url:    http://get.adobe.com/es/reader/
+    status: non_pdf (http=200)
+    error:  Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载
+    ⚠️  链接非 PDF，需手动下载
+    分类:   仅供了解的信息
+
+[2] Cartel.png
+    stage:  
+    url:    https://plataformaesemtia.s3.amazonaws.com/files/c3qtzn/Mensajeria/zcprhv_Cartel.png
+    status: non_pdf (http=200)
+    error:  Content-Type=image/png 非 PDF（可能是网页/重定向到登录），需手动下载
+    ⚠️  链接非 PDF，需手动下载
+    分类:   仅供了解的信息

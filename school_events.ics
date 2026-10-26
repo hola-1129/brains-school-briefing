@@ -1,4 +1,129 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261026T161847Z
+DESCRIPTION:适用: 高一（西班牙高中一年级）\n家长: 在11月3
+ 日前填写Google授权表单；确认学生已用个人邮箱完成大
+ 学展官网注册，并打印或保存好注册条形码\n孩子准备: 
+ 提前查阅参展大学名单，规划参观目标；确保着装符合
+ 校服要求\n报名: 是\n付款: 否\n截止: 2026-11-03\n原文: https:
+ //drive.google.com/file/d/19gcy--Y-t3onhJWERjrF6-_1CqVNHCTV/view?usp=drive
+ _link
+DTEND:20261105T133000Z
+LOCATION:American School of Madrid (Pozuelo)
+DTSTART:20261105T110000Z
+SUMMARY:CIS马德里大学展（拉莫拉莱哈）2026/2027学年 / CIS FAI
+ R LA MORALEJA 2026/2027
+UID:823fe7224d0e71ef@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261026T161847Z
+DESCRIPTION:适用: 初中一年级至二年级学生\n家长: 协助学生
+ 完成Shopify在线缴费注册，并按时提交Excel报名表至指定
+ 邮箱；确保学生11月20–22日全程可参与\n孩子准备: 提前
+ 确认11月20–22日周末无其他安排；在Shopify上选择偏好委
+ 员会与代表国家；完成并提交Excel表格\n报名: 是\n付款: 
+ 是\n费用: €45（含会议资料、餐食及点心）\n截止: 2026-11
+ -15\n原文: https://drive.google.com/file/d/1l681haEWewIF8-ncpz5g4_VH2mEq
+ 1WZr/view?usp=drive_link
+DTEND:20261120T180000Z
+LOCATION:Brains La Moraleja (BrainsMUN) / URJC Móstoles Campus (TeenMUN)
+DTSTART:20261120T090000Z
+SUMMARY:2026–2027学年模拟联合国（MUN）活动通知 / MUN MORALEJ
+ A 2026/2027
+UID:b17a68bc141545fe@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261026T161847Z
+DESCRIPTION:适用: 幼儿园至小学阶段\n家长: 为孩子准备合适
+ 的万圣节服装；鼓励孩子参与设计与制作\n孩子准备: 学
+ 生需自行准备并穿着万圣节主题服装到校；若当天有游
+ 泳课，须选择易穿脱的服装\n报名: 原文未说明\n付款: 原
+ 文未说明\n原文: https://drive.google.com/file/d/10YuWf91kZm-Tpj7Q308
+ Cz2A8PlSdlUlh/view?usp=drive_link
+DTEND:20261030T160000Z
+LOCATION:School campus
+DTSTART:20261030T080000Z
+SUMMARY:万圣节庆祝活动 / HALLOWEEN
+UID:2028ae0c774b45cc@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261026T161847Z
+DESCRIPTION:适用: 初二年级（2º de ESO）学生\n家长: 无需报
+ 名或缴费；请确保孩子当天按时到校，着装得体\n孩子准
+ 备: 无需学生自行准备材料；建议穿着校服或整洁便装\n
+ 报名: 否\n付款: 否\n费用: 已包含在校费中（西班牙语版
+ 称“由学校资助”）\n原文: https://drive.google.com/file/d/1JEtM
+ Gnlb9ZoYrgjASvfR4iSbJvmkmGcm/view?usp=drive_link
+DTEND:20261029T113000Z
+LOCATION:Centro Cultural Sanchinarro
+DTSTART:20261029T091500Z
+SUMMARY:音乐剧《歌剧魅影》观演活动 / TEATRO / THEATRE PHANTOM 
+ OF THE OPERA
+UID:4340d2c830d3c3cb@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261217
+DTSTAMP:20261026T161847Z
+DESCRIPTION:适用: 初中一年级至二年级（1ºESO–2ºESO）\n家
+ 长: 在11月2日前填写指定在线报名表；确认孩子自愿参加
+ ；知悉费用13欧元将计入12月学校账单\n报名: 是\n付款: 
+ 是\n费用: €13/学生，计入12月账单\n截止: 2026-11-02\n原文:
+  https://drive.google.com/file/d/18IvwZaekrkFzhTp2AD6HPHYuIy_HsVSi/view?us
+ p=drive_link
+LOCATION:Teatro La Latina (Madrid)
+SUMMARY:音乐剧《怪物史瑞克 Jr.》观演活动 / MUSICAL SHREK JR
+UID:c1087edec434c8bd@school_helper
+END:VEVENT
 END:VCALENDAR

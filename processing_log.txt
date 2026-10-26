@@ -1,26 +1,82 @@
 School Helper 处理日志
-生成时间: 2026-10-20T11:00:28
-周次:     Semana: 19 de OCTUBRE 2026  (2026-W43)
-输入 PDF: body_briefing_1a158891fbd6b9c6.json
+生成时间: 2026-10-26T17:18:47
+周次:     Semana: 26 de OCTUBRE 2026  (2026-W44)
+输入 PDF: qhsnxb_Briefing_Semanal_26_OCTUBRE_2.pdf
 
-链接总数:   2
-  下载成功: 0
-  失败/跳过: 2
-LLM 抽取成功: 0
+链接总数:   9
+  下载成功: 8
+  失败/跳过: 1
+LLM 抽取成功: 8
 
 ----------------------------------------------------------------------
-[1] http://get.adobe.com/es/reader/
-    stage:  . PLEASE NOTE: The attached file is in PDF format; if you have difficulty viewing it, download the latest version of ADOBE ACROBAT from http://get.adobe.com/es/reader/ .
-    url:    http://get.adobe.com/es/reader/
+[1] HALLOWEEN
+    stage:  INFANTIL - PRIMARIA
+    url:    https://drive.google.com/file/d/10YuWf91kZm-Tpj7Q308Cz2A8PlSdlUlh/view?usp=drive_link
+    status: ok (http=None)
+    分类:   Infantil / 幼儿园 / Primaria / 小学
+    日期:   2026-10-30
+    报名:   原文未说明
+
+[2] LAPICES DIGITALES / DIGITAL PENCILS
+    stage:  3º-6º PRIMARIA
+    url:    https://drive.google.com/file/d/1uHHo_9sTyw9z-cTk2tVG6VWF-9c7-kAX/view?usp=drive_link
+    status: ok (http=None)
+    分类:   Primaria / 小学
+    日期:   (原文未说明)
+    报名:   否
+
+[3] MUSICAL SHREK JR
+    stage:  1ºESO - 2º ESO
+    url:    https://drive.google.com/file/d/18IvwZaekrkFzhTp2AD6HPHYuIy_HsVSi/view?usp=drive_link
+    status: ok (http=None)
+    分类:   ESO / 中学
+    日期:   2026-12-17
+    报名:   是
+
+[4] TEATRO / THEATRE PHANTOM OF THE OPERA
+    stage:  2º ESO
+    url:    https://drive.google.com/file/d/1JEtMGnlb9ZoYrgjASvfR4iSbJvmkmGcm/view?usp=drive_link
+    status: ok (http=None)
+    分类:   ESO / 中学
+    日期:   2026-10-29
+    报名:   否
+
+[5] MUN MORALEJA 2026/2027
+    stage:  1º ESO – 2º
+    url:    https://drive.google.com/file/d/1l681haEWewIF8-ncpz5g4_VH2mEq1WZr/view?usp=drive_link
+    status: ok (http=None)
+    分类:   ESO / 中学
+    日期:   2026-11-20
+    报名:   是
+
+[6] MUN MORALEJA 2026/2027
+    stage:  BACHILLERATO
+    url:    https://drive.google.com/file/d/1ypCExCCrCMbMbe6LG_VXnd2IZBJe26et/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Bachillerato / 高中
+    日期:   (原文未说明)
+    报名:   原文未说明
+
+[7] COUNTRY MATRIX URJC TEEN VIII
+    stage:  LOMLOE Y DIPLOMA
+    url:    https://docs.google.com/spreadsheets/d/1NsWliovKs_MoKMlzV03M7oKv5_MLIuDB/edit?usp=drive_link&ouid=100138927376258148325&rtpof=true&sd=true
     status: non_pdf (http=200)
-    error:  Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载
+    error:  Content-Type=text/html; charset=utf-8 非 PDF（可能是网页/重定向到登录），需手动下载
     ⚠️  链接非 PDF，需手动下载
     分类:   仅供了解的信息
 
-[2] Cartel.png
+[8] INSCRIPCION URJC TEEN VIII
     stage:  
-    url:    https://plataformaesemtia.s3.amazonaws.com/files/c3qtzn/Mensajeria/zcprhv_Cartel.png
-    status: non_pdf (http=200)
-    error:  Content-Type=image/png 非 PDF（可能是网页/重定向到登录），需手动下载
-    ⚠️  链接非 PDF，需手动下载
-    分类:   仅供了解的信息
+    url:    https://drive.google.com/file/d/1Kp0nQUOIE4LQKxuCKfyq-qlldEgFdP-9/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   (原文未说明)
+    报名:   是
+
+[9] CIS FAIR LA MORALEJA 2026/2027
+    stage:  1º BACHILLERATO
+    url:    https://drive.google.com/file/d/19gcy--Y-t3onhJWERjrF6-_1CqVNHCTV/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Bachillerato / 高中
+    日期:   2026-11-05
+    报名:   是

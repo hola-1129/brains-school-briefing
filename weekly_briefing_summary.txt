@@ -1,9 +1,48 @@
-📚 Brains 学校周通知（Semana: 19 de OCTUBRE 2026）
+📚 Brains 学校周通知（Semana: 26 de OCTUBRE 2026）
+
+⭐ 本周重点：
+  • 万圣节庆祝活动 (INFANTIL - PRIMARIA) — 2026-10-30 ✍️
+  • 数字手写笔（需自备） (3º-6º PRIMARIA) — 日期待定 ✍️
+  • 音乐剧《怪物史瑞克 Jr.》观演活动 (1ºESO - 2º ESO) — 2026-12-17 ✍️
+  • 音乐剧《歌剧魅影》观演活动 (2º ESO) — 2026-10-29 ✍️
+  • 2026–2027学年模拟联合国（MUN）活动通知 (1º ESO – 2º) — 2026-11-20 ✍️
+  • URJC TEEN VIII 模拟联合国大会报名 (1º–2º BACHILLERATO, 3º–4º ESO) — 日期待定 ✍️
+  • CIS马德里大学展（拉莫拉莱哈）2026/2027学年 (1º BACHILLERATO) — 2026-11-05 ✍️
+
+✍️ 需要家长操作：
+  • 万圣节庆祝活动：为孩子准备合适的万圣节服装；鼓励孩子参与设计与制作
+  • 数字手写笔（需自备）：为孩子购置一支兼容该iPad型号的数字手写笔（无需Apple原装），并贴上孩子姓名标签；同时确保孩子配有USB-C接口有线耳机，并同样贴标
+  • 音乐剧《怪物史瑞克 Jr.》观演活动（截止 2026-11-02）：在11月2日前填写指定在线报名表；确认孩子自愿参加；知悉费用13欧元将计入12月学校账单
+  • 音乐剧《歌剧魅影》观演活动：无需报名或缴费；请确保孩子当天按时到校，着装得体
+  • 2026–2027学年模拟联合国（MUN）活动通知（截止 2026-11-15）：协助学生完成Shopify在线缴费注册，并按时提交Excel报名表至指定邮箱；确保学生11月20–22日全程可参与
+  • URJC TEEN VIII 模拟联合国大会报名：查看通知详情
+  • CIS马德里大学展（拉莫拉莱哈）2026/2027学年（截止 2026-11-03）：在11月3日前填写Google授权表单；确认学生已用个人邮箱完成大学展官网注册，并打印或保存好注册条形码
 
 🎓 各年级事项：
-  [. PLEASE NOTE: The attached file is in PDF format; if you have difficulty viewing it, download the latest version of ADOBE ACROBAT from http://get.adobe.com/es/reader/ .]
-    - http://get.adobe.com/es/reader/
-  [其他]
-    - Cartel.png
+  [INFANTIL - PRIMARIA]
+    - 万圣节庆祝活动 — 2026-10-30
+  [3º-6º PRIMARIA]
+    - 数字手写笔（需自备）
+  [1ºESO - 2º ESO]
+    - 音乐剧《怪物史瑞克 Jr.》观演活动 — 2026-12-17
+  [2º ESO]
+    - 音乐剧《歌剧魅影》观演活动 — 2026-10-29
+  [1º ESO – 2º]
+    - 2026–2027学年模拟联合国（MUN）活动通知 — 2026-11-20
+  [BACHILLERATO]
+    - 莫拉莱哈模拟联合国大会 2026/2027 学年
+  [LOMLOE Y DIPLOMA]
+    - COUNTRY MATRIX URJC TEEN VIII
+  [1º–2º BACHILLERATO, 3º–4º ESO]
+    - URJC TEEN VIII 模拟联合国大会报名
+  [1º BACHILLERATO]
+    - CIS马德里大学展（拉莫拉莱哈）2026/2027学年 — 2026-11-05
+
+🗓 时间节点：
+  2026-10-29 09:15 — 音乐剧《歌剧魅影》观演活动
+  2026-10-30 08:00 — 万圣节庆祝活动
+  2026-11-05 11:00 — CIS马德里大学展（拉莫拉莱哈）2026/2027学年
+  2026-11-20 09:00 — 2026–2027学年模拟联合国（MUN）活动通知
+  2026-12-17 — 音乐剧《怪物史瑞克 Jr.》观演活动
 
 ℹ️ 详细中文版见 weekly_briefing_cn.md，日历可导入 school_events.ics。
