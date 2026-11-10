@@ -1,26 +1,50 @@
 School Helper 处理日志
-生成时间: 2026-11-03T17:01:03
+生成时间: 2026-11-10T17:32:12
 周次:     Semana: 26 de OCTUBRE 2026  (2026-W44)
-输入 PDF: jcwxbn_Briefing_Semanal_3_NOVIEMBRE.pdf
+输入 PDF: lmvhvq_Briefing_Semanal_10_noviembre.pdf
 
-链接总数:   2
-  下载成功: 2
+链接总数:   5
+  下载成功: 5
   失败/跳过: 0
-LLM 抽取成功: 2
+LLM 抽取成功: 5
 
 ----------------------------------------------------------------------
-[1] CAMPAMENTO BALONCESTO NAVIDAD /
-    stage:  PRIMARIA Y ESO
-    url:    https://drive.google.com/file/d/1mLxUsQOQwVeYis15z7soCPf2yLBUYLPz/view?usp=drive_link
+[1] HUELGA GENERAL 11 NOVIEMBRE 2026
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/128kWsAZyKxu2i_AjZkX4JALjQjbDW6-z/view?usp=drive_link
     status: ok (http=200)
-    分类:   Primaria / 小学 / ESO / 中学
+    分类:   全校通用通知
     日期:   (原文未说明)
     报名:   
 
-[2] BRAINS IN CANADA AND NEW ZEALAND 2027
-    stage:  1º, 2º Y 3º ESO
-    url:    https://drive.google.com/file/d/10cBccocqoPLc-oaMHHFjXFG1dOe3xwls/view?usp=drive_link
+[2] SERVICIOS MINIMOS SERVICIO DE RUTA
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/15YCiVJiHdYdvKQqyCfje_Yjlev-DCvQZ/view?usp=drive_link
+    status: ok (http=200)
+    分类:   全校通用通知
+    日期:   (原文未说明)
+    报名:   
+
+[3] BRAINS IN CANADA AND NEW ZEALAND 2027
+    stage:  1º, 2º, 3º ESO
+    url:    https://drive.google.com/file/d/1HbvV5TYkY1ZFrT7xwzzCVd_hVb-FCYXC/view?usp=drive_link
     status: ok (http=200)
     分类:   ESO / 中学
+    日期:   (原文未说明)
+    报名:   
+
+[4] BEST IN ENGLISH COMPETITION 2026
+    stage:  3ºESO -
+    url:    https://drive.google.com/file/d/1k3oDZmpV-sYUToQelE4wxGrCeq80wCwU/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学
+    日期:   (原文未说明)
+    报名:   
+
+[5] MEETING WITH JEAM-CLAUDE TRICHET,
+    stage:  IBDP
+    url:    https://drive.google.com/file/d/1O1V9FDSDxNZW4Othr3tMxACQFUo05vss/view?usp=drive_link
+    status: ok (http=200)
+    分类:   IBDP
     日期:   (原文未说明)
     报名:   

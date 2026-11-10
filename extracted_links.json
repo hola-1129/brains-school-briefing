@@ -3,28 +3,66 @@
   "week_iso": "2026-W44",
   "items": [
     {
-      "title": "CAMPAMENTO BALONCESTO NAVIDAD /",
-      "stage": "PRIMARIA Y ESO",
-      "url": "https://drive.google.com/file/d/1mLxUsQOQwVeYis15z7soCPf2yLBUYLPz/view?usp=drive_link",
+      "title": "HUELGA GENERAL 11 NOVIEMBRE 2026",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/128kWsAZyKxu2i_AjZkX4JALjQjbDW6-z/view?usp=drive_link",
       "status": "ok",
       "http_status": 200,
       "error": "",
       "categories": [
-        "Primaria / 小学",
-        "ESO / 中学"
+        "全校通用通知"
+      ],
+      "parent_action_needed": false,
+      "extracted": true
+    },
+    {
+      "title": "SERVICIOS MINIMOS SERVICIO DE RUTA",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/15YCiVJiHdYdvKQqyCfje_Yjlev-DCvQZ/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "全校通用通知"
       ],
       "parent_action_needed": false,
       "extracted": true
     },
     {
       "title": "BRAINS IN CANADA AND NEW ZEALAND 2027",
-      "stage": "1º, 2º Y 3º ESO",
-      "url": "https://drive.google.com/file/d/10cBccocqoPLc-oaMHHFjXFG1dOe3xwls/view?usp=drive_link",
+      "stage": "1º, 2º, 3º ESO",
+      "url": "https://drive.google.com/file/d/1HbvV5TYkY1ZFrT7xwzzCVd_hVb-FCYXC/view?usp=drive_link",
       "status": "ok",
       "http_status": 200,
       "error": "",
       "categories": [
         "ESO / 中学"
+      ],
+      "parent_action_needed": false,
+      "extracted": true
+    },
+    {
+      "title": "BEST IN ENGLISH COMPETITION 2026",
+      "stage": "3ºESO -",
+      "url": "https://drive.google.com/file/d/1k3oDZmpV-sYUToQelE4wxGrCeq80wCwU/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学"
+      ],
+      "parent_action_needed": false,
+      "extracted": true
+    },
+    {
+      "title": "MEETING WITH JEAM-CLAUDE TRICHET,",
+      "stage": "IBDP",
+      "url": "https://drive.google.com/file/d/1O1V9FDSDxNZW4Othr3tMxACQFUo05vss/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "IBDP"
       ],
       "parent_action_needed": false,
       "extracted": true
