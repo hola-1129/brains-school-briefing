@@ -3,9 +3,9 @@
   "week_iso": "2026-W44",
   "items": [
     {
-      "title": "HUELGA GENERAL 11 NOVIEMBRE 2026",
+      "title": "POETRY AND MUSIC RECITAL / RECITAL DE",
       "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/128kWsAZyKxu2i_AjZkX4JALjQjbDW6-z/view?usp=drive_link",
+      "url": "https://drive.google.com/file/d/1Bz48NPTmxLDZmHEXflxvRGdUFcM71S8M/view?usp=drive_link",
       "status": "ok",
       "http_status": 200,
       "error": "",
@@ -16,9 +16,9 @@
       "extracted": true
     },
     {
-      "title": "SERVICIOS MINIMOS SERVICIO DE RUTA",
+      "title": "NUTRITION & HEALTH",
       "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/15YCiVJiHdYdvKQqyCfje_Yjlev-DCvQZ/view?usp=drive_link",
+      "url": "https://drive.google.com/file/d/1LmI0-bPeTTy-eaC1w_I6Ks2JFlAkZWTM/view?usp=drive_link",
       "status": "ok",
       "http_status": 200,
       "error": "",
@@ -29,40 +29,27 @@
       "extracted": true
     },
     {
-      "title": "BRAINS IN CANADA AND NEW ZEALAND 2027",
-      "stage": "1º, 2º, 3º ESO",
-      "url": "https://drive.google.com/file/d/1HbvV5TYkY1ZFrT7xwzzCVd_hVb-FCYXC/view?usp=drive_link",
+      "title": "PROGRAMA SCHOOL MASTER \"ESCUELA DE",
+      "stage": "1º BACHILLERATO",
+      "url": "https://drive.google.com/file/d/1kCvdIh_dWEAIhbgO2J4mEzWthgNSIEYI/view?usp=drive_link",
       "status": "ok",
       "http_status": 200,
       "error": "",
       "categories": [
-        "ESO / 中学"
+        "Bachillerato / 高中"
       ],
       "parent_action_needed": false,
       "extracted": true
     },
     {
-      "title": "BEST IN ENGLISH COMPETITION 2026",
-      "stage": "3ºESO -",
-      "url": "https://drive.google.com/file/d/1k3oDZmpV-sYUToQelE4wxGrCeq80wCwU/view?usp=drive_link",
+      "title": "PROGRAMA SCHOOL MASTER \"ESCUELA DE",
+      "stage": "1º BACHILLERATO",
+      "url": "https://drive.google.com/file/d/1sBuuOgR3rchhx9KW_YRvakCxvzsxCEat/view?usp=drive_link",
       "status": "ok",
       "http_status": 200,
       "error": "",
       "categories": [
-        "ESO / 中学"
-      ],
-      "parent_action_needed": false,
-      "extracted": true
-    },
-    {
-      "title": "MEETING WITH JEAM-CLAUDE TRICHET,",
-      "stage": "IBDP",
-      "url": "https://drive.google.com/file/d/1O1V9FDSDxNZW4Othr3tMxACQFUo05vss/view?usp=drive_link",
-      "status": "ok",
-      "http_status": 200,
-      "error": "",
-      "categories": [
-        "IBDP"
+        "Bachillerato / 高中"
       ],
       "parent_action_needed": false,
       "extracted": true
