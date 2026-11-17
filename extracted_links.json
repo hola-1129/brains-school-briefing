@@ -1,58 +1,19 @@
 {
-  "week_label": "Semana: 26 de OCTUBRE 2026",
-  "week_iso": "2026-W44",
+  "week_label": "Semana: 16 de NOVIEMBRE 2026",
+  "week_iso": "2026-W47",
   "items": [
     {
-      "title": "POETRY AND MUSIC RECITAL / RECITAL DE",
-      "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/1Bz48NPTmxLDZmHEXflxvRGdUFcM71S8M/view?usp=drive_link",
-      "status": "ok",
+      "title": "http://get.adobe.com/es/reader/",
+      "stage": ".",
+      "url": "http://get.adobe.com/es/reader/",
+      "status": "non_pdf",
       "http_status": 200,
-      "error": "",
+      "error": "Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载",
       "categories": [
-        "全校通用通知"
+        "仅供了解的信息"
       ],
       "parent_action_needed": false,
-      "extracted": true
-    },
-    {
-      "title": "NUTRITION & HEALTH",
-      "stage": "GENERAL",
-      "url": "https://drive.google.com/file/d/1LmI0-bPeTTy-eaC1w_I6Ks2JFlAkZWTM/view?usp=drive_link",
-      "status": "ok",
-      "http_status": 200,
-      "error": "",
-      "categories": [
-        "全校通用通知"
-      ],
-      "parent_action_needed": false,
-      "extracted": true
-    },
-    {
-      "title": "PROGRAMA SCHOOL MASTER \"ESCUELA DE",
-      "stage": "1º BACHILLERATO",
-      "url": "https://drive.google.com/file/d/1kCvdIh_dWEAIhbgO2J4mEzWthgNSIEYI/view?usp=drive_link",
-      "status": "ok",
-      "http_status": 200,
-      "error": "",
-      "categories": [
-        "Bachillerato / 高中"
-      ],
-      "parent_action_needed": false,
-      "extracted": true
-    },
-    {
-      "title": "PROGRAMA SCHOOL MASTER \"ESCUELA DE",
-      "stage": "1º BACHILLERATO",
-      "url": "https://drive.google.com/file/d/1sBuuOgR3rchhx9KW_YRvakCxvzsxCEat/view?usp=drive_link",
-      "status": "ok",
-      "http_status": 200,
-      "error": "",
-      "categories": [
-        "Bachillerato / 高中"
-      ],
-      "parent_action_needed": false,
-      "extracted": true
+      "extracted": false
     }
   ]
 }

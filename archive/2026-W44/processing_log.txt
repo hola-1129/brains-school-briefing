@@ -1,0 +1,42 @@
+School Helper 处理日志
+生成时间: 2026-11-16T16:31:51
+周次:     Semana: 26 de OCTUBRE 2026  (2026-W44)
+输入 PDF: lwlpkt_Briefing_Semanal_16_NOVIEMBRE.pdf
+
+链接总数:   4
+  下载成功: 4
+  失败/跳过: 0
+LLM 抽取成功: 4
+
+----------------------------------------------------------------------
+[1] POETRY AND MUSIC RECITAL / RECITAL DE
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/1Bz48NPTmxLDZmHEXflxvRGdUFcM71S8M/view?usp=drive_link
+    status: ok (http=200)
+    分类:   全校通用通知
+    日期:   (原文未说明)
+    报名:   
+
+[2] NUTRITION & HEALTH
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/1LmI0-bPeTTy-eaC1w_I6Ks2JFlAkZWTM/view?usp=drive_link
+    status: ok (http=200)
+    分类:   全校通用通知
+    日期:   (原文未说明)
+    报名:   
+
+[3] PROGRAMA SCHOOL MASTER "ESCUELA DE
+    stage:  1º BACHILLERATO
+    url:    https://drive.google.com/file/d/1kCvdIh_dWEAIhbgO2J4mEzWthgNSIEYI/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Bachillerato / 高中
+    日期:   (原文未说明)
+    报名:   
+
+[4] PROGRAMA SCHOOL MASTER "ESCUELA DE
+    stage:  1º BACHILLERATO
+    url:    https://drive.google.com/file/d/1sBuuOgR3rchhx9KW_YRvakCxvzsxCEat/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Bachillerato / 高中
+    日期:   (原文未说明)
+    报名:   
