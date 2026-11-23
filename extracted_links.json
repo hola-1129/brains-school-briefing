@@ -7,7 +7,7 @@
       "stage": "GENERAL",
       "url": "https://drive.google.com/file/d/1lxnGionyiKxY26W5Y5XWqMAvTw3wB83O/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "全校通用通知"
@@ -20,7 +20,7 @@
       "stage": "INFANTIL",
       "url": "https://drive.google.com/file/d/1OKXpmPNYCSQ1tPdpSAdyiLxLh_bgtQbp/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "Infantil / 幼儿园"
@@ -33,7 +33,7 @@
       "stage": "PRE- NURSERY-",
       "url": "https://drive.google.com/file/d/1tJw_SDo-mGngg6ErMQ7zPj4MsM3Osk8N/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "仅供了解的信息"
@@ -46,7 +46,7 @@
       "stage": "ESO – BACH LOMLOE",
       "url": "https://drive.google.com/file/d/1jEtpeAvMwjDppY4xxZYLWd7i5iocVszh/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "ESO / 中学",
@@ -60,7 +60,7 @@
       "stage": "1º BACH DIPLOMA",
       "url": "https://drive.google.com/file/d/1rktaWOXaWkenjsutsBT_lT_GOOl440Rv/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "仅供了解的信息"
@@ -70,10 +70,10 @@
     },
     {
       "title": "MY EXAM LAB 26- 27",
-      "stage": "2º BACH LOMLOEY",
+      "stage": "2º BACH LOMLOE",
       "url": "https://drive.google.com/file/d/15yOU95c4jS223ccDmASZ6B6bTwsm1mXO/view?usp=drive_link",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "error": "",
       "categories": [
         "Bachillerato / 高中"

@@ -13,17 +13,15 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20261205
-DTSTAMP:20261123T192725Z
-DESCRIPTION:适用: 2º Bachillerato（LOMLOE课程）学生\n家长: 在20
- 26年11月30日前填写指定Google表单，为孩子申请My Exams Lab
- 许可证\n孩子准备: 无需学生提前准备；激活许可证后即
- 可自主使用\n报名: 是\n付款: 是\n费用: €17（一次性付费
- ，含于2027年1月学校账单中）\n截止: 2026-11-30\n原文: https:
- //drive.google.com/file/d/15yOU95c4jS223ccDmASZ6B6bTwsm1mXO/view?usp=drive
- _link
+DTSTAMP:20261123T192854Z
+DESCRIPTION:适用: 2º Bachillerato（LOMLOE课程）学生\n孩子准备:
+  无需额外准备；激活许可后即可自主使用平台\n报名: 是
+ \n付款: 是\n费用: €17（一次性支付，含于2027年1月学校
+ 账单中）\n截止: 2026-11-30\n原文: https://drive.google.com/file/d/
+ 15yOU95c4jS223ccDmASZ6B6bTwsm1mXO/view?usp=drive_link
 LOCATION:Online platform
 SUMMARY:My Exams Lab 在线备考平台（2026–2027学年） / MY EXAM LA
- B 26-27
+ B 26- 27
 UID:2d97bbb39f371fa3@school_helper
 END:VEVENT
 END:VCALENDAR

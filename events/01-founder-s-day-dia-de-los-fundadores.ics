@@ -13,12 +13,12 @@ DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
 DTSTART;VALUE=DATE:20261126
-DTSTAMP:20261123T192725Z
-DESCRIPTION:适用: 全体学生及家长\n家长: 无需特别准备或行
- 动；可关注学校当日活动安排（通知未要求出席或配合
- ）\n报名: 原文未说明\n付款: 原文未说明\n原文: https://dri
- ve.google.com/file/d/1lxnGionyiKxY26W5Y5XWqMAvTw3wB83O/view?usp=drive_link
-SUMMARY:建校日 / 创始人纪念日 / FOUNDER´S DAY / DIA DE LOS FUNDAD
+DTSTAMP:20261123T192854Z
+DESCRIPTION:适用: 全体学生及家长（通用通知）\n家长: 无需
+ 特别行动；关注学校当日活动安排，可主动了解孩子参
+ 与情况\n报名: 否\n付款: 否\n原文: https://drive.google.com/file
+ /d/1lxnGionyiKxY26W5Y5XWqMAvTw3wB83O/view?usp=drive_link
+SUMMARY:建校纪念日／创始人日 / FOUNDER´S DAY / DIA DE LOS FUNDAD
  ORES
 UID:2caae34a3b3e2eee@school_helper
 END:VEVENT

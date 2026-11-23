@@ -12,13 +12,13 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTAMP:20261123T192725Z
+DTSTAMP:20261123T192854Z
 DESCRIPTION:适用: 国际文凭课程（IB）一年级（高二）学生\n
- 家长: 确保学生按时到校；如需请假或有特殊需求，须提
- 前邮件联系David Gómez老师\n孩子准备: 准时于上午8:50前到
- 校；无需自备午餐（返校后在校内用餐）\n报名: 原文未
- 说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1
- rktaWOXaWkenjsutsBT_lT_GOOl440Rv/view?usp=drive_link
+ 家长: 确保学生于12月2日（周三）上午8:50前到校；无需
+ 缴费或报名；如有疑问可邮件联系dgomez@colegiobrains.com\n孩
+ 子准备: 准时到校；无需自备午餐（返校后统一在校内用
+ 餐）\n报名: 否\n付款: 否\n原文: https://drive.google.com/file/d/
+ 1rktaWOXaWkenjsutsBT_lT_GOOl440Rv/view?usp=drive_link
 DTEND:20261202T140000Z
 LOCATION:Espacio Matemático de Madrid (EMMA)
 DTSTART:20261202T085000Z

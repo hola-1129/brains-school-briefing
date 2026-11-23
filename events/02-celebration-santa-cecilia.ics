@@ -12,11 +12,11 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTAMP:20261123T192725Z
-DESCRIPTION:适用: 学龄前阶段（婴幼儿班）\n家长: 家长可自
- 愿出席观演；无需报名，但建议提前到场\n报名: 否\n付
- 款: 否\n原文: https://drive.google.com/file/d/1OKXpmPNYCSQ1tPdpSAdyiLx
- Lh_bgtQbp/view?usp=drive_link
+DTSTAMP:20261123T192854Z
+DESCRIPTION:适用: 学龄前儿童（婴幼儿阶段）\n家长: 家长可
+ 自愿出席观看学生小型音乐会；无需报名，但需注意活
+ 动时间地点\n报名: 否\n付款: 否\n原文: https://drive.google.co
+ m/file/d/1OKXpmPNYCSQ1tPdpSAdyiLxLh_bgtQbp/view?usp=drive_link
 DTEND:20261124T084500Z
 LOCATION:school foyer
 DTSTART:20261124T084500Z

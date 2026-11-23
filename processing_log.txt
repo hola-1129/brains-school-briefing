@@ -1,7 +1,7 @@
 School Helper 处理日志
-生成时间: 2026-11-23T20:27:25
+生成时间: 2026-11-23T20:28:54
 周次:     Semana: 26 de OCTUBRE 2026  (2026-W44)
-输入 PDF: rlydjw_Briefing_Semanal_23_NOVIEMBRE.pdf
+输入 PDF: spxvqv_Briefing_Semanal_23_NOVIEMBRE.pdf
 
 链接总数:   6
   下载成功: 6
@@ -12,15 +12,15 @@ LLM 抽取成功: 6
 [1] FOUNDER´S DAY / DIA DE LOS FUNDADORES
     stage:  GENERAL
     url:    https://drive.google.com/file/d/1lxnGionyiKxY26W5Y5XWqMAvTw3wB83O/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   全校通用通知
     日期:   2026-11-26
-    报名:   原文未说明
+    报名:   否
 
 [2] CELEBRATION SANTA CECILIA
     stage:  INFANTIL
     url:    https://drive.google.com/file/d/1OKXpmPNYCSQ1tPdpSAdyiLxLh_bgtQbp/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   Infantil / 幼儿园
     日期:   2026-11-24
     报名:   否
@@ -28,7 +28,7 @@ LLM 抽取成功: 6
 [3] EXCURSION ATOOPE FUN PARK
     stage:  PRE- NURSERY-
     url:    https://drive.google.com/file/d/1tJw_SDo-mGngg6ErMQ7zPj4MsM3Osk8N/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   仅供了解的信息
     日期:   2026-11-24
     报名:   原文未说明
@@ -36,7 +36,7 @@ LLM 抽取成功: 6
 [4] DELF 2027
     stage:  ESO – BACH LOMLOE
     url:    https://drive.google.com/file/d/1jEtpeAvMwjDppY4xxZYLWd7i5iocVszh/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   ESO / 中学 / Bachillerato / 高中
     日期:   2027-02-13
     报名:   是
@@ -44,15 +44,15 @@ LLM 抽取成功: 6
 [5] SALIDA EMMA
     stage:  1º BACH DIPLOMA
     url:    https://drive.google.com/file/d/1rktaWOXaWkenjsutsBT_lT_GOOl440Rv/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   仅供了解的信息
     日期:   2026-12-02
-    报名:   原文未说明
+    报名:   否
 
 [6] MY EXAM LAB 26- 27
-    stage:  2º BACH LOMLOEY
+    stage:  2º BACH LOMLOE
     url:    https://drive.google.com/file/d/15yOU95c4jS223ccDmASZ6B6bTwsm1mXO/view?usp=drive_link
-    status: ok (http=200)
+    status: ok (http=None)
     分类:   Bachillerato / 高中
     日期:   2026-12-05
     报名:   是

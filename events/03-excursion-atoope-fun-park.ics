@@ -12,18 +12,19 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTAMP:20261123T192725Z
-DESCRIPTION:适用: 学龄前班（Pre-Nursery）及以下阶段（含Nurse
- ry、Reception）\n家长: 确认孩子是否参加（通知中未要求
- 正式报名，但需留意班级分组日期）；确保孩子当天8:45
- 前到校；为孩子准备轻便衣物、水壶和防晒用品（原文
- 未列明，但属常规户外活动合理准备）\n报名: 原文未说
- 明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1tJw
- _SDo-mGngg6ErMQ7zPj4MsM3Osk8N/view?usp=drive_link
+DTSTAMP:20261123T192854Z
+DESCRIPTION:适用: 学前班（Pre-Nursery）及以下阶段（含Nursery
+ 、Reception）\n家长: 确认孩子是否参加（通知中未要求正
+ 式报名，但家长需知悉日期安排并确保孩子当天到校）
+ ；如孩子因故不能参加，建议主动联系校方说明\n孩子准
+ 备: 请为孩子准备轻便运动鞋、适量饮水及防晒/保暖衣
+ 物（视当日天气而定）\n报名: 原文未说明\n付款: 原文未
+ 说明\n原文: https://drive.google.com/file/d/1tJw_SDo-mGngg6ErMQ7zPj4Ms
+ M3Osk8N/view?usp=drive_link
 DTEND:20261124T093000Z
 LOCATION:Atoope Fun Park\, Rivas
 DTSTART:20261124T093000Z
-SUMMARY:ATOOPE游乐园校外活动 / EXCURSION ATOOPE FUN PARK
+SUMMARY:阿图佩欢乐公园校外活动 / EXCURSION ATOOPE FUN PARK
 UID:e34c0a5eab2005e1@school_helper
 END:VEVENT
 END:VCALENDAR

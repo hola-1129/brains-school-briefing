@@ -12,17 +12,17 @@ ACTION:DISPLAY
 DESCRIPTION:School Helper 提醒
 TRIGGER:-PT2H
 END:VALARM
-DTSTAMP:20261123T192725Z
+DTSTAMP:20261123T192854Z
 DESCRIPTION:适用: 初中（ESO）与高中（BACH）阶段学生（适用
- LOMLOE教育框架）\n孩子准备: 学生需按通知时间到场参加
- 笔试或口试；口试安排另行通过校内布告栏通知\n报名: 
- 是\n付款: 是\n费用: 费用将计入2027年1月账单\n截止: 2026-1
- 2-11\n原文: https://drive.google.com/file/d/1jEtpeAvMwjDppY4xxZYLWd7i5io
- cVszh/view?usp=drive_link
+ LOMLOE课程体系）\n孩子准备: 无需学生自行准备材料；考
+ 试安排及具体考场信息将通过校内公告栏（corchos）通知
+ 学生\n报名: 是\n付款: 是\n费用: 费用将计入2027年1月账单
+ \n截止: 2026-12-11\n原文: https://drive.google.com/file/d/1jEtpeAvMwjD
+ ppY4xxZYLWd7i5iocVszh/view?usp=drive_link
 DTEND:20270213T150000Z
 LOCATION:Colegio Brains – La Moraleja
 DTSTART:20270213T093000Z
-SUMMARY:2027年DELF法语水平考试 / DELF 2027
+SUMMARY:DELF法语水平考试（2027年2月考期） / DELF 2027
 UID:a2694cfe4cd75f4f@school_helper
 END:VEVENT
 END:VCALENDAR
