@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261123T192725Z
+DESCRIPTION:适用: 国际文凭课程（IB）一年级（高二）学生\n
+ 家长: 确保学生按时到校；如需请假或有特殊需求，须提
+ 前邮件联系David Gómez老师\n孩子准备: 准时于上午8:50前到
+ 校；无需自备午餐（返校后在校内用餐）\n报名: 原文未
+ 说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1
+ rktaWOXaWkenjsutsBT_lT_GOOl440Rv/view?usp=drive_link
+DTEND:20261202T140000Z
+LOCATION:Espacio Matemático de Madrid (EMMA)
+DTSTART:20261202T085000Z
+SUMMARY:EMMA数学博物馆参观活动 / SALIDA EMMA
+UID:561f31f22dae366b@school_helper
+END:VEVENT
+END:VCALENDAR

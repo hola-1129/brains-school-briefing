@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261123T192725Z
+DESCRIPTION:适用: 学龄前班（Pre-Nursery）及以下阶段（含Nurse
+ ry、Reception）\n家长: 确认孩子是否参加（通知中未要求
+ 正式报名，但需留意班级分组日期）；确保孩子当天8:45
+ 前到校；为孩子准备轻便衣物、水壶和防晒用品（原文
+ 未列明，但属常规户外活动合理准备）\n报名: 原文未说
+ 明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1tJw
+ _SDo-mGngg6ErMQ7zPj4MsM3Osk8N/view?usp=drive_link
+DTEND:20261124T093000Z
+LOCATION:Atoope Fun Park\, Rivas
+DTSTART:20261124T093000Z
+SUMMARY:ATOOPE游乐园校外活动 / EXCURSION ATOOPE FUN PARK
+UID:e34c0a5eab2005e1@school_helper
+END:VEVENT
+END:VCALENDAR

@@ -1,4 +1,145 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261123T192725Z
+DESCRIPTION:适用: 初中（ESO）与高中（BACH）阶段学生（适用
+ LOMLOE教育框架）\n孩子准备: 学生需按通知时间到场参加
+ 笔试或口试；口试安排另行通过校内布告栏通知\n报名: 
+ 是\n付款: 是\n费用: 费用将计入2027年1月账单\n截止: 2026-1
+ 2-11\n原文: https://drive.google.com/file/d/1jEtpeAvMwjDppY4xxZYLWd7i5io
+ cVszh/view?usp=drive_link
+DTEND:20270213T150000Z
+LOCATION:Colegio Brains – La Moraleja
+DTSTART:20270213T093000Z
+SUMMARY:2027年DELF法语水平考试 / DELF 2027
+UID:a2694cfe4cd75f4f@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261123T192725Z
+DESCRIPTION:适用: 学龄前阶段（婴幼儿班）\n家长: 家长可自
+ 愿出席观演；无需报名，但建议提前到场\n报名: 否\n付
+ 款: 否\n原文: https://drive.google.com/file/d/1OKXpmPNYCSQ1tPdpSAdyiLx
+ Lh_bgtQbp/view?usp=drive_link
+DTEND:20261124T084500Z
+LOCATION:school foyer
+DTSTART:20261124T084500Z
+SUMMARY:圣塞西莉亚节庆祝活动 / CELEBRATION SANTA CECILIA
+UID:6ecf92a3395cdddc@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261126
+DTSTAMP:20261123T192725Z
+DESCRIPTION:适用: 全体学生及家长\n家长: 无需特别准备或行
+ 动；可关注学校当日活动安排（通知未要求出席或配合
+ ）\n报名: 原文未说明\n付款: 原文未说明\n原文: https://dri
+ ve.google.com/file/d/1lxnGionyiKxY26W5Y5XWqMAvTw3wB83O/view?usp=drive_link
+SUMMARY:建校日 / 创始人纪念日 / FOUNDER´S DAY / DIA DE LOS FUNDAD
+ ORES
+UID:2caae34a3b3e2eee@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261123T192725Z
+DESCRIPTION:适用: 国际文凭课程（IB）一年级（高二）学生\n
+ 家长: 确保学生按时到校；如需请假或有特殊需求，须提
+ 前邮件联系David Gómez老师\n孩子准备: 准时于上午8:50前到
+ 校；无需自备午餐（返校后在校内用餐）\n报名: 原文未
+ 说明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1
+ rktaWOXaWkenjsutsBT_lT_GOOl440Rv/view?usp=drive_link
+DTEND:20261202T140000Z
+LOCATION:Espacio Matemático de Madrid (EMMA)
+DTSTART:20261202T085000Z
+SUMMARY:EMMA数学博物馆参观活动 / SALIDA EMMA
+UID:561f31f22dae366b@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTART;VALUE=DATE:20261205
+DTSTAMP:20261123T192725Z
+DESCRIPTION:适用: 2º Bachillerato（LOMLOE课程）学生\n家长: 在20
+ 26年11月30日前填写指定Google表单，为孩子申请My Exams Lab
+ 许可证\n孩子准备: 无需学生提前准备；激活许可证后即
+ 可自主使用\n报名: 是\n付款: 是\n费用: €17（一次性付费
+ ，含于2027年1月学校账单中）\n截止: 2026-11-30\n原文: https:
+ //drive.google.com/file/d/15yOU95c4jS223ccDmASZ6B6bTwsm1mXO/view?usp=drive
+ _link
+LOCATION:Online platform
+SUMMARY:My Exams Lab 在线备考平台（2026–2027学年） / MY EXAM LA
+ B 26-27
+UID:2d97bbb39f371fa3@school_helper
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:School Helper 提醒
+TRIGGER:-PT2H
+END:VALARM
+DTSTAMP:20261123T192725Z
+DESCRIPTION:适用: 学龄前班（Pre-Nursery）及以下阶段（含Nurse
+ ry、Reception）\n家长: 确认孩子是否参加（通知中未要求
+ 正式报名，但需留意班级分组日期）；确保孩子当天8:45
+ 前到校；为孩子准备轻便衣物、水壶和防晒用品（原文
+ 未列明，但属常规户外活动合理准备）\n报名: 原文未说
+ 明\n付款: 原文未说明\n原文: https://drive.google.com/file/d/1tJw
+ _SDo-mGngg6ErMQ7zPj4MsM3Osk8N/view?usp=drive_link
+DTEND:20261124T093000Z
+LOCATION:Atoope Fun Park\, Rivas
+DTSTART:20261124T093000Z
+SUMMARY:ATOOPE游乐园校外活动 / EXCURSION ATOOPE FUN PARK
+UID:e34c0a5eab2005e1@school_helper
+END:VEVENT
 END:VCALENDAR

@@ -1,18 +1,58 @@
 School Helper 处理日志
-生成时间: 2026-11-17T15:00:25
-周次:     Semana: 16 de NOVIEMBRE 2026  (2026-W47)
-输入 PDF: body_briefing_1a1e9ccee96a834c.json
+生成时间: 2026-11-23T20:27:25
+周次:     Semana: 26 de OCTUBRE 2026  (2026-W44)
+输入 PDF: rlydjw_Briefing_Semanal_23_NOVIEMBRE.pdf
 
-链接总数:   1
-  下载成功: 0
-  失败/跳过: 1
-LLM 抽取成功: 0
+链接总数:   6
+  下载成功: 6
+  失败/跳过: 0
+LLM 抽取成功: 6
 
 ----------------------------------------------------------------------
-[1] http://get.adobe.com/es/reader/
-    stage:  .
-    url:    http://get.adobe.com/es/reader/
-    status: non_pdf (http=200)
-    error:  Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载
-    ⚠️  链接非 PDF，需手动下载
+[1] FOUNDER´S DAY / DIA DE LOS FUNDADORES
+    stage:  GENERAL
+    url:    https://drive.google.com/file/d/1lxnGionyiKxY26W5Y5XWqMAvTw3wB83O/view?usp=drive_link
+    status: ok (http=200)
+    分类:   全校通用通知
+    日期:   2026-11-26
+    报名:   原文未说明
+
+[2] CELEBRATION SANTA CECILIA
+    stage:  INFANTIL
+    url:    https://drive.google.com/file/d/1OKXpmPNYCSQ1tPdpSAdyiLxLh_bgtQbp/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Infantil / 幼儿园
+    日期:   2026-11-24
+    报名:   否
+
+[3] EXCURSION ATOOPE FUN PARK
+    stage:  PRE- NURSERY-
+    url:    https://drive.google.com/file/d/1tJw_SDo-mGngg6ErMQ7zPj4MsM3Osk8N/view?usp=drive_link
+    status: ok (http=200)
     分类:   仅供了解的信息
+    日期:   2026-11-24
+    报名:   原文未说明
+
+[4] DELF 2027
+    stage:  ESO – BACH LOMLOE
+    url:    https://drive.google.com/file/d/1jEtpeAvMwjDppY4xxZYLWd7i5iocVszh/view?usp=drive_link
+    status: ok (http=200)
+    分类:   ESO / 中学 / Bachillerato / 高中
+    日期:   2027-02-13
+    报名:   是
+
+[5] SALIDA EMMA
+    stage:  1º BACH DIPLOMA
+    url:    https://drive.google.com/file/d/1rktaWOXaWkenjsutsBT_lT_GOOl440Rv/view?usp=drive_link
+    status: ok (http=200)
+    分类:   仅供了解的信息
+    日期:   2026-12-02
+    报名:   原文未说明
+
+[6] MY EXAM LAB 26- 27
+    stage:  2º BACH LOMLOEY
+    url:    https://drive.google.com/file/d/15yOU95c4jS223ccDmASZ6B6bTwsm1mXO/view?usp=drive_link
+    status: ok (http=200)
+    分类:   Bachillerato / 高中
+    日期:   2026-12-05
+    报名:   是

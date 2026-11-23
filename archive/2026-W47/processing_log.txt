@@ -1,0 +1,18 @@
+School Helper 处理日志
+生成时间: 2026-11-17T15:00:25
+周次:     Semana: 16 de NOVIEMBRE 2026  (2026-W47)
+输入 PDF: body_briefing_1a1e9ccee96a834c.json
+
+链接总数:   1
+  下载成功: 0
+  失败/跳过: 1
+LLM 抽取成功: 0
+
+----------------------------------------------------------------------
+[1] http://get.adobe.com/es/reader/
+    stage:  .
+    url:    http://get.adobe.com/es/reader/
+    status: non_pdf (http=200)
+    error:  Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载
+    ⚠️  链接非 PDF，需手动下载
+    分类:   仅供了解的信息

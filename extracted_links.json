@@ -1,19 +1,85 @@
 {
-  "week_label": "Semana: 16 de NOVIEMBRE 2026",
-  "week_iso": "2026-W47",
+  "week_label": "Semana: 26 de OCTUBRE 2026",
+  "week_iso": "2026-W44",
   "items": [
     {
-      "title": "http://get.adobe.com/es/reader/",
-      "stage": ".",
-      "url": "http://get.adobe.com/es/reader/",
-      "status": "non_pdf",
+      "title": "FOUNDER´S DAY / DIA DE LOS FUNDADORES",
+      "stage": "GENERAL",
+      "url": "https://drive.google.com/file/d/1lxnGionyiKxY26W5Y5XWqMAvTw3wB83O/view?usp=drive_link",
+      "status": "ok",
       "http_status": 200,
-      "error": "Content-Type=text/html 非 PDF（可能是网页/重定向到登录），需手动下载",
+      "error": "",
+      "categories": [
+        "全校通用通知"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "CELEBRATION SANTA CECILIA",
+      "stage": "INFANTIL",
+      "url": "https://drive.google.com/file/d/1OKXpmPNYCSQ1tPdpSAdyiLxLh_bgtQbp/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Infantil / 幼儿园"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "EXCURSION ATOOPE FUN PARK",
+      "stage": "PRE- NURSERY-",
+      "url": "https://drive.google.com/file/d/1tJw_SDo-mGngg6ErMQ7zPj4MsM3Osk8N/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
       "categories": [
         "仅供了解的信息"
       ],
-      "parent_action_needed": false,
-      "extracted": false
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "DELF 2027",
+      "stage": "ESO – BACH LOMLOE",
+      "url": "https://drive.google.com/file/d/1jEtpeAvMwjDppY4xxZYLWd7i5iocVszh/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "ESO / 中学",
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "SALIDA EMMA",
+      "stage": "1º BACH DIPLOMA",
+      "url": "https://drive.google.com/file/d/1rktaWOXaWkenjsutsBT_lT_GOOl440Rv/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "仅供了解的信息"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
+    },
+    {
+      "title": "MY EXAM LAB 26- 27",
+      "stage": "2º BACH LOMLOEY",
+      "url": "https://drive.google.com/file/d/15yOU95c4jS223ccDmASZ6B6bTwsm1mXO/view?usp=drive_link",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "categories": [
+        "Bachillerato / 高中"
+      ],
+      "parent_action_needed": true,
+      "extracted": true
     }
   ]
 }
