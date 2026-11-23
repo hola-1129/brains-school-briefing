@@ -1,7 +1,7 @@
 School Helper 处理日志
-生成时间: 2026-11-23T20:28:54
-周次:     Semana: 26 de OCTUBRE 2026  (2026-W44)
-输入 PDF: spxvqv_Briefing_Semanal_23_NOVIEMBRE.pdf
+生成时间: 2026-11-23T20:30:49
+周次:     Semana:23 de NOVIEMBRE 2026  (2026-W48)
+输入 PDF: rlydjw_Briefing_Semanal_23_NOVIEMBRE.pdf
 
 链接总数:   6
   下载成功: 6
@@ -47,10 +47,10 @@ LLM 抽取成功: 6
     status: ok (http=None)
     分类:   仅供了解的信息
     日期:   2026-12-02
-    报名:   否
+    报名:   原文未说明
 
 [6] MY EXAM LAB 26- 27
-    stage:  2º BACH LOMLOE
+    stage:  2º BACH LOMLOEY
     url:    https://drive.google.com/file/d/15yOU95c4jS223ccDmASZ6B6bTwsm1mXO/view?usp=drive_link
     status: ok (http=None)
     分类:   Bachillerato / 高中
